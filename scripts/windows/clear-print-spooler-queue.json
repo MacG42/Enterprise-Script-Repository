@@ -7,7 +7,7 @@
   "description": "Stops the spooler, deletes every queued job in the PRINTERS folder and starts the service again. Clears jobs stuck in a deleting or error state.",
   "version": "2.0.0",
   "os": "Windows",
-  "icon": "\uD83D\uDDA8️",
+  "icon": "🖨️",
   "author": "macg@macgworld.com",
   "tags": [
     "printing",
