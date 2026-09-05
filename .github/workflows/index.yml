@@ -1,9 +1,12 @@
-name: Rebuild indexes
+name: Rebuild index
 
 # Anyone can drop a .json item into scripts/ or sensors/ — through the GitHub web
 # uploader, a PR, an API call, ESR Manager — and this puts it in the right folder,
-# gives it a GUID id if it has none, and rewrites script_index.md / sensor_index.md.
-# Nobody has to clone the repo or touch an index by hand.
+# gives it a GUID id if it has none, and rewrites index.json. Nobody has to clone
+# the repo or touch the index by hand.
+#
+# index.json is generated: scripts and sensors both, read by the extension and by
+# ESR Manager, not meant to be read here. Never edit it by hand — this run wins.
 
 on:
   push:
@@ -39,7 +42,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Normalise items and rebuild indexes
+      - name: Normalise items and rebuild the index
         run: node tools/esr-index.mjs | tee "$GITHUB_STEP_SUMMARY"
 
       - name: Commit
@@ -52,7 +55,7 @@ jobs:
           git config user.name  "esr-index[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Rebuild script and sensor indexes [skip ci]"
+          git commit -m "Rebuild index.json [skip ci]"
           git push
 
       # On a PR the branch belongs to the contributor, so say what is wrong
@@ -61,6 +64,6 @@ jobs:
         if: github.event_name == 'pull_request'
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            echo "::warning::The indexes will be rebuilt automatically once this is merged."
+            echo "::warning::The index will be rebuilt automatically once this is merged."
             git --no-pager diff --stat
           fi

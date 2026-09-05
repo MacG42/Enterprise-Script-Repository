@@ -6,15 +6,14 @@ and consumed by the **Enterprise Script Repository** Chrome extension inside the
 ## Layout
 
 ```
-script_index.md              Catalog of scripts   ─┐ generated — never hand-edit
-sensor_index.md              Catalog of sensors   ─┘ inside the ESR-INDEX markers
+index.json                   The whole catalog — generated, never hand-edited
 scripts/windows/*.json       One self-contained item per file
 scripts/macos/*.json
 sensors/windows/*.json
 sensors/macos/*.json
 sensors/linux/*.json
 schema/esr-item.schema.json  What a valid item looks like
-tools/esr-index.mjs          Rebuilds both indexes from the files on disk
+tools/esr-index.mjs          Rebuilds index.json from the files on disk
 .github/workflows/index.yml  Runs that tool on every push
 ```
 
@@ -33,7 +32,7 @@ base64-encoded. The extension needs nothing else to recreate the item.
   "description": "…",
   "version": "1.0.0",
   "os": "Windows",                 // Windows | macOS | Linux
-  "icon": "🖥️",                    // shown in the index and the panel
+  "icon": "🖥️",                    // shown in the panel
   "author": "…",
   "tags": ["provisioning"],        // searchable from the console panel
   "workspaceOne": {
@@ -63,17 +62,35 @@ same. A genuinely different item gets a new GUID (ESR Manager's **Duplicate** do
 `slug` is only the filename stem, so the repository stays readable. If two different items
 want the same file name, the second gets its short id appended.
 
-## The index files
+## The index
 
-The table between `<!-- ESR-INDEX:BEGIN -->` and `<!-- ESR-INDEX:END -->` is machine-owned.
-Anything outside the markers is preserved, so put team notes there freely — but do not
-hand-edit inside them. Columns are read by header name, so the table can gain a column
-without breaking anything that reads it.
+`index.json` is the whole catalog — scripts and sensors in one file — and it exists so that
+the extension and ESR Manager can list, search and filter everything after a single request,
+without downloading an item to find out what it is. It is a machine artefact, not
+documentation: it is generated whole, it is not meant to be read here, and a hand edit to it
+is simply overwritten on the next push.
 
-Two things write that table, and they write identical output:
+```jsonc
+{
+  "indexVersion": 1,
+  "items": [
+    {"id":"…","type":"script","name":"…","description":"…","version":"1.0.0",
+     "os":"Windows","icon":"🖥️","tags":["provisioning"],"path":"scripts/windows/…json"}
+  ]
+}
+```
+
+One row per `id`, the highest version. `tags` is in the row because search runs against the
+index, so a tag that is not here cannot be found. One row per line keeps a diff to the items
+that actually changed.
+
+Two things write the file, and they write the same bytes:
 
 - **ESR Manager**, which commits the item and the rebuilt index together, and
-- **the `Rebuild indexes` workflow**, which runs `tools/esr-index.mjs` on every push.
+- **the `Rebuild index` workflow**, which runs `tools/esr-index.mjs` on every push.
+
+They are compared by *content*, not by text — the workflow rewrites `index.json` only when
+the data in it is wrong — so if the two ever differ over whitespace, nothing churns.
 
 ## Adding an item
 
@@ -89,7 +106,7 @@ drop the JSON anywhere under `scripts/` or `sensors/`. The workflow then:
 - moves it into the folder its `type` and `os` say it belongs in, renaming the file to match
   its slug,
 - normalises the JSON to the canonical field order and formatting,
-- rebuilds both index tables, dropping any row superseded by a newer version of the same id.
+- rebuilds `index.json`, dropping any row superseded by a newer version of the same id.
 
 Nobody needs a clone, and nobody edits an index by hand. Run the same tool locally with
 `node tools/esr-index.mjs` (or `--check` to see what it would change).

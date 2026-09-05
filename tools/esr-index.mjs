@@ -4,33 +4,41 @@
  *
  * Walks scripts/ and sensors/, repairs anything an ad-hoc upload got wrong
  * (missing GUID id, missing slug, wrong folder, filename that is not the slug),
- * drops superseded duplicates, and rewrites the two markdown indexes.
+ * drops superseded duplicates, and rewrites index.json.
+ *
+ * index.json is a machine artefact: one file covering scripts and sensors both,
+ * read by the Chrome extension and by ESR Manager and by nothing else. It is not
+ * meant to be read in the repository, so it carries no prose, no markers and no
+ * hand-maintained sections — it is regenerated whole.
  *
  * Run by .github/workflows/index.yml on every push, so a contributor can drop a
- * JSON file into the repo through the GitHub web UI and never touch an index.
- * ESR Manager writes byte-identical output, so the two never fight each other.
+ * JSON file into the repo through the GitHub web UI and never touch the index.
+ *
+ * ESR Manager writes this file too. The two are compared by *content*, not by
+ * text: this tool only rewrites index.json when the data in it is actually wrong,
+ * so a whitespace or key-spacing difference between the two writers is harmless
+ * and cannot cause the pair to churn commits at each other.
  *
  *   node tools/esr-index.mjs            rewrite in place
  *   node tools/esr-index.mjs --check    exit 1 if anything would change
  */
 
-import { readFileSync, writeFileSync, readdirSync, statSync, renameSync, existsSync, mkdirSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { join, dirname, basename } from 'node:path';
 
 const ROOT = process.cwd();
 const CHECK = process.argv.includes('--check');
 
-export const BEGIN = '<!-- ESR-INDEX:BEGIN -->';
-export const END = '<!-- ESR-INDEX:END -->';
-const HEADER = '| Icon | Name | Description | Version | OS | Tags | Id | Path |';
-const DIVIDER = '|------|------|-------------|---------|----|------|----|------|';
+export const INDEX_FILE = 'index.json';
+export const INDEX_VERSION = 1;
 
 const GUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const OS_FOLDER = { Windows: 'windows', macOS: 'macos', Linux: 'linux' };
 const OS_FROM_FOLDER = { windows: 'Windows', macos: 'macOS', linux: 'Linux' };
 const OS_RANK = { Windows: 0, macOS: 1, Linux: 2 };
+const TYPE_RANK = { script: 0, sensor: 1 };
 
 const log = [];
 const note = (m) => log.push(m);
@@ -59,11 +67,6 @@ export function beats(candidate, current) {
   const mb = Date.parse(current.modified || '') || 0;
   if (ma !== mb) return ma > mb;
   return String(candidate.__path) < String(current.__path);
-}
-
-function cell(s) {
-  if (s === undefined || s === null) return '';
-  return String(s).replace(/\|/g, '\\|').replace(/\r?\n/g, ' ').trim();
 }
 
 function walk(dir, out = []) {
@@ -154,96 +157,41 @@ export function serialise(item) {
   return JSON.stringify(copy, null, 2) + '\n';
 }
 
-// ---- index rendering -------------------------------------------------------
+// ---- the index -------------------------------------------------------------
 
+/**
+ * One catalog row. Everything the extension and the app filter on lives here, so
+ * neither has to download an item to search it. Accepts an item (which carries its
+ * path as __path) or a row read back out of the index, and is idempotent.
+ */
 export function toRow(item) {
   return {
+    id: String(item.id || '').trim().toLowerCase(),
+    type: item.type === 'sensor' ? 'sensor' : 'script',
+    name: String(item.name || '').trim(),
+    description: String(item.description || ''),
+    version: String(item.version || '1.0.0').trim(),
+    os: String(item.os || '').trim(),
     icon: item.icon || '📄',
-    name: item.name,
-    description: item.description || '',
-    version: item.version,
-    os: item.os,
-    tags: (item.tags || []).join(', '),
-    id: item.id,
-    path: item.__path
+    tags: Array.isArray(item.tags)
+      ? [...new Set(item.tags.map((t) => String(t).trim()).filter(Boolean))]
+      : [],
+    path: String(item.__path || item.path || '').trim()
   };
 }
 
-export function renderBlock(rows) {
-  // Ordinal on the lower-cased text, which is what StringComparer.OrdinalIgnoreCase
-  // does in ESR Manager — a locale-aware compare would order some names differently
-  // and the two writers would fight over the table.
+/**
+ * Scripts before sensors, then Windows → macOS → Linux, then name, then path.
+ * Ordinal on the lower-cased text, which is what StringComparer.OrdinalIgnoreCase
+ * does in ESR Manager — a locale-aware compare would order some names differently.
+ */
+export function sortRows(rows) {
   const ord = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
-  const sorted = [...rows].sort((a, b) =>
+  return [...rows].sort((a, b) =>
+    (TYPE_RANK[a.type] ?? 9) - (TYPE_RANK[b.type] ?? 9) ||
     (OS_RANK[a.os] ?? 9) - (OS_RANK[b.os] ?? 9) ||
     ord(a.name.toLowerCase(), b.name.toLowerCase()) ||
     ord(a.path, b.path));
-
-  const lines = [BEGIN, HEADER, DIVIDER];
-  for (const r of sorted) {
-    lines.push(`| ${cell(r.icon)} | ${cell(r.name)} | ${cell(r.description)} | ${cell(r.version)} | ${cell(r.os)} | ${cell(r.tags)} | ${cell(r.id)} | ${cell(r.path)} |`);
-  }
-  lines.push(END);
-  return lines.join('\n');
-}
-
-export function mergeIndex(existing, rows, type) {
-  const block = renderBlock(rows);
-  const re = /<!--\s*ESR-INDEX:BEGIN\s*-->[\s\S]*?<!--\s*ESR-INDEX:END\s*-->/;
-
-  if (existing && re.test(existing)) return existing.replace(re, () => block);
-
-  const title = type === 'sensor' ? 'Sensor Index' : 'Script Index';
-  const noun = type === 'sensor' ? 'Sensors' : 'Scripts';
-  const header =
-    `# ${title}\n\n${noun} published to the Enterprise Script Repository. This table is generated and\n` +
-    'rewritten by **ESR Manager** and by the index workflow; everything between the `ESR-INDEX`\n' +
-    'markers is machine-owned. Anything outside the markers is yours.\n\n\n';
-
-  const preserved = existing && existing.trim() ? existing.trimEnd() + '\n\n' : '';
-  return (preserved || header) + block + '\n';
-}
-
-/** Reads rows back out of an index file, by header name so column order can change. */
-export function parseIndex(markdown) {
-  const marked = /<!--\s*ESR-INDEX:BEGIN\s*-->([\s\S]*?)<!--\s*ESR-INDEX:END\s*-->/.exec(markdown);
-  const body = marked ? marked[1] : markdown;
-
-  const LEGACY = ['icon', 'name', 'description', 'version', 'os', 'path'];
-  let map = null;
-  const rows = [];
-
-  for (const line of body.split('\n')) {
-    const t = line.trim();
-    if (!t.startsWith('|')) continue;
-    if (/^\|[\s|:-]+\|$/.test(t)) continue;
-
-    const cells = t.slice(1, t.endsWith('|') ? -1 : undefined)
-      .split('|').map((c) => c.trim().replace(/\\\|/g, '|'));
-
-    const heads = cells.map((c) => c.toLowerCase());
-    if (heads[0] === 'icon' && heads[1] === 'name') { map = heads; continue; }
-
-    const cols = map || LEGACY;
-    const get = (key) => {
-      const i = cols.indexOf(key);
-      return i >= 0 && i < cells.length ? cells[i] : '';
-    };
-
-    const row = {
-      icon: get('icon') || '📄',
-      name: get('name'),
-      description: get('description'),
-      version: get('version') || '1.0.0',
-      os: get('os'),
-      tags: get('tags') ? get('tags').split(',').map((s) => s.trim()).filter(Boolean) : [],
-      id: get('id'),
-      path: get('path')
-    };
-    if (!row.name || !row.path) continue;
-    rows.push(row);
-  }
-  return rows;
 }
 
 /** Keeps one row per id — the highest version. Rows with no id are keyed by path. */
@@ -255,6 +203,39 @@ export function dedupeRows(rows) {
     if (!current || compareVersions(row.version, current.version) > 0) best.set(key, row);
   }
   return [...best.values()];
+}
+
+/**
+ * The canonical index: deduped, sorted, one row per line.
+ *
+ * The wrapper is written by hand and each row is compact JSON, which keeps the file
+ * small, keeps a diff to the rows that actually changed, and is trivial for ESR
+ * Manager to reproduce exactly — no pretty-printer to agree with.
+ */
+export function renderIndex(rows) {
+  const items = sortRows(dedupeRows(rows.map(toRow)));
+  const head = `{\n  "indexVersion": ${INDEX_VERSION},\n  "items": [`;
+  if (items.length === 0) return `${head}]\n}\n`;
+  return `${head}\n${items.map((r) => '    ' + JSON.stringify(r)).join(',\n')}\n  ]\n}\n`;
+}
+
+/** Reads rows back. Tolerates a bare array. Returns null if the file is unusable. */
+export function parseIndex(text) {
+  let doc;
+  try {
+    doc = JSON.parse(text);
+  } catch {
+    return null;
+  }
+  const items = Array.isArray(doc) ? doc : Array.isArray(doc?.items) ? doc.items : null;
+  if (!items) return null;
+  return items.filter((r) => r && typeof r === 'object' && r.path).map(toRow);
+}
+
+/** Content equality — what decides whether the index is actually out of date. */
+export function sameRows(a, b) {
+  return JSON.stringify(sortRows(dedupeRows(a.map(toRow)))) ===
+         JSON.stringify(sortRows(dedupeRows(b.map(toRow))));
 }
 
 // ---- main ------------------------------------------------------------------
@@ -318,17 +299,17 @@ function main() {
     note(`${loser.__path}: superseded by a newer version of id ${item.id} — left out of the index`);
   }
 
-  for (const [type, indexFile] of [['script', 'script_index.md'], ['sensor', 'sensor_index.md']]) {
-    const rows = [...winners.values()].filter((i) => i.type === type).map(toRow);
-    const full = join(ROOT, indexFile);
-    const existing = existsSync(full) ? readFileSync(full, 'utf8') : null;
-    const merged = mergeIndex(existing, rows, type);
+  const rows = [...winners.values()].map(toRow);
+  const full = join(ROOT, INDEX_FILE);
+  const existing = existsSync(full) ? readFileSync(full, 'utf8') : null;
+  const current = existing === null ? null : parseIndex(existing);
 
-    if (existing !== merged) {
-      wouldWrite++;
-      note(`${indexFile}: ${rows.length} row(s) written`);
-      if (!CHECK) writeFileSync(full, merged);
-    }
+  // Compared by content: ESR Manager writes this file too, and a difference in
+  // formatting is not a reason to churn a commit.
+  if (current === null || !sameRows(current, rows)) {
+    wouldWrite++;
+    note(`${INDEX_FILE}: ${rows.length} row(s) written`);
+    if (!CHECK) writeFileSync(full, renderIndex(rows));
   }
 
   for (const line of log) console.log(line);
