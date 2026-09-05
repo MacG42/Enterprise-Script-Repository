@@ -7,11 +7,11 @@
   "required": ["schemaVersion", "id", "slug", "type", "name", "version", "os", "workspaceOne", "codeBase64"],
   "additionalProperties": false,
   "properties": {
-    "schemaVersion": { "enum": ["1.0", "1.1"] },
+    "schemaVersion": { "enum": ["1.0", "1.1", "1.2"] },
     "id": {
       "type": "string",
       "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
-      "description": "Lower-case GUID. The item's permanent identity: a new version of the same item keeps the same id, and the indexes list only the highest version of each id. Assigned by ESR Manager, or by tools/esr-index.mjs when a hand-uploaded file arrives without one."
+      "description": "Lower-case GUID. The item's permanent identity: a new version of the same item keeps the same id, and the index lists the newest version of each id (plus the newest production version behind a testing one). Assigned by ESR Manager, or by tools/esr-index.mjs when a hand-uploaded file arrives without one."
     },
     "slug": {
       "type": "string",
@@ -25,6 +25,11 @@
       "type": "string",
       "pattern": "^\\d+\\.\\d+\\.\\d+$",
       "description": "Semantic version of this item, bumped by the authoring app."
+    },
+    "release": {
+      "enum": ["production", "testing", "retired"],
+      "default": "production",
+      "description": "Which channel this version is published on. 'production' is what the Chrome extension serves; 'testing' is visible only in ESR Manager, and while a testing version is the newest one the extension keeps serving the newest production version behind it; 'retired' withdraws the item from the extension without deleting it. A file with no release field reads as production."
     },
     "os": { "enum": ["Windows", "macOS", "Linux"] },
     "icon": {

@@ -2,9 +2,10 @@
 /**
  * ESR index builder and normaliser.
  *
- * Walks scripts/ and sensors/, repairs anything an ad-hoc upload got wrong
- * (missing GUID id, missing slug, wrong folder, filename that is not the slug),
- * drops superseded duplicates, and rewrites index.json.
+ * Walks scripts/, sensors/ and versions/, repairs anything an ad-hoc upload got
+ * wrong (missing GUID id, missing slug, missing release, wrong folder, filename
+ * that is not the slug), files superseded versions under versions/, and rewrites
+ * index.json.
  *
  * index.json is a machine artefact: one file covering scripts and sensors both,
  * read by the Chrome extension and by ESR Manager and by nothing else. It is not
@@ -21,6 +22,24 @@
  *
  *   node tools/esr-index.mjs            rewrite in place
  *   node tools/esr-index.mjs --check    exit 1 if anything would change
+ *
+ * ---- Where a version lives -------------------------------------------------
+ *
+ * The newest version of an item — its head — lives at scripts/<os>/<slug>.json
+ * or sensors/<os>/<slug>.json. Every older version of the same id lives at
+ * versions/<id>/<version>.json. Keyed by the GUID rather than the slug because a
+ * rename, a platform change or a script that became a sensor must not orphan an
+ * item's history.
+ *
+ * That history is what makes a rollback possible: delete the head and the
+ * highest version left in versions/ takes its place.
+ *
+ * ---- What goes in the index ------------------------------------------------
+ *
+ * The head of every id, plus — when the head is a testing build — the newest
+ * production version behind it, so the extension keeps serving the working
+ * version while a new one is being tried. A retired head is listed alone: the
+ * item is retired, not rolled back, so nothing takes its place.
  */
 
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, mkdirSync, rmSync } from 'node:fs';
@@ -32,6 +51,8 @@ const CHECK = process.argv.includes('--check');
 
 export const INDEX_FILE = 'index.json';
 export const INDEX_VERSION = 1;
+export const VERSIONS_DIR = 'versions';
+export const SCHEMA_VERSION = '1.2';
 
 const GUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -40,6 +61,9 @@ const OS_FROM_FOLDER = { windows: 'Windows', macos: 'macOS', linux: 'Linux' };
 const OS_RANK = { Windows: 0, macOS: 1, Linux: 2 };
 const TYPE_RANK = { script: 0, sensor: 1 };
 
+export const RELEASES = ['production', 'testing', 'retired'];
+export const DEFAULT_RELEASE = 'production';
+
 const log = [];
 const note = (m) => log.push(m);
 
@@ -47,6 +71,15 @@ const note = (m) => log.push(m);
 
 export function slugify(s) {
   return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+/**
+ * A missing or unrecognised release reads as production, so a file uploaded by
+ * hand — or written before the field existed — still reaches the extension.
+ */
+export function release(x) {
+  const r = String((x && x.release) || '').trim().toLowerCase();
+  return RELEASES.includes(r) ? r : DEFAULT_RELEASE;
 }
 
 /** Numeric-aware semver compare. Returns >0 when a is newer. */
@@ -59,14 +92,25 @@ export function compareVersions(a, b) {
   return 0;
 }
 
-/** The one item that wins for an id: highest version, then most recently modified. */
+/**
+ * The one version of an id that is its head: highest version, then production
+ * over anything else, then most recently modified, then path. Takes items (which
+ * carry their path as __path and a modified date) or index rows (which carry
+ * neither), so the tool and the index agree on which row is the head.
+ */
 export function beats(candidate, current) {
   const v = compareVersions(candidate.version, current.version);
   if (v !== 0) return v > 0;
+
+  const pa = release(candidate) === 'production';
+  const pb = release(current) === 'production';
+  if (pa !== pb) return pa;
+
   const ma = Date.parse(candidate.modified || '') || 0;
   const mb = Date.parse(current.modified || '') || 0;
   if (ma !== mb) return ma > mb;
-  return String(candidate.__path) < String(current.__path);
+
+  return String(candidate.__path || candidate.path || '') < String(current.__path || current.path || '');
 }
 
 function walk(dir, out = []) {
@@ -85,7 +129,8 @@ const rel = (p) => p.slice(ROOT.length + 1).split('\\').join('/');
 
 /**
  * Fills in whatever an uploaded file is missing. Mutates and reports whether the
- * on-disk JSON has to be rewritten.
+ * on-disk JSON has to be rewritten. Folder is only a hint for type and OS, and is
+ * ignored under versions/, where the folder says nothing about either.
  */
 export function normalise(item, path) {
   let changed = false;
@@ -94,10 +139,11 @@ export function normalise(item, path) {
   };
 
   const parts = path.split('/');
+  const archived = parts[0] === VERSIONS_DIR;
   const folderType = parts[0] === 'sensors' ? 'sensor' : 'script';
-  const folderOs = OS_FROM_FOLDER[(parts[1] || '').toLowerCase()];
+  const folderOs = archived ? undefined : OS_FROM_FOLDER[(parts[1] || '').toLowerCase()];
 
-  if (item.type !== 'script' && item.type !== 'sensor') set('type', folderType);
+  if (item.type !== 'script' && item.type !== 'sensor') set('type', archived ? 'script' : folderType);
   if (!OS_RANK.hasOwnProperty(item.os)) set('os', folderOs || 'Windows');
 
   if (typeof item.id !== 'string' || !GUID.test(item.id.trim().toLowerCase())) {
@@ -110,13 +156,16 @@ export function normalise(item, path) {
   }
 
   if (typeof item.slug !== 'string' || !SLUG.test(item.slug)) {
-    const stem = basename(path).replace(/\.json$/i, '');
-    set('slug', SLUG.test(stem) ? stem : (slugify(stem) || slugify(item.name) || item.id.slice(0, 8)));
+    // Under versions/ the filename is the version number, which is no basis for
+    // a slug — the name is.
+    const stem = archived ? '' : basename(path).replace(/\.json$/i, '');
+    set('slug', (SLUG.test(stem) && stem) || slugify(stem) || slugify(item.name) || item.id.slice(0, 8));
     note(`${path}: assigned slug ${item.slug}`);
   }
 
-  if (item.schemaVersion !== '1.1') set('schemaVersion', '1.1');
+  if (item.schemaVersion !== SCHEMA_VERSION) set('schemaVersion', SCHEMA_VERSION);
   if (!item.version || !/^\d+\.\d+\.\d+$/.test(item.version)) set('version', '1.0.0');
+  if (item.release !== release(item)) set('release', release(item));
   if (!item.icon) set('icon', item.type === 'sensor' ? '📊' : '⚙️');
   if (typeof item.name !== 'string' || !item.name.trim()) set('name', item.slug);
   if (typeof item.description !== 'string') set('description', '');
@@ -129,13 +178,23 @@ export function normalise(item, path) {
   return changed;
 }
 
-export function expectedPath(item) {
+/** Where the newest version of an item belongs. */
+export function livePath(item) {
   const folder = item.type === 'sensor' ? 'sensors' : 'scripts';
   return `${folder}/${OS_FOLDER[item.os] || 'windows'}/${item.slug}.json`;
 }
 
-const KEY_ORDER = ['schemaVersion', 'id', 'slug', 'type', 'name', 'description', 'version', 'os',
-  'icon', 'author', 'tags', 'created', 'modified', 'notes', 'workspaceOne', 'codeBase64'];
+/** Where every older version of an item belongs — keyed by id, so a rename cannot orphan it. */
+export function archivePath(item) {
+  return `${VERSIONS_DIR}/${item.id}/${item.version}.json`;
+}
+
+export function expectedPath(item, isHead = true) {
+  return isHead ? livePath(item) : archivePath(item);
+}
+
+const KEY_ORDER = ['schemaVersion', 'id', 'slug', 'type', 'name', 'description', 'version', 'release',
+  'os', 'icon', 'author', 'tags', 'created', 'modified', 'notes', 'workspaceOne', 'codeBase64'];
 const W1_ORDER = ['language', 'executionContext', 'executionArchitecture', 'timeout',
   'responseDataType', 'appCatalog', 'variables'];
 
@@ -171,6 +230,7 @@ export function toRow(item) {
     name: String(item.name || '').trim(),
     description: String(item.description || ''),
     version: String(item.version || '1.0.0').trim(),
+    release: release(item),
     os: String(item.os || '').trim(),
     icon: item.icon || '📄',
     tags: Array.isArray(item.tags)
@@ -194,26 +254,56 @@ export function sortRows(rows) {
     ord(a.path, b.path));
 }
 
-/** Keeps one row per id — the highest version. Rows with no id are keyed by path. */
-export function dedupeRows(rows) {
-  const best = new Map();
+/** Groups rows or items by identity — the id, or the path for anything without one. */
+function byId(rows) {
+  const groups = new Map();
   for (const row of rows) {
-    const key = (row.id || row.path).toLowerCase();
-    const current = best.get(key);
-    if (!current || compareVersions(row.version, current.version) > 0) best.set(key, row);
+    const key = String(row.id || row.__path || row.path || '').toLowerCase();
+    if (!key) continue;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(row);
   }
-  return [...best.values()];
+  return groups;
 }
 
 /**
- * The canonical index: deduped, sorted, one row per line.
+ * What the index actually carries: the head of every id, plus the newest
+ * production version behind a testing head.
+ *
+ * A retired head is listed alone. Retiring an item retires the item — it is not a
+ * rollback, so the version before it does not come back to take its place.
+ */
+export function channelRows(rows) {
+  const out = [];
+
+  for (const group of byId(rows).values()) {
+    let head = group[0];
+    for (const row of group) if (beats(row, head)) head = row;
+    out.push(head);
+
+    const kind = release(head);
+    if (kind === 'production' || kind === 'retired') continue;
+
+    let prod = null;
+    for (const row of group) {
+      if (row === head || release(row) !== 'production') continue;
+      if (!prod || beats(row, prod)) prod = row;
+    }
+    if (prod) out.push(prod);
+  }
+
+  return out;
+}
+
+/**
+ * The canonical index: one row per channel, sorted, one row per line.
  *
  * The wrapper is written by hand and each row is compact JSON, which keeps the file
  * small, keeps a diff to the rows that actually changed, and is trivial for ESR
  * Manager to reproduce exactly — no pretty-printer to agree with.
  */
 export function renderIndex(rows) {
-  const items = sortRows(dedupeRows(rows.map(toRow)));
+  const items = sortRows(channelRows(rows.map(toRow)));
   const head = `{\n  "indexVersion": ${INDEX_VERSION},\n  "items": [`;
   if (items.length === 0) return `${head}]\n}\n`;
   return `${head}\n${items.map((r) => '    ' + JSON.stringify(r)).join(',\n')}\n  ]\n}\n`;
@@ -234,14 +324,76 @@ export function parseIndex(text) {
 
 /** Content equality — what decides whether the index is actually out of date. */
 export function sameRows(a, b) {
-  return JSON.stringify(sortRows(dedupeRows(a.map(toRow)))) ===
-         JSON.stringify(sortRows(dedupeRows(b.map(toRow))));
+  return JSON.stringify(sortRows(channelRows(a.map(toRow)))) ===
+         JSON.stringify(sortRows(channelRows(b.map(toRow))));
 }
 
 // ---- main ------------------------------------------------------------------
 
+/**
+ * Decides where every file belongs before touching any of them, so a head that is
+ * being demoted and the version replacing it cannot fight over one path.
+ */
+function plan(items) {
+  const claimed = new Map();   // target path -> item
+  const targets = new Map();   // item -> target path
+  const skipped = new Set();   // items left where they are
+
+  const groups = byId(items);
+  const heads = new Set();
+
+  for (const group of groups.values()) {
+    let head = group[0];
+    for (const item of group) if (beats(item, head)) head = item;
+    heads.add(head);
+  }
+
+  // Heads first, then whatever is already sitting where it belongs, then by path.
+  // A file that is already at its target keeps it, so a stray copy of a version
+  // that is already filed never overwrites the filed one.
+  const settled = (item) => (expectedPath(item, heads.has(item)) === item.__path ? 1 : 0);
+
+  const ordered = [...items].sort((a, b) =>
+    (heads.has(b) ? 1 : 0) - (heads.has(a) ? 1 : 0) ||
+    settled(b) - settled(a) ||
+    (a.__path < b.__path ? -1 : a.__path > b.__path ? 1 : 0));
+
+  for (const item of ordered) {
+    const isHead = heads.has(item);
+    let target = expectedPath(item, isHead);
+
+    if (claimed.has(target) && claimed.get(target) !== item) {
+      if (isHead) {
+        // Two different items want the same file name. Keep both, and give the
+        // second its short id — the same thing ESR Manager does on a clash.
+        item.slug = `${item.slug}-${item.id.slice(0, 8)}`;
+        target = livePath(item);
+      }
+
+      if (claimed.has(target)) {
+        // Same id and same version twice. Nothing can be moved without one
+        // overwriting the other, so the loser stays exactly where it is and is
+        // left out of the index.
+        note(`${item.__path}: duplicate of ${claimed.get(target).__path} — left where it is and out of the index`);
+        skipped.add(item);
+        continue;
+      }
+    }
+
+    claimed.set(target, item);
+    targets.set(item, target);
+  }
+
+  return { targets, skipped, heads };
+}
+
 function main() {
-  const files = [...walk(join(ROOT, 'scripts')), ...walk(join(ROOT, 'sensors'))];
+  const files = [
+    ...walk(join(ROOT, 'scripts')),
+    ...walk(join(ROOT, 'sensors')),
+    ...walk(join(ROOT, VERSIONS_DIR))
+  ];
+
   const items = [];
   let wouldWrite = 0;
 
@@ -258,48 +410,61 @@ function main() {
     }
 
     normalise(item, path);
-    const target = expectedPath(item);
-    let finalPath = path;
-
-    if (target !== path) {
-      let dest = target;
-      if (existsSync(join(ROOT, dest))) {
-        dest = dest.replace(/\.json$/, `-${item.id.slice(0, 8)}.json`);
-        item.slug = basename(dest).replace(/\.json$/, '');
-      }
-      note(`${path}: moved to ${dest}`);
-      wouldWrite++;
-      if (!CHECK) {
-        mkdirSync(dirname(join(ROOT, dest)), { recursive: true });
-        writeFileSync(join(ROOT, dest), serialise(item));
-        try {
-          rmSync(file);
-        } catch (e) {
-          note(`${path}: could not be removed after the move (${e.code}) — delete it by hand`);
-        }
-      }
-      finalPath = dest;
-    } else if (serialise(item) !== raw) {
-      wouldWrite++;
-      note(`${path}: normalised`);
-      if (!CHECK) writeFileSync(file, serialise(item));
-    }
-
-    item.__path = finalPath;
+    item.__path = path;
+    item.__raw = raw;
     items.push(item);
   }
 
-  // One item per id — the newest version wins, the rest stay on disk but leave the index.
-  const winners = new Map();
+  const { targets, skipped, heads } = plan(items);
+
+  // Every path something ends up at. A move is only ever a write followed by a
+  // delete of the *old* path, and a path another item is moving into is never
+  // deleted: publishing v2 beside v1 has them swap places, and doing that one
+  // file at a time would delete whichever was written first.
+  const claimed = new Set(targets.values());
+  for (const item of skipped) claimed.add(item.__path);
+
+  const writes = [];
+  const removes = new Set();
+
   for (const item of items) {
-    const current = winners.get(item.id);
-    if (!current) { winners.set(item.id, item); continue; }
-    const loser = beats(item, current) ? current : item;
-    if (beats(item, current)) winners.set(item.id, item);
-    note(`${loser.__path}: superseded by a newer version of id ${item.id} — left out of the index`);
+    if (skipped.has(item)) continue;
+
+    const path = item.__path;
+    const target = targets.get(item);
+
+    if (target !== path) {
+      note(`${path}: ${heads.has(item) ? 'moved to' : 'superseded — filed as'} ${target}`);
+      wouldWrite++;
+      writes.push([target, serialise(item)]);
+      removes.add(path);
+      item.__path = target;
+    } else if (serialise(item) !== item.__raw) {
+      wouldWrite++;
+      note(`${path}: normalised`);
+      writes.push([path, serialise(item)]);
+    }
   }
 
-  const rows = [...winners.values()].map(toRow);
+  if (!CHECK) {
+    for (const [path, content] of writes) {
+      mkdirSync(dirname(join(ROOT, path)), { recursive: true });
+      writeFileSync(join(ROOT, path), content);
+    }
+
+    for (const path of removes) {
+      if (claimed.has(path)) continue;
+      try {
+        rmSync(join(ROOT, path));
+      } catch (e) {
+        note(`${path}: could not be removed after the move (${e.code}) — delete it by hand`);
+      }
+    }
+  }
+
+  const rows = items.filter((i) => !skipped.has(i)).map(toRow);
+  const listed = channelRows(rows);
+
   const full = join(ROOT, INDEX_FILE);
   const existing = existsSync(full) ? readFileSync(full, 'utf8') : null;
   const current = existing === null ? null : parseIndex(existing);
@@ -308,12 +473,16 @@ function main() {
   // formatting is not a reason to churn a commit.
   if (current === null || !sameRows(current, rows)) {
     wouldWrite++;
-    note(`${INDEX_FILE}: ${rows.length} row(s) written`);
+    note(`${INDEX_FILE}: ${listed.length} row(s) written`);
     if (!CHECK) writeFileSync(full, renderIndex(rows));
   }
 
   for (const line of log) console.log(line);
-  console.log(`${items.length} item(s), ${winners.size} indexed, ${wouldWrite} file(s) ${CHECK ? 'would change' : 'written'}.`);
+
+  const archived = items.filter((i) => !heads.has(i) && !skipped.has(i)).length;
+  console.log(
+    `${items.length} file(s), ${heads.size} item(s), ${archived} older version(s), ` +
+    `${listed.length} row(s) indexed, ${wouldWrite} file(s) ${CHECK ? 'would change' : 'written'}.`);
 
   if (CHECK && wouldWrite > 0) {
     console.error('Index is out of date. Run: node tools/esr-index.mjs');

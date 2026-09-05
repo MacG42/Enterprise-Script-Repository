@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "3bdc0952-2a36-4f14-befc-83a665b3316a",
   "slug": "battery-cycle-count",
   "type": "sensor",
   "name": "Battery Cycle Count",
   "description": "Charge cycles on the internal battery, or 0 on desktops. Supports battery replacement and hardware refresh planning.",
   "version": "1.0.0",
+  "release": "production",
   "os": "macOS",
   "icon": "🔋",
   "author": "macg@macgworld.com",

@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "093a28c2-eeeb-4ca2-aa5a-2ce0cbe08db9",
   "slug": "flush-dns-cache",
   "type": "script",
   "name": "Flush DNS Cache",
   "description": "Clears the macOS DNS resolver cache and restarts mDNSResponder. Useful after a DNS or VPN configuration change.",
   "version": "1.0.0",
+  "release": "production",
   "os": "macOS",
   "icon": "🌐",
   "author": "macg@macgworld.com",

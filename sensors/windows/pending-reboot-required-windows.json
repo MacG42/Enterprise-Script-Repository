@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "3be2495f-339a-4f7b-beb9-9e013ddeddfd",
   "slug": "pending-reboot-required-windows",
   "type": "sensor",
   "name": "Pending Reboot Required",
   "description": "Returns true when servicing, Windows Update or a pending file rename is waiting on a restart. Targets reboot prompts at only the devices that need one.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Windows",
   "icon": "♻️",
   "author": "macg@macgworld.com",

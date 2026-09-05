@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "57e0c760-e470-4dce-a74a-659126b07b88",
   "slug": "filevault-status",
   "type": "sensor",
   "name": "FileVault Status",
   "description": "Returns true when FileVault full-disk encryption is enabled.",
   "version": "1.0.0",
+  "release": "production",
   "os": "macOS",
   "icon": "🔐",
   "author": "macg@macgworld.com",

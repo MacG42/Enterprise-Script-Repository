@@ -5,6 +5,10 @@ name: Rebuild index
 # gives it a GUID id if it has none, and rewrites index.json. Nobody has to clone
 # the repo or touch the index by hand.
 #
+# Upload a newer version of an item that is already here and the older one is filed
+# under versions/<id>/<version>.json rather than thrown away, which is what makes a
+# rollback possible.
+#
 # index.json is generated: scripts and sensors both, read by the extension and by
 # ESR Manager, not meant to be read here. Never edit it by hand — this run wins.
 
@@ -14,12 +18,14 @@ on:
     paths:
       - 'scripts/**'
       - 'sensors/**'
+      - 'versions/**'
       - 'tools/esr-index.mjs'
       - '.github/workflows/index.yml'
   pull_request:
     paths:
       - 'scripts/**'
       - 'sensors/**'
+      - 'versions/**'
       - 'tools/esr-index.mjs'
   workflow_dispatch:
 

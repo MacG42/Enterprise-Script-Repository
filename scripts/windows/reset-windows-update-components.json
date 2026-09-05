@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "d38447c5-53e2-4f58-9a15-f8a824ddd59b",
   "slug": "reset-windows-update-components",
   "type": "script",
   "name": "Reset Windows Update Components",
   "description": "Stops the update services, clears the SoftwareDistribution and catroot2 caches, restarts the services and forces a new detection pass. Fixes stuck or failing Windows Update scans.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Windows",
   "icon": "🔄",
   "author": "macg@macgworld.com",

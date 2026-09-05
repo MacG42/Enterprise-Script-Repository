@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "4a04dd98-4b7a-4f16-90e7-2d8c45ae7090",
   "slug": "days-since-last-reboot-linux",
   "type": "sensor",
   "name": "Days Since Last Reboot",
   "description": "Whole days of uptime from /proc/uptime. Finds hosts still running a kernel that a patch cycle has already replaced.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Linux",
   "icon": "⏱️",
   "author": "macg@macgworld.com",

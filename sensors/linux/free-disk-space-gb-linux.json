@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "a5fef28f-cae5-4e3f-b9e3-3a141c2c49c7",
   "slug": "free-disk-space-gb-linux",
   "type": "sensor",
   "name": "Free Disk Space (GB)",
   "description": "Whole gigabytes available on the root filesystem. Drives the low-disk smart group used before package upgrades.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Linux",
   "icon": "💾",
   "author": "macg@macgworld.com",

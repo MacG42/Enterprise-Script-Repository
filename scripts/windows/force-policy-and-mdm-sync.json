@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "467a0312-5536-4094-b527-ac609c45caf5",
   "slug": "force-policy-and-mdm-sync",
   "type": "script",
   "name": "Force Policy and MDM Sync",
   "description": "Runs a forced gpupdate, kicks the EnterpriseMgmt MDM sync scheduled tasks and restarts the Workspace ONE Hub service so the device checks in immediately.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Windows",
   "icon": "🔁",
   "author": "macg@macgworld.com",

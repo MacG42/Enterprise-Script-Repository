@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "b16e6346-0a91-4072-959a-ff524e17ed3a",
   "slug": "distribution-name",
   "type": "sensor",
   "name": "Distribution Name",
   "description": "The PRETTY_NAME from /etc/os-release, for example 'Ubuntu 24.04.2 LTS'. Groups a mixed Linux estate by distribution and release.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Linux",
   "icon": "🐧",
   "author": "macg@macgworld.com",

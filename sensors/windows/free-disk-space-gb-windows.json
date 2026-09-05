@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "c171f0af-ca29-4127-97f0-27ccdc8e5b86",
   "slug": "free-disk-space-gb-windows",
   "type": "sensor",
   "name": "Free Disk Space (GB)",
   "description": "Whole gigabytes free on the system drive. Drives the low-disk smart group used to target cleanup scripts before feature updates.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Windows",
   "icon": "💾",
   "author": "macg@macgworld.com",

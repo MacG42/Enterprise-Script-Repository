@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "f11412d7-6d37-4ba9-ae17-b62774eb7814",
   "slug": "root-volume-encrypted",
   "type": "sensor",
   "name": "Root Volume Encrypted",
   "description": "Returns true when the root filesystem sits on a LUKS or dm-crypt device. Provides the encryption-at-rest datapoint for Linux compliance reporting.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Linux",
   "icon": "🔒",
   "author": "macg@macgworld.com",

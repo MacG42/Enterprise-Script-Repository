@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "077bf1cc-fec4-4d7c-8ed5-a349e7f423b6",
   "slug": "set-computer-name-from-serial",
   "type": "script",
   "name": "Set Computer Name From Serial",
   "description": "Sets ComputerName, LocalHostName and HostName to ESR_PREFIX plus the hardware serial number so the Mac matches the naming standard in inventory and DNS.",
   "version": "1.0.0",
+  "release": "production",
   "os": "macOS",
   "icon": "🖥️",
   "author": "macg@macgworld.com",

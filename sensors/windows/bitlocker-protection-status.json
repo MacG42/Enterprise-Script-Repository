@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "c0d70b89-15fc-408f-a62a-d28ac031dd0f",
   "slug": "bitlocker-protection-status",
   "type": "sensor",
   "name": "BitLocker Protection Status",
   "description": "Returns true when the OS volume is fully encrypted and protection is on.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Windows",
   "icon": "🔒",
   "author": "macg@macgworld.com",

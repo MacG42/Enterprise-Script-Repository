@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "6ec3a962-9755-4ca4-85d4-73ddc7a8bbb9",
   "slug": "set-device-hostname",
   "type": "script",
   "name": "Set Device Hostname",
   "description": "Renames the device to a serial-number-based hostname using the ESR_PREFIX variable, then flags a restart as required.",
   "version": "1.0.0",
+  "release": "production",
   "os": "Windows",
   "icon": "🖥️",
   "author": "macg@macgworld.com",

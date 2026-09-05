@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "id": "0657dd59-4eac-46e3-b81f-96cf15fceafd",
   "slug": "days-since-last-reboot-macos",
   "type": "sensor",
   "name": "Days Since Last Reboot",
   "description": "Whole days since the last boot. Finds the Macs that never restart and so never finish pending updates.",
   "version": "1.0.0",
+  "release": "production",
   "os": "macOS",
   "icon": "⏱️",
   "author": "macg@macgworld.com",
