@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MacG42/Enterprise-Script-Repository/schema/esr-item.schema.json",
+  "title": "Enterprise Script Repository item",
+  "description": "Self-contained definition of one Workspace ONE UEM script or sensor. The code is base64-encoded so a single JSON object carries everything needed to recreate the item in the console.",
+  "type": "object",
+  "required": ["schemaVersion", "id", "type", "name", "version", "os", "workspaceOne", "codeBase64"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug, unique within the repo. Used as the JSON filename."
+    },
+    "type": { "enum": ["script", "sensor"] },
+    "name": { "type": "string", "minLength": 1, "maxLength": 255 },
+    "description": { "type": "string", "maxLength": 2000 },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of this item, bumped by the authoring app."
+    },
+    "os": { "enum": ["Windows", "macOS", "Linux"] },
+    "icon": {
+      "type": "string",
+      "description": "Emoji or short glyph shown in the index and the extension panel."
+    },
+    "author": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "created": { "type": "string", "format": "date-time" },
+    "modified": { "type": "string", "format": "date-time" },
+    "notes": { "type": "string", "description": "Free-text operator notes; not pushed to the console." },
+
+    "workspaceOne": {
+      "type": "object",
+      "description": "Values that map 1:1 onto Workspace ONE console fields. Allowed values depend on type + os; see allOf below.",
+      "required": ["language", "executionContext"],
+      "additionalProperties": false,
+      "properties": {
+        "language": { "enum": ["POWERSHELL", "PYTHON", "BASH", "ZSH"] },
+        "executionContext": { "enum": ["SYSTEM", "USER", "ADMIN"] },
+        "executionArchitecture": {
+          "enum": ["LEGACY", "ALWAYS32BIT", "ONLY32BIT", "ONLY64BIT", "EITHER64OR32BIT"]
+        },
+        "timeout": { "type": "integer", "minimum": 1, "maximum": 3600 },
+        "responseDataType": { "enum": ["STRING", "INTEGER", "BOOLEAN", "DATETIME"] },
+        "appCatalog": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "displayName": { "type": "string", "maxLength": 255 },
+            "displayDescription": { "type": "string", "maxLength": 2000 },
+            "category": { "type": "string" }
+          }
+        },
+        "variables": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "value"],
+            "additionalProperties": false,
+            "properties": {
+              "key": { "type": "string", "minLength": 1 },
+              "value": { "type": "string", "maxLength": 200 }
+            }
+          }
+        }
+      }
+    },
+
+    "codeBase64": {
+      "type": "string",
+      "contentEncoding": "base64",
+      "description": "UTF-8 script body, base64-encoded."
+    }
+  },
+
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "script" }, "os": { "const": "Windows" } }, "required": ["type", "os"] },
+      "then": {
+        "properties": {
+          "workspaceOne": {
+            "required": ["language", "executionContext", "executionArchitecture", "timeout"],
+            "properties": {
+              "language": { "const": "POWERSHELL" },
+              "executionContext": { "enum": ["SYSTEM", "USER", "ADMIN"] },
+              "executionArchitecture": { "enum": ["LEGACY", "ONLY32BIT", "ONLY64BIT", "EITHER64OR32BIT"] },
+              "responseDataType": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "script" }, "os": { "const": "macOS" } }, "required": ["type", "os"] },
+      "then": {
+        "properties": {
+          "workspaceOne": {
+            "required": ["language", "executionContext", "timeout"],
+            "properties": {
+              "language": { "enum": ["PYTHON", "BASH", "ZSH"] },
+              "executionContext": { "enum": ["SYSTEM", "USER"] },
+              "executionArchitecture": false,
+              "responseDataType": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "script" }, "os": { "const": "Linux" } }, "required": ["type", "os"] },
+      "then": { "properties": { "os": { "not": { "const": "Linux" } } } },
+      "$comment": "Workspace ONE does not offer Linux scripts today — only Linux sensors."
+    },
+    {
+      "if": { "properties": { "type": { "const": "sensor" }, "os": { "const": "Windows" } }, "required": ["type", "os"] },
+      "then": {
+        "properties": {
+          "workspaceOne": {
+            "required": ["language", "executionContext", "executionArchitecture", "responseDataType"],
+            "properties": {
+              "language": { "const": "POWERSHELL" },
+              "executionContext": { "enum": ["SYSTEM", "USER"] },
+              "executionArchitecture": { "enum": ["ALWAYS32BIT", "ONLY32BIT", "ONLY64BIT", "EITHER64OR32BIT"] },
+              "timeout": false,
+              "appCatalog": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "sensor" }, "os": { "const": "macOS" } }, "required": ["type", "os"] },
+      "then": {
+        "properties": {
+          "workspaceOne": {
+            "required": ["language", "executionContext", "responseDataType"],
+            "properties": {
+              "language": { "enum": ["BASH", "PYTHON", "ZSH"] },
+              "executionContext": { "enum": ["SYSTEM", "USER"] },
+              "executionArchitecture": false,
+              "timeout": false,
+              "appCatalog": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "sensor" }, "os": { "const": "Linux" } }, "required": ["type", "os"] },
+      "then": {
+        "properties": {
+          "workspaceOne": {
+            "required": ["language", "executionContext", "responseDataType"],
+            "properties": {
+              "language": { "enum": ["BASH", "PYTHON"] },
+              "executionContext": { "enum": ["SYSTEM", "USER"] },
+              "executionArchitecture": false,
+              "timeout": false,
+              "appCatalog": false
+            }
+          }
+        }
+      }
+    }
+  ]
+}

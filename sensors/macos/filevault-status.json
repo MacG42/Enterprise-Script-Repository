@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "filevault-status",
+  "type": "sensor",
+  "name": "FileVault Status",
+  "description": "Returns true when FileVault full-disk encryption is enabled.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "encryption",
+    "filevault",
+    "compliance"
+  ],
+  "created": "2026-09-05T12:00:00Z",
+  "modified": "2026-09-05T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKaWYgZmRlc2V0dXAgc3RhdHVzIHwgZ3JlcCAtcSAiRmlsZVZhdWx0IGlzIE9uIjsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

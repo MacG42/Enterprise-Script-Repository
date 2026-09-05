@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bitlocker-protection-status",
+  "type": "sensor",
+  "name": "BitLocker Protection Status",
+  "description": "Returns true when the OS volume is fully encrypted and protection is on.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "encryption",
+    "bitlocker",
+    "compliance"
+  ],
+  "created": "2026-09-05T12:00:00Z",
+  "modified": "2026-09-05T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "dHJ5IHsKICAgICR2b2wgPSBHZXQtQml0TG9ja2VyVm9sdW1lIC1Nb3VudFBvaW50ICRlbnY6U3lzdGVtRHJpdmUgLUVycm9yQWN0aW9uIFN0b3AKICAgIGlmICgkdm9sLlByb3RlY3Rpb25TdGF0dXMgLWVxICdPbicgLWFuZCAkdm9sLlZvbHVtZVN0YXR1cyAtZXEgJ0Z1bGx5RW5jcnlwdGVkJykgewogICAgICAgIFdyaXRlLU91dHB1dCAkdHJ1ZQogICAgfSBlbHNlIHsKICAgICAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICRmYWxzZQp9Cg=="
+}
