@@ -6,7 +6,7 @@
   "name": "Distribution Name",
   "description": "The PRETTY_NAME from /etc/os-release, for example 'Ubuntu 24.04.2 LTS'. Groups a mixed Linux estate by distribution and release.",
   "version": "2.0.0",
-  "release": "testing",
+  "release": "production",
   "os": "Linux",
   "icon": "🐧",
   "author": "macg@macgworld.com",
@@ -15,7 +15,7 @@
     "os-version"
   ],
   "created": "2026-09-05T08:18:52+00:00",
-  "modified": "2026-09-05T18:29:46.4988394+00:00",
+  "modified": "2026-09-05T18:30:42.4735004+00:00",
   "workspaceOne": {
     "language": "BASH",
     "executionContext": "SYSTEM",
