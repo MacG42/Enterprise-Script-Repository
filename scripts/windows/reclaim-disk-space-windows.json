@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "reclaim-disk-space-windows",
+  "schemaVersion": "1.1",
+  "id": "3550971f-7ece-435f-ae00-32629f4a2cc0",
+  "slug": "reclaim-disk-space-windows",
   "type": "script",
   "name": "Reclaim Disk Space",
   "description": "Purges system and per-user temp folders, the Windows Update download cache, CBS logs, the Delivery Optimization cache and the recycle bin, then reports how much space was recovered.",

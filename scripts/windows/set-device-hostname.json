@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "set-device-hostname",
+  "schemaVersion": "1.1",
+  "id": "6ec3a962-9755-4ca4-85d4-73ddc7a8bbb9",
+  "slug": "set-device-hostname",
   "type": "script",
   "name": "Set Device Hostname",
   "description": "Renames the device to a serial-number-based hostname using the ESR_PREFIX variable, then flags a restart as required.",

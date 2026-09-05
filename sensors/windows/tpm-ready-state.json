@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "tpm-ready-state",
+  "schemaVersion": "1.1",
+  "id": "248c0aa9-da1b-490f-890b-44cce8beffd7",
+  "slug": "tpm-ready-state",
   "type": "sensor",
   "name": "TPM Ready State",
   "description": "Returns true when a TPM is present, enabled and ready for use. Identifies devices that cannot take BitLocker, Credential Guard or Windows 11.",

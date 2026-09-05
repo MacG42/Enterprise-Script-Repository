@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "force-hub-checkin-macos",
+  "schemaVersion": "1.1",
+  "id": "9844b1d7-77bb-45ef-8ce2-241a0f3f58fb",
+  "slug": "force-hub-checkin-macos",
   "type": "script",
   "name": "Force MDM Check-in",
   "description": "Renews the MDM enrollment profile and triggers a Workspace ONE Intelligent Hub sync so policies, profiles and apps are re-evaluated immediately.",

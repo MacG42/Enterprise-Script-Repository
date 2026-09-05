@@ -4,14 +4,19 @@
   "title": "Enterprise Script Repository item",
   "description": "Self-contained definition of one Workspace ONE UEM script or sensor. The code is base64-encoded so a single JSON object carries everything needed to recreate the item in the console.",
   "type": "object",
-  "required": ["schemaVersion", "id", "type", "name", "version", "os", "workspaceOne", "codeBase64"],
+  "required": ["schemaVersion", "id", "slug", "type", "name", "version", "os", "workspaceOne", "codeBase64"],
   "additionalProperties": false,
   "properties": {
-    "schemaVersion": { "const": "1.0" },
+    "schemaVersion": { "enum": ["1.0", "1.1"] },
     "id": {
       "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "Lower-case GUID. The item's permanent identity: a new version of the same item keeps the same id, and the indexes list only the highest version of each id. Assigned by ESR Manager, or by tools/esr-index.mjs when a hand-uploaded file arrives without one."
+    },
+    "slug": {
+      "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Stable slug, unique within the repo. Used as the JSON filename."
+      "description": "Human-readable filename stem, e.g. 'set-device-hostname' for scripts/windows/set-device-hostname.json. Cosmetic — renaming it moves the file but does not change the item's identity."
     },
     "type": { "enum": ["script", "sensor"] },
     "name": { "type": "string", "minLength": 1, "maxLength": 255 },

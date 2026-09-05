@@ -1,0 +1,66 @@
+name: Rebuild indexes
+
+# Anyone can drop a .json item into scripts/ or sensors/ — through the GitHub web
+# uploader, a PR, an API call, ESR Manager — and this puts it in the right folder,
+# gives it a GUID id if it has none, and rewrites script_index.md / sensor_index.md.
+# Nobody has to clone the repo or touch an index by hand.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'sensors/**'
+      - 'tools/esr-index.mjs'
+      - '.github/workflows/index.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'sensors/**'
+      - 'tools/esr-index.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: esr-index-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Normalise items and rebuild indexes
+        run: node tools/esr-index.mjs | tee "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        if: github.event_name != 'pull_request'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to update."
+            exit 0
+          fi
+          git config user.name  "esr-index[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Rebuild script and sensor indexes [skip ci]"
+          git push
+
+      # On a PR the branch belongs to the contributor, so say what is wrong
+      # rather than pushing to their fork.
+      - name: Check only
+        if: github.event_name == 'pull_request'
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::warning::The indexes will be rebuilt automatically once this is merged."
+            git --no-pager diff --stat
+          fi

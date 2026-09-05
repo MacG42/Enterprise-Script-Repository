@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "battery-cycle-count",
+  "schemaVersion": "1.1",
+  "id": "3bdc0952-2a36-4f14-befc-83a665b3316a",
+  "slug": "battery-cycle-count",
   "type": "sensor",
   "name": "Battery Cycle Count",
   "description": "Charge cycles on the internal battery, or 0 on desktops. Supports battery replacement and hardware refresh planning.",

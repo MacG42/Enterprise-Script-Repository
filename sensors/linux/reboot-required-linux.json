@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "reboot-required-linux",
+  "schemaVersion": "1.1",
+  "id": "00402944-a31d-4991-bdbf-061b7f24d83c",
+  "slug": "reboot-required-linux",
   "type": "sensor",
   "name": "Reboot Required",
   "description": "Returns true when the package manager or a kernel update is waiting on a restart, across apt, dnf/yum and zypper hosts.",

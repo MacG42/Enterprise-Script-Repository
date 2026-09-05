@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "reclaim-disk-space-macos",
+  "schemaVersion": "1.1",
+  "id": "a3206f44-ad75-4199-ae78-9fdd6315227f",
+  "slug": "reclaim-disk-space-macos",
   "type": "script",
   "name": "Reclaim Disk Space",
   "description": "Removes stale system and per-user caches, empties user trash folders, prunes rotated logs and deletes local Time Machine snapshots, then reports the space recovered.",

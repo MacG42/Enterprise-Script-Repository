@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "clear-print-spooler-queue",
+  "schemaVersion": "1.1",
+  "id": "85eda259-9839-4659-8ac9-297f07e9b74b",
+  "slug": "clear-print-spooler-queue",
   "type": "script",
   "name": "Clear Print Spooler Queue",
   "description": "Stops the spooler, deletes every queued job in the PRINTERS folder and starts the service again. Clears jobs stuck in a deleting or error state.",

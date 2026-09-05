@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "windows-build-version",
+  "schemaVersion": "1.1",
+  "id": "859de0e0-e1d8-4646-98af-2779de1affb0",
+  "slug": "windows-build-version",
   "type": "sensor",
   "name": "Windows Build Version",
   "description": "Edition, feature release and full build number including the UBR, for example 'Windows 11 Pro 24H2 (26100.1742)'. Gives patch reporting a single accurate version string.",

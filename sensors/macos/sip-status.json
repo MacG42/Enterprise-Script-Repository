@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "sip-status",
+  "schemaVersion": "1.1",
+  "id": "e4d4b21c-f2aa-4164-bf6e-7a06390f6dfc",
+  "slug": "sip-status",
   "type": "sensor",
   "name": "System Integrity Protection Enabled",
   "description": "Returns true when SIP is enabled. Flags Macs left with SIP disabled after imaging or troubleshooting.",

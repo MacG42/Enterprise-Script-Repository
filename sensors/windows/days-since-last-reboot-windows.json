@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "days-since-last-reboot-windows",
+  "schemaVersion": "1.1",
+  "id": "e1718255-b5ec-4739-bcd2-6551f7737c94",
+  "slug": "days-since-last-reboot-windows",
   "type": "sensor",
   "name": "Days Since Last Reboot",
   "description": "Whole days since the last boot. Surfaces the long-uptime devices that never finish patch installs.",

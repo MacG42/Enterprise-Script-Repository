@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "install-rosetta",
+  "schemaVersion": "1.1",
+  "id": "be2a7b55-0cb6-4cdc-b5f9-be98b8823416",
+  "slug": "install-rosetta",
   "type": "script",
   "name": "Install Rosetta 2",
   "description": "Installs Rosetta 2 non-interactively on Apple silicon so Intel-only line-of-business apps run. Exits cleanly on Intel Macs and when Rosetta is already present.",

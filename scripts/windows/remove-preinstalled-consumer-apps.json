@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "remove-preinstalled-consumer-apps",
+  "schemaVersion": "1.1",
+  "id": "68d3f6db-0de8-49f3-80eb-2973f8f04bfd",
+  "slug": "remove-preinstalled-consumer-apps",
   "type": "script",
   "name": "Remove Preinstalled Consumer Apps",
   "description": "Removes the comma-separated AppX packages listed in ESR_APPS for all users and from the provisioning store so they do not return for new profiles.",

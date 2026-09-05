@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "macos-version",
+  "schemaVersion": "1.1",
+  "id": "d89a7d40-e40e-43ac-91f7-b2df3a4be081",
+  "slug": "macos-version",
   "type": "sensor",
   "name": "macOS Version",
   "description": "Product version and build, for example '15.6 (24G84)'. Drives OS-version smart groups and upgrade reporting.",

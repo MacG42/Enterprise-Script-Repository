@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "enable-application-firewall",
+  "schemaVersion": "1.1",
+  "id": "3ed30f0d-6084-4753-b701-b74b3fba74f5",
+  "slug": "enable-application-firewall",
   "type": "script",
   "name": "Enable Application Firewall",
   "description": "Turns on the macOS application firewall with stealth mode and logging, and allows signed system and downloaded software. Remediates a failed firewall compliance check.",

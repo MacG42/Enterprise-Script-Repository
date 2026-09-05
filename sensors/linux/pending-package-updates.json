@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "id": "pending-package-updates",
+  "schemaVersion": "1.1",
+  "id": "23c62835-bbac-4b7c-a954-f91f47a1db4d",
+  "slug": "pending-package-updates",
   "type": "sensor",
   "name": "Pending Package Updates",
   "description": "Counts packages with available updates across apt, dnf/yum and zypper hosts.",
