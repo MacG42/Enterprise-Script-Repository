@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "id": "install-rosetta",
+  "type": "script",
+  "name": "Install Rosetta 2",
+  "description": "Installs Rosetta 2 non-interactively on Apple silicon so Intel-only line-of-business apps run. Exits cleanly on Intel Macs and when Rosetta is already present.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "🧩",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "provisioning",
+    "apple-silicon",
+    "compatibility"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Install Rosetta 2",
+      "displayDescription": "Adds Intel app support on Apple silicon Macs.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKc2V0IC11byBwaXBlZmFpbAoKaWYgWyAiJCgvdXNyL3NiaW4vc3lzY3RsIC1uIGh3Lm9wdGlvbmFsLmFybTY0IDI+L2Rldi9udWxsKSIgIT0gIjEiIF07IHRoZW4KICBlY2hvICJJbnRlbCBNYWMgLSBSb3NldHRhIG5vdCBhcHBsaWNhYmxlIgogIGV4aXQgMApmaQoKaWYgL3Vzci9iaW4vcGdyZXAgLXEgb2FoZDsgdGhlbgogIGVjaG8gIlJvc2V0dGEgYWxyZWFkeSBpbnN0YWxsZWQiCiAgZXhpdCAwCmZpCgovdXNyL3NiaW4vc29mdHdhcmV1cGRhdGUgLS1pbnN0YWxsLXJvc2V0dGEgLS1hZ3JlZS10by1saWNlbnNlID4vZGV2L251bGwgMj4mMQoKaWYgL3Vzci9iaW4vcGdyZXAgLXEgb2FoZDsgdGhlbgogIGVjaG8gIlJvc2V0dGEgaW5zdGFsbGVkIgogIGV4aXQgMApmaQoKZWNobyAiUm9zZXR0YSBpbnN0YWxsIGZhaWxlZCIKZXhpdCAxCg=="
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "id": "reclaim-disk-space-macos",
+  "type": "script",
+  "name": "Reclaim Disk Space",
+  "description": "Removes stale system and per-user caches, empties user trash folders, prunes rotated logs and deletes local Time Machine snapshots, then reports the space recovered.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "maintenance"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Free Up Disk Space",
+      "displayDescription": "Removes caches and temporary files to recover disk space.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKc2V0IC11byBwaXBlZmFpbAoKYmVmb3JlPSQoL2Jpbi9kZiAtUGsgLyB8IC91c3IvYmluL2F3ayAnTlI9PTIge3ByaW50ICQ0fScpCgovdXNyL2Jpbi9maW5kIC9MaWJyYXJ5L0NhY2hlcyAtbWluZGVwdGggMSAtbWF4ZGVwdGggMiAtYXRpbWUgKzE0IC1leGVjIC9iaW4vcm0gLXJmIHt9ICsgMj4vZGV2L251bGwKL3Vzci9iaW4vZmluZCAvcHJpdmF0ZS92YXIvbG9nIC10eXBlIGYgXCggLW5hbWUgJyouZ3onIC1vIC1uYW1lICcqLmJ6MicgLW8gLW5hbWUgJyoub2xkJyBcKSAtZGVsZXRlIDI+L2Rldi9udWxsCgpmb3IgaG9tZSBpbiAvVXNlcnMvKjsgZG8KICBbIC1kICIkaG9tZSIgXSB8fCBjb250aW51ZQogIGNhc2UgIiRob21lIiBpbiAqL1NoYXJlZHwqL0d1ZXN0KSBjb250aW51ZSA7OyBlc2FjCiAgL3Vzci9iaW4vZmluZCAiJGhvbWUvTGlicmFyeS9DYWNoZXMiIC1taW5kZXB0aCAxIC1tYXhkZXB0aCAyIC1hdGltZSArMTQgLWV4ZWMgL2Jpbi9ybSAtcmYge30gKyAyPi9kZXYvbnVsbAogIC9iaW4vcm0gLXJmICIkaG9tZS8uVHJhc2gvIiogMj4vZGV2L251bGwKZG9uZQoKL3Vzci9iaW4vdG11dGlsIGRlbGV0ZWxvY2Fsc25hcHNob3RzIC8gPi9kZXYvbnVsbCAyPiYxCgphZnRlcj0kKC9iaW4vZGYgLVBrIC8gfCAvdXNyL2Jpbi9hd2sgJ05SPT0yIHtwcmludCAkNH0nKQplY2hvICJSZWNsYWltZWQgJCgoIChhZnRlciAtIGJlZm9yZSkgLyAxMDI0ICkpIE1CIC0gJCgoIGFmdGVyIC8gMTA0ODU3NiApKSBHQiBub3cgZnJlZSIKZXhpdCAwCg=="
+}

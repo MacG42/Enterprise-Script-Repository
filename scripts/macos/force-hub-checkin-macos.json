@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "id": "force-hub-checkin-macos",
+  "type": "script",
+  "name": "Force MDM Check-in",
+  "description": "Renews the MDM enrollment profile and triggers a Workspace ONE Intelligent Hub sync so policies, profiles and apps are re-evaluated immediately.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mdm",
+    "sync",
+    "troubleshooting"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Sync Device Now",
+      "displayDescription": "Forces the Mac to check in for policy and application updates.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKc2V0IC11byBwaXBlZmFpbAoKL3Vzci9iaW4vcHJvZmlsZXMgcmVuZXcgLXR5cGUgZW5yb2xsbWVudCA+L2Rldi9udWxsIDI+JjEKcmVzdWx0PSJlbnJvbGxtZW50IHJlbmV3IHJlcXVlc3RlZCIKCmZvciBjbGkgaW4gL3Vzci9sb2NhbC9iaW4vaHViY2xpICIvQXBwbGljYXRpb25zL1dvcmtzcGFjZSBPTkUgSW50ZWxsaWdlbnQgSHViLmFwcC9Db250ZW50cy9NYWNPUy9odWJjbGkiOyBkbwogIGlmIFsgLXggIiRjbGkiIF07IHRoZW4KICAgICIkY2xpIiBzeW5jID4vZGV2L251bGwgMj4mMQogICAgcmVzdWx0PSIkcmVzdWx0OyBodWIgc3luYyB0cmlnZ2VyZWQiCiAgICBicmVhawogIGZpCmRvbmUKCmVjaG8gIiRyZXN1bHQiCmV4aXQgMAo="
+}

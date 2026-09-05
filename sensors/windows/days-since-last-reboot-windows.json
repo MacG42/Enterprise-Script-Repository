@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "days-since-last-reboot-windows",
+  "type": "sensor",
+  "name": "Days Since Last Reboot",
+  "description": "Whole days since the last boot. Surfaces the long-uptime devices that never finish patch installs.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "uptime",
+    "patching",
+    "health"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "dHJ5IHsKICAgICRib290ID0gKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX09wZXJhdGluZ1N5c3RlbSAtRXJyb3JBY3Rpb24gU3RvcCkuTGFzdEJvb3RVcFRpbWUKICAgIFdyaXRlLU91dHB1dCAoW2ludF1bbWF0aF06OkZsb29yKCgoR2V0LURhdGUpIC0gJGJvb3QpLlRvdGFsRGF5cykpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

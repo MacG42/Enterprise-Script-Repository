@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "days-since-last-reboot-linux",
+  "type": "sensor",
+  "name": "Days Since Last Reboot",
+  "description": "Whole days of uptime from /proc/uptime. Finds hosts still running a kernel that a patch cycle has already replaced.",
+  "version": "1.0.0",
+  "os": "Linux",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "uptime",
+    "patching",
+    "health"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKaWYgWyAtciAvcHJvYy91cHRpbWUgXTsgdGhlbgogIGF3ayAne3ByaW50ZiAiJWRcbiIsICQxIC8gODY0MDB9JyAvcHJvYy91cHRpbWUKZWxzZQogIGVjaG8gIi0xIgpmaQo="
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "free-disk-space-gb-windows",
+  "type": "sensor",
+  "name": "Free Disk Space (GB)",
+  "description": "Whole gigabytes free on the system drive. Drives the low-disk smart group used to target cleanup scripts before feature updates.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "capacity",
+    "inventory"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "dHJ5IHsKICAgICRkaXNrID0gR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfTG9naWNhbERpc2sgLUZpbHRlciAiRGV2aWNlSUQ9JyRlbnY6U3lzdGVtRHJpdmUnIiAtRXJyb3JBY3Rpb24gU3RvcAogICAgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Rmxvb3IoJGRpc2suRnJlZVNwYWNlIC8gMUdCKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

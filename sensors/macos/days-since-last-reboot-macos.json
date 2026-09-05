@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "days-since-last-reboot-macos",
+  "type": "sensor",
+  "name": "Days Since Last Reboot",
+  "description": "Whole days since the last boot. Finds the Macs that never restart and so never finish pending updates.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "uptime",
+    "patching",
+    "health"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKYm9vdD0kKC91c3Ivc2Jpbi9zeXNjdGwgLW4ga2Vybi5ib290dGltZSAyPi9kZXYvbnVsbCB8IC91c3IvYmluL3NlZCAtbiAncy8uKnNlYyA9IFwoWzAtOV0qXCkuKi9cMS9wJykKaWYgWyAteiAiJGJvb3QiIF07IHRoZW4gZWNobyAiLTEiOyBleGl0IDA7IGZpCm5vdz0kKC9iaW4vZGF0ZSArJXMpCmVjaG8gJCgoIChub3cgLSBib290KSAvIDg2NDAwICkpCg=="
+}

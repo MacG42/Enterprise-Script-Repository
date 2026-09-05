@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "id": "force-policy-and-mdm-sync",
+  "type": "script",
+  "name": "Force Policy and MDM Sync",
+  "description": "Runs a forced gpupdate, kicks the EnterpriseMgmt MDM sync scheduled tasks and restarts the Workspace ONE Hub service so the device checks in immediately.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mdm",
+    "sync",
+    "troubleshooting"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Sync Device Now",
+      "displayDescription": "Forces the device to check in for policy and application updates.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTaWxlbnRseUNvbnRpbnVlJwokZG9uZSA9IEAoKQoKZ3B1cGRhdGUuZXhlIC9mb3JjZSAvd2FpdDoxMjAgfCBPdXQtTnVsbAokZG9uZSArPSAnZ3B1cGRhdGUnCgpHZXQtU2NoZWR1bGVkVGFzayAtVGFza1BhdGggJ1xNaWNyb3NvZnRcV2luZG93c1xFbnRlcnByaXNlTWdtdFwqJyB8CiAgICBXaGVyZS1PYmplY3QgeyAkXy5UYXNrTmFtZSAtbGlrZSAnU2NoZWR1bGUqJyB9IHwKICAgIEZvckVhY2gtT2JqZWN0IHsgU3RhcnQtU2NoZWR1bGVkVGFzayAtSW5wdXRPYmplY3QgJF87ICRkb25lICs9ICJtZG06JCgkXy5UYXNrTmFtZSkiIH0KCiRodWIgPSBHZXQtU2VydmljZSAtTmFtZSAnQWlyV2F0Y2hTZXJ2aWNlJwppZiAoJGh1YikgeyBSZXN0YXJ0LVNlcnZpY2UgLUlucHV0T2JqZWN0ICRodWIgLUZvcmNlOyAkZG9uZSArPSAnaHViLXNlcnZpY2UtcmVzdGFydCcgfQoKaWYgKCRkb25lLkNvdW50IC1lcSAwKSB7IFdyaXRlLU91dHB1dCAnTm90aGluZyB0byBzeW5jJyB9IGVsc2UgeyBXcml0ZS1PdXRwdXQgKCRkb25lIC1qb2luICc7ICcpIH0KZXhpdCAwCg=="
+}

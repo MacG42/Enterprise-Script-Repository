@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "id": "reclaim-disk-space-windows",
+  "type": "script",
+  "name": "Reclaim Disk Space",
+  "description": "Purges system and per-user temp folders, the Windows Update download cache, CBS logs, the Delivery Optimization cache and the recycle bin, then reports how much space was recovered.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "maintenance"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Free Up Disk Space",
+      "displayDescription": "Removes temporary files and caches to recover disk space.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTaWxlbnRseUNvbnRpbnVlJwokZHJpdmUgPSAkZW52OlN5c3RlbURyaXZlLlRyaW1FbmQoJzonKQokYmVmb3JlID0gKEdldC1QU0RyaXZlIC1OYW1lICRkcml2ZSkuRnJlZQoKUmVtb3ZlLUl0ZW0gIiRlbnY6U3lzdGVtUm9vdFxUZW1wXCoiIC1SZWN1cnNlIC1Gb3JjZQpSZW1vdmUtSXRlbSAiJGVudjpTeXN0ZW1Sb290XFNvZnR3YXJlRGlzdHJpYnV0aW9uXERvd25sb2FkXCoiIC1SZWN1cnNlIC1Gb3JjZQpSZW1vdmUtSXRlbSAiJGVudjpTeXN0ZW1Sb290XExvZ3NcQ0JTXCoubG9nIiAtRm9yY2UKCkdldC1DaGlsZEl0ZW0gIiRlbnY6U3lzdGVtRHJpdmVcVXNlcnMiIC1EaXJlY3RvcnkgfCBGb3JFYWNoLU9iamVjdCB7CiAgICBSZW1vdmUtSXRlbSAiJCgkXy5GdWxsTmFtZSlcQXBwRGF0YVxMb2NhbFxUZW1wXCoiIC1SZWN1cnNlIC1Gb3JjZQp9CgpEZWxldGUtRGVsaXZlcnlPcHRpbWl6YXRpb25DYWNoZSAtRm9yY2UKQ2xlYXItUmVjeWNsZUJpbiAtRHJpdmVMZXR0ZXIgJGRyaXZlIC1Gb3JjZSAtQ29uZmlybTokZmFsc2UKCiRhZnRlciA9IChHZXQtUFNEcml2ZSAtTmFtZSAkZHJpdmUpLkZyZWUKV3JpdGUtT3V0cHV0ICgiUmVjbGFpbWVkIHswOk4yfSBHQiAtIHsxOk4yfSBHQiBub3cgZnJlZSIgLWYgKCgkYWZ0ZXIgLSAkYmVmb3JlKSAvIDFHQiksICgkYWZ0ZXIgLyAxR0IpKQpleGl0IDAK"
+}

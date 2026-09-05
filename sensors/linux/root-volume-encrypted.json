@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "root-volume-encrypted",
+  "type": "sensor",
+  "name": "Root Volume Encrypted",
+  "description": "Returns true when the root filesystem sits on a LUKS or dm-crypt device. Provides the encryption-at-rest datapoint for Linux compliance reporting.",
+  "version": "1.0.0",
+  "os": "Linux",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "encryption",
+    "compliance",
+    "luks"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKc3JjPSQoZmluZG1udCAtbiAtbyBTT1VSQ0UgLyAyPi9kZXYvbnVsbCkKCmlmIFsgLW4gIiRzcmMiIF0gJiYgY29tbWFuZCAtdiBsc2JsayA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBpZiBsc2JsayAtbm8gVFlQRSAiJHNyYyIgMj4vZGV2L251bGwgfCBncmVwIC1xICdeY3J5cHQkJzsgdGhlbiBlY2hvICJ0cnVlIjsgZXhpdCAwOyBmaQogIGlmIGxzYmxrIC1ucyAtbyBUWVBFICIkc3JjIiAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgJ15jcnlwdCQnOyB0aGVuIGVjaG8gInRydWUiOyBleGl0IDA7IGZpCmZpCgppZiBjb21tYW5kIC12IGRtc2V0dXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgaWYgZG1zZXR1cCB0YWJsZSAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgJyBjcnlwdCAnOyB0aGVuIGVjaG8gInRydWUiOyBleGl0IDA7IGZpCmZpCgplY2hvICJmYWxzZSIK"
+}

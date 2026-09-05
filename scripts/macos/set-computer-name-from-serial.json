@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "id": "set-computer-name-from-serial",
+  "type": "script",
+  "name": "Set Computer Name From Serial",
+  "description": "Sets ComputerName, LocalHostName and HostName to ESR_PREFIX plus the hardware serial number so the Mac matches the naming standard in inventory and DNS.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "provisioning",
+    "hostname",
+    "naming"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "ESR_PREFIX",
+        "value": "MAC"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKc2V0IC11byBwaXBlZmFpbAoKcHJlZml4PSIke0VTUl9QUkVGSVg6LU1BQ30iCnNlcmlhbD0kKC91c3Ivc2Jpbi9pb3JlZyAtbCB8IC91c3IvYmluL2F3ayAtRiciJyAnL0lPUGxhdGZvcm1TZXJpYWxOdW1iZXIvIHtwcmludCAkNDsgZXhpdH0nKQoKaWYgWyAteiAiJHNlcmlhbCIgXTsgdGhlbgogIGVjaG8gIlNlcmlhbCBudW1iZXIgbm90IHJlYWRhYmxlIgogIGV4aXQgMQpmaQoKdGFyZ2V0PSQocHJpbnRmICclcy0lcycgIiRwcmVmaXgiICIkc2VyaWFsIiB8IC91c3IvYmluL3RyICdbOmxvd2VyOl0nICdbOnVwcGVyOl0nKQpjdXJyZW50PSQoL3Vzci9zYmluL3NjdXRpbCAtLWdldCBDb21wdXRlck5hbWUgMj4vZGV2L251bGwgfHwgdHJ1ZSkKCmlmIFsgIiRjdXJyZW50IiA9ICIkdGFyZ2V0IiBdOyB0aGVuCiAgZWNobyAiTmFtZSBhbHJlYWR5ICR0YXJnZXQiCiAgZXhpdCAwCmZpCgovdXNyL3NiaW4vc2N1dGlsIC0tc2V0IENvbXB1dGVyTmFtZSAiJHRhcmdldCIKL3Vzci9zYmluL3NjdXRpbCAtLXNldCBMb2NhbEhvc3ROYW1lICIkdGFyZ2V0IgovdXNyL3NiaW4vc2N1dGlsIC0tc2V0IEhvc3ROYW1lICIkdGFyZ2V0IgovdXNyL2Jpbi9kc2NhY2hldXRpbCAtZmx1c2hjYWNoZQoKZWNobyAiUmVuYW1lZCB0byAkdGFyZ2V0IgpleGl0IDAK"
+}

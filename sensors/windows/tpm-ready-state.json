@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "id": "tpm-ready-state",
+  "type": "sensor",
+  "name": "TPM Ready State",
+  "description": "Returns true when a TPM is present, enabled and ready for use. Identifies devices that cannot take BitLocker, Credential Guard or Windows 11.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "tpm",
+    "hardware",
+    "readiness"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "dHJ5IHsKICAgICR0cG0gPSBHZXQtVHBtIC1FcnJvckFjdGlvbiBTdG9wCiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSgkdHBtLlRwbVByZXNlbnQgLWFuZCAkdHBtLlRwbUVuYWJsZWQgLWFuZCAkdHBtLlRwbVJlYWR5KSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

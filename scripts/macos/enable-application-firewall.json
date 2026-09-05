@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "id": "enable-application-firewall",
+  "type": "script",
+  "name": "Enable Application Firewall",
+  "description": "Turns on the macOS application firewall with stealth mode and logging, and allows signed system and downloaded software. Remediates a failed firewall compliance check.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "firewall",
+    "compliance"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKc2V0IC11byBwaXBlZmFpbApmdz0vdXNyL2xpYmV4ZWMvQXBwbGljYXRpb25GaXJld2FsbC9zb2NrZXRmaWx0ZXJmdwoKIiRmdyIgLS1zZXRnbG9iYWxzdGF0ZSBvbiA+L2Rldi9udWxsIDI+JjEKIiRmdyIgLS1zZXRzdGVhbHRobW9kZSBvbiA+L2Rldi9udWxsIDI+JjEKIiRmdyIgLS1zZXRsb2dnaW5nbW9kZSBvbiA+L2Rldi9udWxsIDI+JjEKIiRmdyIgLS1zZXRhbGxvd3NpZ25lZCBvbiA+L2Rldi9udWxsIDI+JjEKIiRmdyIgLS1zZXRhbGxvd3NpZ25lZGFwcCBvbiA+L2Rldi9udWxsIDI+JjEKCnN0YXRlPSQoIiRmdyIgLS1nZXRnbG9iYWxzdGF0ZSAyPi9kZXYvbnVsbCkKc3RlYWx0aD0kKCIkZnciIC0tZ2V0c3RlYWx0aG1vZGUgMj4vZGV2L251bGwpCmVjaG8gIiR7c3RhdGV9IC8gJHtzdGVhbHRofSIKZXhpdCAwCg=="
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "id": "remove-preinstalled-consumer-apps",
+  "type": "script",
+  "name": "Remove Preinstalled Consumer Apps",
+  "description": "Removes the comma-separated AppX packages listed in ESR_APPS for all users and from the provisioning store so they do not return for new profiles.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🧽",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "provisioning",
+    "appx",
+    "debloat"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "ESR_APPS",
+        "value": "Microsoft.BingNews,Microsoft.BingWeather,Microsoft.GamingApp,Microsoft.XboxGamingOverlay,Microsoft.ZuneMusic,Microsoft.ZuneVideo,Clipchamp.Clipchamp,Microsoft.MicrosoftSolitaireCollection"
+      }
+    ]
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTaWxlbnRseUNvbnRpbnVlJwokbGlzdCA9ICRlbnY6RVNSX0FQUFMKaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoJGxpc3QpKSB7ICRsaXN0ID0gJ01pY3Jvc29mdC5CaW5nTmV3cyxNaWNyb3NvZnQuQmluZ1dlYXRoZXIsTWljcm9zb2Z0LkdhbWluZ0FwcCcgfQoKJHJlbW92ZWQgPSBAKCkKZm9yZWFjaCAoJG5hbWUgaW4gKCRsaXN0IC1zcGxpdCAnLCcgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlRyaW0oKSB9IHwgV2hlcmUtT2JqZWN0IHsgJF8gfSkpIHsKICAgIEdldC1BcHB4UHJvdmlzaW9uZWRQYWNrYWdlIC1PbmxpbmUgfCBXaGVyZS1PYmplY3QgeyAkXy5EaXNwbGF5TmFtZSAtZXEgJG5hbWUgfSB8IEZvckVhY2gtT2JqZWN0IHsKICAgICAgICBSZW1vdmUtQXBweFByb3Zpc2lvbmVkUGFja2FnZSAtT25saW5lIC1QYWNrYWdlTmFtZSAkXy5QYWNrYWdlTmFtZSB8IE91dC1OdWxsCiAgICAgICAgJHJlbW92ZWQgKz0gJG5hbWUKICAgIH0KICAgIEdldC1BcHB4UGFja2FnZSAtQWxsVXNlcnMgLU5hbWUgJG5hbWUgfCBSZW1vdmUtQXBweFBhY2thZ2UgLUFsbFVzZXJzCn0KCmlmICgkcmVtb3ZlZC5Db3VudCAtZXEgMCkgeyBXcml0ZS1PdXRwdXQgJ05vIGxpc3RlZCBwYWNrYWdlcyBwcmVzZW50JyB9CmVsc2UgeyBXcml0ZS1PdXRwdXQgKCJSZW1vdmVkOiAiICsgKCgkcmVtb3ZlZCB8IFNlbGVjdC1PYmplY3QgLVVuaXF1ZSkgLWpvaW4gJywgJykpIH0KZXhpdCAwCg=="
+}

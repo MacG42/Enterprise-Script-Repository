@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "reboot-required-linux",
+  "type": "sensor",
+  "name": "Reboot Required",
+  "description": "Returns true when the package manager or a kernel update is waiting on a restart, across apt, dnf/yum and zypper hosts.",
+  "version": "1.0.0",
+  "os": "Linux",
+  "icon": "♻️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "patching",
+    "reboot",
+    "compliance"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKaWYgWyAtZiAvdmFyL3J1bi9yZWJvb3QtcmVxdWlyZWQgXSB8fCBbIC1mIC9ydW4vcmVib290LXJlcXVpcmVkIF07IHRoZW4KICBlY2hvICJ0cnVlIjsgZXhpdCAwCmZpCgppZiBjb21tYW5kIC12IG5lZWRzLXJlc3RhcnRpbmcgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbmVlZHMtcmVzdGFydGluZyAtciA+L2Rldi9udWxsIDI+JjEgfHwgeyBlY2hvICJ0cnVlIjsgZXhpdCAwOyB9CmZpCgppZiBjb21tYW5kIC12IHp5cHBlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB6eXBwZXIgLS1xdWlldCBuZWVkcy1yZWJvb3RpbmcgPi9kZXYvbnVsbCAyPiYxIHx8IHsgZWNobyAidHJ1ZSI7IGV4aXQgMDsgfQpmaQoKcnVubmluZz0kKHVuYW1lIC1yKQpuZXdlc3Q9JChscyAtMSAvYm9vdCAyPi9kZXYvbnVsbCB8IHNlZCAtbiAncy9edm1saW51ei0vL3AnIHwgc29ydCAtViB8IHRhaWwgLTEpCmlmIFsgLW4gIiRuZXdlc3QiIF0gJiYgWyAiJG5ld2VzdCIgIT0gIiRydW5uaW5nIiBdOyB0aGVuCiAgZWNobyAidHJ1ZSI7IGV4aXQgMApmaQoKZWNobyAiZmFsc2UiCg=="
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "id": "reset-windows-update-components",
+  "type": "script",
+  "name": "Reset Windows Update Components",
+  "description": "Stops the update services, clears the SoftwareDistribution and catroot2 caches, restarts the services and forces a new detection pass. Fixes stuck or failing Windows Update scans.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "patching",
+    "windows-update",
+    "remediation"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Windows Update",
+      "displayDescription": "Repairs Windows Update when scans fail or downloads are stuck.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTaWxlbnRseUNvbnRpbnVlJwokc2VydmljZXMgPSAnd3VhdXNlcnYnLCdiaXRzJywnY3J5cHRzdmMnCgpmb3JlYWNoICgkcyBpbiAkc2VydmljZXMpIHsgU3RvcC1TZXJ2aWNlIC1OYW1lICRzIC1Gb3JjZSB9CgpSZW1vdmUtSXRlbSAiJGVudjpTeXN0ZW1Sb290XFNvZnR3YXJlRGlzdHJpYnV0aW9uXERvd25sb2FkXCoiIC1SZWN1cnNlIC1Gb3JjZQpSZW1vdmUtSXRlbSAiJGVudjpTeXN0ZW1Sb290XFNvZnR3YXJlRGlzdHJpYnV0aW9uXERhdGFTdG9yZVwqIiAtUmVjdXJzZSAtRm9yY2UKUmVtb3ZlLUl0ZW0gIiRlbnY6U3lzdGVtUm9vdFxTeXN0ZW0zMlxjYXRyb290MlwqIiAtUmVjdXJzZSAtRm9yY2UKCmZvcmVhY2ggKCRzIGluICgkc2VydmljZXNbLTEuLi0zXSkpIHsgU3RhcnQtU2VydmljZSAtTmFtZSAkcyB9ClN0YXJ0LVNsZWVwIC1TZWNvbmRzIDMKCihOZXctT2JqZWN0IC1Db21PYmplY3QgTWljcm9zb2Z0LlVwZGF0ZS5BdXRvVXBkYXRlKS5EZXRlY3ROb3coKQoKV3JpdGUtT3V0cHV0ICdXaW5kb3dzIFVwZGF0ZSBjb21wb25lbnRzIHJlc2V0IC0gZGV0ZWN0aW9uIHRyaWdnZXJlZCcKZXhpdCAwCg=="
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "id": "clear-print-spooler-queue",
+  "type": "script",
+  "name": "Clear Print Spooler Queue",
+  "description": "Stops the spooler, deletes every queued job in the PRINTERS folder and starts the service again. Clears jobs stuck in a deleting or error state.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🖨️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "printing",
+    "spooler",
+    "helpdesk"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Stuck Print Jobs",
+      "displayDescription": "Clears the print queue and restarts the print spooler.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTaWxlbnRseUNvbnRpbnVlJwokcXVldWUgPSAiJGVudjpTeXN0ZW1Sb290XFN5c3RlbTMyXHNwb29sXFBSSU5URVJTIgoKU3RvcC1TZXJ2aWNlIC1OYW1lIFNwb29sZXIgLUZvcmNlCiRjb3VudCA9IEAoR2V0LUNoaWxkSXRlbSAtUGF0aCAkcXVldWUgLUZpbGUpLkNvdW50ClJlbW92ZS1JdGVtIC1QYXRoICIkcXVldWVcKiIgLVJlY3Vyc2UgLUZvcmNlClN0YXJ0LVNlcnZpY2UgLU5hbWUgU3Bvb2xlcgoKV3JpdGUtT3V0cHV0ICJTcG9vbGVyIHJlc3RhcnRlZCAtIGNsZWFyZWQgJGNvdW50IHF1ZXVlZCBmaWxlKHMpIgpleGl0IDAK"
+}

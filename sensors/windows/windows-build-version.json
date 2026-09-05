@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "windows-build-version",
+  "type": "sensor",
+  "name": "Windows Build Version",
+  "description": "Edition, feature release and full build number including the UBR, for example 'Windows 11 Pro 24H2 (26100.1742)'. Gives patch reporting a single accurate version string.",
+  "version": "1.0.0",
+  "os": "Windows",
+  "icon": "🪟",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "inventory",
+    "patching",
+    "os-version"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "dHJ5IHsKICAgICRrZXkgPSAnSEtMTTpcU09GVFdBUkVcTWljcm9zb2Z0XFdpbmRvd3MgTlRcQ3VycmVudFZlcnNpb24nCiAgICAkcCA9IEdldC1JdGVtUHJvcGVydHkgLVBhdGggJGtleSAtRXJyb3JBY3Rpb24gU3RvcAogICAgJHJlbGVhc2UgPSBpZiAoJHAuRGlzcGxheVZlcnNpb24pIHsgJHAuRGlzcGxheVZlcnNpb24gfSBlbHNlIHsgJHAuUmVsZWFzZUlkIH0KICAgIFdyaXRlLU91dHB1dCAoInswfSB7MX0gKHsyfS57M30pIiAtZiAkcC5Qcm9kdWN0TmFtZSwgJHJlbGVhc2UsICRwLkN1cnJlbnRCdWlsZE51bWJlciwgJHAuVUJSKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAndW5rbm93bicKfQo="
+}

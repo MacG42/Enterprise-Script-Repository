@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "free-disk-space-gb-linux",
+  "type": "sensor",
+  "name": "Free Disk Space (GB)",
+  "description": "Whole gigabytes available on the root filesystem. Drives the low-disk smart group used before package upgrades.",
+  "version": "1.0.0",
+  "os": "Linux",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "capacity",
+    "inventory"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKZnJlZV9rYj0kKGRmIC1QayAvIDI+L2Rldi9udWxsIHwgYXdrICdOUj09MiB7cHJpbnQgJDR9JykKaWYgWyAteiAiJGZyZWVfa2IiIF07IHRoZW4gZWNobyAiLTEiOyBleGl0IDA7IGZpCmVjaG8gJCgoIGZyZWVfa2IgLyAxMDQ4NTc2ICkpCg=="
+}

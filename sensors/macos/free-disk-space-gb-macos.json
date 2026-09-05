@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "free-disk-space-gb-macos",
+  "type": "sensor",
+  "name": "Free Disk Space (GB)",
+  "description": "Whole gigabytes available on the boot volume. Identifies Macs that will fail a macOS upgrade for lack of space.",
+  "version": "1.0.0",
+  "os": "macOS",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "capacity",
+    "inventory"
+  ],
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKZnJlZV9rYj0kKC9iaW4vZGYgLVBrIC8gMj4vZGV2L251bGwgfCAvdXNyL2Jpbi9hd2sgJ05SPT0yIHtwcmludCAkNH0nKQppZiBbIC16ICIkZnJlZV9rYiIgXTsgdGhlbiBlY2hvICItMSI7IGV4aXQgMDsgZmkKZWNobyAkKCggZnJlZV9rYiAvIDEwNDg1NzYgKSkK"
+}
