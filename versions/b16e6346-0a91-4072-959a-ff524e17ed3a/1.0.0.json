@@ -5,7 +5,7 @@
   "type": "sensor",
   "name": "Distribution Name",
   "description": "The PRETTY_NAME from /etc/os-release, for example 'Ubuntu 24.04.2 LTS'. Groups a mixed Linux estate by distribution and release.",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "release": "production",
   "os": "Linux",
   "icon": "🐧",
@@ -14,13 +14,12 @@
     "inventory",
     "os-version"
   ],
-  "created": "2026-09-05T08:18:52+00:00",
-  "modified": "2026-09-05T18:30:42.4735004+00:00",
+  "created": "2026-09-05T08:18:52Z",
+  "modified": "2026-09-05T08:18:52Z",
   "workspaceOne": {
     "language": "BASH",
     "executionContext": "SYSTEM",
-    "responseDataType": "STRING",
-    "variables": []
+    "responseDataType": "STRING"
   },
-  "codeBase64": "IyEvYmluL2Jhc2gKaWYgWyAtciAvZXRjL29zLXJlbGVhc2UgXTsgdGhlbgogIC4gL2V0Yy9vcy1yZWxlYXNlCiAgZWNobyAiJHtQUkVUVFlfTkFNRTotJHtOQU1FOi11bmtub3dufX0iCmVsc2UKICB1bmFtZSAtc3IKZmkKI3Yy"
+  "codeBase64": "IyEvYmluL2Jhc2gKaWYgWyAtciAvZXRjL29zLXJlbGVhc2UgXTsgdGhlbgogIC4gL2V0Yy9vcy1yZWxlYXNlCiAgZWNobyAiJHtQUkVUVFlfTkFNRTotJHtOQU1FOi11bmtub3dufX0iCmVsc2UKICB1bmFtZSAtc3IKZmkK"
 }
