@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "32a405b6-0182-44f3-8c14-b35fdce98d84",
+  "slug": "disable-ipv6-linux",
+  "type": "script",
+  "name": "Disable IPv6",
+  "description": "Delivery: packaged post-install. Turns IPv6 off through sysctl and persists it. A blunt instrument, and the right one where a legacy VPN or an internal service breaks the moment a host prefers IPv6.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🕳️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "ipv6",
+    "network",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWlwdjYtbGludXgubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpjdXI9JChzeXNjdGwgLW4gbmV0LmlwdjYuY29uZi5hbGwuZGlzYWJsZV9pcHY2IDI+L2Rldi9udWxsKQppZiBbICIkY3VyIiA9ICIxIiBdOyB0aGVuIGxvZyAiSVB2NiBpcyBhbHJlYWR5IGRpc2FibGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmlmIGlwIC02IHJvdXRlIHNob3cgZGVmYXVsdCAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgImRlZmF1bHQiOyB0aGVuCiAgbG9nICJUaGVyZSBpcyBhbiBJUHY2IGRlZmF1bHQgcm91dGUgaW4gdXNlIC0gY2hlY2sgdGhpcyBob3N0IGRvZXMgbm90IGRlcGVuZCBvbiBpdCIKZmkKbWtkaXIgLXAgL2V0Yy9zeXNjdGwuZCAyPi9kZXYvbnVsbAp7CiAgcHJpbnRmICclc1xuJyAibmV0LmlwdjYuY29uZi5hbGwuZGlzYWJsZV9pcHY2ID0gMSIKICBwcmludGYgJyVzXG4nICJuZXQuaXB2Ni5jb25mLmRlZmF1bHQuZGlzYWJsZV9pcHY2ID0gMSIKICBwcmludGYgJyVzXG4nICJuZXQuaXB2Ni5jb25mLmxvLmRpc2FibGVfaXB2NiA9IDEiCn0gPiAvZXRjL3N5c2N0bC5kLzYwLWVzci1ub2lwdjYuY29uZgpzeXNjdGwgLXAgL2V0Yy9zeXNjdGwuZC82MC1lc3Itbm9pcHY2LmNvbmYgPi9kZXYvbnVsbCAyPiYxCmE9JChzeXNjdGwgLW4gbmV0LmlwdjYuY29uZi5hbGwuZGlzYWJsZV9pcHY2IDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMSIgXTsgdGhlbiBsb2cgIklQdjYgZGlzYWJsZWQgYW5kIHBlcnNpc3RlZCI7IGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6fae8844-47d3-40cf-8cb3-cdfa5d840e08",
+  "slug": "remote-login-enabled",
+  "type": "sensor",
+  "name": "Remote Login SSH Enabled",
+  "description": "Console sensor name: remote_login_enabled. True when SSH remote login is accepting connections. Inbound SSH on a laptop fleet is nearly always unintended and is a straightforward lateral movement path.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ssh",
+    "remotelogin",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3lzdGVtc2V0dXAgLWdldHJlbW90ZWxvZ2luIDI+L2Rldi9udWxsKQpjYXNlICIkdiIgaW4KICAqT24qKSBlY2hvICJ0cnVlIiA7OwogICopIGVjaG8gImZhbHNlIiA7Owplc2FjCg=="
+}

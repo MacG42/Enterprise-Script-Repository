@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "66d72b5f-cfd8-4e79-afbd-edbb262bdd16",
+  "slug": "expired-machine-certificates",
+  "type": "sensor",
+  "name": "Expired Machine Certificates",
+  "description": "Console sensor name: expired_machine_certificates. How many expired certificates are still sitting in the machine personal store. They do not break anything on their own but they are what makes certificate troubleshooting take an hour.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "certificates",
+    "pki",
+    "cleanup",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjID0gQChHZXQtQ2hpbGRJdGVtIC1QYXRoICdDZXJ0OlxMb2NhbE1hY2hpbmVcTXknIC1FcnJvckFjdGlvbiBTdG9wIHwgV2hlcmUtT2JqZWN0IHsgJF8uTm90QWZ0ZXIgLWx0IChHZXQtRGF0ZSkgfSkKICAgIFdyaXRlLU91dHB1dCAoW2ludF0kYy5Db3VudCkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fbdb89ae-e788-4757-b746-04f2fe25f159",
+  "slug": "activation-lock-enabled",
+  "type": "sensor",
+  "name": "Activation Lock Enabled",
+  "description": "Console sensor name: activation_lock_enabled. True when Activation Lock is on. On a corporate device this blocks reprovisioning unless the bypass code was escrowed, so it is worth finding before the device comes back from a leaver rather than after.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "activationlock",
+    "lifecycle",
+    "hardware",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChzeXN0ZW1fcHJvZmlsZXIgU1BIYXJkd2FyZURhdGFUeXBlIDI+L2Rldi9udWxsIHwgZ3JlcCAtaSAiQWN0aXZhdGlvbiBMb2NrIFN0YXR1cyIpCmNhc2UgIiRvdXQiIGluCiAgKltFZV1uYWJsZWQqKSBlY2hvICJ0cnVlIiA7OwogICopIGVjaG8gImZhbHNlIiA7Owplc2FjCg=="
+}

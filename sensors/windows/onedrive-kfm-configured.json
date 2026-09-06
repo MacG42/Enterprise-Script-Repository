@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c0c804ed-1d75-43d6-bbb3-bf286c3023b2",
+  "slug": "onedrive-kfm-configured",
+  "type": "sensor",
+  "name": "OneDrive Known Folder Move Configured",
+  "description": "Console sensor name: onedrive_kfm_configured. True when Known Folder Move policy is set on the device. Without it, Desktop and Documents are not backed up, which is the difference between a re-image and a data loss incident.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "☁️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "onedrive",
+    "backup",
+    "kfm",
+    "policy"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXFBvbGljaWVzXE1pY3Jvc29mdFxPbmVEcml2ZScKICAgICRwID0gR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRvbiA9ICgtbm90IFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoW3N0cmluZ10kcC5LRk1TaWxlbnRPcHRJbikpIC1vcgogICAgICAgICAgKCRudWxsIC1uZSAkcC5LRk1PcHRJbldpdGhXaXphcmQpIC1vcgogICAgICAgICAgKCRudWxsIC1uZSAkcC5LRk1CbG9ja09wdE91dCAtYW5kIFtpbnRdJHAuS0ZNQmxvY2tPcHRPdXQgLWVxIDEpCiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSRvbikKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

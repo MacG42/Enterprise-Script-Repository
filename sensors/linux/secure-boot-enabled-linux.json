@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "cf4beec2-bbd9-47c1-b03f-e68b6ca8323a",
+  "slug": "secure-boot-enabled-linux",
+  "type": "sensor",
+  "name": "Secure Boot Enabled",
+  "description": "Console sensor name: secure_boot_enabled. True when UEFI Secure Boot is active. False on a BIOS system as well as on a UEFI system with it turned off, so read it alongside the firmware mode rather than on its own.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "secureboot",
+    "uefi",
+    "firmware",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgY29tbWFuZCAtdiBtb2t1dGlsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG1va3V0aWwgLS1zYi1zdGF0ZSAyPi9kZXYvbnVsbCB8IGdyZXAgLXFpICJTZWN1cmVCb290IGVuYWJsZWQiICYmIHsgZWNobyAidHJ1ZSI7IGV4aXQgMDsgfQpmaQpmPSQobHMgL3N5cy9maXJtd2FyZS9lZmkvZWZpdmFycy9TZWN1cmVCb290LSogMj4vZGV2L251bGwgfCBoZWFkIC0xKQppZiBbIC1uICIkZiIgXTsgdGhlbgogIHY9JChvZCAtQW4gLXQgdTEgIiRmIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICRORn0nKQogIGlmIFsgIiR2IiA9ICIxIiBdOyB0aGVuIGVjaG8gInRydWUiOyBleGl0IDA7IGZpCmZpCmVjaG8gImZhbHNlIgo="
+}

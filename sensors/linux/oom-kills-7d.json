@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dc05d33b-f3c8-406c-8009-e3e783f539a9",
+  "slug": "oom-kills-7d",
+  "type": "sensor",
+  "name": "Out Of Memory Kills In 7 Days",
+  "description": "Console sensor name: oom_kills_7d. Number of times the kernel killed a process to reclaim memory in the last week. A single event explains a service that vanished without a crash report.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💀",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "oom",
+    "reliability",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmlmIGNvbW1hbmQgLXYgam91cm5hbGN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQoam91cm5hbGN0bCAtayAtLXNpbmNlICI3IGRheXMgYWdvIiAtLW5vLXBhZ2VyIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiT3V0IG9mIG1lbW9yeTogS2lsbCIpCmVsaWYgWyAtciAvdmFyL2xvZy9tZXNzYWdlcyBdOyB0aGVuCiAgbj0kKGdyZXAgLWMgIk91dCBvZiBtZW1vcnk6IEtpbGwiIC92YXIvbG9nL21lc3NhZ2VzIDI+L2Rldi9udWxsKQplbGlmIFsgLXIgL3Zhci9sb2cvc3lzbG9nIF07IHRoZW4KICBuPSQoZ3JlcCAtYyAiT3V0IG9mIG1lbW9yeTogS2lsbCIgL3Zhci9sb2cvc3lzbG9nIDI+L2Rldi9udWxsKQpmaQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

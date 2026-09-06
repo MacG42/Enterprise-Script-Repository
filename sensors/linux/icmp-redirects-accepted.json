@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7518e3ad-2544-46ca-9efe-1ec25a67fe76",
+  "slug": "icmp-redirects-accepted",
+  "type": "sensor",
+  "name": "ICMP Redirects Accepted",
+  "description": "Console sensor name: icmp_redirects_accepted. True when the kernel will accept an ICMP redirect and change its routing table. An old default that lets anyone on the local segment steer this device's traffic.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "↔️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "icmp",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgpbIC1yIC9wcm9jL3N5cy9uZXQvaXB2NC9jb25mL2FsbC9hY2NlcHRfcmVkaXJlY3RzIF0gJiYgdj0kKGNhdCAvcHJvYy9zeXMvbmV0L2lwdjQvY29uZi9hbGwvYWNjZXB0X3JlZGlyZWN0cyAyPi9kZXYvbnVsbCkKaWYgWyAiJHYiID0gIjEiIF07IHRoZW4gZWNobyAidHJ1ZSI7IGVsc2UgZWNobyAiZmFsc2UiOyBmaQo="
+}

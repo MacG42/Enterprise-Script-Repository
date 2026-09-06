@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7d7fdbb5-2ab6-4d50-a750-6e6249e8112f",
+  "slug": "remove-machine-proxy-configuration",
+  "type": "script",
+  "name": "Remove Machine Proxy Configuration",
+  "description": "Resets the WinHTTP proxy to direct access and removes a machine-wide Internet Settings proxy policy. Use when a decommissioned proxy is breaking Hub check-in or Windows Update. Per-user browser proxies are not touched - those live in each user's hive.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "proxy",
+    "network",
+    "connectivity",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Reset Proxy Settings",
+      "displayDescription": "Clears a stale machine proxy that blocks corporate services.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlbW92ZS1tYWNoaW5lLXByb3h5LWNvbmZpZ3VyYXRpb24ubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTT0ZUV0FSRVxQb2xpY2llc1xNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxJbnRlcm5ldCBTZXR0aW5ncycKICAgICRvdXQgPSAoJiBuZXRzaCB3aW5odHRwIHNob3cgcHJveHkgMj4mMSB8IE91dC1TdHJpbmcpCiAgICAkd2luaHR0cCA9ICgkb3V0IC1ub3RtYXRjaCAnRGlyZWN0IGFjY2VzcycpCiAgICAkcG9sID0gR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRwb2xpY3kgPSAoJG51bGwgLW5lICRwb2wgLWFuZCAoJG51bGwgLW5lICRwb2wuUHJveHlTZXJ2ZXIgLW9yICRudWxsIC1uZSAkcG9sLlByb3h5RW5hYmxlKSkKICAgIGlmICgtbm90ICR3aW5odHRwIC1hbmQgLW5vdCAkcG9saWN5KSB7IFdyaXRlLUxvZyAnTm8gbWFjaGluZSBwcm94eSBjb25maWd1cmVkLCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgaWYgKCR3aW5odHRwKSB7CiAgICAgICAgV3JpdGUtTG9nICgnV2luSFRUUCBwcm94eSB3YXM6ICcgKyAoJG91dC5UcmltKCkgLXJlcGxhY2UgJ1xzKycsICcgJykpCiAgICAgICAgJiBuZXRzaCB3aW5odHRwIHJlc2V0IHByb3h5IHwgT3V0LU51bGwKICAgIH0KICAgIGlmICgkcG9saWN5KSB7CiAgICAgICAgV3JpdGUtTG9nICgnUmVtb3ZpbmcgSW50ZXJuZXQgU2V0dGluZ3MgcG9saWN5IHByb3h5OiAnICsgW3N0cmluZ10kcG9sLlByb3h5U2VydmVyKQogICAgICAgIGZvcmVhY2ggKCRuIGluIEAoJ1Byb3h5U2VydmVyJywgJ1Byb3h5RW5hYmxlJywgJ1Byb3h5T3ZlcnJpZGUnLCAnQXV0b0NvbmZpZ1VSTCcpKSB7CiAgICAgICAgICAgIFJlbW92ZS1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICRuIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgfQogICAgfQogICAgJGFmdGVyID0gKCYgbmV0c2ggd2luaHR0cCBzaG93IHByb3h5IDI+JjEgfCBPdXQtU3RyaW5nKQogICAgaWYgKCRhZnRlciAtbWF0Y2ggJ0RpcmVjdCBhY2Nlc3MnKSB7IFdyaXRlLUxvZyAnTWFjaGluZSBwcm94eSBjbGVhcmVkJzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

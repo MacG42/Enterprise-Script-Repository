@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dc674237-e626-44e0-a1eb-2465788480ea",
+  "slug": "vpn-configuration-count",
+  "type": "sensor",
+  "name": "VPN Configuration Count",
+  "description": "Console sensor name: vpn_configuration_count. Number of network extension VPN configurations present. Zero on a fleet that is meant to have a client, or several on a device that should have one, are both worth chasing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "vpn",
+    "network",
+    "connectivity",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQoc2N1dGlsIC0tbmMgbGlzdCAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgIl5cKiAiKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

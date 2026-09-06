@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f3fcfa74-a5bd-47e7-980e-d292dca2ba8c",
+  "slug": "chrome-browser-version",
+  "type": "sensor",
+  "name": "Chrome Browser Version",
+  "description": "Console sensor name: chrome_browser_version. File version of the installed Google Chrome binary, or NotInstalled. Chrome that has not moved in weeks usually means the updater task was disabled or the device is off the network Google needs.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "browser",
+    "chrome",
+    "version",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwYXRocyA9IEAoCiAgICAgICAgKEpvaW4tUGF0aCAke2VudjpQcm9ncmFtRmlsZXMoeDg2KX0gJ0dvb2dsZVxDaHJvbWVcQXBwbGljYXRpb25cY2hyb21lLmV4ZScpLAogICAgICAgIChKb2luLVBhdGggJGVudjpQcm9ncmFtRmlsZXMgJ0dvb2dsZVxDaHJvbWVcQXBwbGljYXRpb25cY2hyb21lLmV4ZScpCiAgICApCiAgICAkZXhlID0gQCgkcGF0aHMgfCBXaGVyZS1PYmplY3QgeyAkXyAtYW5kIChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRfKSB9KSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKICAgIGlmICgkbnVsbCAtZXEgJGV4ZSkgeyBXcml0ZS1PdXRwdXQgJ05vdEluc3RhbGxlZCcgfQogICAgZWxzZSB7IFdyaXRlLU91dHB1dCAoW3N0cmluZ10oR2V0LUl0ZW0gLUxpdGVyYWxQYXRoICRleGUpLlZlcnNpb25JbmZvLlByb2R1Y3RWZXJzaW9uKS5UcmltKCkgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

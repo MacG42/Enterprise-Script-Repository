@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "54732562-b84d-4f03-ae69-403f2b89ba1d",
+  "slug": "enable-touchid-for-sudo",
+  "type": "script",
+  "name": "Enable Touch ID For Sudo",
+  "description": "Adds the Touch ID PAM module through the sudo_local file, which survives OS upgrades unlike editing the main sudo PAM file. Skips devices with no Touch ID sensor.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👆",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "sudo",
+    "touchid",
+    "pam",
+    "usability"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVuYWJsZS10b3VjaGlkLWZvci1zdWRvLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBiaW91dGlsIC1yID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAiTm8gYmlvbWV0cmljIHNlbnNvciBhdmFpbGFibGUgb24gdGhpcyBkZXZpY2UiCiAgZXhpdCAxMApmaQpmPSIvZXRjL3BhbS5kL3N1ZG9fbG9jYWwiCmlmIGdyZXAgLXFzICJwYW1fdGlkLnNvIiAiJGYiIDI+L2Rldi9udWxsOyB0aGVuIGxvZyAiQWxyZWFkeSBjb25maWd1cmVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnByaW50ZiAnJXNcbicgImF1dGggICAgICAgc3VmZmljaWVudCAgICAgcGFtX3RpZC5zbyIgPiAiJGYiIDI+L2Rldi9udWxsCmNobW9kIDQ0NCAiJGYiIDI+L2Rldi9udWxsCmlmIGdyZXAgLXFzICJwYW1fdGlkLnNvIiAiJGYiIDI+L2Rldi9udWxsOyB0aGVuCiAgbG9nICJUb3VjaCBJRCBlbmFibGVkIGZvciBzdWRvIHZpYSAkZiIKICBleGl0IDAKZmkKbG9nICJDb3VsZCBub3Qgd3JpdGUgJGYiCmV4aXQgMjAK"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bac6ded8-8095-4e4b-95a5-a46257cbff9c",
+  "slug": "disable-airdrop",
+  "type": "script",
+  "name": "Disable AirDrop",
+  "description": "Blocks AirDrop at machine scope and for each existing user. A simple data-movement control on fleets where file sharing is meant to go through managed storage.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "airdrop",
+    "dlp",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtYWlyZHJvcC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCm09JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5OZXR3b3JrQnJvd3NlciBEaXNhYmxlQWlyRHJvcCAyPi9kZXYvbnVsbCkKaWYgWyAiJG0iID0gIjEiIF07IHRoZW4gbG9nICJBbHJlYWR5IGRpc2FibGVkIGF0IG1hY2hpbmUgc2NvcGUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJEaXNhYmxlQWlyRHJvcCB3YXMgJG0sIHNldHRpbmciCmRlZmF1bHRzIHdyaXRlIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5OZXR3b3JrQnJvd3NlciBEaXNhYmxlQWlyRHJvcCAtYm9vbCB0cnVlIDI+L2Rldi9udWxsCmZvciBoIGluIC9Vc2Vycy8qOyBkbwogIFsgLWQgIiRoIiBdIHx8IGNvbnRpbnVlCiAgY2FzZSAiJGgiIGluICovU2hhcmVkfCovR3Vlc3QpIGNvbnRpbnVlIDs7IGVzYWMKICB1PSQoYmFzZW5hbWUgIiRoIikKICBpZCAiJHUiID4vZGV2L251bGwgMj4mMSB8fCBjb250aW51ZQogIHN1ZG8gLXUgIiR1IiBkZWZhdWx0cyB3cml0ZSBjb20uYXBwbGUuTmV0d29ya0Jyb3dzZXIgRGlzYWJsZUFpckRyb3AgLWJvb2wgdHJ1ZSAyPi9kZXYvbnVsbApkb25lCmE9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5OZXR3b3JrQnJvd3NlciBEaXNhYmxlQWlyRHJvcCAyPi9kZXYvbnVsbCkKaWYgWyAiJGEiID0gIjEiIF07IHRoZW4gbG9nICJBaXJEcm9wIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

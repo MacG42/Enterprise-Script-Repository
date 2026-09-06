@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "138f6842-205f-4614-a481-92f093b7cdbf",
+  "slug": "windows-activation-status",
+  "type": "sensor",
+  "name": "Windows Activation Status",
+  "description": "Console sensor name: windows_activation_status. Closed set: Licensed, OutOfGrace, Notification, Unlicensed, Other. Reads the Windows operating-system licence only, so an Office licence state cannot skew the reading.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "licensing",
+    "activation",
+    "compliance",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgU29mdHdhcmVMaWNlbnNpbmdQcm9kdWN0IC1GaWx0ZXIgIkFwcGxpY2F0aW9uSUQ9JzU1YzkyNzM0LWQ2ODItNGQ3MS05ODNlLWQ2ZWMzZjE2MDU5ZicgQU5EIFBhcnRpYWxQcm9kdWN0S2V5IElTIE5PVCBOVUxMIiB8CiAgICAgICAgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgaWYgKCRudWxsIC1lcSAkcCkgeyBXcml0ZS1PdXRwdXQgJ1VubGljZW5zZWQnIH0KICAgIGVsc2UgewogICAgICAgIHN3aXRjaCAoW2ludF0kcC5MaWNlbnNlU3RhdHVzKSB7CiAgICAgICAgICAgIDEgeyBXcml0ZS1PdXRwdXQgJ0xpY2Vuc2VkJyB9CiAgICAgICAgICAgIDAgeyBXcml0ZS1PdXRwdXQgJ1VubGljZW5zZWQnIH0KICAgICAgICAgICAgNSB7IFdyaXRlLU91dHB1dCAnTm90aWZpY2F0aW9uJyB9CiAgICAgICAgICAgIDMgeyBXcml0ZS1PdXRwdXQgJ091dE9mR3JhY2UnIH0KICAgICAgICAgICAgZGVmYXVsdCB7IFdyaXRlLU91dHB1dCAnT3RoZXInIH0KICAgICAgICB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

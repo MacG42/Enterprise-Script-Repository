@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9f674551-a9ba-45f4-acac-eaf44d554ca3",
+  "slug": "remove-stale-wireless-profiles",
+  "type": "script",
+  "name": "Remove Stale Wireless Profiles",
+  "description": "Deletes all-user wireless profiles that are not on the keep list, so a device stops preferring a guest or hotel SSID over the corporate one. Set esr_wifi_keep to a comma-separated list of SSIDs to retain; anything not listed is removed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📶",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "wireless",
+    "wifi",
+    "network",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_wifi_keep",
+        "value": "CorpWiFi,CorpWiFi-Guest"
+      }
+    ]
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlbW92ZS1zdGFsZS13aXJlbGVzcy1wcm9maWxlcy5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRrZWVwUmF3ID0gJyRlc3Jfd2lmaV9rZWVwJCcKICAgIGlmICgka2VlcFJhdyAtbGlrZSAnKmVzcl93aWZpX2tlZXAqJykgeyBXcml0ZS1Mb2cgJ0tlZXAgbGlzdCB2YXJpYWJsZSBub3Qgc3VwcGxpZWQsIHJlZnVzaW5nIHRvIHJlbW92ZSBhbnl0aGluZyc7IGV4aXQgMTAgfQogICAgJGtlZXAgPSBAKCRrZWVwUmF3IC1zcGxpdCAnLCcgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlRyaW0oKSB9IHwgV2hlcmUtT2JqZWN0IHsgJF8gLW5lICcnIH0pCiAgICBpZiAoJGtlZXAuQ291bnQgLWVxIDApIHsgV3JpdGUtTG9nICdLZWVwIGxpc3QgaXMgZW1wdHksIHJlZnVzaW5nIHRvIHJlbW92ZSBhbnl0aGluZyc7IGV4aXQgMTAgfQogICAgJGxpbmVzID0gQCgmIG5ldHNoIHdsYW4gc2hvdyBwcm9maWxlcyAyPiRudWxsIHwgU2VsZWN0LVN0cmluZyAtUGF0dGVybiAnQWxsIFVzZXIgUHJvZmlsZScpCiAgICBpZiAoJGxpbmVzLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAnTm8gYWxsLXVzZXIgd2lyZWxlc3MgcHJvZmlsZXMgcHJlc2VudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRyZW1vdmVkID0gMAogICAgZm9yZWFjaCAoJGwgaW4gJGxpbmVzKSB7CiAgICAgICAgJG5hbWUgPSAoJGwuVG9TdHJpbmcoKSAtc3BsaXQgJzonLCAyKVsxXQogICAgICAgIGlmICgkbnVsbCAtZXEgJG5hbWUpIHsgY29udGludWUgfQogICAgICAgICRuYW1lID0gJG5hbWUuVHJpbSgpCiAgICAgICAgaWYgKCRuYW1lIC1lcSAnJykgeyBjb250aW51ZSB9CiAgICAgICAgaWYgKCRrZWVwIC1jb250YWlucyAkbmFtZSkgeyBjb250aW51ZSB9CiAgICAgICAgJiBuZXRzaCB3bGFuIGRlbGV0ZSBwcm9maWxlIG5hbWU9IiRuYW1lIiB8IE91dC1OdWxsCiAgICAgICAgV3JpdGUtTG9nICgnUmVtb3ZlZCB3aXJlbGVzcyBwcm9maWxlICcgKyAkbmFtZSkKICAgICAgICAkcmVtb3ZlZCsrCiAgICB9CiAgICBpZiAoJHJlbW92ZWQgLWVxIDApIHsgV3JpdGUtTG9nICdOb3RoaW5nIG91dHNpZGUgdGhlIGtlZXAgbGlzdCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ1JlbW92ZWQgJyArICRyZW1vdmVkICsgJyBwcm9maWxlKHMpJykKICAgIGV4aXQgMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

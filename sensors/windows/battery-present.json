@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "69e2daba-b273-4fb6-bbad-dc57b6b75c4e",
+  "slug": "battery-present",
+  "type": "sensor",
+  "name": "Battery Present",
+  "description": "Console sensor name: battery_present. True when the device reports a battery. Ship this alongside every other battery sensor so desktops answer 'not applicable' here instead of polluting a health or cycle-count average.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔋",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "hardware",
+    "inventory",
+    "power"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRiID0gQChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9CYXR0ZXJ5IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKQogICAgV3JpdGUtT3V0cHV0IChbYm9vbF0oJGIuQ291bnQgLWd0IDApKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7cdce4be-b773-40aa-8fe8-3024f0f014ab",
+  "slug": "reset-network-stack",
+  "type": "script",
+  "name": "Reset Winsock And TCP/IP Stack",
+  "description": "Resets the Winsock catalog and the IPv4 and IPv6 stacks, which clears a layered service provider or a corrupt TCP/IP registry branch. The change only takes effect at the next restart - the script reports that and does not reboot.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "winsock",
+    "tcpip",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlc2V0LW5ldHdvcmstc3RhY2subG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkd3MgPSAoJiBuZXRzaCB3aW5zb2NrIHJlc2V0IDI+JjEgfCBPdXQtU3RyaW5nKQogICAgV3JpdGUtTG9nICgnd2luc29jayByZXNldDogJyArICgkd3MuVHJpbSgpIC1yZXBsYWNlICdccysnLCAnICcpKQogICAgJGlwNCA9ICgmIG5ldHNoIGludCBpcHY0IHJlc2V0IDI+JjEgfCBPdXQtU3RyaW5nKQogICAgV3JpdGUtTG9nICgnaXB2NCByZXNldDogJyArICgkaXA0LlRyaW0oKSAtcmVwbGFjZSAnXHMrJywgJyAnKSkKICAgICRpcDYgPSAoJiBuZXRzaCBpbnQgaXB2NiByZXNldCAyPiYxIHwgT3V0LVN0cmluZykKICAgIFdyaXRlLUxvZyAoJ2lwdjYgcmVzZXQ6ICcgKyAoJGlwNi5UcmltKCkgLXJlcGxhY2UgJ1xzKycsICcgJykpCiAgICBpZiAoJHdzIC1tYXRjaCAncmVzZXQnIC1vciAkd3MgLW1hdGNoICdTdWNlc3NmdWxseScgLW9yICR3cyAtbWF0Y2ggJ1N1Y2Nlc3NmdWxseScpIHsKICAgICAgICBXcml0ZS1Mb2cgJ1N0YWNrIHJlc2V0IHF1ZXVlZCAtIGEgcmVzdGFydCBpcyByZXF1aXJlZCBiZWZvcmUgaXQgdGFrZXMgZWZmZWN0JwogICAgICAgIGV4aXQgMAogICAgfQogICAgV3JpdGUtTG9nICduZXRzaCBkaWQgbm90IGNvbmZpcm0gdGhlIHJlc2V0JwogICAgZXhpdCAyMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

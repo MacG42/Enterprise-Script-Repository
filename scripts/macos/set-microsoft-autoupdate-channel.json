@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8382de1d-1e95-4f61-8ace-4158f6eb14c4",
+  "slug": "set-microsoft-autoupdate-channel",
+  "type": "script",
+  "name": "Set Microsoft AutoUpdate Channel",
+  "description": "Sets the Microsoft AutoUpdate channel to the value in esr_mau_channel and turns automatic download on. Valid channels are Current, Preview, Beta and InsiderFast.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "office",
+    "m365",
+    "patching",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_mau_channel",
+        "value": "Current"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1taWNyb3NvZnQtYXV0b3VwZGF0ZS1jaGFubmVsLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKYz0nJGVzcl9tYXVfY2hhbm5lbCQnCmNhc2UgIiRjIiBpbgogICplc3JfbWF1X2NoYW5uZWwqfCcnKSBjPSJDdXJyZW50IiA7Owplc2FjCmNhc2UgIiRjIiBpbgogIEN1cnJlbnR8UHJldmlld3xCZXRhfEluc2lkZXJGYXN0KSA6IDs7CiAgKikgbG9nICJOb3QgYSB2YWxpZCBjaGFubmVsOiAkYyI7IGV4aXQgMTAgOzsKZXNhYwpwPSIvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20ubWljcm9zb2Z0LmF1dG91cGRhdGUyIgpjdXI9JChkZWZhdWx0cyByZWFkICIkcCIgQ2hhbm5lbE5hbWUgMj4vZGV2L251bGwpCmlmIFsgIiRjdXIiID0gIiRjIiBdOyB0aGVuIGxvZyAiQWxyZWFkeSBvbiB0aGUgJGMgY2hhbm5lbCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkNoYW5uZWwgd2FzICRjdXIsIHNldHRpbmcgdG8gJGMiCmRlZmF1bHRzIHdyaXRlICIkcCIgQ2hhbm5lbE5hbWUgLXN0cmluZyAiJGMiIDI+L2Rldi9udWxsCmRlZmF1bHRzIHdyaXRlICIkcCIgSG93VG9DaGVjayAtc3RyaW5nICJBdXRvbWF0aWNEb3dubG9hZCIgMj4vZGV2L251bGwKZGVmYXVsdHMgd3JpdGUgIiRwIiBBdXRvbWF0aWNEb3dubG9hZCAtYm9vbCB0cnVlIDI+L2Rldi9udWxsCmE9JChkZWZhdWx0cyByZWFkICIkcCIgQ2hhbm5lbE5hbWUgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICIkYyIgXTsgdGhlbiBsb2cgIkNoYW5uZWwgc2V0IHRvICRjIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

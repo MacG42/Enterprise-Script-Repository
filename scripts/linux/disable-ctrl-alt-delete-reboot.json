@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bffc9e1f-2f0c-419d-a908-dcb4c2559516",
+  "slug": "disable-ctrl-alt-delete-reboot",
+  "type": "script",
+  "name": "Disable Ctrl-Alt-Delete Reboot",
+  "description": "Delivery: packaged post-install. Masks the systemd target that reboots the host on Ctrl-Alt-Delete at the console. On a shared or rack-mounted machine that key combination is an outage waiting for an elbow.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🚫",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "systemd",
+    "console",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWN0cmwtYWx0LWRlbGV0ZS1yZWJvb3QubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiAhIGNvbW1hbmQgLXYgc3lzdGVtY3RsID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgInN5c3RlbWQgaXMgbm90IHRoZSBpbml0IHN5c3RlbSBoZXJlIjsgZXhpdCAxMDsgZmkKcz0kKHN5c3RlbWN0bCBpcy1lbmFibGVkIGN0cmwtYWx0LWRlbC50YXJnZXQgMj4vZGV2L251bGwpCmlmIFsgIiRzIiA9ICJtYXNrZWQiIF07IHRoZW4gbG9nICJBbHJlYWR5IG1hc2tlZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgImN0cmwtYWx0LWRlbC50YXJnZXQgd2FzICRzLCBtYXNraW5nIgpzeXN0ZW1jdGwgbWFzayBjdHJsLWFsdC1kZWwudGFyZ2V0ID4vZGV2L251bGwgMj4mMQpzeXN0ZW1jdGwgZGFlbW9uLXJlbG9hZCA+L2Rldi9udWxsIDI+JjEKYT0kKHN5c3RlbWN0bCBpcy1lbmFibGVkIGN0cmwtYWx0LWRlbC50YXJnZXQgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICJtYXNrZWQiIF07IHRoZW4gbG9nICJDdHJsLUFsdC1EZWxldGUgcmVib290IGRpc2FibGVkIjsgZXhpdCAwOyBmaQpsb2cgIlN0aWxsIHJlcG9ydHMgJGEiCmV4aXQgMzAK"
+}

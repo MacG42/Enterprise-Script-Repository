@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d7e93497-b098-4b44-9b64-3542a10433c0",
+  "slug": "restart-display-manager",
+  "type": "script",
+  "name": "Restart The Display Manager",
+  "description": "Delivery: ad hoc. Restarts the graphical login manager, which recovers a host stuck at a blank or frozen login screen. Refuses to run while anyone has a graphical session, because it ends those sessions.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "desktop",
+    "displaymanager",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZXN0YXJ0LWRpc3BsYXktbWFuYWdlci5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmICEgY29tbWFuZCAtdiBzeXN0ZW1jdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAic3lzdGVtZCBpcyBub3QgdGhlIGluaXQgc3lzdGVtIGhlcmUiOyBleGl0IDEwOyBmaQp1PSIiCmZvciBjIGluIGdkbSBnZG0zIGxpZ2h0ZG0gc2RkbSB4ZG07IGRvCiAgc3lzdGVtY3RsIGxpc3QtdW5pdC1maWxlcyAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgIl4kYy5zZXJ2aWNlIiAmJiB1PSIkYyIgJiYgYnJlYWsKZG9uZQppZiBbIC16ICIkdSIgXTsgdGhlbiBsb2cgIk5vIGRpc3BsYXkgbWFuYWdlciB1bml0IGZvdW5kIjsgZXhpdCAxMDsgZmkKc2Vzc2lvbnM9JCh3aG8gMj4vZGV2L251bGwgfCBncmVwIC1jICIoOiIpCmNhc2UgIiRzZXNzaW9ucyIgaW4gJyd8KlshMC05XSopIHNlc3Npb25zPTAgOzsgZXNhYwppZiBbICIkc2Vzc2lvbnMiIC1ndCAwIF07IHRoZW4KICBsb2cgIiRzZXNzaW9ucyBncmFwaGljYWwgc2Vzc2lvbihzKSBhY3RpdmUgLSByZWZ1c2luZyB0byByZXN0YXJ0ICR1IgogIGV4aXQgMTAKZmkKbG9nICJSZXN0YXJ0aW5nICR1IgpzeXN0ZW1jdGwgcmVzdGFydCAiJHUiID4vZGV2L251bGwgMj4mMQpzbGVlcCAxNQppZiBzeXN0ZW1jdGwgaXMtYWN0aXZlICIkdSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiJHUgaXMgcnVubmluZyBhZnRlciB0aGUgcmVzdGFydCI7IGV4aXQgMDsgZmkKbG9nICIkdSBkaWQgbm90IGNvbWUgYmFjayIKZXhpdCAzMAo="
+}

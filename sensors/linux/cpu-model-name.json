@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "934b7994-4046-4771-a8c7-06a366f2d262",
+  "slug": "cpu-model-name",
+  "type": "sensor",
+  "name": "CPU Model Name",
+  "description": "Console sensor name: cpu_model_name. The processor model string. Useful for finding the devices affected by a microcode advisory and for spotting hardware that is out of its support window.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "cpu",
+    "hardware",
+    "inventory",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKGF3ayAtRic6IConICcvXm1vZGVsIG5hbWUvIHtwcmludCAkMjsgZXhpdH0nIC9wcm9jL2NwdWluZm8gMj4vZGV2L251bGwpClsgLXogIiR2IiBdICYmIHY9JChhd2sgLUYnOiAqJyAnL15Nb2RlbC8ge3ByaW50ICQyOyBleGl0fScgL3Byb2MvY3B1aW5mbyAyPi9kZXYvbnVsbCkKWyAteiAiJHYiIF0gJiYgdj0iVW5rbm93biIKZWNobyAiJHYiCg=="
+}

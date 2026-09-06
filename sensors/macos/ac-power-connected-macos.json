@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "69244d37-514c-4048-8a64-0964051bd323",
+  "slug": "ac-power-connected-macos",
+  "type": "sensor",
+  "name": "AC Power Connected",
+  "description": "Console sensor name: ac_power_connected. True when the device is drawing from mains. Worth having before pushing an upgrade or a long-running task to a fleet of laptops.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "battery",
+    "hardware",
+    "deployment"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChwbXNldCAtZyBwcyAyPi9kZXYvbnVsbCB8IGhlYWQgLTEpCmNhc2UgIiRvdXQiIGluCiAgKiJBQyBQb3dlciIqKSBlY2hvICJ0cnVlIiA7OwogICopIGVjaG8gImZhbHNlIiA7Owplc2FjCg=="
+}

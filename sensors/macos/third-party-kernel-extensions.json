@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f8f5e2fb-000a-4d9e-b353-54badb2ffced",
+  "slug": "third-party-kernel-extensions",
+  "type": "sensor",
+  "name": "Third Party Kernel Extension Count",
+  "description": "Console sensor name: third_party_kernel_extensions. Number of loaded kernel extensions that are not Apple's. Each one is a candidate cause for a panic and a blocker for future macOS releases, so a fleet that is trying to get to zero needs to be able to count them.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧩",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "kext",
+    "drivers",
+    "stability",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQoa211dGlsIHNob3dsb2FkZWQgLS1uby1rZXJuZWwtY29tcG9uZW50cyAyPi9kZXYvbnVsbCB8IGdyZXAgLXZjICJjb20uYXBwbGUiKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49IiIgOzsgZXNhYwppZiBbIC16ICIkbiIgXTsgdGhlbgogIG49JChrZXh0c3RhdCAyPi9kZXYvbnVsbCB8IGdyZXAgLXZjICJjb20uYXBwbGUiKQpmaQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9acb0e60-3e26-4161-ba3c-6d2058323ea0",
+  "slug": "automatic-app-updates-enabled",
+  "type": "sensor",
+  "name": "Automatic App Store Updates Enabled",
+  "description": "Console sensor name: automatic_app_updates_enabled. True when the App Store installs application updates automatically. Reported separately from system updates because the two settings drift apart and only one of them is usually in a profile.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "appstore",
+    "patching",
+    "applications",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuY29tbWVyY2UgQXV0b1VwZGF0ZSAyPi9kZXYvbnVsbCkKaWYgWyAiJHYiID0gIjEiIF07IHRoZW4gZWNobyAidHJ1ZSI7IGVsc2UgZWNobyAiZmFsc2UiOyBmaQo="
+}

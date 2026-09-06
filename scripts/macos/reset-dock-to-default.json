@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "40dcc47a-1aeb-490a-a324-4d17068e5994",
+  "slug": "reset-dock-to-default",
+  "type": "script",
+  "name": "Reset The Dock To Defaults",
+  "description": "Removes the signed-in user's Dock layout so it rebuilds from the system default. For a Dock full of question marks after an application cleanup, and for shared devices that need a predictable layout.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dock",
+    "userexperience",
+    "shell",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Reset The Dock",
+      "displayDescription": "Restores the Dock to its default layout.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LWRvY2stdG8tZGVmYXVsdC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnA9IiRIT01FL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLmRvY2sucGxpc3QiCmlmIFsgISAtZiAiJHAiIF07IHRoZW4gbG9nICJObyBEb2NrIHByZWZlcmVuY2UgZmlsZSBmb3IgdGhpcyB1c2VyLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnN0YW1wPSQoZGF0ZSAtdSArJVklbSVkJUglTSVTKQptdiAiJHAiICIkcC5iYWstJHN0YW1wIiAyPi9kZXYvbnVsbApkZWZhdWx0cyBkZWxldGUgY29tLmFwcGxlLmRvY2sgPi9kZXYvbnVsbCAyPiYxCmtpbGxhbGwgRG9jayAyPi9kZXYvbnVsbApzbGVlcCA1CmlmIHBncmVwIC14IERvY2sgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJEb2NrIHJlc2V0IGFuZCByZXN0YXJ0ZWQsIHByZXZpb3VzIGxheW91dCBrZXB0IGF0ICRwLmJhay0kc3RhbXAiCiAgZXhpdCAwCmZpCmxvZyAiRG9jayBkaWQgbm90IHJlc3RhcnQiCmV4aXQgMzAK"
+}

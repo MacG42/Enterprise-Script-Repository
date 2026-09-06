@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "38284e84-3839-49bb-857f-92bcdcde480c",
+  "slug": "fullest-mount-usage-percent",
+  "type": "sensor",
+  "name": "Fullest Mount Usage Percent",
+  "description": "Console sensor name: fullest_mount_usage_percent. The highest usage percentage across all local filesystems. Catches a full /var or /home on a device whose root filesystem still looks perfectly healthy.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "storage",
+    "capacity",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKGRmIC1QIC1sIDI+L2Rldi9udWxsIHwgYXdrICdOUj4xICYmICQxIH4gL15cL2Rldi8ge2dzdWIoIiUiLCIiLCQ1KTsgaWYgKCQ1KzAgPiBtKSBtPSQ1KzB9IEVORCB7cHJpbnQgbSswfScpCmNhc2UgIiR2IiBpbiAnJ3wqWyEwLTldKikgdj0tMSA7OyBlc2FjCmVjaG8gIiR2Igo="
+}

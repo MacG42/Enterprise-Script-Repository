@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8a3f57c3-1dbb-4a49-841f-57fae11765da",
+  "slug": "recycle-bin-size-mb",
+  "type": "sensor",
+  "name": "Recycle Bin Size (MB)",
+  "description": "Console sensor name: recycle_bin_size_mb. Total size of every user's recycle bin on the system drive, in whole megabytes. Frequently the single largest thing a disk-space script can reclaim without touching live data.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "recyclebin",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gSm9pbi1QYXRoICRlbnY6U3lzdGVtRHJpdmUgJyRSZWN5Y2xlLkJpbicKICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRwKSkgeyBXcml0ZS1PdXRwdXQgMCB9CiAgICBlbHNlIHsKICAgICAgICAkYiA9IChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkcCAtUmVjdXJzZSAtRmlsZSAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfAogICAgICAgICAgICBNZWFzdXJlLU9iamVjdCAtUHJvcGVydHkgTGVuZ3RoIC1TdW0pLlN1bQogICAgICAgIGlmICgkbnVsbCAtZXEgJGIpIHsgV3JpdGUtT3V0cHV0IDAgfSBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Um91bmQoJGIgLyAxTUIpKSB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

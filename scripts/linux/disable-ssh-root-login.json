@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c376da2a-f422-43ad-a78d-db7d2dae7e95",
+  "slug": "disable-ssh-root-login",
+  "type": "script",
+  "name": "Disable SSH Root Login",
+  "description": "Delivery: packaged post-install. Sets PermitRootLogin to no through a drop-in, after confirming at least one account can reach root by sudo. Validates the config before reloading so a mistake cannot take SSH down.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "ssh",
+    "root",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLXNzaC1yb290LWxvZ2luLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZD0iL2V0Yy9zc2gvc3NoZF9jb25maWcuZCIKYWRtaW5zPTAKZm9yIGcgaW4gc3VkbyB3aGVlbCBhZG1pbjsgZG8KICBtPSQoZ2V0ZW50IGdyb3VwICIkZyIgMj4vZGV2L251bGwgfCBjdXQgLWQ6IC1mNCkKICBbIC16ICIkbSIgXSAmJiBjb250aW51ZQogIGM9JChwcmludGYgJyVzJyAiJG0iIHwgdHIgJywnICdcbicgfCBncmVwIC1jIC4pCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIGFkbWlucz0kKChhZG1pbnMrYykpCmRvbmUKaWYgWyAiJGFkbWlucyIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIGFjY291bnQgaW4gc3Vkbywgd2hlZWwgb3IgYWRtaW4gLSByZWZ1c2luZyB0byBjbG9zZSByb290IFNTSCI7IGV4aXQgMTA7IGZpCmN1cj0kKHNzaGQgLVQgMj4vZGV2L251bGwgfCBhd2sgJy9ecGVybWl0cm9vdGxvZ2luLyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAiJGN1ciIgPSAibm8iIF07IHRoZW4gbG9nICJBbHJlYWR5IGRpc2FibGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiUGVybWl0Um9vdExvZ2luIHdhcyAkY3VyLCAkYWRtaW5zIHN1ZG8tY2FwYWJsZSBhY2NvdW50KHMpIHByZXNlbnQiCmlmIFsgLWQgIiRkIiBdOyB0aGVuCiAgcHJpbnRmICclc1xuJyAiUGVybWl0Um9vdExvZ2luIG5vIiA+ICIkZC82MS1lc3Itbm8tcm9vdC5jb25mIgplbHNlCiAgY3AgL2V0Yy9zc2gvc3NoZF9jb25maWcgIi9ldGMvc3NoL3NzaGRfY29uZmlnLmJhay0kKGRhdGUgLXUgKyVZJW0lZCVIJU0lUykiIDI+L2Rldi9udWxsCiAgc2VkIC1pIC1FICJzL15bI1s6c3BhY2U6XV0qUGVybWl0Um9vdExvZ2luLiovUGVybWl0Um9vdExvZ2luIG5vLyIgL2V0Yy9zc2gvc3NoZF9jb25maWcKICBncmVwIC1xRSAiXlBlcm1pdFJvb3RMb2dpbiIgL2V0Yy9zc2gvc3NoZF9jb25maWcgfHwgcHJpbnRmICclc1xuJyAiUGVybWl0Um9vdExvZ2luIG5vIiA+PiAvZXRjL3NzaC9zc2hkX2NvbmZpZwpmaQppZiAhIHNzaGQgLXQgMj4vZGV2L251bGw7IHRoZW4KICBsb2cgInNzaGQgcmVqZWN0ZWQgdGhlIGNvbmZpZ3VyYXRpb24sIHJldmVydGluZyIKICBybSAtZiAiJGQvNjEtZXNyLW5vLXJvb3QuY29uZiIgMj4vZGV2L251bGwKICBleGl0IDIwCmZpCnN5c3RlbWN0bCByZWxvYWQgc3NoZCA+L2Rldi9udWxsIDI+JjEgfHwgc3lzdGVtY3RsIHJlbG9hZCBzc2ggPi9kZXYvbnVsbCAyPiYxCmE9JChzc2hkIC1UIDI+L2Rldi9udWxsIHwgYXdrICcvXnBlcm1pdHJvb3Rsb2dpbi8ge3ByaW50ICQyOyBleGl0fScpCmlmIFsgIiRhIiA9ICJubyIgXTsgdGhlbiBsb2cgIlJvb3QgU1NIIGxvZ2luIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

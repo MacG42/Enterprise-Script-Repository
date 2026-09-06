@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c854f890-5ea4-4161-8c93-53af0e03c241",
+  "slug": "vpn-profile-count",
+  "type": "sensor",
+  "name": "VPN Profile Count",
+  "description": "Console sensor name: vpn_profile_count. How many all-user VPN profiles are provisioned on the device. Per-user profiles are not counted because a sensor running as SYSTEM cannot see them - say so before someone reads a zero as 'no VPN'.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "vpn",
+    "inventory",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gQChHZXQtVnBuQ29ubmVjdGlvbiAtQWxsVXNlckNvbm5lY3Rpb24gLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJHYuQ291bnQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

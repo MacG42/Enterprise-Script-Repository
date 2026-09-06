@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "68654f12-6263-4dd9-b088-33a1076c66b2",
+  "slug": "sudo-nopasswd-entries",
+  "type": "sensor",
+  "name": "Passwordless Sudo Entry Count",
+  "description": "Console sensor name: sudo_nopasswd_entries. Number of NOPASSWD rules in the sudoers file and its drop-in directory. Each one turns a compromised user session straight into root without a prompt.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "sudo",
+    "privilege",
+    "hardening",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBmIGluIC9ldGMvc3Vkb2VycyAvZXRjL3N1ZG9lcnMuZC8qOyBkbwogIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgYz0kKGdyZXAgLWMgIk5PUEFTU1dEIiAiJGYiIDI+L2Rldi9udWxsKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBuPSQoKG4rYykpCmRvbmUKZWNobyAiJG4iCg=="
+}

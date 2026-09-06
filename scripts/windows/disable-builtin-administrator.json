@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "382bda22-e623-46bb-af4f-bc68fb32372c",
+  "slug": "disable-builtin-administrator",
+  "type": "script",
+  "name": "Disable Built-in Administrator",
+  "description": "Disables the RID 500 account, matched by SID so a renamed account is still found. Exits 10 rather than acting when it is the only enabled local administrator, which would lock the device out.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "security",
+    "localadmin",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 60,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtYnVpbHRpbi1hZG1pbmlzdHJhdG9yLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGEgPSBHZXQtTG9jYWxVc2VyIHwgV2hlcmUtT2JqZWN0IHsgJF8uU0lELlZhbHVlIC1saWtlICdTLTEtNS0qLTUwMCcgfQogICAgaWYgKCRudWxsIC1lcSAkYSkgeyBXcml0ZS1Mb2cgJ1JJRCA1MDAgYWNjb3VudCBub3QgZm91bmQnOyBleGl0IDEwIH0KICAgIGlmICgtbm90ICRhLkVuYWJsZWQpIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRhZG1pbnMgPSBAKEdldC1Mb2NhbEdyb3VwTWVtYmVyIC1TSUQgJ1MtMS01LTMyLTU0NCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICAkb3RoZXJzID0gQCgkYWRtaW5zIHwgV2hlcmUtT2JqZWN0IHsgJF8uU0lELlZhbHVlIC1ub3RsaWtlICdTLTEtNS0qLTUwMCcgfSkKICAgIGlmICgkb3RoZXJzLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAnUklEIDUwMCBpcyB0aGUgb25seSBhZG1pbmlzdHJhdG9yIC0gcmVmdXNpbmcgdG8gZGlzYWJsZSc7IGV4aXQgMTAgfQogICAgV3JpdGUtTG9nICgnRGlzYWJsaW5nICcgKyAkYS5OYW1lICsgJyAoJyArICRvdGhlcnMuQ291bnQgKyAnIG90aGVyIGFkbWluaXN0cmF0b3IocykgcmVtYWluKScpCiAgICBEaXNhYmxlLUxvY2FsVXNlciAtU0lEICRhLlNJRAogICAgaWYgKC1ub3QgKEdldC1Mb2NhbFVzZXIgLVNJRCAkYS5TSUQpLkVuYWJsZWQpIHsgV3JpdGUtTG9nICdEaXNhYmxlZCc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

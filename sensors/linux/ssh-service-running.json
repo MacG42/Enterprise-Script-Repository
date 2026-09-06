@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fede05af-1637-4f4e-8ce9-7c252c96c11b",
+  "slug": "ssh-service-running",
+  "type": "sensor",
+  "name": "SSH Service Running",
+  "description": "Console sensor name: ssh_service_running. True when an SSH daemon is listening. Expected on a server fleet and worth questioning on a desktop one, so read it against what the device is supposed to be.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ssh",
+    "services",
+    "network",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgcGdyZXAgLXggc3NoZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICJ0cnVlIgplbGlmIGNvbW1hbmQgLXYgc3lzdGVtY3RsID4vZGV2L251bGwgMj4mMSAmJiAoc3lzdGVtY3RsIGlzLWFjdGl2ZSBzc2hkID4vZGV2L251bGwgMj4mMSB8fCBzeXN0ZW1jdGwgaXMtYWN0aXZlIHNzaCA+L2Rldi9udWxsIDI+JjEpOyB0aGVuCiAgZWNobyAidHJ1ZSIKZWxzZQogIGVjaG8gImZhbHNlIgpmaQo="
+}

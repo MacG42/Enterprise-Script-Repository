@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "39b31d24-43c3-4765-9e6b-5bc5a9446be6",
+  "slug": "wifi-signal-rssi",
+  "type": "sensor",
+  "name": "Wireless Signal RSSI",
+  "description": "Console sensor name: wifi_signal_rssi. Received signal strength in dBm as a negative integer, for example -58. Returns 0 when the device is not on wireless. Anything past -70 explains a slow session better than a bandwidth test will.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📶",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "wireless",
+    "wifi",
+    "signal",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3lzdGVtX3Byb2ZpbGVyIFNQQWlyUG9ydERhdGFUeXBlIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJy9TaWduYWwgXC8gTm9pc2UvIHtzcGxpdCgkMixhLCIgIik7IHByaW50IGFbMV07IGV4aXR9JykKY2FzZSAiJHYiIGluCiAgLVswLTldKikgZWNobyAiJHYiIDs7CiAgKikgZWNobyAiMCIgOzsKZXNhYwo="
+}

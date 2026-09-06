@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9616e9b4-b26a-4674-8805-9e86040cc96e",
+  "slug": "boot-volume-total-gb",
+  "type": "sensor",
+  "name": "Boot Volume Total GB",
+  "description": "Console sensor name: boot_volume_total_gb. Total size of the boot volume in gigabytes. Pairs with the free-space sensors so a 3 percent warning on a 2 TB disk is not treated like one on a 128 GB disk.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖴",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "storage",
+    "disk",
+    "capacity",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGYgLVAgLWsgLyAyPi9kZXYvbnVsbCB8IGF3ayAnTlI9PTIge3ByaW50IGludCgkMi8xMDQ4NTc2KX0nKQpjYXNlICIkdiIgaW4gJyd8KlshMC05XSopIHY9LTEgOzsgZXNhYwplY2hvICIkdiIK"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "eba4689e-ed14-4348-8d7c-d6e411493c9f",
+  "slug": "require-rdp-network-level-auth",
+  "type": "script",
+  "name": "Require Network Level Authentication For RDP",
+  "description": "Turns on Network Level Authentication for Remote Desktop so a session is authenticated before a desktop is created. Leave RDP itself as it is - this only hardens it where it is deliberately in use.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "rdp",
+    "hardening",
+    "authentication",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlcXVpcmUtcmRwLW5ldHdvcmstbGV2ZWwtYXV0aC5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXFRlcm1pbmFsIFNlcnZlclxXaW5TdGF0aW9uc1xSRFAtVGNwJwogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGspKSB7IFdyaXRlLUxvZyAnUkRQLVRjcCBsaXN0ZW5lciBrZXkgYWJzZW50LCBub3RoaW5nIHRvIGhhcmRlbic7IGV4aXQgMTAgfQogICAgJHYgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1VzZXJBdXRoZW50aWNhdGlvbicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlVzZXJBdXRoZW50aWNhdGlvbgogICAgJHMgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1NlY3VyaXR5TGF5ZXInIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5TZWN1cml0eUxheWVyCiAgICBpZiAoJG51bGwgLW5lICR2IC1hbmQgW2ludF0kdiAtZXEgMSAtYW5kICRudWxsIC1uZSAkcyAtYW5kIFtpbnRdJHMgLWdlIDIpIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ1VzZXJBdXRoZW50aWNhdGlvbiB3YXMgJyArICR2ICsgJywgU2VjdXJpdHlMYXllciB3YXMgJyArICRzKQogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1VzZXJBdXRoZW50aWNhdGlvbicgLVZhbHVlIDEgLVByb3BlcnR5VHlwZSBEV29yZCAtRm9yY2UgfCBPdXQtTnVsbAogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1NlY3VyaXR5TGF5ZXInIC1WYWx1ZSAyIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgICRhID0gR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmIChbaW50XSRhLlVzZXJBdXRoZW50aWNhdGlvbiAtZXEgMSAtYW5kIFtpbnRdJGEuU2VjdXJpdHlMYXllciAtZ2UgMikgeyBXcml0ZS1Mb2cgJ05MQSByZXF1aXJlZCc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

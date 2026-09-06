@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9e7dc918-0ae1-434a-a81f-4416d0a8c9cb",
+  "slug": "os-id-like",
+  "type": "sensor",
+  "name": "OS Family",
+  "description": "Console sensor name: os_id_like. The ID_LIKE value from /etc/os-release, falling back to ID. Tells a script whether it is on a Debian, RHEL or SUSE derivative before it picks a package manager.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗂️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "os",
+    "family",
+    "inventory",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgppZiBbIC1yIC9ldGMvb3MtcmVsZWFzZSBdOyB0aGVuCiAgdj0kKC4gL2V0Yy9vcy1yZWxlYXNlIDI+L2Rldi9udWxsOyBwcmludGYgJyVzJyAiJHtJRF9MSUtFOi0kSUR9IikKZmkKWyAteiAiJHYiIF0gJiYgdj0iVW5rbm93biIKZWNobyAiJHYiCg=="
+}

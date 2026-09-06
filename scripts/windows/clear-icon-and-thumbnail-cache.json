@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2efc950b-ba1d-4de7-bf2b-70653c96acaf",
+  "slug": "clear-icon-and-thumbnail-cache",
+  "type": "script",
+  "name": "Clear Icon And Thumbnail Cache",
+  "description": "Deletes the per-user icon and thumbnail cache databases for every profile that is not currently loaded, which fixes blank or wrong icons in Explorer. Skips loaded profiles because the files are locked while a user is signed in.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖼️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "explorer",
+    "userexperience",
+    "cleanup",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Broken Icons",
+      "displayDescription": "Rebuilds the Windows icon and thumbnail cache.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLWljb24tYW5kLXRodW1ibmFpbC1jYWNoZS5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRsb2FkZWQgPSBAKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX1VzZXJQcm9maWxlIC1GaWx0ZXIgJ1NwZWNpYWwgPSBGYWxzZScgfCBXaGVyZS1PYmplY3QgeyAkXy5Mb2FkZWQgfSB8IFNlbGVjdC1PYmplY3QgLUV4cGFuZFByb3BlcnR5IExvY2FsUGF0aCkKICAgICRkaXJzID0gQChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9Vc2VyUHJvZmlsZSAtRmlsdGVyICdTcGVjaWFsID0gRmFsc2UnIHwKICAgICAgICBXaGVyZS1PYmplY3QgeyAtbm90ICRfLkxvYWRlZCB9IHwgU2VsZWN0LU9iamVjdCAtRXhwYW5kUHJvcGVydHkgTG9jYWxQYXRoKQogICAgaWYgKCRkaXJzLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAoJ0FsbCBwcm9maWxlcyBsb2FkZWQgKCcgKyAkbG9hZGVkLkNvdW50ICsgJyksIG5vdGhpbmcgc2FmZSB0byBjbGVhcicpOyBleGl0IDAgfQogICAgJHJlbW92ZWQgPSAwCiAgICBmb3JlYWNoICgkZCBpbiAkZGlycykgewogICAgICAgICRjID0gSm9pbi1QYXRoICRkICdBcHBEYXRhXExvY2FsXE1pY3Jvc29mdFxXaW5kb3dzXEV4cGxvcmVyJwogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRjKSkgeyBjb250aW51ZSB9CiAgICAgICAgJGYgPSBAKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRjIC1GaWx0ZXIgJypjYWNoZSouZGInIC1GaWxlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkKICAgICAgICBmb3JlYWNoICgkeCBpbiAkZikgewogICAgICAgICAgICBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJHguRnVsbE5hbWUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICR4LkZ1bGxOYW1lKSkgeyAkcmVtb3ZlZCsrIH0KICAgICAgICB9CiAgICB9CiAgICBXcml0ZS1Mb2cgKCdSZW1vdmVkICcgKyAkcmVtb3ZlZCArICcgY2FjaGUgZGF0YWJhc2UocykgYWNyb3NzICcgKyAkZGlycy5Db3VudCArICcgdW5sb2FkZWQgcHJvZmlsZShzKTsgJyArICRsb2FkZWQuQ291bnQgKyAnIHByb2ZpbGUocykgc2tpcHBlZCBhcyBsb2FkZWQnKQogICAgZXhpdCAwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

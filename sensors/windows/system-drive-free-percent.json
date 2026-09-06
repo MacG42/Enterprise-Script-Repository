@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ac3688e3-4820-4d31-a64f-2a11f2ad63b1",
+  "slug": "system-drive-free-percent",
+  "type": "sensor",
+  "name": "System Drive Free Percent",
+  "description": "Console sensor name: system_drive_free_percent. Free space on the system drive as a whole percentage. A percentage groups a mixed fleet of 128 GB and 1 TB devices into one meaningful smart group where a raw GB figure does not.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "storage",
+    "capacity",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkID0gR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfTG9naWNhbERpc2sgLUZpbHRlciAiRGV2aWNlSUQ9JyRlbnY6U3lzdGVtRHJpdmUnIiAtRXJyb3JBY3Rpb24gU3RvcAogICAgaWYgKCRudWxsIC1lcSAkZCAtb3IgW2RvdWJsZV0kZC5TaXplIC1sZSAwKSB7IFdyaXRlLU91dHB1dCAtMSB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Um91bmQoKFtkb3VibGVdJGQuRnJlZVNwYWNlIC8gW2RvdWJsZV0kZC5TaXplKSAqIDEwMCkpIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

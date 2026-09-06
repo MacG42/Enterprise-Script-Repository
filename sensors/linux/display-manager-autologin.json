@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e5c785a9-1784-4130-81ef-44c2607d0542",
+  "slug": "display-manager-autologin",
+  "type": "sensor",
+  "name": "Display Manager Automatic Login",
+  "description": "Console sensor name: display_manager_autologin. True when the graphical login manager is configured to sign a user in without a password. Defeats disk encryption at rest and is usually left behind from a kiosk or lab build.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "autologin",
+    "displaymanager",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgpmb3IgZiBpbiAvZXRjL2dkbTMvY3VzdG9tLmNvbmYgL2V0Yy9nZG0vY3VzdG9tLmNvbmYgL2V0Yy9saWdodGRtL2xpZ2h0ZG0uY29uZiAvZXRjL3NkZG0uY29uZjsgZG8KICBbIC1yICIkZiIgXSB8fCBjb250aW51ZQogIGdyZXAgLUVxaXMgIl5bWzpzcGFjZTpdXSooQXV0b21hdGljTG9naW5FbmFibGVbWzpzcGFjZTpdXSo9W1s6c3BhY2U6XV0qdHJ1ZXxhdXRvbG9naW4tdXNlcltbOnNwYWNlOl1dKj1bWzpzcGFjZTpdXSouK3xVc2VyW1s6c3BhY2U6XV0qPVtbOnNwYWNlOl1dKi4rKSIgIiRmIiAmJiBmb3VuZD0idHJ1ZSIKZG9uZQpmb3IgZCBpbiAvZXRjL2xpZ2h0ZG0vbGlnaHRkbS5jb25mLmQgL2V0Yy9zZGRtLmNvbmYuZDsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGdyZXAgLUVxcnMgImF1dG9sb2dpbiIgIiRkIiAmJiBmb3VuZD0idHJ1ZSIKZG9uZQplY2hvICIkZm91bmQiCg=="
+}

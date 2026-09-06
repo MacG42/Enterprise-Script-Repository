@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "59fec492-da24-41da-b31d-2ecb63ad7272",
+  "slug": "schedule-filesystem-check",
+  "type": "script",
+  "name": "Schedule A Filesystem Check At Next Boot",
+  "description": "Delivery: ad hoc. Requests a filesystem check on the next restart rather than attempting one on a mounted volume. The safe way to act on a filesystem that has started reporting errors.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🩺",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "filesystem",
+    "boot",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zY2hlZHVsZS1maWxlc3lzdGVtLWNoZWNrLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgWyAtZiAvZm9yY2Vmc2NrIF07IHRoZW4gbG9nICJBIGNoZWNrIGlzIGFscmVhZHkgc2NoZWR1bGVkIGZvciB0aGUgbmV4dCBib290LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnQ9JChhd2sgJyQyID09ICIvIiB7cHJpbnQgJDM7IGV4aXR9JyAvcHJvYy9tb3VudHMgMj4vZGV2L251bGwpCmNhc2UgIiR0IiBpbgogIGV4dDJ8ZXh0M3xleHQ0fHhmcykgOiA7OwogICopIGxvZyAiUm9vdCBmaWxlc3lzdGVtIGlzICR0IC0gYSBib290LXRpbWUgY2hlY2sgaXMgbm90IHRoZSByaWdodCB0b29sIGhlcmUiOyBleGl0IDEwIDs7CmVzYWMKOiA+IC9mb3JjZWZzY2sgMj4vZGV2L251bGwKaWYgWyAhIC1mIC9mb3JjZWZzY2sgXTsgdGhlbiBsb2cgIkNvdWxkIG5vdCBjcmVhdGUgL2ZvcmNlZnNjayAtIGlzIHRoZSByb290IGZpbGVzeXN0ZW0gcmVhZC1vbmx5PyI7IGV4aXQgMjA7IGZpCmlmIGNvbW1hbmQgLXYgdHVuZTJmcyA+L2Rldi9udWxsIDI+JjEgJiYgWyAiJHQiICE9ICJ4ZnMiIF07IHRoZW4KICBkPSQoYXdrICckMiA9PSAiLyIge3ByaW50ICQxOyBleGl0fScgL3Byb2MvbW91bnRzIDI+L2Rldi9udWxsKQogIHR1bmUyZnMgLWMgMSAiJGQiID4vZGV2L251bGwgMj4mMQogIGxvZyAiU2V0IGEgb25lLW1vdW50IGNoZWNrIGludGVydmFsIG9uICRkIgpmaQpsb2cgIkEgZmlsZXN5c3RlbSBjaGVjayBpcyBzY2hlZHVsZWQgZm9yIHRoZSBuZXh0IHJlc3RhcnQgLSB0aGUgcmVzdGFydCBpdHNlbGYgaXMgbGVmdCB0byBhIG1haW50ZW5hbmNlIHdpbmRvdyIKZXhpdCAwCg=="
+}

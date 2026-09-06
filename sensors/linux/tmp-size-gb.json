@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f9ffeb4e-3960-4a19-b0c3-78a8bf560855",
+  "slug": "tmp-size-gb",
+  "type": "sensor",
+  "name": "Temp Directory Size GB",
+  "description": "Console sensor name: tmp_size_gb. Combined size of /tmp and /var/tmp in gigabytes. On a host where /tmp is not a tmpfs this grows without limit, and it is usually one application leaving files behind.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "temp",
+    "cleanup",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaz0wCmZvciBkIGluIC90bXAgL3Zhci90bXA7IGRvCiAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICBjPSQoZHUgLXNrICIkZCIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBrPSQoKGsrYykpCmRvbmUKZWNobyAkKCggayAvIDEwNDg1NzYgKSkK"
+}

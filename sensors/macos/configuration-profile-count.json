@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ecfb0624-b014-4f22-908c-0b94642662c2",
+  "slug": "configuration-profile-count",
+  "type": "sensor",
+  "name": "Configuration Profile Count",
+  "description": "Console sensor name: configuration_profile_count. Number of installed configuration profiles at device scope. A count of zero on an enrolled device, or a count far above the fleet norm, both point at a profile delivery problem.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "profiles",
+    "mdm",
+    "configuration",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQocHJvZmlsZXMgLVAgLW8gc3Rkb3V0IDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiYXR0cmlidXRlOiBwcm9maWxlSWRlbnRpZmllciIpCmNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0tMSA7OyBlc2FjCmVjaG8gIiRuIgo="
+}

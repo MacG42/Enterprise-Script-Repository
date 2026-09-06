@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7237688c-1b52-46be-88d3-4ac96841ae4b",
+  "slug": "write-inventory-snapshot",
+  "type": "script",
+  "name": "Write An Inventory Snapshot",
+  "description": "Delivery: systemd timer. Writes a compact inventory of the host - platform, kernel, hardware, memory, disk, package and agent state - to a file another tool or a sensor can read without running a dozen commands.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📋",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "inventory",
+    "reporting",
+    "operations"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC13cml0ZS1pbnZlbnRvcnktc25hcHNob3QubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpkPSIvdmFyL2xpYi9lc3IiCmY9IiRkL2ludmVudG9yeS50eHQiCm1rZGlyIC1wICIkZCIgMj4vZGV2L251bGwKewogIHByaW50ZiAnY29sbGVjdGVkPSVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiCiAgcHJpbnRmICdob3N0bmFtZT0lc1xuJyAiJChob3N0bmFtZSAyPi9kZXYvbnVsbCkiCiAgcHJpbnRmICdvcz0lc1xuJyAiJCguIC9ldGMvb3MtcmVsZWFzZSAyPi9kZXYvbnVsbDsgcHJpbnRmICclcyAlcycgIiROQU1FIiAiJFZFUlNJT05fSUQiKSIKICBwcmludGYgJ2tlcm5lbD0lc1xuJyAiJCh1bmFtZSAtciAyPi9kZXYvbnVsbCkiCiAgcHJpbnRmICdhcmNoPSVzXG4nICIkKHVuYW1lIC1tIDI+L2Rldi9udWxsKSIKICBwcmludGYgJ3ZlbmRvcj0lc1xuJyAiJChjYXQgL3N5cy9jbGFzcy9kbWkvaWQvc3lzX3ZlbmRvciAyPi9kZXYvbnVsbCkiCiAgcHJpbnRmICdtb2RlbD0lc1xuJyAiJChjYXQgL3N5cy9jbGFzcy9kbWkvaWQvcHJvZHVjdF9uYW1lIDI+L2Rldi9udWxsKSIKICBwcmludGYgJ3NlcmlhbD0lc1xuJyAiJChjYXQgL3N5cy9jbGFzcy9kbWkvaWQvcHJvZHVjdF9zZXJpYWwgMj4vZGV2L251bGwpIgogIHByaW50ZiAnY3B1cz0lc1xuJyAiJChnZXRjb25mIF9OUFJPQ0VTU09SU19PTkxOIDI+L2Rldi9udWxsKSIKICBwcmludGYgJ21lbW9yeV9nYj0lc1xuJyAiJChhd2sgJy9eTWVtVG90YWw6LyB7cHJpbnQgaW50KCQyLzEwNDg1NzYpfScgL3Byb2MvbWVtaW5mbyAyPi9kZXYvbnVsbCkiCiAgcHJpbnRmICdyb290X2ZyZWVfcGN0PSVzXG4nICIkKGRmIC1QIC8gMj4vZGV2L251bGwgfCBhd2sgJ05SPT0yIHtnc3ViKCIlIiwiIiwkNSk7IHByaW50IDEwMC0kNX0nKSIKICBwcmludGYgJ3VwdGltZV9kYXlzPSVzXG4nICIkKGF3ayAne3ByaW50IGludCgkMS84NjQwMCl9JyAvcHJvYy91cHRpbWUgMj4vZGV2L251bGwpIgogIHByaW50ZiAndmlydD0lc1xuJyAiJChzeXN0ZW1kLWRldGVjdC12aXJ0IDI+L2Rldi9udWxsKSIKfSA+ICIkZiIgMj4vZGV2L251bGwKaWYgWyAtcyAiJGYiIF07IHRoZW4KICBsb2cgIldyb3RlICRmIHdpdGggJChncmVwIC1jIC4gIiRmIikgZmllbGQocykiCiAgZXhpdCAwCmZpCmxvZyAiSW52ZW50b3J5IGZpbGUgd2FzIG5vdCB3cml0dGVuIgpleGl0IDIwCg=="
+}

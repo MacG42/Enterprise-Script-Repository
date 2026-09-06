@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d936d3f0-f48a-4c3b-a715-3ed553c85c70",
+  "slug": "remove-windows-old",
+  "type": "script",
+  "name": "Remove Windows.old",
+  "description": "Deletes the Windows.old folder left by a feature update, taking ownership of the tree first because its ACLs otherwise refuse SYSTEM. Removing it gives up the ability to roll the feature update back, so only run it past the ten-day window.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📂",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "featureupdate",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Remove Old Windows Files",
+      "displayDescription": "Deletes the Windows.old folder left behind by a feature update.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlbW92ZS13aW5kb3dzLW9sZC5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRwID0gSm9pbi1QYXRoICRlbnY6U3lzdGVtRHJpdmUgJ1dpbmRvd3Mub2xkJwogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJHApKSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBjb21wbGlhbnQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICAkaW5zdGFsbGVkID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvbicgLU5hbWUgJ0luc3RhbGxEYXRlJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuSW5zdGFsbERhdGUKICAgIGlmICgkbnVsbCAtbmUgJGluc3RhbGxlZCkgewogICAgICAgICRhZ2UgPSAoKEdldC1EYXRlKSAtIFtkYXRldGltZW9mZnNldF06OkZyb21Vbml4VGltZVNlY29uZHMoW2ludDY0XSRpbnN0YWxsZWQpLkxvY2FsRGF0ZVRpbWUpLlRvdGFsRGF5cwogICAgICAgIGlmICgkYWdlIC1sdCAxMCkgeyBXcml0ZS1Mb2cgKCdGZWF0dXJlIHVwZGF0ZSBpcyBvbmx5ICcgKyBbaW50XSRhZ2UgKyAnIGRheXMgb2xkIC0gcm9sbGJhY2sgd2luZG93IHN0aWxsIG9wZW4sIHJlZnVzaW5nJyk7IGV4aXQgMTAgfQogICAgfQogICAgJGJlZm9yZSA9IChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkcCAtUmVjdXJzZSAtRmlsZSAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBNZWFzdXJlLU9iamVjdCAtUHJvcGVydHkgTGVuZ3RoIC1TdW0pLlN1bQogICAgV3JpdGUtTG9nICgnUmVtb3ZpbmcgV2luZG93cy5vbGQgKCcgKyBbaW50XSgkYmVmb3JlIC8gMUdCKSArICcgR0IpJykKICAgICYgIiRlbnY6U3lzdGVtUm9vdFxTeXN0ZW0zMlx0YWtlb3duLmV4ZSIgL0YgJHAgL1IgL0EgL0QgWSAqPiAkbnVsbAogICAgJiAiJGVudjpTeXN0ZW1Sb290XFN5c3RlbTMyXGljYWNscy5leGUiICRwIC9ncmFudCAnQWRtaW5pc3RyYXRvcnM6RicgL1QgL0MgKj4gJG51bGwKICAgIFJlbW92ZS1JdGVtIC1MaXRlcmFsUGF0aCAkcCAtUmVjdXJzZSAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRwKSkgeyBXcml0ZS1Mb2cgJ1JlbW92ZWQnOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICdGb2xkZXIgc3RpbGwgcHJlc2VudCAtIHNvbWUgZmlsZXMgYXJlIHN0aWxsIGluIHVzZScKICAgIGV4aXQgMjAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

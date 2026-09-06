@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ba9504d6-c5d0-4c26-8b2f-fdba5f67c051",
+  "slug": "set-firewall-default-deny",
+  "type": "script",
+  "name": "Set The Firewall Default To Deny Inbound",
+  "description": "Delivery: packaged post-install. Sets the default inbound policy to deny and outbound to allow, leaving existing allow rules in place. Confirms SSH is still permitted before applying, so a remote host stays reachable.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🚪",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "firewall",
+    "network",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zZXQtZmlyZXdhbGwtZGVmYXVsdC1kZW55LmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgY29tbWFuZCAtdiB1ZncgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgaWYgISB1Zncgc3RhdHVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtcWlFICIyMi90Y3B8T3BlblNTSCI7IHRoZW4KICAgIGxvZyAiTm8gU1NIIGFsbG93IHJ1bGUgcHJlc2VudCAtIHJlZnVzaW5nIHRvIHNldCBhIGRlbnkgZGVmYXVsdCBvbiBhIHJlbW90ZSBob3N0IgogICAgZXhpdCAxMAogIGZpCiAgY3VyPSQodWZ3IHN0YXR1cyB2ZXJib3NlIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJy9eRGVmYXVsdC8ge3ByaW50ICQyOyBleGl0fScpCiAgY2FzZSAiJGN1ciIgaW4KICAgIGRlbnkqaW5jb21pbmcqKSBsb2cgIkFscmVhZHkgZGVueWluZyBpbmJvdW5kIGJ5IGRlZmF1bHQsIG5vIGFjdGlvbiI7IGV4aXQgMCA7OwogIGVzYWMKICBsb2cgIkRlZmF1bHQgcG9saWN5IHdhczogJGN1ciIKICB1ZncgZGVmYXVsdCBkZW55IGluY29taW5nID4vZGV2L251bGwgMj4mMQogIHVmdyBkZWZhdWx0IGFsbG93IG91dGdvaW5nID4vZGV2L251bGwgMj4mMQogIHVmdyBzdGF0dXMgdmVyYm9zZSAyPi9kZXYvbnVsbCB8IGdyZXAgLXFpICJkZW55IChpbmNvbWluZykiICYmIHsgbG9nICJEZWZhdWx0IGluYm91bmQgc2V0IHRvIGRlbnkiOyBleGl0IDA7IH0KICBleGl0IDMwCmZpCmlmIGNvbW1hbmQgLXYgZmlyZXdhbGwtY21kID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHo9JChmaXJld2FsbC1jbWQgLS1nZXQtZGVmYXVsdC16b25lIDI+L2Rldi9udWxsKQogIHQ9JChmaXJld2FsbC1jbWQgLS16b25lPSIkeiIgLS1nZXQtdGFyZ2V0IDI+L2Rldi9udWxsKQogIGlmIFsgIiR0IiA9ICIlJVJFSkVDVCUlIiBdIHx8IFsgIiR0IiA9ICJEUk9QIiBdOyB0aGVuIGxvZyAiWm9uZSAkeiBhbHJlYWR5IHJlamVjdHMgYnkgZGVmYXVsdCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQogIGlmICEgZmlyZXdhbGwtY21kIC0tem9uZT0iJHoiIC0tcXVlcnktc2VydmljZT1zc2ggPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBsb2cgInNzaCBpcyBub3QgYWxsb3dlZCBpbiB6b25lICR6IC0gcmVmdXNpbmcgdG8gY2hhbmdlIHRoZSB0YXJnZXQiCiAgICBleGl0IDEwCiAgZmkKICBsb2cgIlpvbmUgJHogdGFyZ2V0IHdhcyAkdCIKICBmaXJld2FsbC1jbWQgLS1wZXJtYW5lbnQgLS16b25lPSIkeiIgLS1zZXQtdGFyZ2V0PSUlUkVKRUNUJSUgPi9kZXYvbnVsbCAyPiYxCiAgZmlyZXdhbGwtY21kIC0tcmVsb2FkID4vZGV2L251bGwgMj4mMQogIGxvZyAiWm9uZSAkeiBub3cgcmVqZWN0cyB1bm1hdGNoZWQgaW5ib3VuZCB0cmFmZmljIgogIGV4aXQgMApmaQpsb2cgIk5vIHN1cHBvcnRlZCBmaXJld2FsbCBmcm9udCBlbmQgZm91bmQiCmV4aXQgMTAK"
+}

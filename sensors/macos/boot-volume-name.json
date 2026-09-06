@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b675dda5-b8c4-456e-a9d9-289b0f11adfb",
+  "slug": "boot-volume-name",
+  "type": "sensor",
+  "name": "Boot Volume Name",
+  "description": "Console sensor name: boot_volume_name. The name of the volume the system booted from. A device booted from an external or a cloned volume shows up here, and that is worth knowing before chasing a policy that will not apply.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖴",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "storage",
+    "volume",
+    "boot",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGlza3V0aWwgaW5mbyAvIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJy9Wb2x1bWUgTmFtZS8ge3ByaW50ICQyOyBleGl0fScpClsgLXogIiR2IiBdICYmIHY9IlVua25vd24iCmVjaG8gIiR2Igo="
+}

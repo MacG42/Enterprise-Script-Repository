@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0abf6a56-c712-46f6-ac28-e35ef9fb887c",
+  "slug": "stale-user-profile-count",
+  "type": "sensor",
+  "name": "Stale User Profile Count",
+  "description": "Console sensor name: stale_user_profile_count. Non-system profiles not loaded in the last 90 days and not currently in use. This is the number the profile cleanup script should reduce, and the safe subset to act on.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "profiles",
+    "disk",
+    "cleanup",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjdXQgPSAoR2V0LURhdGUpLkFkZERheXMoLTkwKQogICAgJHAgPSBAKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX1VzZXJQcm9maWxlIC1GaWx0ZXIgJ1NwZWNpYWwgPSBGYWxzZScgLUVycm9yQWN0aW9uIFN0b3AgfAogICAgICAgIFdoZXJlLU9iamVjdCB7IC1ub3QgJF8uTG9hZGVkIC1hbmQgJG51bGwgLW5lICRfLkxhc3RVc2VUaW1lIC1hbmQgJF8uTGFzdFVzZVRpbWUgLWx0ICRjdXQgfSkKICAgIFdyaXRlLU91dHB1dCAoW2ludF0kcC5Db3VudCkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

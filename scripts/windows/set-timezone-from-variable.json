@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2",
+  "id": "487d7153-2241-4858-8853-184f0a9f510e",
+  "slug": "set-timezone-from-variable",
+  "type": "script",
+  "name": "Set Time Zone From Variable",
+  "description": "Sets the device time zone to the Windows time zone id in esr_timezone, for example 'Eastern Standard Time'. Useful for kiosks and shared devices that ship with the wrong zone and have no user to correct it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "timezone",
+    "configuration",
+    "kiosk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_timezone",
+        "value": "Eastern Standard Time"
+      }
+    ]
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC10aW1lem9uZS1mcm9tLXZhcmlhYmxlLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHdhbnQgPSAnJGVzcl90aW1lem9uZSQnCiAgICBpZiAoJHdhbnQgLWxpa2UgJyplc3JfdGltZXpvbmUqJyAtb3IgJHdhbnQuVHJpbSgpIC1lcSAnJykgeyBXcml0ZS1Mb2cgJ05vIHRpbWUgem9uZSBzdXBwbGllZCc7IGV4aXQgMTAgfQogICAgJHdhbnQgPSAkd2FudC5UcmltKCkKICAgICR2YWxpZCA9IEAoR2V0LVRpbWVab25lIC1MaXN0QXZhaWxhYmxlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgV2hlcmUtT2JqZWN0IHsgJF8uSWQgLWVxICR3YW50IH0pCiAgICBpZiAoJHZhbGlkLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAoJ05vdCBhIHZhbGlkIFdpbmRvd3MgdGltZSB6b25lIGlkOiAnICsgJHdhbnQpOyBleGl0IDEwIH0KICAgICRjdXIgPSAoR2V0LVRpbWVab25lIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5JZAogICAgaWYgKCRjdXIgLWVxICR3YW50KSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBjb21wbGlhbnQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdUaW1lIHpvbmUgd2FzICcgKyAkY3VyICsgJywgc2V0dGluZyB0byAnICsgJHdhbnQpCiAgICBTZXQtVGltZVpvbmUgLUlkICR3YW50IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoKEdldC1UaW1lWm9uZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuSWQgLWVxICR3YW50KSB7IFdyaXRlLUxvZyAnVGltZSB6b25lIHNldCc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

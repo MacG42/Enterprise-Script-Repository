@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9ff6e31e-5ff6-495c-b182-c550904419ba",
+  "slug": "printers-configured-count",
+  "type": "sensor",
+  "name": "Configured Printer Count",
+  "description": "Console sensor name: printers_configured_count. Number of print queues configured on the device. Long-lived Macs accumulate queues for offices they no longer visit, and a broken default queue is a steady source of tickets.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖨️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "printing",
+    "cups",
+    "inventory",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQobHBzdGF0IC1wIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiXnByaW50ZXIiKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49MCA7OyBlc2FjCmVjaG8gIiRuIgo="
+}

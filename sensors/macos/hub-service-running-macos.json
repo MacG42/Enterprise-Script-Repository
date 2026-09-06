@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8357eb26-e926-402a-a014-a3049296a24d",
+  "slug": "hub-service-running-macos",
+  "type": "sensor",
+  "name": "Hub Agent Running",
+  "description": "Console sensor name: hub_service_running. True when a Workspace ONE Hub process is running. An enrolled device with the agent stopped stops reporting, but keeps its last known state in the console - which is why it looks fine.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🟢",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgppZiBwZ3JlcCAtZiAiSW50ZWxsaWdlbnQgSHViIiA+L2Rldi9udWxsIDI+JjEgfHwgcGdyZXAgLWYgImF3cmVtb3RlZCIgPi9kZXYvbnVsbCAyPiYxIHx8IHBncmVwIC1mICJodWJkIiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICJ0cnVlIgplbHNlCiAgZWNobyAiZmFsc2UiCmZpCg=="
+}

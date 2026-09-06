@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "24198ceb-5ed3-47fc-856f-4bc3e454f5a9",
+  "slug": "safari-version",
+  "type": "sensor",
+  "name": "Safari Version",
+  "description": "Console sensor name: safari_version. Installed Safari version. It ships with the OS but updates separately through software update, so a lagging Safari is a signal that updates are not being applied.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧭",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "safari",
+    "browser",
+    "applications",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpwPSIvQXBwbGljYXRpb25zL1NhZmFyaS5hcHAvQ29udGVudHMvSW5mby5wbGlzdCIKaWYgWyAhIC1mICIkcCIgXTsgdGhlbgogIGVjaG8gIk5vdEluc3RhbGxlZCIKZWxzZQogIHY9JChkZWZhdWx0cyByZWFkICIkcCIgQ0ZCdW5kbGVTaG9ydFZlcnNpb25TdHJpbmcgMj4vZGV2L251bGwpCiAgWyAteiAiJHYiIF0gJiYgdj0iVW5rbm93biIKICBlY2hvICIkdiIKZmkK"
+}

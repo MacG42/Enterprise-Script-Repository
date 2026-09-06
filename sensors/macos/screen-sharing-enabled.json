@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e2529b1a-25a2-4fa0-9dfd-a9c9b4dfe44b",
+  "slug": "screen-sharing-enabled",
+  "type": "sensor",
+  "name": "Screen Sharing Enabled",
+  "description": "Console sensor name: screen_sharing_enabled. True when the built-in screen sharing service is loaded. Distinct from Remote Management, which the Apple Remote Desktop agent provides - both are reported separately.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "screensharing",
+    "remoteaccess",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgppZiBsYXVuY2hjdGwgcHJpbnQgc3lzdGVtL2NvbS5hcHBsZS5zY3JlZW5zaGFyaW5nID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

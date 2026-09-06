@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b725f9db-c102-4749-a713-fb2b88d105b7",
+  "slug": "ntlmv1-allowed",
+  "type": "sensor",
+  "name": "NTLMv1 Allowed",
+  "description": "Console sensor name: ntlmv1_allowed. True when LmCompatibilityLevel is below 3, so the device may still send LM or NTLMv1 responses. Absent value reads as the OS default, which is level 3 on supported builds.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ntlm",
+    "security",
+    "authentication",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxMc2EnIC1OYW1lICdMbUNvbXBhdGliaWxpdHlMZXZlbCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkxtQ29tcGF0aWJpbGl0eUxldmVsCiAgICBpZiAoJG51bGwgLWVxICR2KSB7IFdyaXRlLU91dHB1dCAkZmFsc2UgfSBlbHNlIHsgV3JpdGUtT3V0cHV0IChbYm9vbF0oW2ludF0kdiAtbHQgMykpIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

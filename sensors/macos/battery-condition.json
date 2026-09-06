@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "37a5a212-8fea-4768-84b1-1c993f0fd7e5",
+  "slug": "battery-condition",
+  "type": "sensor",
+  "name": "Battery Condition",
+  "description": "Console sensor name: battery_condition. Apple's own assessment: Normal, Replace Soon, Replace Now, Service Battery or Unknown. Unknown on a desktop with no battery, which is the expected answer there.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🪫",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "hardware",
+    "health",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3lzdGVtX3Byb2ZpbGVyIFNQUG93ZXJEYXRhVHlwZSAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvXiAqQ29uZGl0aW9uLyB7cHJpbnQgJDI7IGV4aXR9JykKWyAteiAiJHYiIF0gJiYgdj0iVW5rbm93biIKZWNobyAiJHYiCg=="
+}

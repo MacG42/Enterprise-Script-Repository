@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dd937715-3379-4240-96a9-222620e6467f",
+  "slug": "disable-automatic-reboot-after-update",
+  "type": "script",
+  "name": "Disable Automatic Reboot After Updates",
+  "description": "Delivery: packaged post-install. Stops the automatic update mechanism restarting the host on its own, so reboots belong to a maintenance window rather than to whatever hour the timer fires.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⏸️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "patching",
+    "reboot",
+    "governance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWF1dG9tYXRpYy1yZWJvb3QtYWZ0ZXItdXBkYXRlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKY2hhbmdlZD0wCmlmIFsgLWQgL2V0Yy9hcHQvYXB0LmNvbmYuZCBdOyB0aGVuCiAgZj0iL2V0Yy9hcHQvYXB0LmNvbmYuZC81MS1lc3Itbm8tcmVib290IgogIGlmICEgZ3JlcCAtcXMgJ0F1dG9tYXRpYy1SZWJvb3QgImZhbHNlIicgIiRmIjsgdGhlbgogICAgcHJpbnRmICclc1xuJyAnVW5hdHRlbmRlZC1VcGdyYWRlOjpBdXRvbWF0aWMtUmVib290ICJmYWxzZSI7JyA+ICIkZiIKICAgIGxvZyAiV3JvdGUgJGYiCiAgICBjaGFuZ2VkPTEKICBmaQpmaQppZiBbIC1mIC9ldGMvZG5mL2F1dG9tYXRpYy5jb25mIF07IHRoZW4KICBpZiBncmVwIC1FcSAiXltbOnNwYWNlOl1dKnJlYm9vdFtbOnNwYWNlOl1dKj1bWzpzcGFjZTpdXSood2hlbi1uZWVkZWR8YWx3YXlzKSIgL2V0Yy9kbmYvYXV0b21hdGljLmNvbmY7IHRoZW4KICAgIHNlZCAtaSAtRSAicy9eW1s6c3BhY2U6XV0qcmVib290W1s6c3BhY2U6XV0qPS4qL3JlYm9vdCA9IG5ldmVyLyIgL2V0Yy9kbmYvYXV0b21hdGljLmNvbmYKICAgIGxvZyAiU2V0IHJlYm9vdCA9IG5ldmVyIGluIGRuZiBhdXRvbWF0aWMuY29uZiIKICAgIGNoYW5nZWQ9MQogIGZpCmZpCmlmIFsgIiRjaGFuZ2VkIiAtZXEgMCBdOyB0aGVuIGxvZyAiQXV0b21hdGljIHJlYm9vdCBhbHJlYWR5IGRpc2FibGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmV4aXQgMAo="
+}

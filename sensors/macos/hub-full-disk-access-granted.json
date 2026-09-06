@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "cb549009-d184-49e4-85a5-6cc385836b68",
+  "slug": "hub-full-disk-access-granted",
+  "type": "sensor",
+  "name": "Hub Full Disk Access Granted",
+  "description": "Console sensor name: hub_full_disk_access_granted. True when a Workspace ONE component holds Full Disk Access in the privacy database. Without it, scripts running as root still cannot read Desktop, Documents or Downloads, which is why a working script returns nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "tcc",
+    "privacy",
+    "hub",
+    "workspaceone"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkYj0iL0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9jb20uYXBwbGUuVENDL1RDQy5kYiIKaWYgWyAhIC1mICIkZGIiIF07IHRoZW4KICBlY2hvICJmYWxzZSIKZWxzZQogIG91dD0kKHNxbGl0ZTMgIiRkYiIgInNlbGVjdCBjbGllbnQgZnJvbSBhY2Nlc3Mgd2hlcmUgc2VydmljZT0na1RDQ1NlcnZpY2VTeXN0ZW1Qb2xpY3lBbGxGaWxlcyciIDI+L2Rldi9udWxsKQogIGNhc2UgIiRvdXQiIGluCiAgICAqYWlyd2F0Y2gqfCpBaXJXYXRjaCp8Kmh1Yip8Kkh1Yip8KnZtd2FyZSp8Km9tbmlzc2EqKSBlY2hvICJ0cnVlIiA7OwogICAgKikgZWNobyAiZmFsc2UiIDs7CiAgZXNhYwpmaQo="
+}

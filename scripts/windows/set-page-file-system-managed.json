@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b52fddef-2d97-4017-9bae-13f847f9bf52",
+  "slug": "set-page-file-system-managed",
+  "type": "script",
+  "name": "Set Page File To System Managed",
+  "description": "Hands the page file back to Windows after someone has pinned it to a fixed size or disabled it. A missing page file breaks crash dumps and some applications; an oversized fixed one wastes the system drive.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗃️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "pagefile",
+    "memory",
+    "disk",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC1wYWdlLWZpbGUtc3lzdGVtLW1hbmFnZWQubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkY3MgPSBHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9Db21wdXRlclN5c3RlbSAtRXJyb3JBY3Rpb24gU3RvcAogICAgaWYgKCRjcy5BdXRvbWF0aWNNYW5hZ2VkUGFnZWZpbGUgLWVxICR0cnVlKSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBzeXN0ZW0gbWFuYWdlZCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRzZXR0aW5ncyA9IEAoR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfUGFnZUZpbGVTZXR0aW5nIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKQogICAgZm9yZWFjaCAoJHMgaW4gJHNldHRpbmdzKSB7CiAgICAgICAgV3JpdGUtTG9nICgnRXhpc3RpbmcgcGFnZSBmaWxlICcgKyAkcy5OYW1lICsgJyBpbml0aWFsICcgKyAkcy5Jbml0aWFsU2l6ZSArICcgTUIgbWF4aW11bSAnICsgJHMuTWF4aW11bVNpemUgKyAnIE1CJykKICAgIH0KICAgIFNldC1DaW1JbnN0YW5jZSAtSW5wdXRPYmplY3QgJGNzIC1Qcm9wZXJ0eSBAeyBBdXRvbWF0aWNNYW5hZ2VkUGFnZWZpbGUgPSAkdHJ1ZSB9IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAkYSA9IEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX0NvbXB1dGVyU3lzdGVtIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJGEuQXV0b21hdGljTWFuYWdlZFBhZ2VmaWxlIC1lcSAkdHJ1ZSkgeyBXcml0ZS1Mb2cgJ1BhZ2UgZmlsZSBpcyBub3cgc3lzdGVtIG1hbmFnZWQgLSBhIHJlc3RhcnQgYXBwbGllcyB0aGUgbmV3IHNpemUnOyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

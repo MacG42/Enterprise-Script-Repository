@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0e7c56e6-339f-43de-8853-66ac4dbf1482",
+  "slug": "ssh-authorized-keys-count",
+  "type": "sensor",
+  "name": "SSH Authorized Key Count",
+  "description": "Console sensor name: ssh_authorized_keys_count. Total authorised public keys across all local home directories and the root account. A non-zero count on a laptop fleet is standing remote access that no directory group controls.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗝️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ssh",
+    "keys",
+    "remoteaccess",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPTAKZm9yIGYgaW4gL1VzZXJzLyovLnNzaC9hdXRob3JpemVkX2tleXMgL3Zhci9yb290Ly5zc2gvYXV0aG9yaXplZF9rZXlzOyBkbwogIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgYz0kKGdyZXAgLWMgIl5zc2gtXHxeZWNkc2EtXHxec2stIiAiJGYiIDI+L2Rldi9udWxsKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBuPSQoKG4rYykpCmRvbmUKZWNobyAiJG4iCg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e2b55960-c820-4744-980d-abd99e127846",
+  "slug": "collect-diagnostic-bundle",
+  "type": "script",
+  "name": "Collect A Diagnostic Bundle",
+  "description": "Delivery: ad hoc. Gathers system state, failed units, recent kernel messages, disk and memory figures and the network configuration into one archive under /root. The first thing to ask for on an escalation.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "diagnostics",
+    "support",
+    "logs"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jb2xsZWN0LWRpYWdub3N0aWMtYnVuZGxlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKc3RhbXA9JChkYXRlIC11ICslWSVtJWQtJUglTSVTKQpzdGFnZT0iL3RtcC9lc3ItZGlhZy0kc3RhbXAiCmRlc3Q9Ii9yb290L2Vzci1kaWFnLSQoaG9zdG5hbWUgMj4vZGV2L251bGwpLSRzdGFtcC50YXIuZ3oiCm1rZGlyIC1wICIkc3RhZ2UiIDI+L2Rldi9udWxsCnsKICB1bmFtZSAtYQogIHByaW50ZiAnXG4tLS0gb3MtcmVsZWFzZSAtLS1cbicKICBjYXQgL2V0Yy9vcy1yZWxlYXNlIDI+L2Rldi9udWxsCiAgcHJpbnRmICdcbi0tLSB1cHRpbWUgLS0tXG4nCiAgdXB0aW1lCiAgcHJpbnRmICdcbi0tLSBkaXNrIC0tLVxuJwogIGRmIC1oVAogIHByaW50ZiAnXG4tLS0gaW5vZGVzIC0tLVxuJwogIGRmIC1pCiAgcHJpbnRmICdcbi0tLSBtZW1vcnkgLS0tXG4nCiAgZnJlZSAtbQogIHByaW50ZiAnXG4tLS0gdG9wIHByb2Nlc3NlcyAtLS1cbicKICBwcyAtZW8gcGlkLHBwaWQsdXNlcixwY3B1LHBtZW0sY29tbSAtLXNvcnQ9LXBjcHUgMj4vZGV2L251bGwgfCBoZWFkIC0yNQp9ID4gIiRzdGFnZS9zeXN0ZW0udHh0IiAyPi9kZXYvbnVsbAppZiBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBzeXN0ZW1jdGwgbGlzdC11bml0cyAtLXN0YXRlPWZhaWxlZCAtLW5vLXBhZ2VyID4gIiRzdGFnZS9mYWlsZWQtdW5pdHMudHh0IiAyPi9kZXYvbnVsbAogIHN5c3RlbWN0bCBsaXN0LXRpbWVycyAtLWFsbCAtLW5vLXBhZ2VyID4gIiRzdGFnZS90aW1lcnMudHh0IiAyPi9kZXYvbnVsbApmaQppZiBjb21tYW5kIC12IGpvdXJuYWxjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgam91cm5hbGN0bCAtayAtYiAtLW5vLXBhZ2VyID4gIiRzdGFnZS9rZXJuZWwudHh0IiAyPi9kZXYvbnVsbAogIGpvdXJuYWxjdGwgLXAgZXJyIC0tc2luY2UgIjcgZGF5cyBhZ28iIC0tbm8tcGFnZXIgPiAiJHN0YWdlL2Vycm9ycy03ZC50eHQiIDI+L2Rldi9udWxsCmZpCnsKICBpcCBhZGRyIDI+L2Rldi9udWxsCiAgcHJpbnRmICdcbi0tLSByb3V0ZXMgLS0tXG4nCiAgaXAgcm91dGUgMj4vZGV2L251bGwKICBwcmludGYgJ1xuLS0tIGxpc3RlbmluZyAtLS1cbicKICBzcyAtbHRucCAyPi9kZXYvbnVsbAogIHByaW50ZiAnXG4tLS0gcmVzb2x2LmNvbmYgLS0tXG4nCiAgY2F0IC9ldGMvcmVzb2x2LmNvbmYgMj4vZGV2L251bGwKfSA+ICIkc3RhZ2UvbmV0d29yay50eHQiIDI+L2Rldi9udWxsCnRhciAtY3pmICIkZGVzdCIgLUMgIiRzdGFnZSIgLiAyPi9kZXYvbnVsbApybSAtcmYgIiRzdGFnZSIgMj4vZGV2L251bGwKaWYgWyAtZiAiJGRlc3QiIF07IHRoZW4KICBrYj0kKCggJChzdGF0IC1jICVzICIkZGVzdCIgMj4vZGV2L251bGwpIC8gMTAyNCApKQogIGxvZyAiV3JvdGUgJGRlc3QgKGFib3V0ICR7a2J9IEtCKSIKICBleGl0IDAKZmkKbG9nICJBcmNoaXZlIHdhcyBub3QgY3JlYXRlZCIKZXhpdCAyMAo="
+}

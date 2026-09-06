@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d4a698f4-6c50-4b5a-ba34-194eaa024b17",
+  "slug": "restart-network-manager",
+  "type": "script",
+  "name": "Restart The Network Stack",
+  "description": "Delivery: ad hoc. Restarts NetworkManager or systemd-networkd and confirms the default route came back. Refuses to run over an active SSH session, because that is exactly how a remote host is lost.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "network",
+    "services",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZXN0YXJ0LW5ldHdvcmstbWFuYWdlci5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmIFsgLW4gIiRTU0hfQ09OTkVDVElPTiIgXTsgdGhlbgogIGxvZyAiUnVubmluZyBpbnNpZGUgYW4gU1NIIHNlc3Npb24gLSByZWZ1c2luZyB0byByZXN0YXJ0IHRoZSBuZXR3b3JrIHN0YWNrIgogIGV4aXQgMTAKZmkKdT0iIgppZiBwZ3JlcCAteCBOZXR3b3JrTWFuYWdlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB1PSJOZXR3b3JrTWFuYWdlciIKZWxpZiBwZ3JlcCAteCBzeXN0ZW1kLW5ldHdvcmtkID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHU9InN5c3RlbWQtbmV0d29ya2QiCmZpCmlmIFsgLXogIiR1IiBdOyB0aGVuIGxvZyAiTm8gcmVjb2duaXNlZCBuZXR3b3JrIG1hbmFnZXIgaXMgcnVubmluZyI7IGV4aXQgMTA7IGZpCmxvZyAiUmVzdGFydGluZyAkdSIKc3lzdGVtY3RsIHJlc3RhcnQgIiR1IiA+L2Rldi9udWxsIDI+JjEKc2xlZXAgMTUKaWYgaXAgcm91dGUgc2hvdyBkZWZhdWx0IDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiZGVmYXVsdCI7IHRoZW4KICBhPSQoaXAgcm91dGUgZ2V0IDEuMS4xLjEgMj4vZGV2L251bGwgfCBhd2sgJ3tmb3IgKGk9MTtpPD1ORjtpKyspIGlmICgkaT09InNyYyIpIHtwcmludCAkKGkrMSk7IGV4aXR9fScpCiAgbG9nICIkdSByZXN0YXJ0ZWQsIGRlZmF1bHQgcm91dGUgcHJlc2VudCwgYWRkcmVzcyAkYSIKICBleGl0IDAKZmkKbG9nICJObyBkZWZhdWx0IHJvdXRlIGFmdGVyIHJlc3RhcnRpbmcgJHUiCmV4aXQgMzAK"
+}

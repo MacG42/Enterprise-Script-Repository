@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "15259f6c-ab92-441e-85ee-2787b673159d",
+  "slug": "sync-local-hostname",
+  "type": "script",
+  "name": "Sync Local Host Name To Computer Name",
+  "description": "Rewrites the Bonjour local host name from the current computer name. Cures the devices that answer to a name like 'Marks-MacBook-Pro-2' on the network while the console shows something else entirely.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "naming",
+    "hostname",
+    "bonjour",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXN5bmMtbG9jYWwtaG9zdG5hbWUubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpjPSQoc2N1dGlsIC0tZ2V0IENvbXB1dGVyTmFtZSAyPi9kZXYvbnVsbCkKaWYgWyAteiAiJGMiIF07IHRoZW4gbG9nICJObyBjb21wdXRlciBuYW1lIHNldCB0byBkZXJpdmUgZnJvbSI7IGV4aXQgMTA7IGZpCnNhZmU9JChwcmludGYgJyVzJyAiJGMiIHwgdHIgJyAnICctJyB8IHRyIC1jZCAnQS1aYS16MC05LScpCmlmIFsgLXogIiRzYWZlIiBdOyB0aGVuIGxvZyAiQ29tcHV0ZXIgbmFtZSByZWR1Y2VzIHRvIG5vdGhpbmcgdXNhYmxlOiAkYyI7IGV4aXQgMTA7IGZpCmN1cj0kKHNjdXRpbCAtLWdldCBMb2NhbEhvc3ROYW1lIDI+L2Rldi9udWxsKQppZiBbICIkY3VyIiA9ICIkc2FmZSIgXTsgdGhlbiBsb2cgIkFscmVhZHkgaW4gc3luYywgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkxvY2FsIGhvc3QgbmFtZSB3YXMgJGN1ciwgc2V0dGluZyB0byAkc2FmZSIKc2N1dGlsIC0tc2V0IExvY2FsSG9zdE5hbWUgIiRzYWZlIiAyPi9kZXYvbnVsbApzY3V0aWwgLS1zZXQgSG9zdE5hbWUgIiRzYWZlIiAyPi9kZXYvbnVsbAphPSQoc2N1dGlsIC0tZ2V0IExvY2FsSG9zdE5hbWUgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICIkc2FmZSIgXTsgdGhlbiBsb2cgIkxvY2FsIGhvc3QgbmFtZSBzeW5jZWQiOyBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "04e29be6-e64d-44e0-913e-75be818e8928",
+  "slug": "set-default-browser-macos",
+  "type": "script",
+  "name": "Set The Default Browser",
+  "description": "Sets the signed-in user's default browser to the bundle identifier in esr_browser_bundle_id, for example com.google.chrome. The application must already be installed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "browser",
+    "defaults",
+    "userexperience",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_browser_bundle_id",
+        "value": "com.google.chrome"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1kZWZhdWx0LWJyb3dzZXItbWFjb3MubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpiPSckZXNyX2Jyb3dzZXJfYnVuZGxlX2lkJCcKY2FzZSAiJGIiIGluCiAgKmVzcl9icm93c2VyX2J1bmRsZV9pZCp8JycpIGxvZyAiTm8gYnVuZGxlIGlkZW50aWZpZXIgc3VwcGxpZWQiOyBleGl0IDEwIDs7CmVzYWMKaWYgISBvcGVuIC1SYSAiJGIiID4vZGV2L251bGwgMj4mMSAmJiAhIG1kZmluZCAia01ESXRlbUNGQnVuZGxlSWRlbnRpZmllciA9PSAnJGInIiAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgIi5hcHAiOyB0aGVuCiAgbG9nICJObyBpbnN0YWxsZWQgYXBwbGljYXRpb24gd2l0aCBidW5kbGUgaWRlbnRpZmllciAkYiIKICBleGl0IDEwCmZpCmxvZyAiU2V0dGluZyB0aGUgZGVmYXVsdCBicm93c2VyIHRvICRiIgpweXRob24zIC0gIiRiIiA+L2Rldi9udWxsIDI+JjEgPDwnUFlFT0YnCmltcG9ydCBzeXMKZnJvbSBMYXVuY2hTZXJ2aWNlcyBpbXBvcnQgTFNTZXREZWZhdWx0SGFuZGxlckZvclVSTFNjaGVtZQpiID0gc3lzLmFyZ3ZbMV0KZm9yIHNjaGVtZSBpbiAoImh0dHAiLCAiaHR0cHMiKToKICAgIExTU2V0RGVmYXVsdEhhbmRsZXJGb3JVUkxTY2hlbWUoc2NoZW1lLCBiKQpQWUVPRgpyYz0kPwppZiBbICIkcmMiIC1lcSAwIF07IHRoZW4KICBsb2cgIkRlZmF1bHQgYnJvd3NlciBzZXQgdG8gJGIiCiAgZXhpdCAwCmZpCmxvZyAiQ291bGQgbm90IHNldCB0aGUgZGVmYXVsdCBoYW5kbGVyIChMYXVuY2hTZXJ2aWNlcyBicmlkZ2UgcmV0dXJuZWQgJHJjKSAtIGEgcHJvZmlsZSBtYXkgYmUgcmVxdWlyZWQiCmV4aXQgMjAK"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "11ee72b1-a728-456b-855e-71dac1798d12",
+  "slug": "software-update-catalog-url-set",
+  "type": "sensor",
+  "name": "Custom Software Update Catalog Set",
+  "description": "Console sensor name: software_update_catalog_url_set. True when a custom software update catalogue URL is configured. Almost always a leftover pointing at a retired internal update server, and it stops the device seeing Apple's updates entirely.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔗",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "configuration",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuU29mdHdhcmVVcGRhdGUgQ2F0YWxvZ1VSTCAyPi9kZXYvbnVsbCkKaWYgWyAtbiAiJHYiIF07IHRoZW4gZWNobyAidHJ1ZSI7IGVsc2UgZWNobyAiZmFsc2UiOyBmaQo="
+}

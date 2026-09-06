@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e43ecf3e-9f57-45a4-8851-b86fa540dbfd",
+  "slug": "user-caches-size-gb",
+  "type": "sensor",
+  "name": "User Cache Size GB",
+  "description": "Console sensor name: user_caches_size_gb. Combined size of every local user's Library Caches folder in gigabytes. The first place to look when a disk is full and no obvious large file explains it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗂️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cache",
+    "cleanup",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgprPTAKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgvTGlicmFyeS9DYWNoZXMiIF0gfHwgY29udGludWUKICBjPSQoZHUgLXNrICIkaC9MaWJyYXJ5L0NhY2hlcyIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBrPSQoKGsrYykpCmRvbmUKZWNobyAkKCggayAvIDEwNDg1NzYgKSkK"
+}

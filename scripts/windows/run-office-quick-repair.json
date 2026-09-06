@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c6f08dba-8e42-40cc-8b40-fa07a2de0332",
+  "slug": "run-office-quick-repair",
+  "type": "script",
+  "name": "Run Office Quick Repair",
+  "description": "Runs the Click-to-Run quick repair, which replaces damaged program files without re-downloading the whole suite. It closes the Office applications, so run it out of hours or from the catalogue where the user chooses the moment.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧰",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "office",
+    "m365",
+    "repair",
+    "applications"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 3600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Repair Office",
+      "displayDescription": "Runs a quick repair of the Microsoft 365 apps. Office will close.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJ1bi1vZmZpY2UtcXVpY2stcmVwYWlyLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGMyciA9IEpvaW4tUGF0aCAkZW52OlByb2dyYW1GaWxlcyAnQ29tbW9uIEZpbGVzXE1pY3Jvc29mdCBTaGFyZWRcQ2xpY2tUb1J1blxPZmZpY2VDbGlja1RvUnVuLmV4ZScKICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRjMnIpKSB7IFdyaXRlLUxvZyAnQ2xpY2stdG8tUnVuIGNsaWVudCBub3QgcHJlc2VudCc7IGV4aXQgMTAgfQogICAgJGtleSA9ICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcT2ZmaWNlXENsaWNrVG9SdW5cQ29uZmlndXJhdGlvbicKICAgICRpZHMgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGtleSAtTmFtZSAnUHJvZHVjdFJlbGVhc2VJZHMnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5Qcm9kdWN0UmVsZWFzZUlkcwogICAgJHBsYXQgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGtleSAtTmFtZSAnUGxhdGZvcm0nIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5QbGF0Zm9ybQogICAgaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoW3N0cmluZ10kaWRzKSkgeyBXcml0ZS1Mb2cgJ05vIE9mZmljZSBwcm9kdWN0IHJlbGVhc2UgaWRzIGZvdW5kJzsgZXhpdCAxMCB9CiAgICBXcml0ZS1Mb2cgKCdSZXBhaXJpbmcgJyArICRpZHMgKyAnICgnICsgJHBsYXQgKyAnKScpCiAgICAkYXJncyA9ICdzY2VuYXJpbz1SZXBhaXIgcGxhdGZvcm09JyArICRwbGF0ICsgJyBjdWx0dXJlPWVuLXVzIFJlcGFpclR5cGU9UXVpY2tSZXBhaXIgRGlzcGxheUxldmVsPUZhbHNlJwogICAgJHAgPSBTdGFydC1Qcm9jZXNzIC1GaWxlUGF0aCAkYzJyIC1Bcmd1bWVudExpc3QgJGFyZ3MgLVBhc3NUaHJ1IC1XYWl0IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAkY29kZSA9IGlmICgkbnVsbCAtZXEgJHApIHsgLTEgfSBlbHNlIHsgJHAuRXhpdENvZGUgfQogICAgV3JpdGUtTG9nICgnUXVpY2sgcmVwYWlyIGV4aXQgY29kZSAnICsgJGNvZGUpCiAgICBpZiAoJGNvZGUgLWVxIDApIHsgZXhpdCAwIH0KICAgIGV4aXQgMjAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

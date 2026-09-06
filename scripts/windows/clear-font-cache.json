@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "608b612b-2af7-4c9b-94fb-93a6bcd9c517",
+  "slug": "clear-font-cache",
+  "type": "script",
+  "name": "Clear Font Cache",
+  "description": "Stops the font cache services, deletes the cache databases and starts them again. The fix for garbled or missing text in Office and Explorer after a font package deploys badly.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "fonts",
+    "userexperience",
+    "cleanup",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Font Display Problems",
+      "displayDescription": "Rebuilds the Windows font cache.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLWZvbnQtY2FjaGUubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkc3ZjcyA9IEAoJ0ZvbnRDYWNoZScsICdGb250Q2FjaGUzLjAuMC4wJykKICAgICRkaXJzID0gQCgoSm9pbi1QYXRoICRlbnY6U3lzdGVtUm9vdCAnU2VydmljZVByb2ZpbGVzXExvY2FsU2VydmljZVxBcHBEYXRhXExvY2FsXEZvbnRDYWNoZScpLAogICAgICAgICAgICAgIChKb2luLVBhdGggJGVudjpTeXN0ZW1Sb290ICdTeXN0ZW0zMlxGTlRDQUNIRS5EQVQnKSkKICAgIGZvcmVhY2ggKCRzIGluICRzdmNzKSB7IFN0b3AtU2VydmljZSAtTmFtZSAkcyAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfQogICAgU3RhcnQtU2xlZXAgLVNlY29uZHMgMgogICAgJHJlbW92ZWQgPSAwCiAgICBmb3JlYWNoICgkZCBpbiAkZGlycykgewogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBjb250aW51ZSB9CiAgICAgICAgaWYgKChHZXQtSXRlbSAtTGl0ZXJhbFBhdGggJGQgLUZvcmNlKS5QU0lzQ29udGFpbmVyKSB7CiAgICAgICAgICAgIEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRkIC1GaWx0ZXIgJyouZGF0JyAtRmlsZSAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfAogICAgICAgICAgICAgICAgRm9yRWFjaC1PYmplY3QgeyBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJF8uRnVsbE5hbWUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlOyAkcmVtb3ZlZCsrIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJGQgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgICAgICRyZW1vdmVkKysKICAgICAgICB9CiAgICB9CiAgICBmb3JlYWNoICgkcyBpbiAkc3ZjcykgeyBTdGFydC1TZXJ2aWNlIC1OYW1lICRzIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIH0KICAgICRydW5uaW5nID0gQCgkc3ZjcyB8IFdoZXJlLU9iamVjdCB7IChHZXQtU2VydmljZSAtTmFtZSAkXyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuU3RhdHVzIC1lcSAnUnVubmluZycgfSkKICAgIFdyaXRlLUxvZyAoJ1JlbW92ZWQgJyArICRyZW1vdmVkICsgJyBjYWNoZSBmaWxlKHMpOyAnICsgJHJ1bm5pbmcuQ291bnQgKyAnIG9mICcgKyAkc3Zjcy5Db3VudCArICcgZm9udCBzZXJ2aWNlKHMpIHJ1bm5pbmcnKQogICAgaWYgKCRydW5uaW5nLkNvdW50IC1ndCAwKSB7IGV4aXQgMCB9CiAgICBleGl0IDIwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

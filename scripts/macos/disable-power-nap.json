@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "768b8e90-9f20-490b-ba00-d9185b82a267",
+  "slug": "disable-power-nap",
+  "type": "script",
+  "name": "Disable Power Nap",
+  "description": "Turns Power Nap off on all power sources. Power Nap wakes the device to check mail and run backups, which on a laptop in a bag means a warm machine and a flat battery.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "😴",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "pmset",
+    "battery",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtcG93ZXItbmFwLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdj0kKHBtc2V0IC1nIGN1c3RvbSAyPi9kZXYvbnVsbCB8IGF3ayAnL3Bvd2VybmFwLyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAteiAiJHYiIF07IHRoZW4gbG9nICJQb3dlciBOYXAgaXMgbm90IGV4cG9zZWQgb24gdGhpcyBoYXJkd2FyZSwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQppZiBbICIkdiIgPSAiMCIgXTsgdGhlbiBsb2cgIkFscmVhZHkgZGlzYWJsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJwb3dlcm5hcCB3YXMgJHYsIGRpc2FibGluZyIKcG1zZXQgLWEgcG93ZXJuYXAgMCA+L2Rldi9udWxsIDI+JjEKYT0kKHBtc2V0IC1nIGN1c3RvbSAyPi9kZXYvbnVsbCB8IGF3ayAnL3Bvd2VybmFwLyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAiJGEiID0gIjAiIF07IHRoZW4gbG9nICJQb3dlciBOYXAgZGlzYWJsZWQiOyBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

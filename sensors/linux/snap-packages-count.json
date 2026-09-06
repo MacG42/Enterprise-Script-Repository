@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "91d31574-0cbf-455b-8c6c-6cc0d264d0ed",
+  "slug": "snap-packages-count",
+  "type": "sensor",
+  "name": "Snap Package Count",
+  "description": "Console sensor name: snap_packages_count. Number of installed snaps. Snaps update themselves on their own schedule, outside the package manager, so they are worth counting separately from everything else on the device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "snap",
+    "packages",
+    "patching",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgISBjb21tYW5kIC12IHNuYXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAiMCIKZWxzZQogIG49JChzbmFwIGxpc3QgMj4vZGV2L251bGwgfCB0YWlsIC1uICsyIHwgZ3JlcCAtYyAuKQogIGNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0wIDs7IGVzYWMKICBlY2hvICIkbiIKZmkK"
+}

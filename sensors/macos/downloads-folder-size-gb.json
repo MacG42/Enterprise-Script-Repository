@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "58d460df-f7be-491d-bcb4-c0cecdfc4e9e",
+  "slug": "downloads-folder-size-gb",
+  "type": "sensor",
+  "name": "Downloads Folder Size GB",
+  "description": "Console sensor name: downloads_folder_size_gb. Combined size of every local user's Downloads folder in gigabytes. Usually the largest reclaimable area on a full laptop, and the one a user can clear themselves once they are shown the number.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "downloads",
+    "cleanup",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgprPTAKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgvRG93bmxvYWRzIiBdIHx8IGNvbnRpbnVlCiAgYz0kKGR1IC1zayAiJGgvRG93bmxvYWRzIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIGs9JCgoaytjKSkKZG9uZQplY2hvICQoKCBrIC8gMTA0ODU3NiApKQo="
+}

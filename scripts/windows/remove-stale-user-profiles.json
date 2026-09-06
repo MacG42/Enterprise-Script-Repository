@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9d26438e-4c36-4ae3-b7d1-179ec7c2fa92",
+  "slug": "remove-stale-user-profiles",
+  "type": "script",
+  "name": "Remove Stale User Profiles",
+  "description": "Deletes local profiles not used in 90 days, skipping loaded, special and administrator profiles. Uses the Win32_UserProfile Delete method so the registry ProfileList entry goes with the folder - deleting the folder alone is what creates a TEMP profile on next logon.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "profiles",
+    "disk",
+    "cleanup",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlbW92ZS1zdGFsZS11c2VyLXByb2ZpbGVzLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGN1dCA9IChHZXQtRGF0ZSkuQWRkRGF5cygtOTApCiAgICAkYWRtaW5zID0gQChHZXQtTG9jYWxHcm91cE1lbWJlciAtU0lEICdTLTEtNS0zMi01NDQnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgU2VsZWN0LU9iamVjdCAtRXhwYW5kUHJvcGVydHkgU0lEIHwgU2VsZWN0LU9iamVjdCAtRXhwYW5kUHJvcGVydHkgVmFsdWUpCiAgICAkc3RhbGUgPSBAKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX1VzZXJQcm9maWxlIC1GaWx0ZXIgJ1NwZWNpYWwgPSBGYWxzZScgfAogICAgICAgIFdoZXJlLU9iamVjdCB7IC1ub3QgJF8uTG9hZGVkIC1hbmQgJG51bGwgLW5lICRfLkxhc3RVc2VUaW1lIC1hbmQgJF8uTGFzdFVzZVRpbWUgLWx0ICRjdXQgLWFuZCAkYWRtaW5zIC1ub3Rjb250YWlucyAkXy5TSUQgfSkKICAgIGlmICgkc3RhbGUuQ291bnQgLWVxIDApIHsgV3JpdGUtTG9nICdObyBzdGFsZSBwcm9maWxlcywgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRyZW1vdmVkID0gMAogICAgZm9yZWFjaCAoJHAgaW4gJHN0YWxlKSB7CiAgICAgICAgV3JpdGUtTG9nICgnUmVtb3ZpbmcgJyArICRwLkxvY2FsUGF0aCArICcgKFNJRCAnICsgJHAuU0lEICsgJywgbGFzdCB1c2VkICcgKyAkcC5MYXN0VXNlVGltZS5Ub1N0cmluZygneXl5eS1NTS1kZCcpICsgJyknKQogICAgICAgIHRyeSB7IFJlbW92ZS1DaW1JbnN0YW5jZSAtSW5wdXRPYmplY3QgJHAgLUVycm9yQWN0aW9uIFN0b3A7ICRyZW1vdmVkKysgfQogICAgICAgIGNhdGNoIHsgV3JpdGUtTG9nICgnQ291bGQgbm90IHJlbW92ZSAnICsgJHAuTG9jYWxQYXRoICsgJzogJyArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKSB9CiAgICB9CiAgICBXcml0ZS1Mb2cgKCdSZW1vdmVkICcgKyAkcmVtb3ZlZCArICcgb2YgJyArICRzdGFsZS5Db3VudCArICcgc3RhbGUgcHJvZmlsZShzKScpCiAgICBpZiAoJHJlbW92ZWQgLWd0IDApIHsgZXhpdCAwIH0KICAgIGV4aXQgMjAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

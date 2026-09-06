@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "61c39236-52a1-4c14-b596-ceddca28221b",
+  "slug": "hub-service-active-linux",
+  "type": "sensor",
+  "name": "Hub Service Active",
+  "description": "Console sensor name: hub_service_active. True when the Hub's systemd service is running. An enrolled device with a stopped agent keeps its last reported state in the console, which is why it still looks healthy.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🟢",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgppZiBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmb3IgdSBpbiB3czFodWJkIGh1YmQgYXdjbSB2bXdhcmUtaHViIG9tbmlzc2EtaHViOyBkbwogICAgc3lzdGVtY3RsIGlzLWFjdGl2ZSAiJHUiID4vZGV2L251bGwgMj4mMSAmJiBmb3VuZD0idHJ1ZSIKICBkb25lCmZpCmlmIFsgIiRmb3VuZCIgPSAiZmFsc2UiIF07IHRoZW4KICBmb3IgcCBpbiB3czFodWJkIGh1YmQgYXdjbTsgZG8KICAgIHBncmVwIC14ICIkcCIgPi9kZXYvbnVsbCAyPiYxICYmIGZvdW5kPSJ0cnVlIgogIGRvbmUKZmkKZWNobyAiJGZvdW5kIgo="
+}

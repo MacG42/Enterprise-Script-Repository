@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "389ce4df-c33e-45aa-a2b0-c8b0da3dcb18",
+  "slug": "core-dumps-enabled",
+  "type": "sensor",
+  "name": "Core Dumps Enabled",
+  "description": "Console sensor name: core_dumps_enabled. True when a process is allowed to write a core dump. Cores can contain secrets held in memory, so most hardened baselines set the limit to zero and most default installs do not.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "coredump",
+    "hardening",
+    "privacy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKHVsaW1pdCAtYyAyPi9kZXYvbnVsbCkKcz0iIgpbIC1yIC9ldGMvc2VjdXJpdHkvbGltaXRzLmNvbmYgXSAmJiBzPSQoZ3JlcCAtRWMgIl5bXiNdKmhhcmRbWzpzcGFjZTpdXStjb3JlW1s6c3BhY2U6XV0rMCIgL2V0Yy9zZWN1cml0eS9saW1pdHMuY29uZiAyPi9kZXYvbnVsbCkKY2FzZSAiJHMiIGluICcnfCpbITAtOV0qKSBzPTAgOzsgZXNhYwppZiBbICIkdiIgPSAiMCIgXSB8fCBbICIkcyIgLWd0IDAgXTsgdGhlbgogIGVjaG8gImZhbHNlIgplbHNlCiAgZWNobyAidHJ1ZSIKZmkK"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "aa93b579-ec22-41d6-8df9-d151bbc66e6f",
+  "slug": "disable-fast-startup-windows",
+  "type": "script",
+  "name": "Disable Fast Startup",
+  "description": "Clears HiberbootEnabled so a shutdown is a real shutdown. Devices with fast startup on can go months without a genuine boot, which is why patches, drivers and startup scripts appear not to apply.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⚡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "boot",
+    "patching",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtZmFzdC1zdGFydHVwLXdpbmRvd3MubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxTZXNzaW9uIE1hbmFnZXJcUG93ZXInCiAgICAkdiA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnSGliZXJib290RW5hYmxlZCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkhpYmVyYm9vdEVuYWJsZWQKICAgIGlmICgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1lcSAwKSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBjb21wbGlhbnQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdIaWJlcmJvb3RFbmFibGVkIHdhcyAnICsgJChpZiAoJG51bGwgLWVxICR2KSB7ICd1bnNldCAoZGVmYXVsdCBvbiknIH0gZWxzZSB7ICR2IH0pICsgJywgc2V0dGluZyB0byAwJykKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdIaWJlcmJvb3RFbmFibGVkJyAtVmFsdWUgMCAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICAkYSA9IFtpbnRdKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdIaWJlcmJvb3RFbmFibGVkJykuSGliZXJib290RW5hYmxlZAogICAgaWYgKCRhIC1lcSAwKSB7IFdyaXRlLUxvZyAnRmFzdCBzdGFydHVwIGRpc2FibGVkJzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

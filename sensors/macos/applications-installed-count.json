@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "242548c8-2b18-4520-b88e-1ba4c8f0e07c",
+  "slug": "applications-installed-count",
+  "type": "sensor",
+  "name": "Installed Application Count",
+  "description": "Console sensor name: applications_installed_count. Number of application bundles in /Applications. A useful shape measure for a fleet: devices far above the median are usually carrying software nobody has assessed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "applications",
+    "inventory",
+    "software",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQobHMgLTFkIC9BcHBsaWNhdGlvbnMvKi5hcHAgMj4vZGV2L251bGwgfCB3YyAtbCB8IHRyIC1kICcgJykKY2FzZSAiJG4iIGluICcnfCpbITAtOV0qKSBuPS0xIDs7IGVzYWMKZWNobyAiJG4iCg=="
+}

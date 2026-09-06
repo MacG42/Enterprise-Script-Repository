@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bfe72d18-db01-44a4-be70-6bf9262c3f39",
+  "slug": "local-accounts-never-expire",
+  "type": "sensor",
+  "name": "Local Accounts With Non-Expiring Password",
+  "description": "Console sensor name: local_accounts_never_expire. Count of enabled local accounts whose password never expires, excluding the disabled built-ins. Service accounts created by an installer are the usual finding.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📆",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "passwords",
+    "security",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR1ID0gQChHZXQtTG9jYWxVc2VyIC1FcnJvckFjdGlvbiBTdG9wIHwgV2hlcmUtT2JqZWN0IHsgJF8uRW5hYmxlZCAtYW5kICRfLlBhc3N3b3JkRXhwaXJlcyAtZXEgJG51bGwgLWFuZCAkXy5QYXNzd29yZFJlcXVpcmVkIH0pCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJHUuQ291bnQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

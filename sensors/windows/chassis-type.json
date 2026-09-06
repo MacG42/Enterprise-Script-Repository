@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f61173c3-e44a-4e1c-a22d-4bb88a138c22",
+  "slug": "chassis-type",
+  "type": "sensor",
+  "name": "Chassis Type",
+  "description": "Console sensor name: chassis_type. Closed set: Laptop, Desktop, Tablet, VirtualMachine, Server, Other. Form factor decides which policies make sense, and virtual machines should be excluded from most hardware sensors.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💻",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hardware",
+    "inventory",
+    "formfactor"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjcyA9IEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX0NvbXB1dGVyU3lzdGVtIC1FcnJvckFjdGlvbiBTdG9wCiAgICBpZiAoW3N0cmluZ10kY3MuTW9kZWwgLW1hdGNoICdWaXJ0dWFsfFZNd2FyZXxLVk18WGVufEh5cGVyLVYnKSB7IFdyaXRlLU91dHB1dCAnVmlydHVhbE1hY2hpbmUnIH0KICAgIGVsc2UgewogICAgICAgICR0ID0gQCgoR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfU3lzdGVtRW5jbG9zdXJlIC1FcnJvckFjdGlvbiBTdG9wKS5DaGFzc2lzVHlwZXMpCiAgICAgICAgJHYgPSBpZiAoJHQuQ291bnQgLWd0IDApIHsgW2ludF0kdFswXSB9IGVsc2UgeyAwIH0KICAgICAgICBpZiAoJHYgLWluIEAoOCwgOSwgMTAsIDExLCAxMiwgMTQsIDE4LCAyMSwgMzEsIDMyKSkgeyBXcml0ZS1PdXRwdXQgJ0xhcHRvcCcgfQogICAgICAgIGVsc2VpZiAoJHYgLWluIEAoMywgNCwgNSwgNiwgNywgMTMsIDE1LCAxNiwgMzUsIDM2KSkgeyBXcml0ZS1PdXRwdXQgJ0Rlc2t0b3AnIH0KICAgICAgICBlbHNlaWYgKCR2IC1pbiBAKDMwLCAzNCkpIHsgV3JpdGUtT3V0cHV0ICdUYWJsZXQnIH0KICAgICAgICBlbHNlaWYgKCR2IC1pbiBAKDE3LCAyMywgMjUsIDI4KSkgeyBXcml0ZS1PdXRwdXQgJ1NlcnZlcicgfQogICAgICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgJ090aGVyJyB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "092cfbf7-2202-4993-ae4f-d37f20aa0f3f",
+  "slug": "clean-container-artifacts",
+  "type": "script",
+  "name": "Clean Container Images And Volumes",
+  "description": "Delivery: systemd timer. Prunes stopped containers, dangling images and unused build cache. Named volumes are deliberately left alone, because that is where anything worth keeping lives.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🐳",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "docker",
+    "containers",
+    "disk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhbi1jb250YWluZXItYXJ0aWZhY3RzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgY29tbWFuZCAtdiBkb2NrZXIgPi9kZXYvbnVsbCAyPiYxICYmIGRvY2tlciBpbmZvID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGJlZm9yZT0kKGRvY2tlciBzeXN0ZW0gZGYgLS1mb3JtYXQgInt7LlNpemV9fSIgMj4vZGV2L251bGwgfCBoZWFkIC0xKQogIGxvZyAiRG9ja2VyIGRpc2sgdXNhZ2UgYmVmb3JlOiAke2JlZm9yZTotdW5rbm93bn0iCiAgZG9ja2VyIGNvbnRhaW5lciBwcnVuZSAtZiA+L2Rldi9udWxsIDI+JjEKICBkb2NrZXIgaW1hZ2UgcHJ1bmUgLWYgPi9kZXYvbnVsbCAyPiYxCiAgZG9ja2VyIGJ1aWxkZXIgcHJ1bmUgLWYgPi9kZXYvbnVsbCAyPiYxCiAgYWZ0ZXI9JChkb2NrZXIgc3lzdGVtIGRmIC0tZm9ybWF0ICJ7ey5TaXplfX0iIDI+L2Rldi9udWxsIHwgaGVhZCAtMSkKICBsb2cgIkRvY2tlciBkaXNrIHVzYWdlIGFmdGVyOiAke2FmdGVyOi11bmtub3dufSAtIG5hbWVkIHZvbHVtZXMgd2VyZSBub3QgdG91Y2hlZCIKICBleGl0IDAKZmkKaWYgY29tbWFuZCAtdiBwb2RtYW4gPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgcG9kbWFuIGNvbnRhaW5lciBwcnVuZSAtZiA+L2Rldi9udWxsIDI+JjEKICBwb2RtYW4gaW1hZ2UgcHJ1bmUgLWYgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJQcnVuZWQgcG9kbWFuIGNvbnRhaW5lcnMgYW5kIGRhbmdsaW5nIGltYWdlcyAtIG5hbWVkIHZvbHVtZXMgd2VyZSBub3QgdG91Y2hlZCIKICBleGl0IDAKZmkKbG9nICJObyB1c2FibGUgY29udGFpbmVyIHJ1bnRpbWUsIG5vIGFjdGlvbiIKZXhpdCAwCg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "accc5371-a69f-4bd6-af21-0b234dc920b8",
+  "slug": "clear-failed-login-records",
+  "type": "script",
+  "name": "Clear Failed Login Counters",
+  "description": "Delivery: ad hoc. Resets the failed login counters that lock an account out after repeated bad passwords, so a user who has already reset their password can get back in without waiting.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "accounts",
+    "lockout",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhci1mYWlsZWQtbG9naW4tcmVjb3Jkcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmNsZWFyZWQ9MAppZiBjb21tYW5kIC12IGZhaWxsb2NrID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGZvciB1IGluICQoYXdrIC1GOiAnKCQzID49IDEwMDAgJiYgJDMgPCA2NTUzNCkge3ByaW50ICQxfScgL2V0Yy9wYXNzd2QgMj4vZGV2L251bGwpOyBkbwogICAgbj0kKGZhaWxsb2NrIC0tdXNlciAiJHUiIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiXjIwIikKICAgIGNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0wIDs7IGVzYWMKICAgIFsgIiRuIiAtZXEgMCBdICYmIGNvbnRpbnVlCiAgICBmYWlsbG9jayAtLXVzZXIgIiR1IiAtLXJlc2V0ID4vZGV2L251bGwgMj4mMQogICAgbG9nICJDbGVhcmVkICRuIGZhaWxlZCBhdHRlbXB0KHMpIGZvciAkdSIKICAgIGNsZWFyZWQ9JCgoY2xlYXJlZCsxKSkKICBkb25lCmVsaWYgY29tbWFuZCAtdiBwYW1fdGFsbHkyID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHBhbV90YWxseTIgLS1yZXNldCA+L2Rldi9udWxsIDI+JjEKICBsb2cgIlJlc2V0IHRoZSBwYW1fdGFsbHkyIGNvdW50ZXJzIgogIGNsZWFyZWQ9MQpmaQppZiBbICIkY2xlYXJlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIGxvY2tvdXQgY291bnRlcnMgdG8gY2xlYXIsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJDbGVhcmVkIGxvY2tvdXQgY291bnRlcnMgZm9yICRjbGVhcmVkIGFjY291bnQocykiCmV4aXQgMAo="
+}

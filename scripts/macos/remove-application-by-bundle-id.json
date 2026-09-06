@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f135fc29-1e94-40c5-8e97-9668c4a3be08",
+  "slug": "remove-application-by-bundle-id",
+  "type": "script",
+  "name": "Remove Application By Bundle Identifier",
+  "description": "Finds the application in /Applications whose bundle identifier matches esr_app_bundle_id and moves it into a holding folder under /var/root rather than deleting it. Reversible, and it leaves evidence of what was removed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "applications",
+    "removal",
+    "software",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_app_bundle_id",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbW92ZS1hcHBsaWNhdGlvbi1ieS1idW5kbGUtaWQubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpiPSckZXNyX2FwcF9idW5kbGVfaWQkJwpjYXNlICIkYiIgaW4KICAqZXNyX2FwcF9idW5kbGVfaWQqfCcnKSBsb2cgIk5vIGJ1bmRsZSBpZGVudGlmaWVyIHN1cHBsaWVkIjsgZXhpdCAxMCA7Owplc2FjCnRhcmdldD0iIgpmb3IgYSBpbiAvQXBwbGljYXRpb25zLyouYXBwOyBkbwogIFsgLWQgIiRhIiBdIHx8IGNvbnRpbnVlCiAgaWQ9JChkZWZhdWx0cyByZWFkICIkYS9Db250ZW50cy9JbmZvIiBDRkJ1bmRsZUlkZW50aWZpZXIgMj4vZGV2L251bGwpCiAgaWYgWyAiJGlkIiA9ICIkYiIgXTsgdGhlbiB0YXJnZXQ9IiRhIjsgYnJlYWs7IGZpCmRvbmUKaWYgWyAteiAiJHRhcmdldCIgXTsgdGhlbiBsb2cgIk5vIGFwcGxpY2F0aW9uIGluIC9BcHBsaWNhdGlvbnMgd2l0aCBpZGVudGlmaWVyICRiLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnN0YW1wPSQoZGF0ZSAtdSArJVklbSVkJUglTSVTKQpob2xkPSIvdmFyL3Jvb3QvcmVtb3ZlZC1hcHBzLSRzdGFtcCIKbWtkaXIgLXAgIiRob2xkIiAyPi9kZXYvbnVsbApuYW1lPSQoYmFzZW5hbWUgIiR0YXJnZXQiKQpwa2lsbCAtZiAiJG5hbWUiIDI+L2Rldi9udWxsCnNsZWVwIDIKbXYgIiR0YXJnZXQiICIkaG9sZC8iIDI+L2Rldi9udWxsCmlmIFsgISAtZCAiJHRhcmdldCIgXTsgdGhlbgogIGxvZyAiTW92ZWQgJHRhcmdldCB0byAkaG9sZCIKICBleGl0IDAKZmkKbG9nICJDb3VsZCBub3QgbW92ZSAkdGFyZ2V0IgpleGl0IDIwCg=="
+}

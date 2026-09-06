@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9149b48e-b21a-489f-b4b2-214e8f91c114",
+  "slug": "collect-hub-diagnostic-logs",
+  "type": "script",
+  "name": "Collect Hub Diagnostic Logs",
+  "description": "Copies the Hub, MDM diagnostic and provisioning logs into a single timestamped zip under ProgramData so a technician can collect one file instead of hunting five folders. Nothing is uploaded and nothing is deleted.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "logs",
+    "diagnostics",
+    "support"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Collect Support Logs",
+      "displayDescription": "Gathers management agent logs into one zip for the service desk.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNvbGxlY3QtaHViLWRpYWdub3N0aWMtbG9ncy5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRzdGFtcCA9IChHZXQtRGF0ZSkuVG9TdHJpbmcoJ3l5eXlNTWRkLUhIbW1zcycpCiAgICAkc3RhZ2UgPSBKb2luLVBhdGggJGVudjpURU1QICgnaHVibG9ncy0nICsgJHN0YW1wKQogICAgJGRlc3QgPSBKb2luLVBhdGggJGVudjpQcm9ncmFtRGF0YSAnTWFjR1dvcmxkXExvZ3MnCiAgICAkemlwID0gSm9pbi1QYXRoICRkZXN0ICgnaHVibG9ncy0nICsgJGVudjpDT01QVVRFUk5BTUUgKyAnLScgKyAkc3RhbXAgKyAnLnppcCcpCiAgICBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRzdGFnZSAtRm9yY2UgfCBPdXQtTnVsbAogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGRlc3QpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGRlc3QgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgJHNvdXJjZXMgPSBAKAogICAgICAgIChKb2luLVBhdGggJGVudjpQcm9ncmFtRGF0YSAnQWlyV2F0Y2hcVW5pZmllZEFnZW50XExvZ3MnKSwKICAgICAgICAoSm9pbi1QYXRoICRlbnY6UHJvZ3JhbURhdGEgJ1ZNd2FyZVxMb2dzJyksCiAgICAgICAgKEpvaW4tUGF0aCAkZW52OlByb2dyYW1EYXRhICdNaWNyb3NvZnRcRGlhZ25vc3RpY0xvZ0NTUCcpLAogICAgICAgIChKb2luLVBhdGggJGVudjpTeXN0ZW1Sb290ICdMb2dzXFByb3Zpc2lvbmluZycpCiAgICApCiAgICAkY29waWVkID0gMAogICAgZm9yZWFjaCAoJHMgaW4gJHNvdXJjZXMpIHsKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkcykpIHsgY29udGludWUgfQogICAgICAgICRsZWFmID0gKCRzIC1yZXBsYWNlICdbOlxcXScsICdfJykKICAgICAgICAkdCA9IEpvaW4tUGF0aCAkc3RhZ2UgJGxlYWYKICAgICAgICBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICR0IC1Gb3JjZSB8IE91dC1OdWxsCiAgICAgICAgQ29weS1JdGVtIC1MaXRlcmFsUGF0aCAkcyAtRGVzdGluYXRpb24gJHQgLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgJGNvcGllZCsrCiAgICB9CiAgICBpZiAoJGNvcGllZCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ05vIEh1YiBvciBNRE0gbG9nIGZvbGRlcnMgcHJlc2VudCc7IGV4aXQgMTAgfQogICAgJiBtZG1kaWFnbm9zdGljc3Rvb2wuZXhlIC1vdXQgJHN0YWdlIDI+JjEgfCBPdXQtTnVsbAogICAgQ29tcHJlc3MtQXJjaGl2ZSAtUGF0aCAoSm9pbi1QYXRoICRzdGFnZSAnKicpIC1EZXN0aW5hdGlvblBhdGggJHppcCAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIFJlbW92ZS1JdGVtIC1MaXRlcmFsUGF0aCAkc3RhZ2UgLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkemlwKSB7CiAgICAgICAgJG1iID0gW21hdGhdOjpSb3VuZCgoR2V0LUl0ZW0gLUxpdGVyYWxQYXRoICR6aXApLkxlbmd0aCAvIDFNQiwgMikKICAgICAgICBXcml0ZS1Mb2cgKCdXcm90ZSAnICsgJHppcCArICcgKCcgKyAkbWIgKyAnIE1CKSBmcm9tICcgKyAkY29waWVkICsgJyBzb3VyY2UgZm9sZGVyKHMpJykKICAgICAgICBleGl0IDAKICAgIH0KICAgIFdyaXRlLUxvZyAnQXJjaGl2ZSB3YXMgbm90IGNyZWF0ZWQnCiAgICBleGl0IDIwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

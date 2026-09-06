@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5693f5eb-ffb7-4962-bb87-4bb012bd1261",
+  "slug": "processor-architecture-macos",
+  "type": "sensor",
+  "name": "Processor Architecture",
+  "description": "Console sensor name: processor_architecture. Reports arm64 or x86_64. The dividing line for Rosetta, for kernel extension support and for a good deal of software packaging, so it belongs in the inventory.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hardware",
+    "architecture",
+    "inventory",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQodW5hbWUgLW0gMj4vZGV2L251bGwpClsgLXogIiR2IiBdICYmIHY9IlVua25vd24iCmVjaG8gIiR2Igo="
+}

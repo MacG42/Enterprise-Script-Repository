@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0f4b8be2-0349-44e9-8a2c-7ae8cbf77281",
+  "slug": "crash-dump-present",
+  "type": "sensor",
+  "name": "Crash Dump Present",
+  "description": "Console sensor name: crash_dump_present. True when a full memory dump or at least one minidump is on disk. It is both the evidence for a bugcheck investigation and, for MEMORY.DMP, often several gigabytes of reclaimable space.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "crashdump",
+    "reliability",
+    "disk",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRmdWxsID0gVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAoSm9pbi1QYXRoICRlbnY6U3lzdGVtUm9vdCAnTUVNT1JZLkRNUCcpCiAgICAkbWluaSA9IEAoR2V0LUNoaWxkSXRlbSAtTGl0ZXJhbFBhdGggKEpvaW4tUGF0aCAkZW52OlN5c3RlbVJvb3QgJ01pbmlkdW1wJykgLUZpbHRlciAnKi5kbXAnIC1GaWxlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5Db3VudCAtZ3QgMAogICAgV3JpdGUtT3V0cHV0IChbYm9vbF0oJGZ1bGwgLW9yICRtaW5pKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

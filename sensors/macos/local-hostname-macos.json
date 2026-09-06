@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3fac6300-975e-4e1d-b44d-ce54993b6043",
+  "slug": "local-hostname-macos",
+  "type": "sensor",
+  "name": "Local Hostname",
+  "description": "Console sensor name: local_hostname. The Bonjour local hostname. It is set separately from the computer name and drifts on its own, which is why a device answers to one name on the network and another in the console.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "naming",
+    "hostname",
+    "network",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc2N1dGlsIC0tZ2V0IExvY2FsSG9zdE5hbWUgMj4vZGV2L251bGwpClsgLXogIiR2IiBdICYmIHY9IlVua25vd24iCmVjaG8gIiR2Igo="
+}

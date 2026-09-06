@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "958f7859-6c99-4639-9c06-d2066c42fb8a",
+  "slug": "physical-memory-gb-macos",
+  "type": "sensor",
+  "name": "Physical Memory GB",
+  "description": "Console sensor name: physical_memory_gb. Installed memory in whole gigabytes. On Apple silicon memory cannot be upgraded, so this is a replacement-planning figure as much as a diagnostic one.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "hardware",
+    "inventory",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpiPSQoc3lzY3RsIC1uIGh3Lm1lbXNpemUgMj4vZGV2L251bGwpCmNhc2UgIiRiIiBpbiAnJ3wqWyEwLTldKikgZWNobyAiLTEiIDs7ICopIGVjaG8gJCgoIGIgLyAxMDczNzQxODI0ICkpIDs7IGVzYWMK"
+}

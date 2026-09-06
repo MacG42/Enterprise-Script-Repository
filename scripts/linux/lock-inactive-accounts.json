@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "84f9b1f2-29d2-4287-af34-e3d5039378e6",
+  "slug": "lock-inactive-accounts",
+  "type": "script",
+  "name": "Lock Inactive Accounts",
+  "description": "Delivery: systemd timer. Locks interactive accounts that have not logged in for 90 days, skipping root and anything in sudo or wheel so an administrator cannot be locked out by their own schedule.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "accounts",
+    "lifecycle",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1sb2NrLWluYWN0aXZlLWFjY291bnRzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBjb21tYW5kIC12IGxhc3Rsb2cgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAibGFzdGxvZyBpcyBub3QgYXZhaWxhYmxlIjsgZXhpdCAxMDsgZmkKYWRtaW5zPSQoZ2V0ZW50IGdyb3VwIHN1ZG8gMj4vZGV2L251bGwgfCBjdXQgLWQ6IC1mNCkKYWRtaW5zPSIkYWRtaW5zLCQoZ2V0ZW50IGdyb3VwIHdoZWVsIDI+L2Rldi9udWxsIHwgY3V0IC1kOiAtZjQpIgpsb2NrZWQ9MApmb3IgdSBpbiAkKGxhc3Rsb2cgLWIgOTAgMj4vZGV2L251bGwgfCBhd2sgJ05SPjEge3ByaW50ICQxfScpOyBkbwogIFsgLW4gIiR1IiBdIHx8IGNvbnRpbnVlCiAgWyAiJHUiID0gInJvb3QiIF0gJiYgY29udGludWUKICBpZCAtdSAiJHUiID4vZGV2L251bGwgMj4mMSB8fCBjb250aW51ZQogIHVpZD0kKGlkIC11ICIkdSIpCiAgWyAiJHVpZCIgLWx0IDEwMDAgXSAmJiBjb250aW51ZQogIGNhc2UgIiwkYWRtaW5zLCIgaW4gKiIsJHUsIiopIGNvbnRpbnVlIDs7IGVzYWMKICBwYXNzd2QgLVMgIiR1IiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQyfScgfCBncmVwIC1xICJeTCIgJiYgY29udGludWUKICBwYXNzd2QgLWwgIiR1IiA+L2Rldi9udWxsIDI+JjEKICBsb2cgIkxvY2tlZCAkdSAtIG5vIGxvZ2luIGluIHRoZSBsYXN0IDkwIGRheXMiCiAgbG9ja2VkPSQoKGxvY2tlZCsxKSkKZG9uZQppZiBbICIkbG9ja2VkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gaW5hY3RpdmUgYWNjb3VudHMgdG8gbG9jaywgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkxvY2tlZCAkbG9ja2VkIGluYWN0aXZlIGFjY291bnQocykiCmV4aXQgMAo="
+}

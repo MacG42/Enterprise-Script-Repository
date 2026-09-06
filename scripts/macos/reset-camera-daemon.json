@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2d1b72c2-873e-49b7-b775-a742373dd9df",
+  "slug": "reset-camera-daemon",
+  "type": "script",
+  "name": "Reset The Camera Subsystem",
+  "description": "Stops the camera assistant processes so the next application to ask gets a fresh one. The usual fix for a green light that stays on or a camera that reports as in use by nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📷",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "camera",
+    "video",
+    "hardware",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Camera",
+      "displayDescription": "Resets the camera when it is stuck or reported as in use.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LWNhbWVyYS1kYWVtb24ubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpraWxsZWQ9MApmb3IgcCBpbiBWRENBc3Npc3RhbnQgQXBwbGVDYW1lcmFBc3Npc3RhbnQgYXBwbGVoMTNjYW1lcmFkOyBkbwogIGlmIHBncmVwIC14ICIkcCIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBraWxsYWxsICIkcCIgMj4vZGV2L251bGwKICAgIGxvZyAiU3RvcHBlZCAkcCIKICAgIGtpbGxlZD0kKChraWxsZWQrMSkpCiAgZmkKZG9uZQppZiBbICIka2lsbGVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gY2FtZXJhIGFzc2lzdGFudCBwcm9jZXNzIHdhcyBydW5uaW5nLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnNsZWVwIDMKbG9nICJSZXNldCAka2lsbGVkIGNhbWVyYSBwcm9jZXNzKGVzKSAtIHRoZXkgcmVzdGFydCBvbiBkZW1hbmQiCmV4aXQgMAo="
+}

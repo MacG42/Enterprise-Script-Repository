@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0692e400-356c-406e-9d6b-0e182a58d01b",
+  "slug": "primary-dns-server",
+  "type": "sensor",
+  "name": "Primary DNS Server",
+  "description": "Console sensor name: primary_dns_server. The first resolver the system will ask. A public resolver here on a corporate device usually means split-brain internal names are about to fail.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dns",
+    "network",
+    "resolution",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc2N1dGlsIC0tZG5zIDI+L2Rldi9udWxsIHwgYXdrICcvbmFtZXNlcnZlclxbMFxdLyB7cHJpbnQgJDM7IGV4aXR9JykKWyAteiAiJHYiIF0gJiYgdj0iTm9uZSIKZWNobyAiJHYiCg=="
+}

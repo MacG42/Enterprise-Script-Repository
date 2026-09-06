@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "82f5077f-da86-4db5-aa5c-875c443838c6",
+  "slug": "enable-lsa-protection",
+  "type": "script",
+  "name": "Enable LSA Protection",
+  "description": "Sets RunAsPPL so LSASS starts as a protected process. Takes effect at the next restart, so the script reports a pending reboot rather than forcing one.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "lsa",
+    "credentials",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 60,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1sc2EtcHJvdGVjdGlvbi5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXExzYScKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdSdW5Bc1BQTCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlJ1bkFzUFBMCiAgICBpZiAoJG51bGwgLW5lICR2IC1hbmQgW2ludF0kdiAtZ2UgMSkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnUnVuQXNQUEwgd2FzICcgKyAkKGlmICgkbnVsbCAtZXEgJHYpIHsgJ2Fic2VudCcgfSBlbHNlIHsgJHYgfSkgKyAnLCBzZXR0aW5nIHRvIDEnKQogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1J1bkFzUFBMJyAtVmFsdWUgMSAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICBOZXctSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnUnVuQXNQUExCb290JyAtVmFsdWUgMSAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICAkYSA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnUnVuQXNQUEwnKS5SdW5Bc1BQTAogICAgaWYgKFtpbnRdJGEgLWVxIDEpIHsgV3JpdGUtTG9nICdTZXQgLSB0YWtlcyBlZmZlY3QgYXQgbmV4dCByZXN0YXJ0JzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a70cc877-7c5a-4b96-9562-2c10db94841f",
+  "slug": "install-fail2ban",
+  "type": "script",
+  "name": "Install And Enable Fail2ban",
+  "description": "Delivery: packaged post-install. Installs fail2ban, enables the SSH jail and starts it. On an internet-facing host this is the difference between a brute force attempt being slowed and running all night.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "fail2ban",
+    "bruteforce",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1pbnN0YWxsLWZhaWwyYmFuLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgcGdyZXAgLWYgImZhaWwyYmFuLXNlcnZlciIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiZmFpbDJiYW4gaXMgYWxyZWFkeSBydW5uaW5nLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmlmICEgY29tbWFuZCAtdiBmYWlsMmJhbi1jbGllbnQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJmYWlsMmJhbiBpcyBub3QgaW5zdGFsbGVkLCBhdHRlbXB0aW5nIHRvIGluc3RhbGwgaXQiCiAgaWYgY29tbWFuZCAtdiBhcHQtZ2V0ID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgREVCSUFOX0ZST05URU5EPW5vbmludGVyYWN0aXZlIGFwdC1nZXQgaW5zdGFsbCAteSBmYWlsMmJhbiA+L2Rldi9udWxsIDI+JjEKICBlbGlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgZG5mIGluc3RhbGwgLXkgZmFpbDJiYW4gPi9kZXYvbnVsbCAyPiYxCiAgZWxpZiBjb21tYW5kIC12IHp5cHBlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIHp5cHBlciAtLW5vbi1pbnRlcmFjdGl2ZSBpbnN0YWxsIGZhaWwyYmFuID4vZGV2L251bGwgMj4mMQogIGZpCmZpCmlmICEgY29tbWFuZCAtdiBmYWlsMmJhbi1jbGllbnQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiZmFpbDJiYW4gY291bGQgbm90IGJlIGluc3RhbGxlZCI7IGV4aXQgMjA7IGZpCm1rZGlyIC1wIC9ldGMvZmFpbDJiYW4vamFpbC5kIDI+L2Rldi9udWxsCnsKICBwcmludGYgJyVzXG4nICJbc3NoZF0iCiAgcHJpbnRmICclc1xuJyAiZW5hYmxlZCA9IHRydWUiCiAgcHJpbnRmICclc1xuJyAibWF4cmV0cnkgPSA1IgogIHByaW50ZiAnJXNcbicgImZpbmR0aW1lID0gNjAwIgogIHByaW50ZiAnJXNcbicgImJhbnRpbWUgPSAzNjAwIgp9ID4gL2V0Yy9mYWlsMmJhbi9qYWlsLmQvNjAtZXNyLXNzaGQuY29uZgpzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGZhaWwyYmFuID4vZGV2L251bGwgMj4mMQpzbGVlcCA1CmlmIGZhaWwyYmFuLWNsaWVudCBzdGF0dXMgc3NoZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4gbG9nICJmYWlsMmJhbiBydW5uaW5nIHdpdGggdGhlIHNzaGQgamFpbCBlbmFibGVkIjsgZXhpdCAwOyBmaQpsb2cgImZhaWwyYmFuIGRpZCBub3Qgc3RhcnQgY2xlYW5seSIKZXhpdCAzMAo="
+}

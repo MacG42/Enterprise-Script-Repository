@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "94de99d3-137b-433a-a504-fe871ebc973e",
+  "slug": "disable-winrm-service",
+  "type": "script",
+  "name": "Disable WinRM Service",
+  "description": "Stops the Windows Remote Management service, sets it to Disabled and removes its listeners. For fleets managed entirely through the Hub, where WinRM is attack surface rather than a management path.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔇",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "winrm",
+    "hardening",
+    "services",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtd2lucm0tc2VydmljZS5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRzdmMgPSBHZXQtU2VydmljZSAtTmFtZSAnV2luUk0nIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJG51bGwgLWVxICRzdmMpIHsgV3JpdGUtTG9nICdXaW5STSBzZXJ2aWNlIG5vdCBwcmVzZW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgaWYgKCRzdmMuU3RhdHVzIC1lcSAnU3RvcHBlZCcgLWFuZCAkc3ZjLlN0YXJ0VHlwZSAtZXEgJ0Rpc2FibGVkJykgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnV2luUk0gd2FzICcgKyAkc3ZjLlN0YXR1cyArICcgLyAnICsgJHN2Yy5TdGFydFR5cGUpCiAgICAkbGlzdGVuZXJzID0gQChHZXQtQ2hpbGRJdGVtIC1QYXRoICdXU01hbjpcbG9jYWxob3N0XExpc3RlbmVyJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkKICAgIGZvcmVhY2ggKCRsIGluICRsaXN0ZW5lcnMpIHsKICAgICAgICBSZW1vdmUtSXRlbSAtUGF0aCAkbC5QU1BhdGggLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgV3JpdGUtTG9nICgnUmVtb3ZlZCBsaXN0ZW5lciAnICsgJGwuTmFtZSkKICAgIH0KICAgIFN0b3AtU2VydmljZSAtTmFtZSAnV2luUk0nIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgU2V0LVNlcnZpY2UgLU5hbWUgJ1dpblJNJyAtU3RhcnR1cFR5cGUgRGlzYWJsZWQgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRhID0gR2V0LVNlcnZpY2UgLU5hbWUgJ1dpblJNJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgaWYgKCRhLlN0YXR1cyAtZXEgJ1N0b3BwZWQnIC1hbmQgJGEuU3RhcnRUeXBlIC1lcSAnRGlzYWJsZWQnKSB7IFdyaXRlLUxvZyAnV2luUk0gZGlzYWJsZWQnOyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

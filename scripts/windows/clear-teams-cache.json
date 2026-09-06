@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d51abe9c-4bbd-4a36-b3ee-dc58f8ae06f0",
+  "slug": "clear-teams-cache",
+  "type": "script",
+  "name": "Clear Microsoft Teams Cache",
+  "description": "Closes Teams and removes its cached web content for the signed-in user. Fixes a stuck sign-in, a blank client and stale presence without touching chat history, which lives in the service.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💬",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "teams",
+    "cache",
+    "applications",
+    "troubleshooting"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "USER",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clear Teams Cache",
+      "displayDescription": "Fixes sign-in and display problems in Teams. Teams will close.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLXRlYW1zLWNhY2hlLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHByb2NzID0gQChHZXQtUHJvY2VzcyAtTmFtZSAnbXMtdGVhbXMnLCAnVGVhbXMnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKQogICAgZm9yZWFjaCAoJHAgaW4gJHByb2NzKSB7IFN0b3AtUHJvY2VzcyAtSWQgJHAuSWQgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIH0KICAgIGlmICgkcHJvY3MuQ291bnQgLWd0IDApIHsgU3RhcnQtU2xlZXAgLVNlY29uZHMgNTsgV3JpdGUtTG9nICgnQ2xvc2VkICcgKyAkcHJvY3MuQ291bnQgKyAnIFRlYW1zIHByb2Nlc3MoZXMpJykgfQogICAgJHRhcmdldHMgPSBAKAogICAgICAgIChKb2luLVBhdGggJGVudjpMT0NBTEFQUERBVEEgJ1BhY2thZ2VzXE1TVGVhbXNfOHdla3liM2Q4YmJ3ZVxMb2NhbENhY2hlJyksCiAgICAgICAgKEpvaW4tUGF0aCAkZW52OkFQUERBVEEgJ01pY3Jvc29mdFxUZWFtc1xDYWNoZScpLAogICAgICAgIChKb2luLVBhdGggJGVudjpBUFBEQVRBICdNaWNyb3NvZnRcVGVhbXNcQ29kZSBDYWNoZScpLAogICAgICAgIChKb2luLVBhdGggJGVudjpBUFBEQVRBICdNaWNyb3NvZnRcVGVhbXNcR1BVQ2FjaGUnKSwKICAgICAgICAoSm9pbi1QYXRoICRlbnY6QVBQREFUQSAnTWljcm9zb2Z0XFRlYW1zXGJsb2Jfc3RvcmFnZScpLAogICAgICAgIChKb2luLVBhdGggJGVudjpBUFBEQVRBICdNaWNyb3NvZnRcVGVhbXNcdG1wJykKICAgICkKICAgICRmcmVlZCA9IDAKICAgICRoaXQgPSAwCiAgICBmb3JlYWNoICgkdCBpbiAkdGFyZ2V0cykgewogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICR0KSkgeyBjb250aW51ZSB9CiAgICAgICAgJHNpemUgPSAoR2V0LUNoaWxkSXRlbSAtTGl0ZXJhbFBhdGggJHQgLVJlY3Vyc2UgLUZpbGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgTWVhc3VyZS1PYmplY3QgLVByb3BlcnR5IExlbmd0aCAtU3VtKS5TdW0KICAgICAgICBpZiAoJG51bGwgLWVxICRzaXplKSB7ICRzaXplID0gMCB9CiAgICAgICAgR2V0LUNoaWxkSXRlbSAtTGl0ZXJhbFBhdGggJHQgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgUmVtb3ZlLUl0ZW0gLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgJGZyZWVkICs9ICRzaXplCiAgICAgICAgJGhpdCsrCiAgICB9CiAgICBpZiAoJGhpdCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ05vIFRlYW1zIGNhY2hlIGZvbGRlcnMgZm91bmQgZm9yIHRoaXMgdXNlcic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdDbGVhcmVkICcgKyAkaGl0ICsgJyBjYWNoZSBmb2xkZXIocyksIGFib3V0ICcgKyBbaW50XSgkZnJlZWQgLyAxTUIpICsgJyBNQicpCiAgICBleGl0IDAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

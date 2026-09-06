@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d81d5f0d-8acc-425c-a658-f796966f80a2",
+  "slug": "increase-file-descriptor-limits",
+  "type": "script",
+  "name": "Raise The File Descriptor Limits",
+  "description": "Delivery: packaged post-install. Raises the open file limit for interactive sessions and for systemd services. A host at the limit starts refusing connections in ways that look exactly like a network fault.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "limits",
+    "performance",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1pbmNyZWFzZS1maWxlLWRlc2NyaXB0b3ItbGltaXRzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZj0iL2V0Yy9zZWN1cml0eS9saW1pdHMuZC82MC1lc3Itbm9maWxlLmNvbmYiCmNoYW5nZWQ9MAppZiBbICEgLWYgIiRmIiBdOyB0aGVuCiAgbWtkaXIgLXAgL2V0Yy9zZWN1cml0eS9saW1pdHMuZCAyPi9kZXYvbnVsbAogIHsKICAgIHByaW50ZiAnJXNcbicgIiogc29mdCBub2ZpbGUgODE5MiIKICAgIHByaW50ZiAnJXNcbicgIiogaGFyZCBub2ZpbGUgNjU1MzYiCiAgfSA+ICIkZiIKICBsb2cgIldyb3RlICRmIgogIGNoYW5nZWQ9MQpmaQpzPSIvZXRjL3N5c3RlbWQvc3lzdGVtLmNvbmYuZC82MC1lc3ItbGltaXRzLmNvbmYiCmlmIFsgLWQgL2V0Yy9zeXN0ZW1kIF0gJiYgWyAhIC1mICIkcyIgXTsgdGhlbgogIG1rZGlyIC1wIC9ldGMvc3lzdGVtZC9zeXN0ZW0uY29uZi5kIDI+L2Rldi9udWxsCiAgewogICAgcHJpbnRmICclc1xuJyAiW01hbmFnZXJdIgogICAgcHJpbnRmICclc1xuJyAiRGVmYXVsdExpbWl0Tk9GSUxFPTgxOTI6NjU1MzYiCiAgfSA+ICIkcyIKICBzeXN0ZW1jdGwgZGFlbW9uLXJlZXhlYyA+L2Rldi9udWxsIDI+JjEKICBsb2cgIldyb3RlICRzIGFuZCByZS1leGVjdXRlZCBzeXN0ZW1kIgogIGNoYW5nZWQ9MQpmaQppZiBbICIkY2hhbmdlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIkxpbWl0cyBhbHJlYWR5IGNvbmZpZ3VyZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJGaWxlIGRlc2NyaXB0b3IgbGltaXRzIHJhaXNlZCAtIGV4aXN0aW5nIHNlc3Npb25zIGtlZXAgdGhlIG9sZCB2YWx1ZXMiCmV4aXQgMAo="
+}

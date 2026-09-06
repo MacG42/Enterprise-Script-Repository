@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a391d3f9-7d47-450f-b011-60bfa659b250",
+  "slug": "restart-dock-and-finder",
+  "type": "script",
+  "name": "Restart Dock And Finder",
+  "description": "Restarts the Dock and the Finder for the signed-in user, which recovers a frozen menu bar, a missing Dock or a Finder that will not open a window - without a sign-out.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dock",
+    "finder",
+    "shell",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Restart Desktop Shell",
+      "displayDescription": "Fixes a frozen Dock or Finder without signing out.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc3RhcnQtZG9jay1hbmQtZmluZGVyLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKa2lsbGFsbCBEb2NrIDI+L2Rldi9udWxsCmtpbGxhbGwgRmluZGVyIDI+L2Rldi9udWxsCnNsZWVwIDYKZD0wCmY9MApwZ3JlcCAteCBEb2NrID4vZGV2L251bGwgMj4mMSAmJiBkPTEKcGdyZXAgLXggRmluZGVyID4vZGV2L251bGwgMj4mMSAmJiBmPTEKbG9nICJBZnRlciByZXN0YXJ0OiBEb2NrIHJ1bm5pbmc9JGQgRmluZGVyIHJ1bm5pbmc9JGYiCmlmIFsgIiRkIiAtZXEgMSBdICYmIFsgIiRmIiAtZXEgMSBdOyB0aGVuIGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

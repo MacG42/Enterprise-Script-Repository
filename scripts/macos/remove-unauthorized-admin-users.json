@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fb5a7a15-c92b-48e7-a60e-fcdea36a3dbb",
+  "slug": "remove-unauthorized-admin-users",
+  "type": "script",
+  "name": "Remove Unauthorized Administrators",
+  "description": "Demotes local administrators that are not on the allowlist in esr_admin_allowlist. Accounts are removed from the admin group, never deleted, so the change is reversible and no data is lost.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "privilege",
+    "admin",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_admin_allowlist",
+        "value": "macadmin,itsupport"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbW92ZS11bmF1dGhvcml6ZWQtYWRtaW4tdXNlcnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgphbGxvdz0nJGVzcl9hZG1pbl9hbGxvd2xpc3QkJwpjYXNlICIkYWxsb3ciIGluCiAgKmVzcl9hZG1pbl9hbGxvd2xpc3QqKSBsb2cgIk5vIGFsbG93bGlzdCBzdXBwbGllZCwgcmVmdXNpbmcgdG8gZGVtb3RlIGFueW9uZSI7IGV4aXQgMTAgOzsKICAnJykgbG9nICJBbGxvd2xpc3QgaXMgZW1wdHksIHJlZnVzaW5nIHRvIGRlbW90ZSBhbnlvbmUiOyBleGl0IDEwIDs7CmVzYWMKbWVtYmVycz0kKGRzY2wgLiAtcmVhZCAvR3JvdXBzL2FkbWluIEdyb3VwTWVtYmVyc2hpcCAyPi9kZXYvbnVsbCB8IGN1dCAtZDogLWYyKQpyZW1vdmVkPTAKZm9yIHUgaW4gJG1lbWJlcnM7IGRvCiAgWyAiJHUiID0gIkdyb3VwTWVtYmVyc2hpcCIgXSAmJiBjb250aW51ZQogIFsgIiR1IiA9ICJyb290IiBdICYmIGNvbnRpbnVlCiAga2VlcD0wCiAgb2xkPSRJRlMKICBJRlM9LAogIGZvciBhIGluICRhbGxvdzsgZG8KICAgIGE9JChwcmludGYgJyVzJyAiJGEiIHwgdHIgLWQgJyAnKQogICAgWyAiJHUiID0gIiRhIiBdICYmIGtlZXA9MQogIGRvbmUKICBJRlM9JG9sZAogIFsgIiRrZWVwIiAtZXEgMSBdICYmIGNvbnRpbnVlCiAgZHNlZGl0Z3JvdXAgLW8gZWRpdCAtZCAiJHUiIC10IHVzZXIgYWRtaW4gMj4vZGV2L251bGwKICBsb2cgIlJlbW92ZWQgJHUgZnJvbSB0aGUgYWRtaW4gZ3JvdXAiCiAgcmVtb3ZlZD0kKChyZW1vdmVkKzEpKQpkb25lCmlmIFsgIiRyZW1vdmVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gdW5hdXRob3Jpc2VkIGFkbWluaXN0cmF0b3JzLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiRGVtb3RlZCAkcmVtb3ZlZCBhY2NvdW50KHMpIgpleGl0IDAK"
+}

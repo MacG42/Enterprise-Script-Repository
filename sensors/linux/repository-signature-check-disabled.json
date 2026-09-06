@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "49836b2f-5c9b-48c2-adcc-9a068c436451",
+  "slug": "repository-signature-check-disabled",
+  "type": "sensor",
+  "name": "Repository Signature Check Disabled",
+  "description": "Console sensor name: repository_signature_check_disabled. True when any repository is configured to skip GPG verification. A single gpgcheck=0 turns the whole update path into an unauthenticated one, and it is usually a leftover from a hurried install.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "gpg",
+    "supplychain",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKYmFkPSJmYWxzZSIKaWYgWyAtZCAvZXRjL3l1bS5yZXBvcy5kIF07IHRoZW4KICBncmVwIC1FcXMgIl5ccypncGdjaGVja1xzKj1ccyowIiAvZXRjL3l1bS5yZXBvcy5kLyoucmVwbyAmJiBiYWQ9InRydWUiCmZpCmlmIFsgIiRiYWQiID0gImZhbHNlIiBdICYmIFsgLWQgL2V0Yy96eXBwL3JlcG9zLmQgXTsgdGhlbgogIGdyZXAgLUVxcyAiXlxzKmdwZ2NoZWNrXHMqPVxzKjAiIC9ldGMvenlwcC9yZXBvcy5kLyoucmVwbyAmJiBiYWQ9InRydWUiCmZpCmlmIFsgIiRiYWQiID0gImZhbHNlIiBdICYmIFsgLWQgL2V0Yy9hcHQvYXB0LmNvbmYuZCBdOyB0aGVuCiAgZ3JlcCAtRXFzICJBbGxvd1VuYXV0aGVudGljYXRlZC4qdHJ1ZSIgL2V0Yy9hcHQvYXB0LmNvbmYuZC8qICYmIGJhZD0idHJ1ZSIKZmkKZWNobyAiJGJhZCIK"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a31146f1-e0d2-474c-afb3-5af1f357bbe5",
+  "slug": "hub-agent-version-macos",
+  "type": "sensor",
+  "name": "Hub Agent Version",
+  "description": "Console sensor name: hub_agent_version. Version of the Workspace ONE Intelligent Hub application. Returns NotInstalled where the app is absent, which is a different problem from an out-of-date agent.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpwPSIvQXBwbGljYXRpb25zL1dvcmtzcGFjZSBPTkUgSW50ZWxsaWdlbnQgSHViLmFwcC9Db250ZW50cy9JbmZvLnBsaXN0IgppZiBbICEgLWYgIiRwIiBdOyB0aGVuCiAgZWNobyAiTm90SW5zdGFsbGVkIgplbHNlCiAgdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBDRkJ1bmRsZVNob3J0VmVyc2lvblN0cmluZyAyPi9kZXYvbnVsbCkKICBbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgogIGVjaG8gIiR2IgpmaQo="
+}

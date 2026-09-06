@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "efe7ea76-446d-4a7f-ab9d-c302cf7a4bb7",
+  "slug": "remove-ssh-authorized-keys",
+  "type": "script",
+  "name": "Remove SSH Authorized Keys",
+  "description": "Moves every authorized_keys file in a local home and in the root account aside with a timestamp, rather than deleting it. Closes standing key-based access that no directory group controls, and keeps the evidence.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗝️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ssh",
+    "keys",
+    "remoteaccess",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbW92ZS1zc2gtYXV0aG9yaXplZC1rZXlzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKc3RhbXA9JChkYXRlIC11ICslWSVtJWQlSCVNJVMpCm1vdmVkPTAKZm9yIGYgaW4gL1VzZXJzLyovLnNzaC9hdXRob3JpemVkX2tleXMgL3Zhci9yb290Ly5zc2gvYXV0aG9yaXplZF9rZXlzOyBkbwogIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgbj0kKGdyZXAgLWMgIl5zc2gtXHxeZWNkc2EtXHxec2stIiAiJGYiIDI+L2Rldi9udWxsKQogIG12ICIkZiIgIiRmLnJlbW92ZWQtJHN0YW1wIiAyPi9kZXYvbnVsbAogIGlmIFsgISAtZiAiJGYiIF07IHRoZW4KICAgIGxvZyAiTW92ZWQgJGYgYXNpZGUsIGl0IGhlbGQgJG4ga2V5KHMpIgogICAgbW92ZWQ9JCgobW92ZWQrMSkpCiAgZmkKZG9uZQppZiBbICIkbW92ZWQiIC1lcSAwIF07IHRoZW4gbG9nICJObyBhdXRob3JpemVkX2tleXMgZmlsZXMgZm91bmQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJNb3ZlZCAkbW92ZWQgZmlsZShzKSBhc2lkZSIKZXhpdCAwCg=="
+}

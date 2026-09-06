@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "35c4ca80-b376-4427-b88e-9fe38e18bcf2",
+  "slug": "bluetooth-powered",
+  "type": "sensor",
+  "name": "Bluetooth Radio Powered",
+  "description": "Console sensor name: bluetooth_powered. True when the Bluetooth controller is on. Relevant both for peripherals that will not pair and for sites where the radio is meant to be off by policy.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📶",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bluetooth",
+    "hardware",
+    "peripherals",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuQmx1ZXRvb3RoIENvbnRyb2xsZXJQb3dlclN0YXRlIDI+L2Rldi9udWxsKQppZiBbICIkdiIgPSAiMSIgXTsgdGhlbiBlY2hvICJ0cnVlIjsgZWxzZSBlY2hvICJmYWxzZSI7IGZpCg=="
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d34c437e-06be-4e41-9300-45df1a23cb96",
+  "slug": "fast-startup-enabled",
+  "type": "sensor",
+  "name": "Fast Startup Enabled",
+  "description": "Console sensor name: fast_startup_enabled. True when hybrid shutdown is on, which means a user's shutdown does not clear uptime or apply a pending servicing operation. It is the usual reason a device shows 40 days of uptime and a stuck update.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🚀",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "reboot",
+    "servicing",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXFNlc3Npb24gTWFuYWdlclxQb3dlcicKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdIaWJlcmJvb3RFbmFibGVkJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuSGliZXJib290RW5hYmxlZAogICAgV3JpdGUtT3V0cHV0IChbYm9vbF0oJG51bGwgLWVxICR2IC1vciBbaW50XSR2IC1lcSAxKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

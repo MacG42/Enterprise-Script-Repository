@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1a1a11e3-b8db-4f98-88c1-65bb542e2259",
+  "slug": "enable-defender-realtime-protection",
+  "type": "script",
+  "name": "Enable Defender Real-Time Protection",
+  "description": "Turns Microsoft Defender real-time protection back on where it was disabled locally. Exits 10 when a third-party antivirus owns the endpoint, because Defender is passive by design there and forcing it would be wrong.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "security",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Turn On Virus Protection",
+      "displayDescription": "Re-enables Microsoft Defender real-time protection.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1kZWZlbmRlci1yZWFsdGltZS1wcm90ZWN0aW9uLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHN0YXR1cyA9IEdldC1NcENvbXB1dGVyU3RhdHVzCiAgICBpZiAoJHN0YXR1cy5SZWFsVGltZVByb3RlY3Rpb25FbmFibGVkKSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBjb21wbGlhbnQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICAkb3RoZXIgPSBAKEdldC1DaW1JbnN0YW5jZSAtTmFtZXNwYWNlICdyb290XFNlY3VyaXR5Q2VudGVyMicgLUNsYXNzTmFtZSBBbnRpVmlydXNQcm9kdWN0IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwKICAgICAgICBXaGVyZS1PYmplY3QgeyAkXy5kaXNwbGF5TmFtZSAtbm90bWF0Y2ggJ1dpbmRvd3MgRGVmZW5kZXJ8TWljcm9zb2Z0IERlZmVuZGVyJyB9KQogICAgaWYgKCRvdGhlci5Db3VudCAtZ3QgMCkgeyBXcml0ZS1Mb2cgKCdUaGlyZC1wYXJ0eSBBViBwcmVzZW50OiAnICsgKCRvdGhlclswXS5kaXNwbGF5TmFtZSkpOyBleGl0IDEwIH0KICAgIFdyaXRlLUxvZyAnUmVhbC10aW1lIHByb3RlY3Rpb24gZGlzYWJsZWQsIGVuYWJsaW5nJwogICAgU2V0LU1wUHJlZmVyZW5jZSAtRGlzYWJsZVJlYWx0aW1lTW9uaXRvcmluZyAkZmFsc2UKICAgIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDMKICAgIGlmICgoR2V0LU1wQ29tcHV0ZXJTdGF0dXMpLlJlYWxUaW1lUHJvdGVjdGlvbkVuYWJsZWQpIHsgV3JpdGUtTG9nICdFbmFibGVkJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAnU3RpbGwgZGlzYWJsZWQgYWZ0ZXIgY2hhbmdlIC0gdGFtcGVyIHByb3RlY3Rpb24gb3IgcG9saWN5IGlzIG92ZXJyaWRpbmcnCiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

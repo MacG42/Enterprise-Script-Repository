@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0031fc4c-d050-415f-ae70-3710ce42d9f4",
+  "slug": "failed-systemd-units",
+  "type": "sensor",
+  "name": "Failed Systemd Unit Count",
+  "description": "Console sensor name: failed_systemd_units. Number of systemd units in the failed state. Returns -1 where systemd is not the init system. The single most informative health number on a modern Linux host.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "❌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd",
+    "services",
+    "health",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgISBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICItMSIKZWxzZQogIG49JChzeXN0ZW1jdGwgbGlzdC11bml0cyAtLXN0YXRlPWZhaWxlZCAtLW5vLWxlZ2VuZCAtLXBsYWluIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAuKQogIGNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0tMSA7OyBlc2FjCiAgZWNobyAiJG4iCmZpCg=="
+}

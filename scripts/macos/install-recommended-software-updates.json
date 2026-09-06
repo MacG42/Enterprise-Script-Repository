@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0a4b47d7-92c9-422d-b82e-513e38aeb4f9",
+  "slug": "install-recommended-software-updates",
+  "type": "script",
+  "name": "Install Recommended Software Updates",
+  "description": "Installs every recommended update that does not require a restart, and reports which pending updates were left because they do. Restarts are left to a policy or a device action rather than taken here.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "compliance",
+    "maintenance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 3600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Install Software Updates",
+      "displayDescription": "Installs pending Apple updates that do not need a restart.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWluc3RhbGwtcmVjb21tZW5kZWQtc29mdHdhcmUtdXBkYXRlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmxpc3Q9JChzb2Z0d2FyZXVwZGF0ZSAtbCAyPiYxKQpjYXNlICIkbGlzdCIgaW4KICAqIk5vIG5ldyBzb2Z0d2FyZSBhdmFpbGFibGUiKikgbG9nICJObyB1cGRhdGVzIGF2YWlsYWJsZSwgbm8gYWN0aW9uIjsgZXhpdCAwIDs7CmVzYWMKbG9nICJQZW5kaW5nIHVwZGF0ZXMgZm91bmQsIGluc3RhbGxpbmcgdGhvc2UgdGhhdCBuZWVkIG5vIHJlc3RhcnQiCm91dD0kKHNvZnR3YXJldXBkYXRlIC1pIC1yIC0tbm8tc2NhbiAyPiYxKQpsb2cgInNvZnR3YXJldXBkYXRlIG91dHB1dDogJChwcmludGYgJyVzJyAiJG91dCIgfCB0ciAnXG4nICcgJyB8IGN1dCAtYzEtNDAwKSIKYWZ0ZXI9JChzb2Z0d2FyZXVwZGF0ZSAtbCAyPiYxKQpjYXNlICIkYWZ0ZXIiIGluCiAgKiJObyBuZXcgc29mdHdhcmUgYXZhaWxhYmxlIiopIGxvZyAiQWxsIHVwZGF0ZXMgaW5zdGFsbGVkIjsgZXhpdCAwIDs7CmVzYWMKbGVmdD0kKHByaW50ZiAnJXNcbicgIiRhZnRlciIgfCBncmVwIC1jICJeXCoiKQpsb2cgIiRsZWZ0IHVwZGF0ZShzKSBzdGlsbCBwZW5kaW5nIC0gdGhlc2UgYXJlIGxpa2VseSByZXN0YXJ0LXJlcXVpcmVkIgpleGl0IDAK"
+}

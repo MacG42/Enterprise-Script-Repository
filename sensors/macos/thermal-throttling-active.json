@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bc9b5bf4-8123-4c89-8a36-79a5ce75ffcb",
+  "slug": "thermal-throttling-active",
+  "type": "sensor",
+  "name": "Thermal Throttling Active",
+  "description": "Console sensor name: thermal_throttling_active. True when the scheduler or CPU speed limit is below 100, meaning the device is being held back by heat or power. The usual cause of 'my Mac got slow' on a device in a closed case or a dock in a warm room.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🌡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "thermal",
+    "performance",
+    "hardware",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChwbXNldCAtZyB0aGVybSAyPi9kZXYvbnVsbCkKbGltPSQocHJpbnRmICclc1xuJyAiJG91dCIgfCBhd2sgLUYnPSAqJyAnL1NwZWVkX0xpbWl0fFNjaGVkdWxlcl9MaW1pdC8ge3ByaW50ICQyfScgfCBzb3J0IC1uIHwgaGVhZCAtMSkKY2FzZSAiJGxpbSIgaW4gJyd8KlshMC05XSopIGVjaG8gImZhbHNlIiA7OyAqKSBpZiBbICIkbGltIiAtbHQgMTAwIF07IHRoZW4gZWNobyAidHJ1ZSI7IGVsc2UgZWNobyAiZmFsc2UiOyBmaSA7OyBlc2FjCg=="
+}

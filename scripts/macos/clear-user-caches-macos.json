@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f2a1a3dd-8eb5-4329-8ba7-09df135fb477",
+  "slug": "clear-user-caches-macos",
+  "type": "script",
+  "name": "Clear User Cache Folder",
+  "description": "Removes cached application data older than seven days from the signed-in user's Library Caches. Runs in the user context so it reaches the profile a root script cannot safely write to.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cache",
+    "cleanup",
+    "userprofile"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clean Up Cache Files",
+      "displayDescription": "Frees disk space by removing old cached application data.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNsZWFyLXVzZXItY2FjaGVzLW1hY29zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZD0iJEhPTUUvTGlicmFyeS9DYWNoZXMiCmlmIFsgISAtZCAiJGQiIF07IHRoZW4gbG9nICJObyBjYWNoZSBmb2xkZXIgZm9yIHRoaXMgdXNlciI7IGV4aXQgMDsgZmkKYmVmb3JlPSQoZHUgLXNrICIkZCIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQpmaW5kICIkZCIgLXR5cGUgZiAtbXRpbWUgKzcgLWRlbGV0ZSAyPi9kZXYvbnVsbAphZnRlcj0kKGR1IC1zayAiJGQiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKY2FzZSAiJGJlZm9yZSIgaW4gJyd8KlshMC05XSopIGJlZm9yZT0wIDs7IGVzYWMKY2FzZSAiJGFmdGVyIiBpbiAnJ3wqWyEwLTldKikgYWZ0ZXI9MCA7OyBlc2FjCmxvZyAiQ2FjaGUgd2FzICR7YmVmb3JlfSBLQiwgbm93ICR7YWZ0ZXJ9IEtCIgpleGl0IDAK"
+}

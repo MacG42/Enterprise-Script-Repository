@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "732b026b-73e9-4816-b7b1-fede6b58cc64",
+  "slug": "disable-remote-assistance",
+  "type": "script",
+  "name": "Disable Remote Assistance",
+  "description": "Clears the Remote Assistance invitation and shadow settings and disables its firewall group, closing an inbound path that most managed fleets never use.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🚪",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "remoteassistance",
+    "hardening",
+    "firewall",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtcmVtb3RlLWFzc2lzdGFuY2UubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxSZW1vdGUgQXNzaXN0YW5jZScKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdmQWxsb3dUb0dldEhlbHAnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5mQWxsb3dUb0dldEhlbHAKICAgICRydWxlcyA9IEAoR2V0LU5ldEZpcmV3YWxsUnVsZSAtRGlzcGxheUdyb3VwICdSZW1vdGUgQXNzaXN0YW5jZScgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBXaGVyZS1PYmplY3QgeyAkXy5FbmFibGVkIC1lcSAnVHJ1ZScgfSkKICAgIGlmICgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1lcSAwIC1hbmQgJHJ1bGVzLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBjb21wbGlhbnQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkaykpIHsgTmV3LUl0ZW0gLVBhdGggJGsgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgV3JpdGUtTG9nICgnZkFsbG93VG9HZXRIZWxwIHdhcyAnICsgJChpZiAoJG51bGwgLWVxICR2KSB7ICd1bnNldCcgfSBlbHNlIHsgJHYgfSkgKyAnLCBlbmFibGVkIHJ1bGVzOiAnICsgJHJ1bGVzLkNvdW50KQogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ2ZBbGxvd1RvR2V0SGVscCcgLVZhbHVlIDAgLVByb3BlcnR5VHlwZSBEV29yZCAtRm9yY2UgfCBPdXQtTnVsbAogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ2ZBbGxvd0Z1bGxDb250cm9sJyAtVmFsdWUgMCAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICBpZiAoJHJ1bGVzLkNvdW50IC1ndCAwKSB7IERpc2FibGUtTmV0RmlyZXdhbGxSdWxlIC1EaXNwbGF5R3JvdXAgJ1JlbW90ZSBBc3Npc3RhbmNlJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB9CiAgICAkYSA9IFtpbnRdKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdmQWxsb3dUb0dldEhlbHAnKS5mQWxsb3dUb0dldEhlbHAKICAgIGlmICgkYSAtZXEgMCkgeyBXcml0ZS1Mb2cgJ1JlbW90ZSBBc3Npc3RhbmNlIGRpc2FibGVkJzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

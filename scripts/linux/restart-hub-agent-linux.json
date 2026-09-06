@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0372d284-7cea-473b-80cb-c8c3fb8014cb",
+  "slug": "restart-hub-agent-linux",
+  "type": "script",
+  "name": "Restart The Workspace ONE Hub Agent",
+  "description": "Delivery: ad hoc. Restarts the Hub service and confirms it came back. The first thing to try when a Linux endpoint is enrolled but has stopped reporting to the console.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "hub",
+    "workspaceone",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZXN0YXJ0LWh1Yi1hZ2VudC1saW51eC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnU9IiIKZm9yIGMgaW4gd3MxaHViZCBodWJkIGF3Y20gdm13YXJlLWh1YiBvbW5pc3NhLWh1YjsgZG8KICBzeXN0ZW1jdGwgbGlzdC11bml0LWZpbGVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiXiRjLnNlcnZpY2UiICYmIHU9IiRjIiAmJiBicmVhawpkb25lCmlmIFsgLXogIiR1IiBdOyB0aGVuIGxvZyAiTm8gSHViIHNlcnZpY2UgdW5pdCBmb3VuZCBvbiB0aGlzIGhvc3QiOyBleGl0IDEwOyBmaQpzPSQoc3lzdGVtY3RsIGlzLWFjdGl2ZSAiJHUiIDI+L2Rldi9udWxsKQpsb2cgIlJlc3RhcnRpbmcgJHUgKHdhcyAkcykiCnN5c3RlbWN0bCByZXN0YXJ0ICIkdSIgPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDEwCmlmIHN5c3RlbWN0bCBpcy1hY3RpdmUgIiR1IiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgIiR1IGlzIHJ1bm5pbmcgYWZ0ZXIgdGhlIHJlc3RhcnQiCiAgZXhpdCAwCmZpCmxvZyAiJHUgZGlkIG5vdCBjb21lIGJhY2sgLSBjaGVjayBqb3VybmFsY3RsIC11ICR1IgpleGl0IDMwCg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a7f46d9c-cc40-43d4-b27b-2545f691ce02",
+  "slug": "resubmit-certmonger-certificates",
+  "type": "script",
+  "name": "Resubmit Expiring Machine Certificates",
+  "description": "Delivery: ad hoc. Asks certmonger to renew any tracked certificate that is not in the MONITORING state. The usual cure for a host that has quietly dropped out of a certificate-authenticated service.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "certificates",
+    "pki",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZXN1Ym1pdC1jZXJ0bW9uZ2VyLWNlcnRpZmljYXRlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmICEgY29tbWFuZCAtdiBnZXRjZXJ0ID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgImNlcnRtb25nZXIgaXMgbm90IGluc3RhbGxlZCBvbiB0aGlzIGhvc3QiOyBleGl0IDEwOyBmaQppZHM9JChnZXRjZXJ0IGxpc3QgMj4vZGV2L251bGwgfCBhd2sgJy9SZXF1ZXN0IElELyB7Z3N1YigiJyInIiciLCIiLCQzKTsgaWQ9JDN9IC9zdGF0dXM6LyB7aWYgKCQyICE9ICJNT05JVE9SSU5HIikgcHJpbnQgaWR9JykKaWYgWyAteiAiJGlkcyIgXTsgdGhlbiBsb2cgIkFsbCB0cmFja2VkIGNlcnRpZmljYXRlcyBhcmUgaW4gdGhlIE1PTklUT1JJTkcgc3RhdGUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbj0wCmZvciBpIGluICRpZHM7IGRvCiAgZ2V0Y2VydCByZXN1Ym1pdCAtaSAiJGkiID4vZGV2L251bGwgMj4mMQogIGxvZyAiUmVzdWJtaXR0ZWQgY2VydGlmaWNhdGUgcmVxdWVzdCAkaSIKICBuPSQoKG4rMSkpCmRvbmUKc2xlZXAgMjAKbGVmdD0kKGdldGNlcnQgbGlzdCAyPi9kZXYvbnVsbCB8IGF3ayAnL3N0YXR1czovIHtpZiAoJDIgIT0gIk1PTklUT1JJTkciKSBjKyt9IEVORCB7cHJpbnQgYyswfScpCmxvZyAiUmVzdWJtaXR0ZWQgJG4gcmVxdWVzdChzKSwgJGxlZnQgc3RpbGwgbm90IG1vbml0b3JpbmciCmlmIFsgIiRsZWZ0IiAtZXEgMCBdOyB0aGVuIGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

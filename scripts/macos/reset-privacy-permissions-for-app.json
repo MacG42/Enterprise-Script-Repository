@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "44bc2413-21c5-4cb7-852e-7253780dba98",
+  "slug": "reset-privacy-permissions-for-app",
+  "type": "script",
+  "name": "Reset Privacy Permissions For An App",
+  "description": "Resets every TCC privacy grant for the bundle identifier in esr_app_bundle_id, so the application asks again for camera, microphone, screen recording and files. The cure for a permission the user denied once and cannot find how to change.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "tcc",
+    "privacy",
+    "permissions",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Reset App Permissions",
+      "displayDescription": "Makes an app ask again for camera, microphone and file access.",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_app_bundle_id",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LXByaXZhY3ktcGVybWlzc2lvbnMtZm9yLWFwcC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmI9JyRlc3JfYXBwX2J1bmRsZV9pZCQnCmNhc2UgIiRiIiBpbgogICplc3JfYXBwX2J1bmRsZV9pZCp8JycpIGxvZyAiTm8gYnVuZGxlIGlkZW50aWZpZXIgc3VwcGxpZWQiOyBleGl0IDEwIDs7CmVzYWMKb3V0PSQodGNjdXRpbCByZXNldCBBbGwgIiRiIiAyPiYxKQpsb2cgInRjY3V0aWwgcmVzZXQgQWxsICRiOiAkKHByaW50ZiAnJXMnICIkb3V0IiB8IHRyICdcbicgJyAnIHwgY3V0IC1jMS0yMDApIgpjYXNlICIkb3V0IiBpbgogICp1Y2Nlc3MqKSBsb2cgIlByaXZhY3kgcGVybWlzc2lvbnMgcmVzZXQgZm9yICRiIjsgZXhpdCAwIDs7CmVzYWMKbG9nICJ0Y2N1dGlsIGRpZCBub3QgcmVwb3J0IHN1Y2Nlc3MiCmV4aXQgMjAK"
+}

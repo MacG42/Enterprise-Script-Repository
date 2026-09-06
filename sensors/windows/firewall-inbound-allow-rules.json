@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "37c439b9-8b19-41fc-8064-cc4db9a373f4",
+  "slug": "firewall-inbound-allow-rules",
+  "type": "sensor",
+  "name": "Firewall Inbound Allow Rules",
+  "description": "Console sensor name: firewall_inbound_allow_rules. Count of enabled inbound Allow rules in the active firewall store. A device far above the fleet median has usually collected rules from an application install or a local admin.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firewall",
+    "security",
+    "network",
+    "drift"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRyID0gQChHZXQtTmV0RmlyZXdhbGxSdWxlIC1Qb2xpY3lTdG9yZSBBY3RpdmVTdG9yZSAtRGlyZWN0aW9uIEluYm91bmQgLUFjdGlvbiBBbGxvdyAtRW5hYmxlZCBUcnVlIC1FcnJvckFjdGlvbiBTdG9wKQogICAgV3JpdGUtT3V0cHV0IChbaW50XSRyLkNvdW50KQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

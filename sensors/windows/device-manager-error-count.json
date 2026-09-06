@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dc0bba87-f7d5-48c9-b7a5-f5f79141f317",
+  "slug": "device-manager-error-count",
+  "type": "sensor",
+  "name": "Device Manager Error Count",
+  "description": "Console sensor name: device_manager_error_count. How many PnP devices are present but in an error state. This is the yellow-triangle count, and it is the fastest single number for finding a bad driver rollout.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⚠️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "drivers",
+    "hardware",
+    "health",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkID0gQChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9QblBFbnRpdHkgLUVycm9yQWN0aW9uIFN0b3AgfAogICAgICAgIFdoZXJlLU9iamVjdCB7ICRudWxsIC1uZSAkXy5Db25maWdNYW5hZ2VyRXJyb3JDb2RlIC1hbmQgW2ludF0kXy5Db25maWdNYW5hZ2VyRXJyb3JDb2RlIC1uZSAwIH0pCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJGQuQ291bnQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

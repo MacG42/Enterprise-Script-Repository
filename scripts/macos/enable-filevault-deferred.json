@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bdeb1340-d29b-46b6-a2a5-07512dc841a8",
+  "slug": "enable-filevault-deferred",
+  "type": "script",
+  "name": "Enable FileVault At Next Login",
+  "description": "Arms deferred FileVault enablement so encryption starts the next time a user signs in, and writes the recovery key to a root-only file for collection. Deferral is the only route that does not need the user's password in the script.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "filevault",
+    "encryption",
+    "deferred",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVuYWJsZS1maWxldmF1bHQtZGVmZXJyZWQubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpzPSQoZmRlc2V0dXAgc3RhdHVzIDI+L2Rldi9udWxsKQpjYXNlICIkcyIgaW4KICAqIkZpbGVWYXVsdCBpcyBPbiIqKSBsb2cgIkZpbGVWYXVsdCBpcyBhbHJlYWR5IG9uLCBubyBhY3Rpb24iOyBleGl0IDAgOzsKICAqIkRlZmVycmVkIGVuYWJsZW1lbnQgYXBwZWFycyB0byBiZSBhY3RpdmUiKikgbG9nICJEZWZlcnJhbCBhbHJlYWR5IGFybWVkLCBubyBhY3Rpb24iOyBleGl0IDAgOzsKZXNhYwpvdXQ9Ii92YXIvcm9vdC9maWxldmF1bHQta2V5LnBsaXN0Igpsb2cgIkZpbGVWYXVsdCBzdGF0dXM6ICRzIC0gYXJtaW5nIGRlZmVycmVkIGVuYWJsZW1lbnQiCmZkZXNldHVwIGVuYWJsZSAtZGVmZXIgIiRvdXQiIC1mb3JjZWF0bG9naW4gMCAtZG9udGFza2F0bG9nb3V0ID4vZGV2L251bGwgMj4mMQpyYz0kPwpjaG1vZCA2MDAgIiRvdXQiIDI+L2Rldi9udWxsCmE9JChmZGVzZXR1cCBzdGF0dXMgMj4vZGV2L251bGwpCmNhc2UgIiRhIiBpbgogICoiRGVmZXJyZWQgZW5hYmxlbWVudCBhcHBlYXJzIHRvIGJlIGFjdGl2ZSIqKSBsb2cgIkRlZmVycmVkIGVuYWJsZW1lbnQgYXJtZWQsIGtleSBmaWxlIGF0ICRvdXQiOyBleGl0IDAgOzsKZXNhYwpsb2cgImZkZXNldHVwIHJldHVybmVkICRyYywgc3RhdHVzIGlzIG5vdzogJGEiCmV4aXQgMjAK"
+}

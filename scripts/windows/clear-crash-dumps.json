@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "009e8605-2b97-4669-a036-9806909731e3",
+  "slug": "clear-crash-dumps",
+  "type": "script",
+  "name": "Clear Crash Dumps",
+  "description": "Removes MEMORY.DMP and minidumps older than 30 days. The full dump is often several gigabytes; recent minidumps are kept because they are the evidence for a bugcheck that is still being investigated.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "crashdump",
+    "disk",
+    "cleanup",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLWNyYXNoLWR1bXBzLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGZ1bGwgPSBKb2luLVBhdGggJGVudjpTeXN0ZW1Sb290ICdNRU1PUlkuRE1QJwogICAgJG1pbmkgPSBKb2luLVBhdGggJGVudjpTeXN0ZW1Sb290ICdNaW5pZHVtcCcKICAgICRjdXQgPSAoR2V0LURhdGUpLkFkZERheXMoLTMwKQogICAgJGJ5dGVzID0gMAogICAgJGFjdGVkID0gJGZhbHNlCiAgICBpZiAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZnVsbCkgewogICAgICAgICRmID0gR2V0LUl0ZW0gLUxpdGVyYWxQYXRoICRmdWxsCiAgICAgICAgJGJ5dGVzICs9ICRmLkxlbmd0aAogICAgICAgIFdyaXRlLUxvZyAoJ1JlbW92aW5nIE1FTU9SWS5ETVAgKCcgKyBbaW50XSgkZi5MZW5ndGggLyAxTUIpICsgJyBNQiwgd3JpdHRlbiAnICsgJGYuTGFzdFdyaXRlVGltZS5Ub1N0cmluZygneXl5eS1NTS1kZCcpICsgJyknKQogICAgICAgIFJlbW92ZS1JdGVtIC1MaXRlcmFsUGF0aCAkZnVsbCAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICAgICAkYWN0ZWQgPSAkdHJ1ZQogICAgfQogICAgaWYgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJG1pbmkpIHsKICAgICAgICAkb2xkID0gQChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkbWluaSAtRmlsdGVyICcqLmRtcCcgLUZpbGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgV2hlcmUtT2JqZWN0IHsgJF8uTGFzdFdyaXRlVGltZSAtbHQgJGN1dCB9KQogICAgICAgIGlmICgkb2xkLkNvdW50IC1ndCAwKSB7CiAgICAgICAgICAgICRieXRlcyArPSAoJG9sZCB8IE1lYXN1cmUtT2JqZWN0IC1Qcm9wZXJ0eSBMZW5ndGggLVN1bSkuU3VtCiAgICAgICAgICAgIFdyaXRlLUxvZyAoJ1JlbW92aW5nICcgKyAkb2xkLkNvdW50ICsgJyBtaW5pZHVtcChzKSBvbGRlciB0aGFuIDMwIGRheXMnKQogICAgICAgICAgICAkb2xkIHwgUmVtb3ZlLUl0ZW0gLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgICAgICRhY3RlZCA9ICR0cnVlCiAgICAgICAgfQogICAgfQogICAgaWYgKC1ub3QgJGFjdGVkKSB7IFdyaXRlLUxvZyAnTm90aGluZyB0byByZW1vdmUsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdSZWNsYWltZWQgJyArIFtpbnRdKCRieXRlcyAvIDFNQikgKyAnIE1CJykKICAgIGV4aXQgMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

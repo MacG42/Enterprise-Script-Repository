@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1e1f7778-7dff-4c5b-b4f4-8fcf0966df9a",
+  "slug": "disable-handoff",
+  "type": "script",
+  "name": "Disable Handoff And Continuity",
+  "description": "Turns off activity advertising and receiving for every local user, so work in progress is not offered to a personal iPhone or iPad standing next to the Mac.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📱",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "handoff",
+    "continuity",
+    "dlp",
+    "privacy"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtaGFuZG9mZi5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmNoYW5nZWQ9MApmb3IgaCBpbiAvVXNlcnMvKjsgZG8KICBbIC1kICIkaCIgXSB8fCBjb250aW51ZQogIGNhc2UgIiRoIiBpbiAqL1NoYXJlZHwqL0d1ZXN0KSBjb250aW51ZSA7OyBlc2FjCiAgdT0kKGJhc2VuYW1lICIkaCIpCiAgaWQgIiR1IiA+L2Rldi9udWxsIDI+JjEgfHwgY29udGludWUKICBjdXI9JChzdWRvIC11ICIkdSIgZGVmYXVsdHMgLWN1cnJlbnRIb3N0IHJlYWQgY29tLmFwcGxlLmNvcmVzZXJ2aWNlcy51c2VyYWN0aXZpdHlkIEFjdGl2aXR5QWR2ZXJ0aXNpbmdBbGxvd2VkIDI+L2Rldi9udWxsKQogIGlmIFsgIiRjdXIiID0gIjAiIF07IHRoZW4gY29udGludWU7IGZpCiAgc3VkbyAtdSAiJHUiIGRlZmF1bHRzIC1jdXJyZW50SG9zdCB3cml0ZSBjb20uYXBwbGUuY29yZXNlcnZpY2VzLnVzZXJhY3Rpdml0eWQgQWN0aXZpdHlBZHZlcnRpc2luZ0FsbG93ZWQgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKICBzdWRvIC11ICIkdSIgZGVmYXVsdHMgLWN1cnJlbnRIb3N0IHdyaXRlIGNvbS5hcHBsZS5jb3Jlc2VydmljZXMudXNlcmFjdGl2aXR5ZCBBY3Rpdml0eVJlY2VpdmluZ0FsbG93ZWQgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKICBsb2cgIkRpc2FibGVkIEhhbmRvZmYgZm9yICR1ICh3YXMgJGN1cikiCiAgY2hhbmdlZD0kKChjaGFuZ2VkKzEpKQpkb25lCmlmIFsgIiRjaGFuZ2VkIiAtZXEgMCBdOyB0aGVuIGxvZyAiQWxyZWFkeSBkaXNhYmxlZCBmb3IgZXZlcnkgdXNlciwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkRpc2FibGVkIEhhbmRvZmYgZm9yICRjaGFuZ2VkIHVzZXIocykiCmV4aXQgMAo="
+}

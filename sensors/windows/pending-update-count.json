@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7fcfe1d9-d48d-4c66-b4ae-9b22c8ccb5fc",
+  "slug": "pending-update-count",
+  "type": "sensor",
+  "name": "Pending Update Count",
+  "description": "Console sensor name: pending_update_count. Number of applicable, not-yet-installed updates from the Windows Update agent's cached results. The search runs offline so the sensor never touches the network; a device that has never scanned returns -1.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "patching",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzZXNzaW9uID0gTmV3LU9iamVjdCAtQ29tT2JqZWN0ICdNaWNyb3NvZnQuVXBkYXRlLlNlc3Npb24nCiAgICAkc2VhcmNoZXIgPSAkc2Vzc2lvbi5DcmVhdGVVcGRhdGVTZWFyY2hlcigpCiAgICAkc2VhcmNoZXIuT25saW5lID0gJGZhbHNlCiAgICAkcmVzdWx0ID0gJHNlYXJjaGVyLlNlYXJjaCgnSXNJbnN0YWxsZWQ9MCBBTkQgSXNIaWRkZW49MCcpCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJHJlc3VsdC5VcGRhdGVzLkNvdW50KQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "185f31a7-6e5c-4019-a7c4-6a0bd6bba390",
+  "slug": "init-system",
+  "type": "sensor",
+  "name": "Init System",
+  "description": "Console sensor name: init_system. Whether PID 1 is systemd, sysvinit, openrc or something else. Every service-related script has to branch on this, so it belongs in the inventory rather than in each script's guesswork.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⚙️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "init",
+    "systemd",
+    "services",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKHBzIC1wIDEgLW8gY29tbT0gMj4vZGV2L251bGwpCmNhc2UgIiR2IiBpbgogIHN5c3RlbWQpIGVjaG8gInN5c3RlbWQiIDs7CiAgaW5pdCkgaWYgWyAtZCAvcnVuL3N5c3RlbWQvc3lzdGVtIF07IHRoZW4gZWNobyAic3lzdGVtZCI7IGVsc2UgZWNobyAic3lzdmluaXQiOyBmaSA7OwogIG9wZW5yYyopIGVjaG8gIm9wZW5yYyIgOzsKICAnJykgZWNobyAiVW5rbm93biIgOzsKICAqKSBlY2hvICIkdiIgOzsKZXNhYwo="
+}

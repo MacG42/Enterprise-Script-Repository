@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c1f1198d-3875-4020-ae92-fcf50ce56e45",
+  "slug": "stuck-print-jobs",
+  "type": "sensor",
+  "name": "Stuck Print Jobs",
+  "description": "Console sensor name: stuck_print_jobs. Files sitting in the spooler's PRINTERS folder, which is what a queue jammed in Deleting or Error state looks like on disk. Counted rather than inspected so the sensor stays fast on a busy print client.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖨️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "printing",
+    "spooler",
+    "helpdesk",
+    "queue"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gSm9pbi1QYXRoICRlbnY6U3lzdGVtUm9vdCAnU3lzdGVtMzJcc3Bvb2xcUFJJTlRFUlMnCiAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkcCkpIHsgV3JpdGUtT3V0cHV0IDAgfQogICAgZWxzZSB7IFdyaXRlLU91dHB1dCAoW2ludF1AKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRwIC1GaWxlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuQ291bnQpIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

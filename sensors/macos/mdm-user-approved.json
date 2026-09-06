@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fa285483-e261-4a29-abdb-13783a548c7b",
+  "slug": "mdm-user-approved",
+  "type": "sensor",
+  "name": "MDM Enrollment User Approved",
+  "description": "Console sensor name: mdm_user_approved. True when the MDM enrolment is user approved or automated. Without approval a long list of management payloads silently do nothing, which is why a device can look enrolled and still ignore policy.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "✅",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mdm",
+    "enrollment",
+    "userapproved",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChwcm9maWxlcyBzdGF0dXMgLXR5cGUgZW5yb2xsbWVudCAyPi9kZXYvbnVsbCkKY2FzZSAiJG91dCIgaW4KICAqIlVzZXIgQXBwcm92ZWQiKikgZWNobyAidHJ1ZSIgOzsKICAqIkF1dG9tYXRlZCBEZXZpY2UgRW5yb2xsbWVudCIqKSBlY2hvICJ0cnVlIiA7OwogICopIGVjaG8gImZhbHNlIiA7Owplc2FjCg=="
+}

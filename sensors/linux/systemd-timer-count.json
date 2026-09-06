@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e0b7c927-801e-43c2-9f70-7c43f4a4d66e",
+  "slug": "systemd-timer-count",
+  "type": "sensor",
+  "name": "Systemd Timer Count",
+  "description": "Console sensor name: systemd_timer_count. Number of enabled systemd timers. The modern replacement for cron, and where scheduled work actually lives on a current distribution.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⏲️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd",
+    "timers",
+    "scheduling",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgISBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICItMSIKZWxzZQogIG49JChzeXN0ZW1jdGwgbGlzdC10aW1lcnMgLS1hbGwgLS1uby1sZWdlbmQgLS1uby1wYWdlciAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgLikKICBjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwogIGVjaG8gIiRuIgpmaQo="
+}

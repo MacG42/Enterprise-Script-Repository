@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "98f335e4-5c23-406a-8deb-07f9c521036e",
+  "slug": "timezone-linux",
+  "type": "sensor",
+  "name": "Configured Time Zone",
+  "description": "Console sensor name: timezone. The device time zone. On a fleet where maintenance windows and cron jobs are scheduled locally, a wrong time zone silently moves every scheduled action.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🌍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "timezone",
+    "configuration",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgppZiBjb21tYW5kIC12IHRpbWVkYXRlY3RsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHY9JCh0aW1lZGF0ZWN0bCBzaG93IC1wIFRpbWV6b25lIC0tdmFsdWUgMj4vZGV2L251bGwpCmZpClsgLXogIiR2IiBdICYmIFsgLXIgL2V0Yy90aW1lem9uZSBdICYmIHY9JChjYXQgL2V0Yy90aW1lem9uZSAyPi9kZXYvbnVsbCkKWyAteiAiJHYiIF0gJiYgdj0kKHJlYWRsaW5rIC1mIC9ldGMvbG9jYWx0aW1lIDI+L2Rldi9udWxsIHwgc2VkICdzfC4qem9uZWluZm8vfHwnKQpbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgplY2hvICIkdiIK"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4b08eb71-2403-4938-bea6-4910743797d4",
+  "slug": "reset-launchpad-layout",
+  "type": "script",
+  "name": "Reset Launchpad Layout",
+  "description": "Rebuilds the Launchpad database so removed applications stop appearing and new ones are picked up. A cosmetic fix, and one users raise often after a software migration.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🚀",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "launchpad",
+    "applications",
+    "userexperience",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Reset Launchpad",
+      "displayDescription": "Rebuilds Launchpad when it shows apps that are no longer installed.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LWxhdW5jaHBhZC1sYXlvdXQubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiAhIGNvbW1hbmQgLXYgZGVmYXVsdHMgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiZGVmYXVsdHMgaXMgdW5hdmFpbGFibGUiOyBleGl0IDEwOyBmaQpkZWZhdWx0cyB3cml0ZSBjb20uYXBwbGUuZG9jayBSZXNldExhdW5jaFBhZCAtYm9vbCB0cnVlIDI+L2Rldi9udWxsCmtpbGxhbGwgRG9jayAyPi9kZXYvbnVsbApzbGVlcCA2CmlmIHBncmVwIC14IERvY2sgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJMYXVuY2hwYWQgbGF5b3V0IHJlc2V0IGFuZCB0aGUgRG9jayByZXN0YXJ0ZWQiCiAgZXhpdCAwCmZpCmxvZyAiRG9jayBkaWQgbm90IHJlc3RhcnQgYWZ0ZXIgdGhlIHJlc2V0IgpleGl0IDMwCg=="
+}

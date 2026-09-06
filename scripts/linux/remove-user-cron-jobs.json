@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1cab50d3-ace5-4ae6-872f-4a065756d75e",
+  "slug": "remove-user-cron-jobs",
+  "type": "script",
+  "name": "Remove Unapproved User Cron Jobs",
+  "description": "Delivery: ad hoc. Moves user crontabs aside for accounts outside the approved list, keeping a copy under /root. User cron is persistence nobody audits and scheduling nobody documents.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "cron",
+    "persistence",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZW1vdmUtdXNlci1jcm9uLWpvYnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgphbGxvdz0icm9vdCxiYWNrdXAsbmFnaW9zLHphYmJpeCIKc3RhbXA9JChkYXRlIC11ICslWSVtJWQlSCVNJVMpCmhvbGQ9Ii9yb290L3JlbW92ZWQtY3JvbnRhYnMtJHN0YW1wIgptb3ZlZD0wCmZvciBkIGluIC92YXIvc3Bvb2wvY3Jvbi9jcm9udGFicyAvdmFyL3Nwb29sL2Nyb247IGRvCiAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICBmb3IgZiBpbiAiJGQiLyo7IGRvCiAgICBbIC1mICIkZiIgXSB8fCBjb250aW51ZQogICAgdT0kKGJhc2VuYW1lICIkZiIpCiAgICBjYXNlICIsJGFsbG93LCIgaW4gKiIsJHUsIiopIGNvbnRpbnVlIDs7IGVzYWMKICAgIG1rZGlyIC1wICIkaG9sZCIgMj4vZGV2L251bGwKICAgIGNwICIkZiIgIiRob2xkLyIgMj4vZGV2L251bGwKICAgIGNyb250YWIgLXIgLXUgIiR1IiA+L2Rldi9udWxsIDI+JjEgfHwgcm0gLWYgIiRmIiAyPi9kZXYvbnVsbAogICAgbG9nICJSZW1vdmVkIHRoZSBjcm9udGFiIGZvciAkdSAoY29weSBrZXB0IGluICRob2xkKSIKICAgIG1vdmVkPSQoKG1vdmVkKzEpKQogIGRvbmUKZG9uZQppZiBbICIkbW92ZWQiIC1lcSAwIF07IHRoZW4gbG9nICJObyB1bmFwcHJvdmVkIHVzZXIgY3JvbnRhYnMsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJSZW1vdmVkICRtb3ZlZCB1c2VyIGNyb250YWIocyksIGNvcGllcyBpbiAkaG9sZCIKZXhpdCAwCg=="
+}

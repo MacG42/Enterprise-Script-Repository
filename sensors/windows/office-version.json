@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a5161c65-ea1b-49b2-a618-689a1e57b3dc",
+  "slug": "office-version",
+  "type": "sensor",
+  "name": "Office Version",
+  "description": "Console sensor name: office_version. Click-to-Run build number for installed Microsoft 365 Apps, or NotInstalled. The build is what a known Outlook or Excel regression is actually keyed on, not the marketing year.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📎",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "office",
+    "m365",
+    "inventory",
+    "version"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxPZmZpY2VcQ2xpY2tUb1J1blxDb25maWd1cmF0aW9uJwogICAgJHYgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1ZlcnNpb25Ub1JlcG9ydCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlZlcnNpb25Ub1JlcG9ydAogICAgaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoW3N0cmluZ10kdikpIHsgV3JpdGUtT3V0cHV0ICdOb3RJbnN0YWxsZWQnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgKFtzdHJpbmddJHYpLlRyaW0oKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8d7fb84f-81e2-4e11-9f2d-c9a0e50fdc3f",
+  "slug": "set-screen-saver-idle-time",
+  "type": "script",
+  "name": "Set Screen Saver Idle Time",
+  "description": "Sets the idle time before the screen saver starts, in seconds, from esr_screensaver_seconds, for every local user. Pairs with the screen lock policy - one starts the saver, the other demands the password.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏳",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "screensaver",
+    "screenlock",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_screensaver_seconds",
+        "value": "600"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1zY3JlZW4tc2F2ZXItaWRsZS10aW1lLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKcz0nJGVzcl9zY3JlZW5zYXZlcl9zZWNvbmRzJCcKY2FzZSAiJHMiIGluICplc3Jfc2NyZWVuc2F2ZXJfc2Vjb25kcyp8JycpIHM9NjAwIDs7IGVzYWMKY2FzZSAiJHMiIGluICcnfCpbITAtOV0qKSBsb2cgIk5vdCBhIG51bWJlcjogJHMiOyBleGl0IDEwIDs7IGVzYWMKaWYgWyAiJHMiIC1sdCA2MCBdIHx8IFsgIiRzIiAtZ3QgMzYwMCBdOyB0aGVuIGxvZyAiSWRsZSB0aW1lIG91dCBvZiB0aGUgc2Vuc2libGUgNjAtMzYwMCByYW5nZTogJHMiOyBleGl0IDEwOyBmaQpjaGFuZ2VkPTAKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgiIF0gfHwgY29udGludWUKICBjYXNlICIkaCIgaW4gKi9TaGFyZWR8Ki9HdWVzdCkgY29udGludWUgOzsgZXNhYwogIHU9JChiYXNlbmFtZSAiJGgiKQogIGlkICIkdSIgPi9kZXYvbnVsbCAyPiYxIHx8IGNvbnRpbnVlCiAgY3VyPSQoc3VkbyAtdSAiJHUiIGRlZmF1bHRzIC1jdXJyZW50SG9zdCByZWFkIGNvbS5hcHBsZS5zY3JlZW5zYXZlciBpZGxlVGltZSAyPi9kZXYvbnVsbCkKICBpZiBbICIkY3VyIiA9ICIkcyIgXTsgdGhlbiBjb250aW51ZTsgZmkKICBzdWRvIC11ICIkdSIgZGVmYXVsdHMgLWN1cnJlbnRIb3N0IHdyaXRlIGNvbS5hcHBsZS5zY3JlZW5zYXZlciBpZGxlVGltZSAtaW50ICIkcyIgMj4vZGV2L251bGwKICBsb2cgIlNldCBzY3JlZW4gc2F2ZXIgaWRsZSB0aW1lIGZvciAkdSB0byAkcyAod2FzICRjdXIpIgogIGNoYW5nZWQ9JCgoY2hhbmdlZCsxKSkKZG9uZQppZiBbICIkY2hhbmdlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIkFscmVhZHkgY29tcGxpYW50IGZvciBldmVyeSB1c2VyLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiVXBkYXRlZCAkY2hhbmdlZCB1c2VyKHMpIgpleGl0IDAK"
+}

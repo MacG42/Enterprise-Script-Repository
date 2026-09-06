@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "65781794-fbfa-4ada-8334-9a0a3379a2df",
+  "slug": "primary-dns-server-linux",
+  "type": "sensor",
+  "name": "Primary DNS Server",
+  "description": "Console sensor name: primary_dns_server. The first resolver the device will ask, read from systemd-resolved where it is in use and from resolv.conf otherwise. A public resolver on a corporate host means internal names are about to fail.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dns",
+    "network",
+    "resolution",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgppZiBjb21tYW5kIC12IHJlc29sdmVjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdj0kKHJlc29sdmVjdGwgZG5zIDI+L2Rldi9udWxsIHwgYXdrICd7Zm9yIChpPTE7aTw9TkY7aSsrKSBpZiAoJGkgfiAvXlswLTldK1wuWzAtOV0rXC5bMC05XStcLlswLTldKyQvKSB7cHJpbnQgJGk7IGV4aXR9fScpCmZpCmlmIFsgLXogIiR2IiBdICYmIFsgLXIgL2V0Yy9yZXNvbHYuY29uZiBdOyB0aGVuCiAgdj0kKGF3ayAnL15uYW1lc2VydmVyLyB7cHJpbnQgJDI7IGV4aXR9JyAvZXRjL3Jlc29sdi5jb25mIDI+L2Rldi9udWxsKQpmaQpbIC16ICIkdiIgXSAmJiB2PSJOb25lIgplY2hvICIkdiIK"
+}

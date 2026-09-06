@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6f53317e-4145-4ad6-b1d1-c68a8c470b04",
+  "slug": "time-offset-seconds",
+  "type": "sensor",
+  "name": "Time Offset (Seconds)",
+  "description": "Console sensor name: time_offset_seconds. Absolute phase offset the Windows Time service last measured against its source, rounded to whole seconds. Read from the local service state, so the sensor never touches the network. Kerberos starts failing around 300.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "kerberos",
+    "authentication",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRvdXQgPSAmICIkZW52OlN5c3RlbVJvb3RcU3lzdGVtMzJcdzMydG0uZXhlIiAvcXVlcnkgL3N0YXR1cyAyPiRudWxsCiAgICAkbGluZSA9IEAoJG91dCB8IFdoZXJlLU9iamVjdCB7ICRfIC1tYXRjaCAnWy0rXT9cZCtcLlxkK3MnIH0pIHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgaWYgKCRudWxsIC1lcSAkbGluZSkgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgZWxzZSB7CiAgICAgICAgJG0gPSBbcmVnZXhdOjpNYXRjaChbc3RyaW5nXSRsaW5lLCAnKFstK10/XGQrXC5cZCspcycpCiAgICAgICAgaWYgKCRtLlN1Y2Nlc3MpIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Um91bmQoW21hdGhdOjpBYnMoW2RvdWJsZV0kbS5Hcm91cHNbMV0uVmFsdWUpKSkgfQogICAgICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

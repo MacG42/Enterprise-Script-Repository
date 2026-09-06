@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f5d56e1d-3959-402f-a964-b1b945acf08e",
+  "slug": "write-support-contact-motd",
+  "type": "script",
+  "name": "Write The Support Contact Message",
+  "description": "Delivery: packaged post-install. Puts the hostname, the build date and a support contact into the message of the day, so whoever logs in at three in the morning knows which host they are on and who owns it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "motd",
+    "operations",
+    "support"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC13cml0ZS1zdXBwb3J0LWNvbnRhY3QtbW90ZC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmNvbnRhY3Q9IiR7RVNSX1NVUFBPUlRfQ09OVEFDVDotSVQgU2VydmljZSBEZXNrfSIKaD0kKGhvc3RuYW1lIDI+L2Rldi9udWxsKQpvcz0kKC4gL2V0Yy9vcy1yZWxlYXNlIDI+L2Rldi9udWxsOyBwcmludGYgJyVzICVzJyAiJE5BTUUiICIkVkVSU0lPTl9JRCIpCmQ9Ii9ldGMvdXBkYXRlLW1vdGQuZCIKaWYgWyAtZCAiJGQiIF07IHRoZW4KICBmPSIkZC85OS1lc3Itc3VwcG9ydCIKICB7CiAgICBwcmludGYgJyVzXG4nICIjIS9iaW4vc2giCiAgICBwcmludGYgJ3ByaW50ZiAiXFxuJSVzXFxuIiAiSG9zdDogJXMiXG4nICIkaCIKICAgIHByaW50ZiAncHJpbnRmICIlJXNcXG4iICJQbGF0Zm9ybTogJXMiXG4nICIkb3MiCiAgICBwcmludGYgJ3ByaW50ZiAiJSVzXFxuXFxuIiAiU3VwcG9ydDogJXMiXG4nICIkY29udGFjdCIKICB9ID4gIiRmIgogIGNobW9kIDc1NSAiJGYiIDI+L2Rldi9udWxsCiAgbG9nICJXcm90ZSB0aGUgZHluYW1pYyBtb3RkIGZyYWdtZW50ICRmIgogIGV4aXQgMApmaQp7CiAgcHJpbnRmICclc1xuJyAiSG9zdDogJGgiCiAgcHJpbnRmICclc1xuJyAiUGxhdGZvcm06ICRvcyIKICBwcmludGYgJyVzXG4nICJTdXBwb3J0OiAkY29udGFjdCIKfSA+IC9ldGMvbW90ZApsb2cgIldyb3RlIC9ldGMvbW90ZCBmb3IgJGgiCmV4aXQgMAo="
+}

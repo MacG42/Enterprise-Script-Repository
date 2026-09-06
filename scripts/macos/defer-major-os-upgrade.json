@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5b963df9-b1d5-4fba-867c-26ac0aaae3e1",
+  "slug": "defer-major-os-upgrade",
+  "type": "script",
+  "name": "Defer Major OS Upgrades",
+  "description": "Sets the major upgrade deferral to the number of days in esr_defer_days, so a new macOS release does not reach the fleet before the applications have been tested. Minor and security updates are unaffected.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏸️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "policy",
+    "governance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_defer_days",
+        "value": "90"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRlZmVyLW1ham9yLW9zLXVwZ3JhZGUubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpkPSckZXNyX2RlZmVyX2RheXMkJwpjYXNlICIkZCIgaW4KICAqZXNyX2RlZmVyX2RheXMqfCcnKSBkPTkwIDs7CmVzYWMKY2FzZSAiJGQiIGluCiAgJyd8KlshMC05XSopIGxvZyAiRGVmZXJyYWwgZGF5cyBpcyBub3QgYSBudW1iZXI6ICRkIjsgZXhpdCAxMCA7Owplc2FjCmlmIFsgIiRkIiAtbHQgMSBdIHx8IFsgIiRkIiAtZ3QgOTAgXTsgdGhlbiBsb2cgIkRlZmVycmFsIG11c3QgYmUgMS05MCBkYXlzLCBnb3QgJGQiOyBleGl0IDEwOyBmaQpwPSIvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuYXBwbGljYXRpb25hY2Nlc3MiCmN1cj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBlbmZvcmNlZFNvZnR3YXJlVXBkYXRlTWFqb3JPU0RlZmVycmVkSW5zdGFsbERlbGF5IDI+L2Rldi9udWxsKQppZiBbICIkY3VyIiA9ICIkZCIgXTsgdGhlbiBsb2cgIkFscmVhZHkgZGVmZXJyaW5nIG1ham9yIHVwZ3JhZGVzIGJ5ICRkIGRheXMsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJNYWpvciB1cGdyYWRlIGRlZmVycmFsIHdhcyAkY3VyLCBzZXR0aW5nIHRvICRkIgpkZWZhdWx0cyB3cml0ZSAiJHAiIGZvcmNlRGVsYXllZE1ham9yU29mdHdhcmVVcGRhdGVzIC1ib29sIHRydWUgMj4vZGV2L251bGwKZGVmYXVsdHMgd3JpdGUgIiRwIiBlbmZvcmNlZFNvZnR3YXJlVXBkYXRlTWFqb3JPU0RlZmVycmVkSW5zdGFsbERlbGF5IC1pbnQgIiRkIiAyPi9kZXYvbnVsbAphPSQoZGVmYXVsdHMgcmVhZCAiJHAiIGVuZm9yY2VkU29mdHdhcmVVcGRhdGVNYWpvck9TRGVmZXJyZWRJbnN0YWxsRGVsYXkgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICIkZCIgXTsgdGhlbiBsb2cgIkRlZmVycmFsIHNldCB0byAkZCBkYXlzIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

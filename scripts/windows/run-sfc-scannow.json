@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2ff5ab78-2518-4514-ba1e-43ef030f6145",
+  "slug": "run-sfc-scannow",
+  "type": "script",
+  "name": "Run SFC Scannow",
+  "description": "Runs System File Checker and reports what it found. Run DISM RestoreHealth first on a device with a damaged component store, or SFC will find corruption it cannot repair.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🩹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "servicing",
+    "repair",
+    "sfc",
+    "corruption"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 3000,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJ1bi1zZmMtc2Nhbm5vdy5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRwID0gU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggIiRlbnY6U3lzdGVtUm9vdFxTeXN0ZW0zMlxzZmMuZXhlIiAtQXJndW1lbnRMaXN0ICcvc2Nhbm5vdycgLVdhaXQgLVBhc3NUaHJ1IC1XaW5kb3dTdHlsZSBIaWRkZW4KICAgICRsb2cgPSBKb2luLVBhdGggJGVudjpTeXN0ZW1Sb290ICdMb2dzXENCU1xDQlMubG9nJwogICAgJGZvdW5kID0gJGZhbHNlCiAgICBpZiAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkbG9nKSB7CiAgICAgICAgJHRhaWwgPSBHZXQtQ29udGVudCAtTGl0ZXJhbFBhdGggJGxvZyAtVGFpbCA1MDAgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICAgICAkZm91bmQgPSBAKCR0YWlsIHwgV2hlcmUtT2JqZWN0IHsgJF8gLW1hdGNoICdDYW5ub3QgcmVwYWlyIG1lbWJlciBmaWxlJyB9KS5Db3VudCAtZ3QgMAogICAgfQogICAgV3JpdGUtTG9nICgnc2ZjIGV4aXQgJyArICRwLkV4aXRDb2RlICsgJzsgdW5yZXBhaXJhYmxlIGVudHJpZXMgaW4gcmVjZW50IENCUyBsb2c6ICcgKyAkZm91bmQpCiAgICBpZiAoJHAuRXhpdENvZGUgLWVxIDAgLWFuZCAtbm90ICRmb3VuZCkgeyBleGl0IDAgfQogICAgaWYgKCRmb3VuZCkgeyBXcml0ZS1Mb2cgJ1NGQyBjb3VsZCBub3QgcmVwYWlyIGV2ZXJ5IGZpbGUgLSBydW4gRElTTSBSZXN0b3JlSGVhbHRoIGFuZCByZXBlYXQnOyBleGl0IDMwIH0KICAgIGV4aXQgMjAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

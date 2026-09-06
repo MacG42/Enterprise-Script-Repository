@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "595b9bd7-33be-4550-ad09-1e2fa693ce2d",
+  "slug": "disable-transparent-hugepages",
+  "type": "script",
+  "name": "Disable Transparent Huge Pages",
+  "description": "Delivery: packaged post-install. Turns transparent huge pages off now and at boot through a systemd unit. Standard practice for database and low-latency workloads, where the defragmentation stalls are the problem.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📉",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "kernel",
+    "memory",
+    "performance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLXRyYW5zcGFyZW50LWh1Z2VwYWdlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmY9Ii9zeXMva2VybmVsL21tL3RyYW5zcGFyZW50X2h1Z2VwYWdlL2VuYWJsZWQiCmlmIFsgISAtdyAiJGYiIF07IHRoZW4gbG9nICJUcmFuc3BhcmVudCBodWdlIHBhZ2VzIGFyZSBub3QgZXhwb3NlZCBvbiB0aGlzIGtlcm5lbCI7IGV4aXQgMTA7IGZpCmN1cj0kKHNlZCAtbiAncy8uKlxbXCguKlwpXF0uKi9cMS9wJyAiJGYiIDI+L2Rldi9udWxsKQp1PSIvZXRjL3N5c3RlbWQvc3lzdGVtL2Vzci1kaXNhYmxlLXRocC5zZXJ2aWNlIgppZiBbICIkY3VyIiA9ICJuZXZlciIgXSAmJiBbIC1mICIkdSIgXTsgdGhlbiBsb2cgIkFscmVhZHkgZGlzYWJsZWQgYW5kIHBlcnNpc3RlZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIlRyYW5zcGFyZW50IGh1Z2UgcGFnZXMgd2VyZSAkY3VyLCBkaXNhYmxpbmciCnByaW50ZiAnJXMnICJuZXZlciIgPiAiJGYiIDI+L2Rldi9udWxsClsgLXcgL3N5cy9rZXJuZWwvbW0vdHJhbnNwYXJlbnRfaHVnZXBhZ2UvZGVmcmFnIF0gJiYgcHJpbnRmICclcycgIm5ldmVyIiA+IC9zeXMva2VybmVsL21tL3RyYW5zcGFyZW50X2h1Z2VwYWdlL2RlZnJhZyAyPi9kZXYvbnVsbAppZiBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjEgJiYgWyAhIC1mICIkdSIgXTsgdGhlbgogIHsKICAgIHByaW50ZiAnJXNcbicgIltVbml0XSIKICAgIHByaW50ZiAnJXNcbicgIkRlc2NyaXB0aW9uPURpc2FibGUgdHJhbnNwYXJlbnQgaHVnZSBwYWdlcyIKICAgIHByaW50ZiAnJXNcblxuJyAiQWZ0ZXI9c3lzaW5pdC50YXJnZXQgbG9jYWwtZnMudGFyZ2V0IgogICAgcHJpbnRmICclc1xuJyAiW1NlcnZpY2VdIgogICAgcHJpbnRmICclc1xuJyAiVHlwZT1vbmVzaG90IgogICAgcHJpbnRmICclc1xuJyAiRXhlY1N0YXJ0PS9iaW4vc2ggLWMgJ2VjaG8gbmV2ZXIgPiAvc3lzL2tlcm5lbC9tbS90cmFuc3BhcmVudF9odWdlcGFnZS9lbmFibGVkJyIKICAgIHByaW50ZiAnJXNcblxuJyAiUmVtYWluQWZ0ZXJFeGl0PXllcyIKICAgIHByaW50ZiAnJXNcbicgIltJbnN0YWxsXSIKICAgIHByaW50ZiAnJXNcbicgIldhbnRlZEJ5PW11bHRpLXVzZXIudGFyZ2V0IgogIH0gPiAiJHUiCiAgc3lzdGVtY3RsIGRhZW1vbi1yZWxvYWQgPi9kZXYvbnVsbCAyPiYxCiAgc3lzdGVtY3RsIGVuYWJsZSBlc3ItZGlzYWJsZS10aHAgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJDcmVhdGVkIGFuZCBlbmFibGVkICR1IHNvIHRoZSBzZXR0aW5nIHN1cnZpdmVzIGEgcmVib290IgpmaQphPSQoc2VkIC1uICdzLy4qXFtcKC4qXClcXS4qL1wxL3AnICIkZiIgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICJuZXZlciIgXTsgdGhlbiBsb2cgIlRyYW5zcGFyZW50IGh1Z2UgcGFnZXMgZGlzYWJsZWQiOyBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

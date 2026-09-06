@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3344e433-d7bd-46da-8c9c-8d5011eb3e60",
+  "slug": "clear-safari-cache",
+  "type": "script",
+  "name": "Clear Safari Cache",
+  "description": "Closes Safari and clears its cache and web page previews for the signed-in user. History, bookmarks and passwords are untouched, so nothing the user relies on is lost.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧭",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "safari",
+    "browser",
+    "cache",
+    "userprofile"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clear Safari Cache",
+      "displayDescription": "Clears cached web content in Safari. Safari will close.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNsZWFyLXNhZmFyaS1jYWNoZS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmIHBncmVwIC14IFNhZmFyaSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBvc2FzY3JpcHQgLWUgJ3F1aXQgYXBwICJTYWZhcmkiJyA+L2Rldi9udWxsIDI+JjEKICBzbGVlcCAzCiAgcGtpbGwgLXggU2FmYXJpIDI+L2Rldi9udWxsCiAgbG9nICJDbG9zZWQgU2FmYXJpIgpmaQpmcmVlZD0wCmZvciBkIGluICIkSE9NRS9MaWJyYXJ5L0NhY2hlcy9jb20uYXBwbGUuU2FmYXJpIiAiJEhPTUUvTGlicmFyeS9Db250YWluZXJzL2NvbS5hcHBsZS5TYWZhcmkvRGF0YS9MaWJyYXJ5L0NhY2hlcyIgIiRIT01FL0xpYnJhcnkvU2FmYXJpL1RvdWNoIEljb25zIENhY2hlIjsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGs9JChkdSAtc2sgIiRkIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCiAgY2FzZSAiJGsiIGluICcnfCpbITAtOV0qKSBrPTAgOzsgZXNhYwogIHJtIC1yZiAiJGQiLyogMj4vZGV2L251bGwKICBmcmVlZD0kKChmcmVlZCtrKSkKZG9uZQpsb2cgIkNsZWFyZWQgYWJvdXQgJCgoZnJlZWQgLyAxMDI0KSkgTUIgb2YgU2FmYXJpIGNhY2hlIgpleGl0IDAK"
+}

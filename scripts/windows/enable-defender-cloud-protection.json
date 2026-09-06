@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "297d2326-dc47-4ea2-8fe6-24de1d9b941c",
+  "slug": "enable-defender-cloud-protection",
+  "type": "script",
+  "name": "Enable Defender Cloud Protection",
+  "description": "Sets cloud-delivered protection to Advanced and enables sample submission for safe samples. Reverts the two settings most often turned off during a troubleshooting session and never turned back on.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "☁️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "cloud",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1kZWZlbmRlci1jbG91ZC1wcm90ZWN0aW9uLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHAgPSBHZXQtTXBQcmVmZXJlbmNlCiAgICBpZiAoW2ludF0kcC5NQVBTUmVwb3J0aW5nIC1lcSAyIC1hbmQgW2ludF0kcC5TdWJtaXRTYW1wbGVzQ29uc2VudCAtaW4gQCgxLCAzKSkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnTUFQU1JlcG9ydGluZz0nICsgJHAuTUFQU1JlcG9ydGluZyArICcgU3VibWl0U2FtcGxlc0NvbnNlbnQ9JyArICRwLlN1Ym1pdFNhbXBsZXNDb25zZW50ICsgJywgY29ycmVjdGluZycpCiAgICBTZXQtTXBQcmVmZXJlbmNlIC1NQVBTUmVwb3J0aW5nIEFkdmFuY2VkCiAgICBTZXQtTXBQcmVmZXJlbmNlIC1TdWJtaXRTYW1wbGVzQ29uc2VudCBTZW5kU2FmZVNhbXBsZXMKICAgICRhID0gR2V0LU1wUHJlZmVyZW5jZQogICAgaWYgKFtpbnRdJGEuTUFQU1JlcG9ydGluZyAtZXEgMikgeyBXcml0ZS1Mb2cgJ0Nsb3VkIHByb3RlY3Rpb24gZW5hYmxlZCc7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgJ1NldHRpbmcgZGlkIG5vdCBzdGljayAtIHBvbGljeSBvciB0YW1wZXIgcHJvdGVjdGlvbiBpcyBvdmVycmlkaW5nJwogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

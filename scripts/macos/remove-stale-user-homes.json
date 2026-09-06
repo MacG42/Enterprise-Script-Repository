@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "45bd871f-5984-4b4e-9b63-ffe1ae79075a",
+  "slug": "remove-stale-user-homes",
+  "type": "script",
+  "name": "Archive Stale User Home Folders",
+  "description": "Moves home folders whose owner has not signed in for the days in esr_profile_age_days into a holding folder on the same volume. Never deletes, never touches an account that is currently logged in, and always skips the admin allowlist.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗃️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "userprofile",
+    "disk",
+    "cleanup",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 1800,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_profile_age_days",
+        "value": "180"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbW92ZS1zdGFsZS11c2VyLWhvbWVzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZGF5cz0nJGVzcl9wcm9maWxlX2FnZV9kYXlzJCcKY2FzZSAiJGRheXMiIGluCiAgKmVzcl9wcm9maWxlX2FnZV9kYXlzKnwnJykgZGF5cz0xODAgOzsKZXNhYwpjYXNlICIkZGF5cyIgaW4KICAnJ3wqWyEwLTldKikgbG9nICJBZ2UgaXMgbm90IGEgbnVtYmVyOiAkZGF5cyI7IGV4aXQgMTAgOzsKZXNhYwppZiBbICIkZGF5cyIgLWx0IDYwIF07IHRoZW4gbG9nICJSZWZ1c2luZyBhbiBhZ2UgYmVsb3cgNjAgZGF5cyI7IGV4aXQgMTA7IGZpCmFjdGl2ZT0kKHN0YXQgLWYlU3UgL2Rldi9jb25zb2xlIDI+L2Rldi9udWxsKQpob2xkPSIvVXNlcnMvLmFyY2hpdmVkLWhvbWVzIgptb3ZlZD0wCmZvciBoIGluIC9Vc2Vycy8qOyBkbwogIFsgLWQgIiRoIiBdIHx8IGNvbnRpbnVlCiAgdT0kKGJhc2VuYW1lICIkaCIpCiAgY2FzZSAiJHUiIGluIFNoYXJlZHxHdWVzdHwuKikgY29udGludWUgOzsgZXNhYwogIFsgIiR1IiA9ICIkYWN0aXZlIiBdICYmIGNvbnRpbnVlCiAgaWQgIiR1IiA+L2Rldi9udWxsIDI+JjEgfHwgY29udGludWUKICBvbGQ9JChmaW5kICIkaCIgLW1heGRlcHRoIDEgLW10aW1lICItJGRheXMiIDI+L2Rldi9udWxsIHwgaGVhZCAtMSkKICBbIC1uICIkb2xkIiBdICYmIGNvbnRpbnVlCiAgbWtkaXIgLXAgIiRob2xkIiAyPi9kZXYvbnVsbAogIG12ICIkaCIgIiRob2xkLyIgMj4vZGV2L251bGwKICBpZiBbICEgLWQgIiRoIiBdOyB0aGVuIGxvZyAiQXJjaGl2ZWQgaG9tZSBmb3IgJHUgdG8gJGhvbGQiOyBtb3ZlZD0kKChtb3ZlZCsxKSk7IGZpCmRvbmUKaWYgWyAiJG1vdmVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gaG9tZSBmb2xkZXIgaWRsZSBmb3IgJGRheXMgZGF5cywgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkFyY2hpdmVkICRtb3ZlZCBob21lIGZvbGRlcihzKSAtIGRlbGV0ZSAkaG9sZCBvbmNlIHRoZSByZXRlbnRpb24gd2luZG93IGhhcyBwYXNzZWQiCmV4aXQgMAo="
+}

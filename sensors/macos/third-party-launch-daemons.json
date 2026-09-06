@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "aaa659f2-e6be-4223-80ae-903ad33b96bc",
+  "slug": "third-party-launch-daemons",
+  "type": "sensor",
+  "name": "Third Party Launch Daemon Count",
+  "description": "Console sensor name: third_party_launch_daemons. Number of non-Apple launch daemons. These run as root at boot with no user present, so this is the more important half of the persistence pair.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "launchdaemons",
+    "persistence",
+    "security",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSIvTGlicmFyeS9MYXVuY2hEYWVtb25zIgppZiBbICEgLWQgIiRkIiBdOyB0aGVuCiAgZWNobyAiMCIKZWxzZQogIG49JChscyAtMSAiJGQiIDI+L2Rldi9udWxsIHwgZ3JlcCAtdmMgIl5jb20uYXBwbGUiKQogIGNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0tMSA7OyBlc2FjCiAgZWNobyAiJG4iCmZpCg=="
+}

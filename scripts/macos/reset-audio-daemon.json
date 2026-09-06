@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6735170a-5c5f-4dfa-89e4-e79547768b17",
+  "slug": "reset-audio-daemon",
+  "type": "script",
+  "name": "Restart The Audio Daemon",
+  "description": "Restarts coreaudiod, which recovers a device with no sound after a dock change or a sample-rate mismatch. Faster and less disruptive than the restart users are usually told to do.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "audio",
+    "coreaudio",
+    "hardware",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Audio",
+      "displayDescription": "Restarts the audio system when the Mac has no sound.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LWF1ZGlvLWRhZW1vbi5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmICEgcGdyZXAgLXggY29yZWF1ZGlvZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgImNvcmVhdWRpb2QgaXMgbm90IHJ1bm5pbmcgLSBsYXVuY2hkIHNob3VsZCBoYXZlIHN0YXJ0ZWQgaXQiCmZpCmxhdW5jaGN0bCBraWNrc3RhcnQgLWsgc3lzdGVtL2NvbS5hcHBsZS5hdWRpby5jb3JlYXVkaW9kID4vZGV2L251bGwgMj4mMQpzbGVlcCA1CmlmIHBncmVwIC14IGNvcmVhdWRpb2QgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJjb3JlYXVkaW9kIHJlc3RhcnRlZCIKICBleGl0IDAKZmkKbG9nICJjb3JlYXVkaW9kIGRpZCBub3QgY29tZSBiYWNrIgpleGl0IDMwCg=="
+}

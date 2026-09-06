@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a73e5b71-65a1-46bf-a772-51ec4b1db752",
+  "slug": "enable-time-synchronisation-linux",
+  "type": "script",
+  "name": "Enable Time Synchronisation",
+  "description": "Delivery: packaged post-install. Enables whichever time daemon the host has - chrony or systemd-timesyncd - and turns NTP on. A drifted clock breaks Kerberos, TLS validation and log correlation at once.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "time",
+    "ntp",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtdGltZS1zeW5jaHJvbmlzYXRpb24tbGludXgubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiBjb21tYW5kIC12IHRpbWVkYXRlY3RsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHM9JCh0aW1lZGF0ZWN0bCBzaG93IC1wIE5UUCAtLXZhbHVlIDI+L2Rldi9udWxsKQogIGlmIFsgIiRzIiA9ICJ5ZXMiIF07IHRoZW4gbG9nICJOVFAgaXMgYWxyZWFkeSBlbmFibGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmZpCnN0YXJ0ZWQ9IiIKZm9yIHUgaW4gY2hyb255ZCBjaHJvbnkgc3lzdGVtZC10aW1lc3luY2QgbnRwZDsgZG8KICBpZiBzeXN0ZW1jdGwgbGlzdC11bml0LWZpbGVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiXiR1LnNlcnZpY2UiOyB0aGVuCiAgICBzeXN0ZW1jdGwgZW5hYmxlIC0tbm93ICIkdSIgPi9kZXYvbnVsbCAyPiYxCiAgICBzeXN0ZW1jdGwgaXMtYWN0aXZlICIkdSIgPi9kZXYvbnVsbCAyPiYxICYmIHN0YXJ0ZWQ9IiR1IiAmJiBicmVhawogIGZpCmRvbmUKaWYgWyAteiAiJHN0YXJ0ZWQiIF07IHRoZW4KICBjb21tYW5kIC12IHRpbWVkYXRlY3RsID4vZGV2L251bGwgMj4mMSAmJiB0aW1lZGF0ZWN0bCBzZXQtbnRwIHRydWUgPi9kZXYvbnVsbCAyPiYxCmZpCnNsZWVwIDUKaWYgY29tbWFuZCAtdiB0aW1lZGF0ZWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBhPSQodGltZWRhdGVjdGwgc2hvdyAtcCBOVFAgLS12YWx1ZSAyPi9kZXYvbnVsbCkKICBpZiBbICIkYSIgPSAieWVzIiBdOyB0aGVuIGxvZyAiVGltZSBzeW5jaHJvbmlzYXRpb24gZW5hYmxlZCB2aWEgJHtzdGFydGVkOi10aW1lZGF0ZWN0bH0iOyBleGl0IDA7IGZpCmZpCmZvciBwIGluIGNocm9ueWQgc3lzdGVtZC10aW1lc3luY2QgbnRwZDsgZG8KICBwZ3JlcCAteCAiJHAiID4vZGV2L251bGwgMj4mMSAmJiB7IGxvZyAiVGltZSBkYWVtb24gJHAgaXMgcnVubmluZyI7IGV4aXQgMDsgfQpkb25lCmxvZyAiTm8gdGltZSBkYWVtb24gY291bGQgYmUgc3RhcnRlZCIKZXhpdCAzMAo="
+}

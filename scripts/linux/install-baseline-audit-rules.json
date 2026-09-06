@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ffa7f44f-fd6a-4ae2-a9b8-6457b7dc8b30",
+  "slug": "install-baseline-audit-rules",
+  "type": "script",
+  "name": "Install Baseline Audit Rules",
+  "description": "Delivery: packaged post-install. Writes a small audit ruleset covering identity files, sudoers, the audit configuration itself and privilege escalation, then reloads. Deliberately short so the log stays readable.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📜",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "auditd",
+    "forensics",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1pbnN0YWxsLWJhc2VsaW5lLWF1ZGl0LXJ1bGVzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZD0iL2V0Yy9hdWRpdC9ydWxlcy5kIgppZiBbICEgLWQgIiRkIiBdOyB0aGVuIGxvZyAiTm8gYXVkaXQgcnVsZXMgZGlyZWN0b3J5IC0gaXMgYXVkaXRkIGluc3RhbGxlZD8iOyBleGl0IDEwOyBmaQpmPSIkZC82MC1lc3ItYmFzZWxpbmUucnVsZXMiCmlmIFsgLWYgIiRmIiBdOyB0aGVuIGxvZyAiQmFzZWxpbmUgcnVsZXMgYWxyZWFkeSBwcmVzZW50LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnsKICBwcmludGYgJyVzXG4nICItdyAvZXRjL3Bhc3N3ZCAtcCB3YSAtayBpZGVudGl0eSIKICBwcmludGYgJyVzXG4nICItdyAvZXRjL3NoYWRvdyAtcCB3YSAtayBpZGVudGl0eSIKICBwcmludGYgJyVzXG4nICItdyAvZXRjL2dyb3VwIC1wIHdhIC1rIGlkZW50aXR5IgogIHByaW50ZiAnJXNcbicgIi13IC9ldGMvc3Vkb2VycyAtcCB3YSAtayBwcml2aWxlZ2UiCiAgcHJpbnRmICclc1xuJyAiLXcgL2V0Yy9zdWRvZXJzLmQvIC1wIHdhIC1rIHByaXZpbGVnZSIKICBwcmludGYgJyVzXG4nICItdyAvZXRjL3NzaC9zc2hkX2NvbmZpZyAtcCB3YSAtayBzc2hkIgogIHByaW50ZiAnJXNcbicgIi13IC92YXIvbG9nL2F1ZGl0LyAtcCB3YSAtayBhdWRpdGxvZyIKICBwcmludGYgJyVzXG4nICItYSBhbHdheXMsZXhpdCAtRiBhcmNoPWI2NCAtUyBleGVjdmUgLUYgZXVpZD0wIC1GIGF1aWQ+PTEwMDAgLUYgYXVpZCE9NDI5NDk2NzI5NSAtayByb290Y21kIgp9ID4gIiRmIgppZiBjb21tYW5kIC12IGF1Z2VucnVsZXMgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgYXVnZW5ydWxlcyAtLWxvYWQgPi9kZXYvbnVsbCAyPiYxCmVsc2UKICBhdWRpdGN0bCAtUiAiJGYiID4vZGV2L251bGwgMj4mMQpmaQpuPSQoYXVkaXRjdGwgLWwgMj4vZGV2L251bGwgfCBncmVwIC1jIC4pCmxvZyAiV3JvdGUgJGYsIGF1ZGl0Y3RsIG5vdyByZXBvcnRzICRuIGFjdGl2ZSBydWxlKHMpIgppZiBbICIkbiIgLWd0IDAgXTsgdGhlbiBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

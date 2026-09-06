@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "17681518-4e52-428e-8845-5c858c69b50f",
+  "slug": "office-version-macos",
+  "type": "sensor",
+  "name": "Microsoft Office Version",
+  "description": "Console sensor name: office_version. Version of Microsoft Word, used as the marker for the Office suite. Returns NotInstalled where Word is absent, which on most fleets means Office is absent.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "office",
+    "m365",
+    "applications",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpwPSIvQXBwbGljYXRpb25zL01pY3Jvc29mdCBXb3JkLmFwcC9Db250ZW50cy9JbmZvLnBsaXN0IgppZiBbICEgLWYgIiRwIiBdOyB0aGVuCiAgZWNobyAiTm90SW5zdGFsbGVkIgplbHNlCiAgdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBDRkJ1bmRsZVNob3J0VmVyc2lvblN0cmluZyAyPi9kZXYvbnVsbCkKICBbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgogIGVjaG8gIiR2IgpmaQo="
+}

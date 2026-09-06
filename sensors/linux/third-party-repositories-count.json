@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "50b8d593-3f26-4966-9706-e093244c5f9f",
+  "slug": "third-party-repositories-count",
+  "type": "sensor",
+  "name": "Third Party Repository Count",
+  "description": "Console sensor name: third_party_repositories_count. Number of configured software repositories that are not the distribution's own. Each one is an unreviewed source of root-level code and a candidate cause when one device has a package nobody else does.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📚",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "repositories",
+    "supplychain",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmlmIFsgLWQgL2V0Yy9hcHQvc291cmNlcy5saXN0LmQgXTsgdGhlbgogIG49JChscyAtMSAvZXRjL2FwdC9zb3VyY2VzLmxpc3QuZCAyPi9kZXYvbnVsbCB8IGdyZXAgLXZjICJedWJ1bnR1XHxeZGViaWFuXHxeb2ZmaWNpYWwiKQplbGlmIFsgLWQgL2V0Yy95dW0ucmVwb3MuZCBdOyB0aGVuCiAgbj0kKGdyZXAgLWxFICJeXHMqZW5hYmxlZFxzKj1ccyoxIiAvZXRjL3l1bS5yZXBvcy5kLyoucmVwbyAyPi9kZXYvbnVsbCB8IGdyZXAgLXZjICJyZWRoYXRcfHJoZWxcfGNlbnRvc1x8ZmVkb3JhXHxyb2NreVx8YWxtYSIpCmVsaWYgWyAtZCAvZXRjL3p5cHAvcmVwb3MuZCBdOyB0aGVuCiAgbj0kKGxzIC0xIC9ldGMvenlwcC9yZXBvcy5kIDI+L2Rldi9udWxsIHwgZ3JlcCAtdmMgIl5yZXBvLSIpCmZpCmNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0tMSA7OyBlc2FjCmVjaG8gIiRuIgo="
+}

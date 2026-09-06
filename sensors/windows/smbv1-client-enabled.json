@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "cf9a5305-bc86-4db2-936c-bcff8184de9d",
+  "slug": "smbv1-client-enabled",
+  "type": "sensor",
+  "name": "SMBv1 Client Enabled",
+  "description": "Console sensor name: smbv1_client_enabled. True when the mrxsmb10 driver is set to start, meaning the device can still speak SMBv1 to a server. Read from the service start type so the sensor stays fast and does not touch DISM.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "smb",
+    "security",
+    "legacy",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcU2VydmljZXNcbXJ4c21iMTAnIC1OYW1lICdTdGFydCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlN0YXJ0CiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1uZSA0KSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

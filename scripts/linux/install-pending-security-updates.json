@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "788443f6-9ac4-40ef-89e3-d873a651e661",
+  "slug": "install-pending-security-updates",
+  "type": "script",
+  "name": "Install Pending Security Updates",
+  "description": "Delivery: systemd timer. Installs only the updates the package manager marks as security, waiting politely for the package lock rather than removing it. Reports whether a restart is now required and takes none.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "patching",
+    "security",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1pbnN0YWxsLXBlbmRpbmctc2VjdXJpdHktdXBkYXRlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCndhaXRlZD0wCndoaWxlIFsgIiR3YWl0ZWQiIC1sdCAzMDAgXTsgZG8KICBidXN5PTAKICBmb3IgcCBpbiBhcHQgYXB0LWdldCBkcGtnIGRuZiB5dW0genlwcGVyOyBkbwogICAgcGdyZXAgLXggIiRwIiA+L2Rldi9udWxsIDI+JjEgJiYgYnVzeT0xCiAgZG9uZQogIFsgIiRidXN5IiAtZXEgMCBdICYmIGJyZWFrCiAgc2xlZXAgMTUKICB3YWl0ZWQ9JCgod2FpdGVkKzE1KSkKZG9uZQppZiBbICIkd2FpdGVkIiAtZ2UgMzAwIF07IHRoZW4gbG9nICJQYWNrYWdlIG1hbmFnZXIgc3RpbGwgYnVzeSBhZnRlciA1IG1pbnV0ZXMsIGxlYXZpbmcgaXQgYWxvbmUiOyBleGl0IDEwOyBmaQppZiBjb21tYW5kIC12IGFwdC1nZXQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgYXB0LWdldCB1cGRhdGUgLXFxID4vZGV2L251bGwgMj4mMQogIG49JChhcHQtZ2V0IC1zIHVwZ3JhZGUgMj4vZGV2L251bGwgfCBncmVwIC1jICJeSW5zdC4qc2VjdXJpdHkiKQogIGlmIFsgIiRuIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gc2VjdXJpdHkgdXBkYXRlcyBwZW5kaW5nLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCiAgbG9nICJJbnN0YWxsaW5nICRuIHNlY3VyaXR5IHVwZGF0ZShzKSIKICBERUJJQU5fRlJPTlRFTkQ9bm9uaW50ZXJhY3RpdmUgYXB0LWdldCAteSAtbyBEcGtnOjpPcHRpb25zOjo9LS1mb3JjZS1jb25mZGVmIGluc3RhbGwgJChhcHQtZ2V0IC1zIHVwZ3JhZGUgMj4vZGV2L251bGwgfCBhd2sgJy9eSW5zdC4qc2VjdXJpdHkvIHtwcmludCAkMn0nKSA+L2Rldi9udWxsIDI+JjEKZWxpZiBjb21tYW5kIC12IGRuZiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQoZG5mIC0tc2VjdXJpdHkgY2hlY2stdXBkYXRlIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiXlthLXpBLVowLTldIikKICBpZiBbICIkbiIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIHNlY3VyaXR5IHVwZGF0ZXMgcGVuZGluZywgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQogIGxvZyAiSW5zdGFsbGluZyAkbiBzZWN1cml0eSB1cGRhdGUocykiCiAgZG5mIC15IC0tc2VjdXJpdHkgdXBncmFkZSA+L2Rldi9udWxsIDI+JjEKZWxpZiBjb21tYW5kIC12IHp5cHBlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgIkluc3RhbGxpbmcgc2VjdXJpdHkgcGF0Y2hlcyIKICB6eXBwZXIgLS1ub24taW50ZXJhY3RpdmUgcGF0Y2ggLS1jYXRlZ29yeSBzZWN1cml0eSA+L2Rldi9udWxsIDI+JjEKZWxzZQogIGxvZyAiTm8gc3VwcG9ydGVkIHBhY2thZ2UgbWFuYWdlciIKICBleGl0IDEwCmZpCmlmIFsgLWYgL3Zhci9ydW4vcmVib290LXJlcXVpcmVkIF0gfHwgeyBjb21tYW5kIC12IG5lZWRzLXJlc3RhcnRpbmcgPi9kZXYvbnVsbCAyPiYxICYmICEgbmVlZHMtcmVzdGFydGluZyAtciA+L2Rldi9udWxsIDI+JjE7IH07IHRoZW4KICBsb2cgIlNlY3VyaXR5IHVwZGF0ZXMgaW5zdGFsbGVkIC0gYSByZXN0YXJ0IGlzIG5vdyByZXF1aXJlZCIKZWxzZQogIGxvZyAiU2VjdXJpdHkgdXBkYXRlcyBpbnN0YWxsZWQsIG5vIHJlc3RhcnQgZmxhZ2dlZCIKZmkKZXhpdCAwCg=="
+}

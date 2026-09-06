@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0ebf8834-9ab8-4394-9d79-cc4b2bfed238",
+  "slug": "secure-boot-level",
+  "type": "sensor",
+  "name": "Secure Boot Level",
+  "description": "Console sensor name: secure_boot_level. Reports the boot security level as Full, Medium, Permissive or Unknown. Reads the iBridge or boot policy information; Unknown on older Intel hardware without a T2, which is itself worth knowing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "secureboot",
+    "firmware",
+    "security",
+    "hardware"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChzeXN0ZW1fcHJvZmlsZXIgU1BpQnJpZGdlRGF0YVR5cGUgMj4vZGV2L251bGwpCmNhc2UgIiRvdXQiIGluCiAgKiJGdWxsIFNlY3VyaXR5IiopIGVjaG8gIkZ1bGwiIDs7CiAgKiJNZWRpdW0gU2VjdXJpdHkiKikgZWNobyAiTWVkaXVtIiA7OwogICoiTm8gU2VjdXJpdHkiKnwqIlBlcm1pc3NpdmUiKikgZWNobyAiUGVybWlzc2l2ZSIgOzsKICAqKSBlY2hvICJVbmtub3duIiA7Owplc2FjCg=="
+}

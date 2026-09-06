@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c487d762-0f95-4685-86ca-752950534619",
+  "slug": "hub-log-age-hours-linux",
+  "type": "sensor",
+  "name": "Hub Log Age Hours",
+  "description": "Console sensor name: hub_log_age_hours. Hours since the Hub last wrote to its log, used as a proxy for the last check-in. A heuristic - a quiet agent and a stopped agent look alike - but it separates a reporting device from one that stopped days ago.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⏰",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "checkin",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZD0iIgpmb3IgYyBpbiAvdmFyL2xvZy93czFodWIgL29wdC92bXdhcmUvaHViL2xvZ3MgL29wdC9vbW5pc3NhL2h1Yi9sb2dzIC92YXIvbG9nL3Ztd2FyZTsgZG8KICBbIC1kICIkYyIgXSAmJiBkPSIkYyIgJiYgYnJlYWsKZG9uZQppZiBbIC16ICIkZCIgXTsgdGhlbgogIGVjaG8gIi0xIgplbHNlCiAgZj0kKGxzIC10ICIkZCIgMj4vZGV2L251bGwgfCBoZWFkIC0xKQogIGlmIFsgLXogIiRmIiBdOyB0aGVuCiAgICBlY2hvICItMSIKICBlbHNlCiAgICBtPSQoc3RhdCAtYyAlWSAiJGQvJGYiIDI+L2Rldi9udWxsKQogICAgY2FzZSAiJG0iIGluCiAgICAgICcnfCpbITAtOV0qKSBlY2hvICItMSIgOzsKICAgICAgKikgbm93PSQoZGF0ZSArJXMpOyBlY2hvICQoKCAobm93IC0gbSkgLyAzNjAwICkpIDs7CiAgICBlc2FjCiAgZmkKZmkK"
+}

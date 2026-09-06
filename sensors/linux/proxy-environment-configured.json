@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "26c855dc-29a4-4174-a00f-7e48ec89dec6",
+  "slug": "proxy-environment-configured",
+  "type": "sensor",
+  "name": "Proxy Environment Configured",
+  "description": "Console sensor name: proxy_environment_configured. True when a proxy is set in the system-wide environment or in the package manager's own configuration. A stale proxy here is a common reason updates fail on one host and nowhere else.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "proxy",
+    "network",
+    "connectivity",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgpmb3IgZiBpbiAvZXRjL2Vudmlyb25tZW50IC9ldGMvcHJvZmlsZS5kL3Byb3h5LnNoIC9ldGMvYXB0L2FwdC5jb25mLmQvOTVwcm94aWVzIC9ldGMveXVtLmNvbmYgL2V0Yy9kbmYvZG5mLmNvbmY7IGRvCiAgWyAtciAiJGYiIF0gfHwgY29udGludWUKICBncmVwIC1FcWlzICIoaHR0cF9wcm94eXxodHRwc19wcm94eXxwcm94eVtbOnNwYWNlOl1dKj0pIiAiJGYiICYmIGZvdW5kPSJ0cnVlIgpkb25lCmVjaG8gIiRmb3VuZCIK"
+}

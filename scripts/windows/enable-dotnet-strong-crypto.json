@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5943d151-b101-45dc-962a-28c44b675a7c",
+  "slug": "enable-dotnet-strong-crypto",
+  "type": "script",
+  "name": "Enable Strong Crypto For .NET Framework",
+  "description": "Sets SchUseStrongCrypto and SystemDefaultTlsVersions for the 32-bit and 64-bit .NET Framework 4 runtimes so managed applications negotiate TLS 1.2 instead of falling back. Pairs with disabling the legacy protocols.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗝️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dotnet",
+    "tls",
+    "hardening",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1kb3RuZXQtc3Ryb25nLWNyeXB0by5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRrZXlzID0gQCgKICAgICAgICAnSEtMTTpcU09GVFdBUkVcTWljcm9zb2Z0XC5ORVRGcmFtZXdvcmtcdjQuMC4zMDMxOScsCiAgICAgICAgJ0hLTE06XFNPRlRXQVJFXFdPVzY0MzJOb2RlXE1pY3Jvc29mdFwuTkVURnJhbWV3b3JrXHY0LjAuMzAzMTknCiAgICApCiAgICAkY2hhbmdlZCA9IDAKICAgIGZvcmVhY2ggKCRrIGluICRrZXlzKSB7CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGspKSB7IE5ldy1JdGVtIC1QYXRoICRrIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICAkcCA9IEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgaWYgKFtpbnRdJHAuU2NoVXNlU3Ryb25nQ3J5cHRvIC1lcSAxIC1hbmQgW2ludF0kcC5TeXN0ZW1EZWZhdWx0VGxzVmVyc2lvbnMgLWVxIDEpIHsgY29udGludWUgfQogICAgICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdTY2hVc2VTdHJvbmdDcnlwdG8nIC1WYWx1ZSAxIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgICAgICBOZXctSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnU3lzdGVtRGVmYXVsdFRsc1ZlcnNpb25zJyAtVmFsdWUgMSAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICAgICAgV3JpdGUtTG9nICgnU2V0IHN0cm9uZyBjcnlwdG8gdW5kZXIgJyArICRrKQogICAgICAgICRjaGFuZ2VkKysKICAgIH0KICAgIGlmICgkY2hhbmdlZCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgJGJhZCA9IDAKICAgIGZvcmVhY2ggKCRrIGluICRrZXlzKSB7CiAgICAgICAgJHAgPSBHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgICAgIGlmIChbaW50XSRwLlNjaFVzZVN0cm9uZ0NyeXB0byAtbmUgMSkgeyAkYmFkKysgfQogICAgfQogICAgaWYgKCRiYWQgLWVxIDApIHsgV3JpdGUtTG9nICdTdHJvbmcgY3J5cHRvIGVuYWJsZWQgZm9yIC5ORVQgNCc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

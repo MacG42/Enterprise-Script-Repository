@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fce72392-7590-4f23-9973-cb2d736ec53a",
+  "slug": "update-cache-size-mb",
+  "type": "sensor",
+  "name": "Update Cache Size (MB)",
+  "description": "Console sensor name: update_cache_size_mb. Size of the SoftwareDistribution download folder in whole megabytes. A cache that keeps growing past a few GB usually means downloads that install and are never cleaned, or an update that fails on every attempt.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "disk",
+    "cleanup",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gSm9pbi1QYXRoICRlbnY6U3lzdGVtUm9vdCAnU29mdHdhcmVEaXN0cmlidXRpb25cRG93bmxvYWQnCiAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkcCkpIHsgV3JpdGUtT3V0cHV0IDAgfQogICAgZWxzZSB7CiAgICAgICAgJGIgPSAoR2V0LUNoaWxkSXRlbSAtTGl0ZXJhbFBhdGggJHAgLVJlY3Vyc2UgLUZpbGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwKICAgICAgICAgICAgTWVhc3VyZS1PYmplY3QgLVByb3BlcnR5IExlbmd0aCAtU3VtKS5TdW0KICAgICAgICBpZiAoJG51bGwgLWVxICRiKSB7IFdyaXRlLU91dHB1dCAwIH0gZWxzZSB7IFdyaXRlLU91dHB1dCAoW2ludF1bbWF0aF06OlJvdW5kKCRiIC8gMU1CKSkgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

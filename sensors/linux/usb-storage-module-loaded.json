@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "483a4889-eeb6-41b3-bd8d-ebe2cb87f620",
+  "slug": "usb-storage-module-loaded",
+  "type": "sensor",
+  "name": "USB Storage Module Loaded",
+  "description": "Console sensor name: usb_storage_module_loaded. True when the usb-storage kernel module is loaded, meaning removable drives will mount. The practical measure of a removable media restriction on Linux, where there is no single switch for it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "usb",
+    "removablemedia",
+    "dlp",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgbHNtb2QgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nIHwgZ3JlcCAtcXggInVzYl9zdG9yYWdlIjsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "eb2a2042-9ae8-420d-92ed-d46a00f1f552",
+  "slug": "disable-ipv6-transition-tunnels",
+  "type": "script",
+  "name": "Disable IPv6 Transition Tunnels",
+  "description": "Disables Teredo, 6to4 and ISATAP. These tunnels can carry traffic around an IPv4-only firewall policy and are almost never wanted on a managed endpoint. Native IPv6 on the adapter is left alone.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🕳️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ipv6",
+    "teredo",
+    "network",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtaXB2Ni10cmFuc2l0aW9uLXR1bm5lbHMubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTT0ZUV0FSRVxQb2xpY2llc1xNaWNyb3NvZnRcV2luZG93c1xUQ1BJUFx2NlRyYW5zaXRpb24nCiAgICAkcCA9IEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAkb2sgPSAoJG51bGwgLW5lICRwIC1hbmQgJHAuVGVyZWRvX1N0YXRlIC1lcSAnRGlzYWJsZWQnIC1hbmQgJHAuJzZ0bzRfU3RhdGUnIC1lcSAnRGlzYWJsZWQnIC1hbmQgJHAuSVNBVEFQX1N0YXRlIC1lcSAnRGlzYWJsZWQnKQogICAgaWYgKCRvaykgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGspKSB7IE5ldy1JdGVtIC1QYXRoICRrIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdUZXJlZG9fU3RhdGUnIC1WYWx1ZSAnRGlzYWJsZWQnIC1Qcm9wZXJ0eVR5cGUgU3RyaW5nIC1Gb3JjZSB8IE91dC1OdWxsCiAgICBOZXctSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnNnRvNF9TdGF0ZScgLVZhbHVlICdEaXNhYmxlZCcgLVByb3BlcnR5VHlwZSBTdHJpbmcgLUZvcmNlIHwgT3V0LU51bGwKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdJU0FUQVBfU3RhdGUnIC1WYWx1ZSAnRGlzYWJsZWQnIC1Qcm9wZXJ0eVR5cGUgU3RyaW5nIC1Gb3JjZSB8IE91dC1OdWxsCiAgICAmIG5ldHNoIGludGVyZmFjZSB0ZXJlZG8gc2V0IHN0YXRlIGRpc2FibGVkIHwgT3V0LU51bGwKICAgICYgbmV0c2ggaW50ZXJmYWNlIDZ0bzQgc2V0IHN0YXRlIGRpc2FibGVkIHwgT3V0LU51bGwKICAgICYgbmV0c2ggaW50ZXJmYWNlIGlzYXRhcCBzZXQgc3RhdGUgZGlzYWJsZWQgfCBPdXQtTnVsbAogICAgV3JpdGUtTG9nICdUZXJlZG8sIDZ0bzQgYW5kIElTQVRBUCBzZXQgdG8gZGlzYWJsZWQnCiAgICAkYSA9IEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJGEuVGVyZWRvX1N0YXRlIC1lcSAnRGlzYWJsZWQnIC1hbmQgJGEuSVNBVEFQX1N0YXRlIC1lcSAnRGlzYWJsZWQnKSB7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

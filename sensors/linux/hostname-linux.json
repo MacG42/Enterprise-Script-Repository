@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5088166f-7b05-4592-97b9-c9b3eae1c92b",
+  "slug": "hostname-linux",
+  "type": "sensor",
+  "name": "Hostname",
+  "description": "Console sensor name: hostname. The device's configured hostname. Drift between this and the asset record is the usual reason a host cannot be found by name in the middle of an incident.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🏷️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hostname",
+    "naming",
+    "inventory",
+    "identity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKGhvc3RuYW1lIDI+L2Rldi9udWxsKQpbIC16ICIkdiIgXSAmJiB2PSQoY2F0IC9wcm9jL3N5cy9rZXJuZWwvaG9zdG5hbWUgMj4vZGV2L251bGwpClsgLXogIiR2IiBdICYmIHY9IlVua25vd24iCmVjaG8gIiR2Igo="
+}

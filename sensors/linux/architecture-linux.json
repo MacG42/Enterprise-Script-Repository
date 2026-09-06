@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5120ab26-de65-43cd-a72b-f84041c382c9",
+  "slug": "architecture-linux",
+  "type": "sensor",
+  "name": "Processor Architecture",
+  "description": "Console sensor name: architecture. The machine architecture, for example x86_64 or aarch64. Determines which packages and agent builds apply, and it is the first thing a mixed fleet needs to segment on.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hardware",
+    "architecture",
+    "inventory",
+    "compatibility"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKHVuYW1lIC1tIDI+L2Rldi9udWxsKQpbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgplY2hvICIkdiIK"
+}

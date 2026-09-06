@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0339ab80-6098-4497-8d45-052328f1fcfa",
+  "slug": "ssh-authorized-keys-count-linux",
+  "type": "sensor",
+  "name": "SSH Authorized Key Count",
+  "description": "Console sensor name: ssh_authorized_keys_count. Total authorised public keys across every home directory and root. Standing remote access that no directory group governs, and the count usually only ever goes up.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗝️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ssh",
+    "keys",
+    "remoteaccess",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBmIGluIC9ob21lLyovLnNzaC9hdXRob3JpemVkX2tleXMgL3Jvb3QvLnNzaC9hdXRob3JpemVkX2tleXMgL2hvbWUvKi8uc3NoL2F1dGhvcml6ZWRfa2V5czI7IGRvCiAgWyAtZiAiJGYiIF0gfHwgY29udGludWUKICBjPSQoZ3JlcCAtYyAiXnNzaC1cfF5lY2RzYS1cfF5zay0iICIkZiIgMj4vZGV2L251bGwpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIG49JCgobitjKSkKZG9uZQplY2hvICIkbiIK"
+}

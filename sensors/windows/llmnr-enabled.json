@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ed7b45c2-34b9-4842-948d-4a569e8add2b",
+  "slug": "llmnr-enabled",
+  "type": "sensor",
+  "name": "LLMNR Enabled",
+  "description": "Console sensor name: llmnr_enabled. True when LLMNR name resolution is still available, which is the case unless policy has set EnableMulticast to 0. LLMNR and NBT-NS poisoning is how credentials leave a flat network.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "llmnr",
+    "security",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXFBvbGljaWVzXE1pY3Jvc29mdFxXaW5kb3dzIE5UXEROU0NsaWVudCcKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdFbmFibGVNdWx0aWNhc3QnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5FbmFibGVNdWx0aWNhc3QKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKCRudWxsIC1lcSAkdiAtb3IgW2ludF0kdiAtbmUgMCkpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICR0cnVlCn0K"
+}

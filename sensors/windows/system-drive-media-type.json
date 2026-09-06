@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dcf6e1b1-718f-4987-a4b9-b36c07f29686",
+  "slug": "system-drive-media-type",
+  "type": "sensor",
+  "name": "System Drive Media Type",
+  "description": "Console sensor name: system_drive_media_type. Closed set: SSD, HDD, Unspecified, Unknown. Spinning disks left in a fleet are the devices where every patch window and every logon takes three times as long.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖴️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "hardware",
+    "inventory",
+    "performance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwYXJ0ID0gR2V0LVBhcnRpdGlvbiAtRHJpdmVMZXR0ZXIgKCRlbnY6U3lzdGVtRHJpdmUuU3Vic3RyaW5nKDAsIDEpKSAtRXJyb3JBY3Rpb24gU3RvcAogICAgJGRpc2sgPSBHZXQtUGh5c2ljYWxEaXNrIC1FcnJvckFjdGlvbiBTdG9wIHwgV2hlcmUtT2JqZWN0IHsgJF8uRGV2aWNlSWQgLWVxIFtzdHJpbmddJHBhcnQuRGlza051bWJlciB9IHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgaWYgKCRudWxsIC1lcSAkZGlzaykgeyBXcml0ZS1PdXRwdXQgJ1Vua25vd24nIH0KICAgIGVsc2UgewogICAgICAgIHN3aXRjaCAoW3N0cmluZ10kZGlzay5NZWRpYVR5cGUpIHsKICAgICAgICAgICAgJ1NTRCcgeyBXcml0ZS1PdXRwdXQgJ1NTRCcgfQogICAgICAgICAgICAnSEREJyB7IFdyaXRlLU91dHB1dCAnSEREJyB9CiAgICAgICAgICAgIGRlZmF1bHQgeyBXcml0ZS1PdXRwdXQgJ1Vuc3BlY2lmaWVkJyB9CiAgICAgICAgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

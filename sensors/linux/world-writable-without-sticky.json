@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6ed60e9d-dd15-4a2d-aa85-b25568111e17",
+  "slug": "world-writable-without-sticky",
+  "type": "sensor",
+  "name": "World Writable Directories Without Sticky Bit",
+  "description": "Console sensor name: world_writable_without_sticky. Number of world-writable directories under /var and /opt that do not carry the sticky bit, so any user can delete another's files there. Bounded to those two trees to keep the sensor cheap.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📂",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "permissions",
+    "filesystem",
+    "hardening",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBkIGluIC92YXIgL29wdDsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGM9JChmaW5kICIkZCIgLXhkZXYgLXR5cGUgZCAtcGVybSAtMDAwMiAhIC1wZXJtIC0xMDAwIDI+L2Rldi9udWxsIHwgd2MgLWwgfCB0ciAtZCAnICcpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIG49JCgobitjKSkKZG9uZQplY2hvICIkbiIK"
+}

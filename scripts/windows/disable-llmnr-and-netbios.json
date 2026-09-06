@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "20ff2f06-8c8e-48d8-9058-70d2ccd87d80",
+  "slug": "disable-llmnr-and-netbios",
+  "type": "script",
+  "name": "Disable LLMNR And NetBIOS",
+  "description": "Sets EnableMulticast to 0 and switches every interface's NetBIOS over TCP/IP to disabled, closing the two name-resolution paths responder tooling relies on. Prior NetBIOS values are logged per interface.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "llmnr",
+    "netbios",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtbGxtbnItYW5kLW5ldGJpb3MubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTT0ZUV0FSRVxQb2xpY2llc1xNaWNyb3NvZnRcV2luZG93cyBOVFxETlNDbGllbnQnCiAgICAkdiA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnRW5hYmxlTXVsdGljYXN0JyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuRW5hYmxlTXVsdGljYXN0CiAgICAkaWZSb290ID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxTZXJ2aWNlc1xOZXRCVFxQYXJhbWV0ZXJzXEludGVyZmFjZXMnCiAgICAkYmFkID0gQChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkaWZSb290IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwKICAgICAgICBXaGVyZS1PYmplY3QgeyBbaW50XShHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkXy5QU1BhdGggLU5hbWUgJ05ldGJpb3NPcHRpb25zJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuTmV0Ymlvc09wdGlvbnMgLW5lIDIgfSkKICAgIGlmICgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1lcSAwIC1hbmQgJGJhZC5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgaWYgKCRudWxsIC1lcSAkdiAtb3IgW2ludF0kdiAtbmUgMCkgewogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRrKSkgeyBOZXctSXRlbSAtUGF0aCAkayAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0VuYWJsZU11bHRpY2FzdCcgLVZhbHVlIDAgLVByb3BlcnR5VHlwZSBEV29yZCAtRm9yY2UgfCBPdXQtTnVsbAogICAgICAgIFdyaXRlLUxvZyAnTExNTlIgZGlzYWJsZWQnCiAgICB9CiAgICBmb3JlYWNoICgkaSBpbiAkYmFkKSB7CiAgICAgICAgJG9sZCA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkaS5QU1BhdGggLU5hbWUgJ05ldGJpb3NPcHRpb25zJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuTmV0Ymlvc09wdGlvbnMKICAgICAgICBXcml0ZS1Mb2cgKCdOZXRCSU9TIG9uICcgKyAkaS5QU0NoaWxkTmFtZSArICcgd2FzICcgKyAkb2xkICsgJywgc2V0dGluZyB0byAyJykKICAgICAgICBTZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkaS5QU1BhdGggLU5hbWUgJ05ldGJpb3NPcHRpb25zJyAtVmFsdWUgMiAtVHlwZSBEV29yZAogICAgfQogICAgJHN0aWxsID0gQChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkaWZSb290IC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwKICAgICAgICBXaGVyZS1PYmplY3QgeyBbaW50XShHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkXy5QU1BhdGggLU5hbWUgJ05ldGJpb3NPcHRpb25zJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuTmV0Ymlvc09wdGlvbnMgLW5lIDIgfSkKICAgIGlmIChbaW50XShHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnRW5hYmxlTXVsdGljYXN0JykuRW5hYmxlTXVsdGljYXN0IC1lcSAwIC1hbmQgJHN0aWxsLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAnRG9uZSc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "da11d00e-5b17-44f4-8f66-524f142d7417",
+  "slug": "os-version-id",
+  "type": "sensor",
+  "name": "OS Version ID",
+  "description": "Console sensor name: os_version_id. The VERSION_ID from /etc/os-release, for example 22.04 or 9.4. Read from the file rather than a command, so it works identically on every distribution family.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💿",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "os",
+    "version",
+    "inventory",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgpbIC1yIC9ldGMvb3MtcmVsZWFzZSBdICYmIHY9JCguIC9ldGMvb3MtcmVsZWFzZSAyPi9kZXYvbnVsbDsgcHJpbnRmICclcycgIiRWRVJTSU9OX0lEIikKWyAteiAiJHYiIF0gJiYgdj0iVW5rbm93biIKZWNobyAiJHYiCg=="
+}

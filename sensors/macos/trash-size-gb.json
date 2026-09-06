@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f141e531-6aa8-4b32-a980-cd62373dfebf",
+  "slug": "trash-size-gb",
+  "type": "sensor",
+  "name": "Trash Size GB",
+  "description": "Console sensor name: trash_size_gb. Combined size of every local user's Trash in gigabytes. Space the device has already given up on but has not released, and the cheapest thing to reclaim on a disk-full ticket.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "trash",
+    "cleanup",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgprPTAKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgvLlRyYXNoIiBdIHx8IGNvbnRpbnVlCiAgYz0kKGR1IC1zayAiJGgvLlRyYXNoIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIGs9JCgoaytjKSkKZG9uZQplY2hvICQoKCBrIC8gMTA0ODU3NiApKQo="
+}

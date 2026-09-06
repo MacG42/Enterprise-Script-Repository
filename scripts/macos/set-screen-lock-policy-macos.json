@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "718b1330-1bf3-47f2-be4f-760d3eb1898d",
+  "slug": "set-screen-lock-policy-macos",
+  "type": "script",
+  "name": "Require Password After Screen Saver",
+  "description": "Sets every local user to require a password immediately after the screen saver starts. Writes into each user's own preference domain rather than root's, which is the usual mistake when this is scripted.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "screenlock",
+    "screensaver",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1zY3JlZW4tbG9jay1wb2xpY3ktbWFjb3MubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpjaGFuZ2VkPTAKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgiIF0gfHwgY29udGludWUKICBjYXNlICIkaCIgaW4gKi9TaGFyZWR8Ki9HdWVzdCkgY29udGludWUgOzsgZXNhYwogIHU9JChiYXNlbmFtZSAiJGgiKQogIGlkICIkdSIgPi9kZXYvbnVsbCAyPiYxIHx8IGNvbnRpbnVlCiAgY3VyPSQoc3VkbyAtdSAiJHUiIGRlZmF1bHRzIHJlYWQgY29tLmFwcGxlLnNjcmVlbnNhdmVyIGFza0ZvclBhc3N3b3JkIDI+L2Rldi9udWxsKQogIGRlbD0kKHN1ZG8gLXUgIiR1IiBkZWZhdWx0cyByZWFkIGNvbS5hcHBsZS5zY3JlZW5zYXZlciBhc2tGb3JQYXNzd29yZERlbGF5IDI+L2Rldi9udWxsKQogIGlmIFsgIiRjdXIiID0gIjEiIF0gJiYgWyAiJGRlbCIgPSAiMCIgXTsgdGhlbiBjb250aW51ZTsgZmkKICBzdWRvIC11ICIkdSIgZGVmYXVsdHMgd3JpdGUgY29tLmFwcGxlLnNjcmVlbnNhdmVyIGFza0ZvclBhc3N3b3JkIC1pbnQgMSAyPi9kZXYvbnVsbAogIHN1ZG8gLXUgIiR1IiBkZWZhdWx0cyB3cml0ZSBjb20uYXBwbGUuc2NyZWVuc2F2ZXIgYXNrRm9yUGFzc3dvcmREZWxheSAtaW50IDAgMj4vZGV2L251bGwKICBsb2cgIlNldCBzY3JlZW4gbG9jayBwb2xpY3kgZm9yICR1ICh3YXMgYXNrRm9yUGFzc3dvcmQ9JGN1ciBkZWxheT0kZGVsKSIKICBjaGFuZ2VkPSQoKGNoYW5nZWQrMSkpCmRvbmUKaWYgWyAiJGNoYW5nZWQiIC1lcSAwIF07IHRoZW4gbG9nICJBbHJlYWR5IGNvbXBsaWFudCBmb3IgZXZlcnkgdXNlciwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIlVwZGF0ZWQgJGNoYW5nZWQgdXNlcihzKSIKZXhpdCAwCg=="
+}

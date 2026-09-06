@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b32596b6-e1f7-45cc-be55-78bc22bd3792",
+  "slug": "disable-display-manager-autologin",
+  "type": "script",
+  "name": "Disable Display Manager Automatic Login",
+  "description": "Delivery: packaged post-install. Removes automatic login from GDM, LightDM and SDDM. Automatic login defeats disk encryption at rest, because the machine boots straight into a signed-in session.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "autologin",
+    "displaymanager",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWRpc3BsYXktbWFuYWdlci1hdXRvbG9naW4ubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpzdGFtcD0kKGRhdGUgLXUgKyVZJW0lZCVIJU0lUykKY2hhbmdlZD0wCmZvciBmIGluIC9ldGMvZ2RtMy9jdXN0b20uY29uZiAvZXRjL2dkbS9jdXN0b20uY29uZjsgZG8KICBbIC1mICIkZiIgXSB8fCBjb250aW51ZQogIGdyZXAgLUVxaXMgIl5bWzpzcGFjZTpdXSpBdXRvbWF0aWNMb2dpbkVuYWJsZVtbOnNwYWNlOl1dKj1bWzpzcGFjZTpdXSp0cnVlIiAiJGYiIHx8IGNvbnRpbnVlCiAgY3AgIiRmIiAiJGYuYmFrLSRzdGFtcCIgMj4vZGV2L251bGwKICBzZWQgLWkgLUUgInMvXltbOnNwYWNlOl1dKkF1dG9tYXRpY0xvZ2luRW5hYmxlW1s6c3BhY2U6XV0qPS4qL0F1dG9tYXRpY0xvZ2luRW5hYmxlPWZhbHNlL0kiICIkZiIKICBzZWQgLWkgLUUgInMvXltbOnNwYWNlOl1dKkF1dG9tYXRpY0xvZ2luW1s6c3BhY2U6XV0qPS4qLyNBdXRvbWF0aWNMb2dpbj0vSSIgIiRmIgogIGxvZyAiRGlzYWJsZWQgYXV0b21hdGljIGxvZ2luIGluICRmIgogIGNoYW5nZWQ9MQpkb25lCmZvciBmIGluIC9ldGMvbGlnaHRkbS9saWdodGRtLmNvbmYgL2V0Yy9saWdodGRtL2xpZ2h0ZG0uY29uZi5kLyouY29uZjsgZG8KICBbIC1mICIkZiIgXSB8fCBjb250aW51ZQogIGdyZXAgLUVxaXMgIl5bWzpzcGFjZTpdXSphdXRvbG9naW4tdXNlcltbOnNwYWNlOl1dKj0iICIkZiIgfHwgY29udGludWUKICBjcCAiJGYiICIkZi5iYWstJHN0YW1wIiAyPi9kZXYvbnVsbAogIHNlZCAtaSAtRSAicy9eW1s6c3BhY2U6XV0qYXV0b2xvZ2luLXVzZXJbWzpzcGFjZTpdXSo9LiovI2F1dG9sb2dpbi11c2VyPS8iICIkZiIKICBsb2cgIkRpc2FibGVkIGF1dG9tYXRpYyBsb2dpbiBpbiAkZiIKICBjaGFuZ2VkPTEKZG9uZQpmb3IgZiBpbiAvZXRjL3NkZG0uY29uZiAvZXRjL3NkZG0uY29uZi5kLyouY29uZjsgZG8KICBbIC1mICIkZiIgXSB8fCBjb250aW51ZQogIGdyZXAgLUVxaXMgIl5bWzpzcGFjZTpdXSpVc2VyW1s6c3BhY2U6XV0qPVtbOnNwYWNlOl1dKlthLXpdIiAiJGYiIHx8IGNvbnRpbnVlCiAgY3AgIiRmIiAiJGYuYmFrLSRzdGFtcCIgMj4vZGV2L251bGwKICBzZWQgLWkgLUUgInMvXltbOnNwYWNlOl1dKlVzZXJbWzpzcGFjZTpdXSo9LiovI1VzZXI9LyIgIiRmIgogIGxvZyAiRGlzYWJsZWQgYXV0b21hdGljIGxvZ2luIGluICRmIgogIGNoYW5nZWQ9MQpkb25lCmlmIFsgIiRjaGFuZ2VkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gYXV0b21hdGljIGxvZ2luIGNvbmZpZ3VyZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJBdXRvbWF0aWMgbG9naW4gcmVtb3ZlZCAtIGl0IHRha2VzIGVmZmVjdCBhdCB0aGUgbmV4dCBkaXNwbGF5IG1hbmFnZXIgcmVzdGFydCIKZXhpdCAwCg=="
+}

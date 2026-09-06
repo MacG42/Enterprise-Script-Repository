@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5f7dddde-97b4-48b3-a77c-52fd8807c1b8",
+  "slug": "os-install-age-days",
+  "type": "sensor",
+  "name": "OS Install Age (Days)",
+  "description": "Console sensor name: os_install_age_days. Days since the current Windows build was installed, which a feature update resets. High values on a fleet that should be current are devices a feature update has never reached.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗓️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "servicing",
+    "featureupdate",
+    "inventory",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvbicgLU5hbWUgJ0luc3RhbGxEYXRlJyAtRXJyb3JBY3Rpb24gU3RvcCkuSW5zdGFsbERhdGUKICAgIGlmICgkbnVsbCAtZXEgJHYgLW9yIFtpbnQ2NF0kdiAtbGUgMCkgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgZWxzZSB7CiAgICAgICAgJGQgPSBbZGF0ZXRpbWVvZmZzZXRdOjpGcm9tVW5peFRpbWVTZWNvbmRzKFtpbnQ2NF0kdikuTG9jYWxEYXRlVGltZQogICAgICAgIFdyaXRlLU91dHB1dCAoW2ludF1bbWF0aF06OkZsb29yKCgoR2V0LURhdGUpIC0gJGQpLlRvdGFsRGF5cykpCiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

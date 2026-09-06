@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "71ee1d9f-a8d0-4a6d-925d-e78454b0c7c7",
+  "slug": "reset-windows-search-index",
+  "type": "script",
+  "name": "Reset Windows Search Index",
+  "description": "Stops the search service, deletes the index database and lets it rebuild. This is the fix for Outlook and Start menu search returning nothing; the rebuild takes hours and search is degraded until it finishes.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔎",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "search",
+    "outlook",
+    "index",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Search Not Working",
+      "displayDescription": "Rebuilds the Windows search index. Search is limited until it finishes.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlc2V0LXdpbmRvd3Mtc2VhcmNoLWluZGV4LmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHN2YyA9IEdldC1TZXJ2aWNlIC1OYW1lICdXU2VhcmNoJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgaWYgKCRudWxsIC1lcSAkc3ZjKSB7IFdyaXRlLUxvZyAnV1NlYXJjaCBzZXJ2aWNlIG5vdCBwcmVzZW50JzsgZXhpdCAxMCB9CiAgICBpZiAoJHN2Yy5TdGFydFR5cGUgLWVxICdEaXNhYmxlZCcpIHsKICAgICAgICBXcml0ZS1Mb2cgJ1dTZWFyY2ggd2FzIERpc2FibGVkLCBzZXR0aW5nIHRvIEF1dG9tYXRpYycKICAgICAgICBTZXQtU2VydmljZSAtTmFtZSAnV1NlYXJjaCcgLVN0YXJ0dXBUeXBlIEF1dG9tYXRpYyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgfQogICAgJGRiID0gSm9pbi1QYXRoICRlbnY6UHJvZ3JhbURhdGEgJ01pY3Jvc29mdFxTZWFyY2hcRGF0YVxBcHBsaWNhdGlvbnNcV2luZG93cycKICAgIFN0b3AtU2VydmljZSAtTmFtZSAnV1NlYXJjaCcgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBTdGFydC1TbGVlcCAtU2Vjb25kcyA1CiAgICBpZiAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZGIpIHsKICAgICAgICAkYnl0ZXMgPSAoR2V0LUNoaWxkSXRlbSAtTGl0ZXJhbFBhdGggJGRiIC1SZWN1cnNlIC1GaWxlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IE1lYXN1cmUtT2JqZWN0IC1Qcm9wZXJ0eSBMZW5ndGggLVN1bSkuU3VtCiAgICAgICAgV3JpdGUtTG9nICgnRGVsZXRpbmcgc2VhcmNoIGluZGV4ICgnICsgW2ludF0oJGJ5dGVzIC8gMU1CKSArICcgTUIpJykKICAgICAgICBHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkZGIgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgUmVtb3ZlLUl0ZW0gLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICB9CiAgICBTdGFydC1TZXJ2aWNlIC1OYW1lICdXU2VhcmNoJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgU3RhcnQtU2xlZXAgLVNlY29uZHMgNQogICAgaWYgKChHZXQtU2VydmljZSAtTmFtZSAnV1NlYXJjaCcpLlN0YXR1cyAtZXEgJ1J1bm5pbmcnKSB7IFdyaXRlLUxvZyAnU2VhcmNoIHNlcnZpY2UgcnVubmluZyAtIGluZGV4IHdpbGwgcmVidWlsZCBvdmVyIHRoZSBuZXh0IGZldyBob3Vycyc7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgJ1NlYXJjaCBzZXJ2aWNlIGRpZCBub3Qgc3RhcnQnCiAgICBleGl0IDIwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

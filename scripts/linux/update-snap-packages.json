@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5ed442d8-94ca-492f-a5a4-b67162f30814",
+  "slug": "update-snap-packages",
+  "type": "script",
+  "name": "Update Snap Packages",
+  "description": "Delivery: systemd timer. Refreshes installed snaps and holds the retention at two revisions. Snaps update on their own schedule, so this exists to make that schedule predictable rather than to replace it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "snap",
+    "patching",
+    "applications"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC11cGRhdGUtc25hcC1wYWNrYWdlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmICEgY29tbWFuZCAtdiBzbmFwID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgInNuYXBkIGlzIG5vdCBpbnN0YWxsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbj0kKHNuYXAgbGlzdCAyPi9kZXYvbnVsbCB8IHRhaWwgLW4gKzIgfCBncmVwIC1jIC4pCmlmIFsgIiRuIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gc25hcHMgaW5zdGFsbGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiUmVmcmVzaGluZyAkbiBzbmFwKHMpIgpzbmFwIHJlZnJlc2ggPi9kZXYvbnVsbCAyPiYxCnJjPSQ/CnNuYXAgc2V0IHN5c3RlbSByZWZyZXNoLnJldGFpbj0yID4vZGV2L251bGwgMj4mMQpsb2cgInNuYXAgcmVmcmVzaCByZXR1cm5lZCAkcmMsIHJldGVudGlvbiBzZXQgdG8gMiByZXZpc2lvbnMiCmlmIFsgIiRyYyIgLWVxIDAgXTsgdGhlbiBleGl0IDA7IGZpCmV4aXQgMjAK"
+}

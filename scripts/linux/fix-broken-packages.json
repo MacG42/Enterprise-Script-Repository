@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4bfd4e6f-37b6-4fbf-bb5e-df436c6608d7",
+  "slug": "fix-broken-packages",
+  "type": "script",
+  "name": "Fix Broken Packages",
+  "description": "Delivery: ad hoc. Completes half-configured packages and repairs a dependency state that is blocking every future install. Runs the distribution's own repair path rather than forcing anything.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "packages",
+    "repair",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1maXgtYnJva2VuLXBhY2thZ2VzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgY29tbWFuZCAtdiBkcGtnID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JChkcGtnIC1sIDI+L2Rldi9udWxsIHwgYXdrICcvXlthLXpdLyAmJiAkMSAhfiAvXihpaXxyYykkLyB7YysrfSBFTkQge3ByaW50IGMrMH0nKQogIGlmIFsgIiRuIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gcGFja2FnZXMgaW4gYSBicm9rZW4gc3RhdGUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKICBsb2cgIiRuIHBhY2thZ2UocykgaW4gYSBicm9rZW4gc3RhdGUsIHJlcGFpcmluZyIKICBERUJJQU5fRlJPTlRFTkQ9bm9uaW50ZXJhY3RpdmUgZHBrZyAtLWNvbmZpZ3VyZSAtYSA+L2Rldi9udWxsIDI+JjEKICBERUJJQU5fRlJPTlRFTkQ9bm9uaW50ZXJhY3RpdmUgYXB0LWdldCAteSAtZiBpbnN0YWxsID4vZGV2L251bGwgMj4mMQogIGE9JChkcGtnIC1sIDI+L2Rldi9udWxsIHwgYXdrICcvXlthLXpdLyAmJiAkMSAhfiAvXihpaXxyYykkLyB7YysrfSBFTkQge3ByaW50IGMrMH0nKQogIGxvZyAiQnJva2VuIHBhY2thZ2UgY291bnQgd2VudCBmcm9tICRuIHRvICRhIgogIGlmIFsgIiRhIiAtZXEgMCBdOyB0aGVuIGV4aXQgMDsgZmkKICBleGl0IDMwCmZpCmlmIGNvbW1hbmQgLXYgcnBtID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAiUmVidWlsZGluZyB0aGUgUlBNIGRhdGFiYXNlIGFuZCB2ZXJpZnlpbmciCiAgcnBtIC0tcmVidWlsZGRiID4vZGV2L251bGwgMj4mMQogIGlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgZG5mIC15IGRpc3Ryby1zeW5jIC0tc2tpcC1icm9rZW4gPi9kZXYvbnVsbCAyPiYxCiAgZmkKICBpZiBycG0gLXFhID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgIlJQTSBkYXRhYmFzZSBpcyBxdWVyeWFibGUiOyBleGl0IDA7IGZpCiAgZXhpdCAzMApmaQpsb2cgIk5vIHN1cHBvcnRlZCBwYWNrYWdlIG1hbmFnZXIiCmV4aXQgMTAK"
+}

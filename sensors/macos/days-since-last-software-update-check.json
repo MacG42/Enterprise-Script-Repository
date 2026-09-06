@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bd11ffb7-793a-4d4b-85b2-11c1791fc02c",
+  "slug": "days-since-last-software-update-check",
+  "type": "sensor",
+  "name": "Days Since Last Software Update Check",
+  "description": "Console sensor name: days_since_last_software_update_check. Days since the software update mechanism last completed a successful check. A large number means the device is not talking to Apple's update service, which no patch policy can fix on its own.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📅",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "connectivity",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuU29mdHdhcmVVcGRhdGUgTGFzdFN1Y2Nlc3NmdWxEYXRlIDI+L2Rldi9udWxsKQpbIC16ICIkZCIgXSAmJiBkPSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuU29mdHdhcmVVcGRhdGUgTGFzdEZ1bGxTdWNjZXNzZnVsRGF0ZSAyPi9kZXYvbnVsbCkKaWYgWyAteiAiJGQiIF07IHRoZW4KICBlY2hvICItMSIKZWxzZQogIHQ9JChkYXRlIC1qIC1mICIlWS0lbS0lZCAlSDolTTolUyArMDAwMCIgIiRkIiAiKyVzIiAyPi9kZXYvbnVsbCkKICBpZiBbIC16ICIkdCIgXTsgdGhlbgogICAgZWNobyAiLTEiCiAgZWxzZQogICAgbm93PSQoZGF0ZSAiKyVzIikKICAgIGVjaG8gJCgoIChub3cgLSB0KSAvIDg2NDAwICkpCiAgZmkKZmkK"
+}

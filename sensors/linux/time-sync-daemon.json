@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bc3d879c-be88-4ff5-b774-1af82b2e805b",
+  "slug": "time-sync-daemon",
+  "type": "sensor",
+  "name": "Time Synchronisation Daemon",
+  "description": "Console sensor name: time_sync_daemon. Which time daemon is in use: chrony, systemd-timesyncd, ntpd or None. Two of them installed at once is a classic cause of a clock that will not settle.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🕑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "ntp",
+    "chrony",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm9yIHAgaW4gY2hyb255ZCBzeXN0ZW1kLXRpbWVzeW5jZCBudHBkIG9wZW5udHBkOyBkbwogIGlmIHBncmVwIC14ICIkcCIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBlY2hvICIkcCIKICAgIGV4aXQgMAogIGZpCmRvbmUKZWNobyAiTm9uZSIK"
+}

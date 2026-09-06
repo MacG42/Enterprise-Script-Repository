@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e852aebf-af37-4298-bddb-267b651805fc",
+  "slug": "renew-dhcp-lease-macos",
+  "type": "script",
+  "name": "Renew DHCP Lease",
+  "description": "Renews the lease on the interface carrying the default route. Uses the interface-level renew rather than cycling the service, so an active remote session is not dropped.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dhcp",
+    "network",
+    "connectivity",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Renew Network Address",
+      "displayDescription": "Requests a fresh network address when connectivity has failed.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbmV3LWRoY3AtbGVhc2UtbWFjb3MubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppPSQocm91dGUgLW4gZ2V0IGRlZmF1bHQgMj4vZGV2L251bGwgfCBhd2sgLUYnOiAqJyAnL2ludGVyZmFjZS8ge3ByaW50ICQyOyBleGl0fScpCmlmIFsgLXogIiRpIiBdOyB0aGVuIGxvZyAiTm8gZGVmYXVsdCByb3V0ZSBpbnRlcmZhY2UgZm91bmQiOyBleGl0IDEwOyBmaQpiZWZvcmU9JChpcGNvbmZpZyBnZXRpZmFkZHIgIiRpIiAyPi9kZXYvbnVsbCkKbG9nICJSZW5ld2luZyBESENQIG9uICRpIChhZGRyZXNzIHdhcyAke2JlZm9yZTotbm9uZX0pIgppcGNvbmZpZyBzZXQgIiRpIiBESENQID4vZGV2L251bGwgMj4mMQpzbGVlcCA4CmFmdGVyPSQoaXBjb25maWcgZ2V0aWZhZGRyICIkaSIgMj4vZGV2L251bGwpCmlmIFsgLW4gIiRhZnRlciIgXTsgdGhlbiBsb2cgIkFkZHJlc3MgYWZ0ZXIgcmVuZXdhbDogJGFmdGVyIjsgZXhpdCAwOyBmaQpsb2cgIk5vIGFkZHJlc3Mgb24gJGkgYWZ0ZXIgdGhlIHJlbmV3YWwiCmV4aXQgMzAK"
+}

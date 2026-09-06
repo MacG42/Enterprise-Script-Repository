@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "942e8f91-739a-4c1c-b03d-dfa3d5264399",
+  "slug": "clear-mail-downloads-cache",
+  "type": "script",
+  "name": "Clear Mail Attachment Cache",
+  "description": "Removes the Mail downloads folder, where attachments that were opened but never saved accumulate for years. Messages and saved attachments are untouched - this is the throwaway copy.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mail",
+    "disk",
+    "cleanup",
+    "userprofile"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clear Mail Attachments Cache",
+      "displayDescription": "Frees space used by opened mail attachments.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNsZWFyLW1haWwtZG93bmxvYWRzLWNhY2hlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZD0iJEhPTUUvTGlicmFyeS9Db250YWluZXJzL2NvbS5hcHBsZS5tYWlsL0RhdGEvTGlicmFyeS9NYWlsIERvd25sb2FkcyIKWyAtZCAiJGQiIF0gfHwgZD0iJEhPTUUvTGlicmFyeS9NYWlsIERvd25sb2FkcyIKaWYgWyAhIC1kICIkZCIgXTsgdGhlbiBsb2cgIk5vIE1haWwgZG93bmxvYWRzIGZvbGRlciBmb3IgdGhpcyB1c2VyIjsgZXhpdCAwOyBmaQpiZWZvcmU9JChkdSAtc2sgIiRkIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCmNhc2UgIiRiZWZvcmUiIGluICcnfCpbITAtOV0qKSBiZWZvcmU9MCA7OyBlc2FjCmlmIFsgIiRiZWZvcmUiIC1sdCAxMDI0MCBdOyB0aGVuIGxvZyAiTWFpbCBkb3dubG9hZHMgdW5kZXIgMTAgTUIsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKcm0gLXJmICIkZCIvKiAyPi9kZXYvbnVsbAphZnRlcj0kKGR1IC1zayAiJGQiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKY2FzZSAiJGFmdGVyIiBpbiAnJ3wqWyEwLTldKikgYWZ0ZXI9MCA7OyBlc2FjCmxvZyAiUmVjbGFpbWVkIGFib3V0ICQoKCAoYmVmb3JlIC0gYWZ0ZXIpIC8gMTAyNCApKSBNQiBmcm9tIE1haWwgZG93bmxvYWRzIgpleGl0IDAK"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d54c80c0-d15e-484a-a856-618bea57add1",
+  "slug": "memory-used-percent-linux",
+  "type": "sensor",
+  "name": "Memory Used Percent",
+  "description": "Console sensor name: memory_used_percent. Percentage of physical memory in use, calculated from MemAvailable so cache and buffers are not counted as used. The figure that matches what the kernel would actually give a new process.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "performance",
+    "capacity",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdD0kKGF3ayAnL15NZW1Ub3RhbDovIHtwcmludCAkMn0nIC9wcm9jL21lbWluZm8gMj4vZGV2L251bGwpCmE9JChhd2sgJy9eTWVtQXZhaWxhYmxlOi8ge3ByaW50ICQyfScgL3Byb2MvbWVtaW5mbyAyPi9kZXYvbnVsbCkKY2FzZSAiJHQiIGluICcnfCpbITAtOV0qKSB0PTAgOzsgZXNhYwpjYXNlICIkYSIgaW4gJyd8KlshMC05XSopIGE9MCA7OyBlc2FjCmlmIFsgIiR0IiAtZXEgMCBdOyB0aGVuCiAgZWNobyAiLTEiCmVsc2UKICBlY2hvICQoKCAodCAtIGEpICogMTAwIC8gdCApKQpmaQo="
+}

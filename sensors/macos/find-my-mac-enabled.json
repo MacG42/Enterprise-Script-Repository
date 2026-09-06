@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dd37cacd-0a9f-485f-8100-0e7f1ec5f2a2",
+  "slug": "find-my-mac-enabled",
+  "type": "sensor",
+  "name": "Find My Mac Enabled",
+  "description": "Console sensor name: find_my_mac_enabled. True when Find My Mac is on. It is useful for a lost device and a problem for a returned one, because it can leave Activation Lock behind after the account is removed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "findmy",
+    "activationlock",
+    "lifecycle",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuRmluZE15TWFjIEZNTUVuYWJsZWQgMj4vZGV2L251bGwpCmlmIFsgIiR2IiA9ICIxIiBdOyB0aGVuIGVjaG8gInRydWUiOyBlbHNlIGVjaG8gImZhbHNlIjsgZmkK"
+}

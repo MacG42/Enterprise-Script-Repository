@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b18bf31b-5120-45e9-bfe7-ca490f5bead5",
+  "slug": "screen-lock-grace-seconds",
+  "type": "sensor",
+  "name": "Screen Lock Grace Period Seconds",
+  "description": "Console sensor name: screen_lock_grace_seconds. The longest grace period, in seconds, any local user has between the screen saver starting and a password being demanded. Returns -1 when no user preference exists to read.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏳",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "screenlock",
+    "screensaver",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgptYXg9LTEKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgiIF0gfHwgY29udGludWUKICBjYXNlICIkaCIgaW4gKi9TaGFyZWR8Ki9HdWVzdCkgY29udGludWUgOzsgZXNhYwogIHA9IiRoL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLnNjcmVlbnNhdmVyLnBsaXN0IgogIFsgLWYgIiRwIiBdIHx8IGNvbnRpbnVlCiAgdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBhc2tGb3JQYXNzd29yZERlbGF5IDI+L2Rldi9udWxsIHwgY3V0IC1kLiAtZjEpCiAgY2FzZSAiJHYiIGluICcnfCpbITAtOV0qKSB2PTAgOzsgZXNhYwogIFsgIiR2IiAtZ3QgIiRtYXgiIF0gJiYgbWF4PSR2CmRvbmUKZWNobyAiJG1heCIK"
+}

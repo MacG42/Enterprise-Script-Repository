@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "670fefe3-9104-4911-9cdd-04e8ca905f50",
+  "slug": "restart-hub-agent-macos",
+  "type": "script",
+  "name": "Restart Workspace ONE Hub Agent",
+  "description": "Restarts the Hub's launch daemons and agent processes and confirms one comes back. The first thing to try when a Mac is enrolled but has stopped reporting.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Restart Device Management Agent",
+      "displayDescription": "Restarts the management agent when the device stops checking in.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc3RhcnQtaHViLWFnZW50LW1hY29zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZm91bmQ9MApmb3IgZCBpbiAvTGlicmFyeS9MYXVuY2hEYWVtb25zL2NvbS5haXJ3YXRjaC4qLnBsaXN0IC9MaWJyYXJ5L0xhdW5jaERhZW1vbnMvY29tLnZtd2FyZS5odWIuKi5wbGlzdCAvTGlicmFyeS9MYXVuY2hEYWVtb25zL2NvbS5vbW5pc3NhLioucGxpc3Q7IGRvCiAgWyAtZiAiJGQiIF0gfHwgY29udGludWUKICBsYWJlbD0kKGJhc2VuYW1lICIkZCIgLnBsaXN0KQogIGxhdW5jaGN0bCBraWNrc3RhcnQgLWsgInN5c3RlbS8kbGFiZWwiID4vZGV2L251bGwgMj4mMQogIGxvZyAiS2lja3N0YXJ0ZWQgc3lzdGVtLyRsYWJlbCIKICBmb3VuZD0kKChmb3VuZCsxKSkKZG9uZQppZiBbICIkZm91bmQiIC1lcSAwIF07IHRoZW4gbG9nICJObyBIdWIgbGF1bmNoIGRhZW1vbnMgcHJlc2VudCBvbiB0aGlzIGRldmljZSI7IGV4aXQgMTA7IGZpCnNsZWVwIDEwCmlmIHBncmVwIC1mICJJbnRlbGxpZ2VudCBIdWIiID4vZGV2L251bGwgMj4mMSB8fCBwZ3JlcCAtZiAiYXdyZW1vdGVkIiA+L2Rldi9udWxsIDI+JjEgfHwgcGdyZXAgLWYgImh1YmQiID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAiSHViIHByb2Nlc3NlcyBydW5uaW5nIGFmdGVyIHRoZSByZXN0YXJ0IgogIGV4aXQgMApmaQpsb2cgIk5vIEh1YiBwcm9jZXNzIHJ1bm5pbmcgYWZ0ZXIgcmVzdGFydGluZyAkZm91bmQgZGFlbW9uKHMpIgpleGl0IDMwCg=="
+}

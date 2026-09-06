@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d934f871-e49d-4f06-a70e-13562fec9216",
+  "slug": "clean-homebrew-cache",
+  "type": "script",
+  "name": "Clean Homebrew Cache",
+  "description": "Runs a Homebrew cleanup for the signed-in user, removing old formula versions and the download cache. Skips the device entirely where Homebrew is not installed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🍺",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "homebrew",
+    "packages",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNsZWFuLWhvbWVicmV3LWNhY2hlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKYnJldz0iIgpmb3IgYyBpbiAvb3B0L2hvbWVicmV3L2Jpbi9icmV3IC91c3IvbG9jYWwvYmluL2JyZXc7IGRvCiAgWyAteCAiJGMiIF0gJiYgYnJldz0iJGMiICYmIGJyZWFrCmRvbmUKaWYgWyAteiAiJGJyZXciIF07IHRoZW4gbG9nICJIb21lYnJldyBpcyBub3QgaW5zdGFsbGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmNhY2hlPSQoIiRicmV3IiAtLWNhY2hlIDI+L2Rldi9udWxsKQpiZWZvcmU9MApbIC1kICIkY2FjaGUiIF0gJiYgYmVmb3JlPSQoZHUgLXNrICIkY2FjaGUiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKY2FzZSAiJGJlZm9yZSIgaW4gJyd8KlshMC05XSopIGJlZm9yZT0wIDs7IGVzYWMKIiRicmV3IiBjbGVhbnVwIC0tcHJ1bmU9MzAgPi9kZXYvbnVsbCAyPiYxCmFmdGVyPTAKWyAtZCAiJGNhY2hlIiBdICYmIGFmdGVyPSQoZHUgLXNrICIkY2FjaGUiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKY2FzZSAiJGFmdGVyIiBpbiAnJ3wqWyEwLTldKikgYWZ0ZXI9MCA7OyBlc2FjCmxvZyAiSG9tZWJyZXcgY2FjaGUgd2FzICR7YmVmb3JlfSBLQiwgbm93ICR7YWZ0ZXJ9IEtCIgpleGl0IDAK"
+}

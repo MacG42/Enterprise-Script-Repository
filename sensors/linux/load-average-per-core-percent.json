@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a0509384-632f-4c86-905d-c1ee9e2129e7",
+  "slug": "load-average-per-core-percent",
+  "type": "sensor",
+  "name": "Load Average Per Core Percent",
+  "description": "Console sensor name: load_average_per_core_percent. The one-minute load average as a percentage of available cores, so 100 means exactly saturated. More stable than an instantaneous CPU reading taken during a one-second sensor run.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📈",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "cpu",
+    "load",
+    "performance",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbGE9JChhd2sgJ3twcmludCAkMX0nIC9wcm9jL2xvYWRhdmcgMj4vZGV2L251bGwpCm5jPSQoZ2V0Y29uZiBfTlBST0NFU1NPUlNfT05MTiAyPi9kZXYvbnVsbCkKY2FzZSAiJG5jIiBpbiAnJ3wqWyEwLTldKikgbmM9MCA7OyBlc2FjCmlmIFsgLXogIiRsYSIgXSB8fCBbICIkbmMiIC1lcSAwIF07IHRoZW4KICBlY2hvICItMSIKZWxzZQogIHByaW50ZiAnJXMgJXNcbicgIiRsYSIgIiRuYyIgfCBhd2sgJ3t2PWludCgoJDEvJDIpKjEwMCk7IGlmICh2PDApIHY9MDsgcHJpbnQgdn0nCmZpCg=="
+}

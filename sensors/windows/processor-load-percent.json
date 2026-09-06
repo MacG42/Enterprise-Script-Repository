@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "11958df7-5bef-4835-b30b-f13052403edf",
+  "slug": "processor-load-percent",
+  "type": "sensor",
+  "name": "Processor Load Percent",
+  "description": "Console sensor name: processor_load_percent. Average processor load across all sockets at sample time, 0-100. Treat it as a fleet distribution rather than a per-device truth - a single sample catches whatever was running that second.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧮",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "cpu",
+    "performance",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjID0gQChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9Qcm9jZXNzb3IgLUVycm9yQWN0aW9uIFN0b3AgfCBTZWxlY3QtT2JqZWN0IC1FeHBhbmRQcm9wZXJ0eSBMb2FkUGVyY2VudGFnZSkKICAgICRjID0gQCgkYyB8IFdoZXJlLU9iamVjdCB7ICRudWxsIC1uZSAkXyB9KQogICAgaWYgKCRjLkNvdW50IC1lcSAwKSB7IFdyaXRlLU91dHB1dCAtMSB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Um91bmQoKCRjIHwgTWVhc3VyZS1PYmplY3QgLUF2ZXJhZ2UpLkF2ZXJhZ2UpKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

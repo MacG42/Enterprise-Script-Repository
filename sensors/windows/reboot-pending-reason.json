@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "66341752-0b27-4fcf-8510-0366b02d411a",
+  "slug": "reboot-pending-reason",
+  "type": "sensor",
+  "name": "Reboot Pending Reason",
+  "description": "Console sensor name: reboot_pending_reason. Closed set: None, ComponentBasedServicing, WindowsUpdate, PendingFileRename, ComputerRename, Multiple. Says why a restart is owed, which is what decides whether it can wait for the maintenance window.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "♻️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "reboot",
+    "patching",
+    "servicing",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRyID0gQCgpCiAgICBpZiAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAnSEtMTTpcU09GVFdBUkVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cQ29tcG9uZW50IEJhc2VkIFNlcnZpY2luZ1xSZWJvb3RQZW5kaW5nJykgeyAkciArPSAnQ29tcG9uZW50QmFzZWRTZXJ2aWNpbmcnIH0KICAgIGlmIChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxXaW5kb3dzVXBkYXRlXEF1dG8gVXBkYXRlXFJlYm9vdFJlcXVpcmVkJykgeyAkciArPSAnV2luZG93c1VwZGF0ZScgfQogICAgJHNtID0gR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXFNlc3Npb24gTWFuYWdlcicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmICgkbnVsbCAtbmUgJHNtLlBlbmRpbmdGaWxlUmVuYW1lT3BlcmF0aW9ucykgeyAkciArPSAnUGVuZGluZ0ZpbGVSZW5hbWUnIH0KICAgICRhID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxDb21wdXRlck5hbWVcQWN0aXZlQ29tcHV0ZXJOYW1lJyAtTmFtZSAnQ29tcHV0ZXJOYW1lJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuQ29tcHV0ZXJOYW1lCiAgICAkbiA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAnSEtMTTpcU1lTVEVNXEN1cnJlbnRDb250cm9sU2V0XENvbnRyb2xcQ29tcHV0ZXJOYW1lXENvbXB1dGVyTmFtZScgLU5hbWUgJ0NvbXB1dGVyTmFtZScgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkNvbXB1dGVyTmFtZQogICAgaWYgKCRhIC1hbmQgJG4gLWFuZCAkYSAtbmUgJG4pIHsgJHIgKz0gJ0NvbXB1dGVyUmVuYW1lJyB9CiAgICBpZiAoJHIuQ291bnQgLWVxIDApIHsgV3JpdGUtT3V0cHV0ICdOb25lJyB9CiAgICBlbHNlaWYgKCRyLkNvdW50IC1ndCAxKSB7IFdyaXRlLU91dHB1dCAnTXVsdGlwbGUnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgKFtzdHJpbmddJHJbMF0pIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

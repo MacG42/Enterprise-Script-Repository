@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5546759f-60c8-455f-8fe2-7b5e4f18c303",
+  "slug": "hibernation-enabled",
+  "type": "sensor",
+  "name": "Hibernation Enabled",
+  "description": "Console sensor name: hibernation_enabled. True when hiberfil.sys is active. On a small system drive the hibernation file is often several gigabytes that nobody has decided to spend, and it is a prerequisite for fast startup.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "disk",
+    "hibernation",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXFBvd2VyJwogICAgJHYgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0hpYmVybmF0ZUVuYWJsZWQnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5IaWJlcm5hdGVFbmFibGVkCiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1lcSAxKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

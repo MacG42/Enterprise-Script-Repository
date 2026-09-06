@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4321a7cf-4df5-48fd-8859-25ed3e6c912b",
+  "slug": "failed-scheduled-tasks",
+  "type": "sensor",
+  "name": "Failed Scheduled Tasks",
+  "description": "Console sensor name: failed_scheduled_tasks. Enabled scheduled tasks whose last run returned a non-zero result, ignoring the 0x41301 'still running' code. Catches maintenance, inventory and agent tasks that stopped working months ago.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📆",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "scheduledtasks",
+    "health",
+    "automation",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR0ID0gQChHZXQtU2NoZWR1bGVkVGFzayAtRXJyb3JBY3Rpb24gU3RvcCB8IFdoZXJlLU9iamVjdCB7ICRfLlN0YXRlIC1uZSAnRGlzYWJsZWQnIH0pCiAgICAkYmFkID0gMAogICAgZm9yZWFjaCAoJHggaW4gJHQpIHsKICAgICAgICAkaSA9ICR4IHwgR2V0LVNjaGVkdWxlZFRhc2tJbmZvIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgaWYgKCRudWxsIC1uZSAkaSAtYW5kICRudWxsIC1uZSAkaS5MYXN0VGFza1Jlc3VsdCAtYW5kIFtpbnRdJGkuTGFzdFRhc2tSZXN1bHQgLW5lIDAgLWFuZAogICAgICAgICAgICBbaW50XSRpLkxhc3RUYXNrUmVzdWx0IC1uZSAyNjcwMDkgLWFuZCAkbnVsbCAtbmUgJGkuTGFzdFJ1blRpbWUgLWFuZCAkaS5MYXN0UnVuVGltZSAtZ3QgW2RhdGV0aW1lXScxOTAwLTAxLTAxJykgeyAkYmFkKysgfQogICAgfQogICAgV3JpdGUtT3V0cHV0IChbaW50XSRiYWQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f189e81c-7a76-49f5-9e09-e9c56af18eb0",
+  "slug": "enable-firewall-logging-linux",
+  "type": "script",
+  "name": "Enable Firewall Logging",
+  "description": "Delivery: packaged post-install. Turns on logging of dropped packets in ufw or firewalld, so a blocked-connection complaint can be answered from a log rather than from opinion.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📝",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "firewall",
+    "logging",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtZmlyZXdhbGwtbG9nZ2luZy1saW51eC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmIGNvbW1hbmQgLXYgdWZ3ID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHM9JCh1Zncgc3RhdHVzIHZlcmJvc2UgMj4vZGV2L251bGwgfCBhd2sgLUYnOiAqJyAnL15Mb2dnaW5nLyB7cHJpbnQgJDI7IGV4aXR9JykKICBjYXNlICIkcyIgaW4KICAgIG9uKikgbG9nICJ1ZncgbG9nZ2luZyBhbHJlYWR5IG9uICgkcyksIG5vIGFjdGlvbiI7IGV4aXQgMCA7OwogIGVzYWMKICBsb2cgInVmdyBsb2dnaW5nIHdhcyAkcyIKICB1ZncgbG9nZ2luZyBsb3cgPi9kZXYvbnVsbCAyPiYxCiAgYT0kKHVmdyBzdGF0dXMgdmVyYm9zZSAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvXkxvZ2dpbmcvIHtwcmludCAkMjsgZXhpdH0nKQogIGNhc2UgIiRhIiBpbgogICAgb24qKSBsb2cgInVmdyBsb2dnaW5nIGVuYWJsZWQgKCRhKSI7IGV4aXQgMCA7OwogIGVzYWMKICBleGl0IDMwCmZpCmlmIGNvbW1hbmQgLXYgZmlyZXdhbGwtY21kID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHM9JChmaXJld2FsbC1jbWQgLS1nZXQtbG9nLWRlbmllZCAyPi9kZXYvbnVsbCkKICBpZiBbICIkcyIgPSAiYWxsIiBdIHx8IFsgIiRzIiA9ICJ1bmljYXN0IiBdOyB0aGVuIGxvZyAiZmlyZXdhbGxkIGFscmVhZHkgbG9nZ2luZyBkZW5pZWQgdHJhZmZpYyAoJHMpLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCiAgbG9nICJsb2ctZGVuaWVkIHdhcyAkcyIKICBmaXJld2FsbC1jbWQgLS1zZXQtbG9nLWRlbmllZD11bmljYXN0ID4vZGV2L251bGwgMj4mMQogIGZpcmV3YWxsLWNtZCAtLXJlbG9hZCA+L2Rldi9udWxsIDI+JjEKICBhPSQoZmlyZXdhbGwtY21kIC0tZ2V0LWxvZy1kZW5pZWQgMj4vZGV2L251bGwpCiAgaWYgWyAiJGEiID0gInVuaWNhc3QiIF07IHRoZW4gbG9nICJmaXJld2FsbGQgbG9nZ2luZyBkZW5pZWQgdW5pY2FzdCB0cmFmZmljIjsgZXhpdCAwOyBmaQogIGV4aXQgMzAKZmkKbG9nICJObyBzdXBwb3J0ZWQgZmlyZXdhbGwgZnJvbnQgZW5kIGZvdW5kIgpleGl0IDEwCg=="
+}

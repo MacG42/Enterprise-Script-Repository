@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a35f10ba-dec2-4a24-882c-d6affb4e6f2e",
+  "slug": "journal-size-mb",
+  "type": "sensor",
+  "name": "Systemd Journal Size MB",
+  "description": "Console sensor name: journal_size_mb. Size of the systemd journal in megabytes. Returns -1 where journald is not in use. An unbounded journal is one of the most common causes of a slowly filling root volume.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📖",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "journald",
+    "logs",
+    "disk",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgISBjb21tYW5kIC12IGpvdXJuYWxjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAiLTEiCmVsc2UKICBrPTAKICBmb3IgZCBpbiAvdmFyL2xvZy9qb3VybmFsIC9ydW4vbG9nL2pvdXJuYWw7IGRvCiAgICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogICAgYz0kKGR1IC1zayAiJGQiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKICAgIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICAgIGs9JCgoaytjKSkKICBkb25lCiAgZWNobyAkKCggayAvIDEwMjQgKSkKZmkK"
+}

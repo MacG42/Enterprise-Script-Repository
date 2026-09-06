@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "208138f1-9752-4abd-9148-ac8df97edb8a",
+  "slug": "update-flatpak-applications",
+  "type": "script",
+  "name": "Update Flatpak Applications",
+  "description": "Delivery: systemd timer. Updates installed flatpaks and removes unused runtimes. Flatpaks sit outside the package manager, so without this they are never patched by the normal update cycle.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "flatpak",
+    "patching",
+    "applications"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC11cGRhdGUtZmxhdHBhay1hcHBsaWNhdGlvbnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiAhIGNvbW1hbmQgLXYgZmxhdHBhayA+L2Rldi9udWxsIDI+JjE7IHRoZW4gbG9nICJmbGF0cGFrIGlzIG5vdCBpbnN0YWxsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbj0kKGZsYXRwYWsgbGlzdCAtLWFwcCAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgLikKaWYgWyAiJG4iIC1lcSAwIF07IHRoZW4gbG9nICJObyBmbGF0cGFrIGFwcGxpY2F0aW9ucyBpbnN0YWxsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJVcGRhdGluZyAkbiBmbGF0cGFrIGFwcGxpY2F0aW9uKHMpIgpmbGF0cGFrIHVwZGF0ZSAteSAtLW5vbmludGVyYWN0aXZlID4vZGV2L251bGwgMj4mMQpyYz0kPwpmbGF0cGFrIHVuaW5zdGFsbCAtLXVudXNlZCAteSAtLW5vbmludGVyYWN0aXZlID4vZGV2L251bGwgMj4mMQpsb2cgImZsYXRwYWsgdXBkYXRlIHJldHVybmVkICRyYywgdW51c2VkIHJ1bnRpbWVzIHBydW5lZCIKaWYgWyAiJHJjIiAtZXEgMCBdOyB0aGVuIGV4aXQgMDsgZmkKZXhpdCAyMAo="
+}

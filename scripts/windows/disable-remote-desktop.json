@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6f0205e9-9044-4ba4-8741-35d4148e7949",
+  "slug": "disable-remote-desktop",
+  "type": "script",
+  "name": "Disable Remote Desktop",
+  "description": "Blocks inbound Remote Desktop by setting fDenyTSConnections and disabling the Remote Desktop firewall rule group. Intended for endpoint fleets where RDP is never the support path.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🚫",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "rdp",
+    "hardening",
+    "firewall",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtcmVtb3RlLWRlc2t0b3AubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxUZXJtaW5hbCBTZXJ2ZXInCiAgICAkdiA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnZkRlbnlUU0Nvbm5lY3Rpb25zJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuZkRlbnlUU0Nvbm5lY3Rpb25zCiAgICAkcnVsZXMgPSBAKEdldC1OZXRGaXJld2FsbFJ1bGUgLURpc3BsYXlHcm91cCAnUmVtb3RlIERlc2t0b3AnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgV2hlcmUtT2JqZWN0IHsgJF8uRW5hYmxlZCAtZXEgJ1RydWUnIH0pCiAgICBpZiAoJG51bGwgLW5lICR2IC1hbmQgW2ludF0kdiAtZXEgMSAtYW5kICRydWxlcy5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnZkRlbnlUU0Nvbm5lY3Rpb25zIHdhcyAnICsgJChpZiAoJG51bGwgLWVxICR2KSB7ICd1bnNldCcgfSBlbHNlIHsgJHYgfSkgKyAnLCBlbmFibGVkIFJEUCBydWxlczogJyArICRydWxlcy5Db3VudCkKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdmRGVueVRTQ29ubmVjdGlvbnMnIC1WYWx1ZSAxIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgIGlmICgkcnVsZXMuQ291bnQgLWd0IDApIHsgRGlzYWJsZS1OZXRGaXJld2FsbFJ1bGUgLURpc3BsYXlHcm91cCAnUmVtb3RlIERlc2t0b3AnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIH0KICAgICRhID0gW2ludF0oR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ2ZEZW55VFNDb25uZWN0aW9ucycpLmZEZW55VFNDb25uZWN0aW9ucwogICAgaWYgKCRhIC1lcSAxKSB7IFdyaXRlLUxvZyAnUmVtb3RlIERlc2t0b3AgZGlzYWJsZWQnOyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

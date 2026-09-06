@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b1b7b1e0-1299-4dfe-94ff-39ef57c6c822",
+  "slug": "largest-outlook-ost-gb",
+  "type": "sensor",
+  "name": "Largest Outlook OST (GB)",
+  "description": "Console sensor name: largest_outlook_ost_gb. Size of the biggest Outlook offline data file across all local profiles, rounded to whole gigabytes. Files past about 40 GB are where Outlook search and sync start failing in ways users describe as 'slow'.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📬",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "outlook",
+    "office",
+    "disk",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRmID0gQChHZXQtQ2hpbGRJdGVtIC1QYXRoIChKb2luLVBhdGggJGVudjpTeXN0ZW1Ecml2ZSAnVXNlcnNcKlxBcHBEYXRhXExvY2FsXE1pY3Jvc29mdFxPdXRsb29rXCoub3N0JykgLUZpbGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKQogICAgaWYgKCRmLkNvdW50IC1lcSAwKSB7IFdyaXRlLU91dHB1dCAwIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgKFtpbnRdW21hdGhdOjpSb3VuZCgoKCRmIHwgTWVhc3VyZS1PYmplY3QgLVByb3BlcnR5IExlbmd0aCAtTWF4aW11bSkuTWF4aW11bSkgLyAxR0IpKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "62171ab6-21c8-42a8-9a45-57a2df1797ab",
+  "slug": "xcode-command-line-tools-installed",
+  "type": "sensor",
+  "name": "Xcode Command Line Tools Installed",
+  "description": "Console sensor name: xcode_command_line_tools_installed. True when the command line developer tools are present. Expected on engineering devices and worth a question elsewhere, since they bring a compiler and git onto a standard build.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🛠️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "developer",
+    "xcode",
+    "inventory",
+    "shadowit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgppZiBbIC1kIC9MaWJyYXJ5L0RldmVsb3Blci9Db21tYW5kTGluZVRvb2xzL3Vzci9iaW4gXSB8fCB4Y29kZS1zZWxlY3QgLXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAidHJ1ZSIKZWxzZQogIGVjaG8gImZhbHNlIgpmaQo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b0e29422-be50-4bf1-8117-32008acfd681",
+  "slug": "battery-present-linux",
+  "type": "sensor",
+  "name": "Battery Present",
+  "description": "Console sensor name: battery_present. True when the device has a battery, which separates the laptops from the desktops and virtual machines in a mixed fleet without relying on the naming convention.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔋",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "hardware",
+    "inventory",
+    "formfactor"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgpmb3IgYiBpbiAvc3lzL2NsYXNzL3Bvd2VyX3N1cHBseS9CQVQqOyBkbwogIFsgLWQgIiRiIiBdICYmIGZvdW5kPSJ0cnVlIgpkb25lCmVjaG8gIiRmb3VuZCIK"
+}

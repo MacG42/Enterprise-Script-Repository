@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4d7d8171-d344-4551-aa0d-c0c9591c654c",
+  "slug": "enable-persistent-journal",
+  "type": "script",
+  "name": "Enable A Persistent Journal",
+  "description": "Delivery: packaged post-install. Makes the systemd journal survive a reboot by creating /var/log/journal and capping it at 500 MB. Without it the evidence for a crash disappears with the crash.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📖",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "journald",
+    "logging",
+    "forensics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtcGVyc2lzdGVudC1qb3VybmFsLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBjb21tYW5kIC12IGpvdXJuYWxjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiam91cm5hbGQgaXMgbm90IGluIHVzZSBoZXJlIjsgZXhpdCAxMDsgZmkKZD0iL2V0Yy9zeXN0ZW1kL2pvdXJuYWxkLmNvbmYuZCIKZj0iJGQvNjAtZXNyLXBlcnNpc3RlbnQuY29uZiIKaWYgWyAtZCAvdmFyL2xvZy9qb3VybmFsIF0gJiYgWyAtZiAiJGYiIF07IHRoZW4gbG9nICJBbHJlYWR5IHBlcnNpc3RlbnQgYW5kIGNhcHBlZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpta2RpciAtcCAvdmFyL2xvZy9qb3VybmFsIDI+L2Rldi9udWxsCnN5c3RlbWQtdG1wZmlsZXMgLS1jcmVhdGUgLS1wcmVmaXggL3Zhci9sb2cvam91cm5hbCA+L2Rldi9udWxsIDI+JjEKbWtkaXIgLXAgIiRkIiAyPi9kZXYvbnVsbAp7CiAgcHJpbnRmICclc1xuJyAiW0pvdXJuYWxdIgogIHByaW50ZiAnJXNcbicgIlN0b3JhZ2U9cGVyc2lzdGVudCIKICBwcmludGYgJyVzXG4nICJTeXN0ZW1NYXhVc2U9NTAwTSIKICBwcmludGYgJyVzXG4nICJTeXN0ZW1NYXhGaWxlU2l6ZT01ME0iCn0gPiAiJGYiCnN5c3RlbWN0bCByZXN0YXJ0IHN5c3RlbWQtam91cm5hbGQgPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDMKaWYgWyAtZCAvdmFyL2xvZy9qb3VybmFsIF0gJiYgcGdyZXAgLXggc3lzdGVtZC1qb3VybmFsZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgIlBlcnNpc3RlbnQgam91cm5hbCBlbmFibGVkIGFuZCBjYXBwZWQgYXQgNTAwIE1CIgogIGV4aXQgMApmaQpsb2cgImpvdXJuYWxkIGRpZCBub3QgY29tZSBiYWNrIGNsZWFubHkiCmV4aXQgMzAK"
+}

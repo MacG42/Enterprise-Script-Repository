@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9b03dcfc-75bf-4d3c-b234-c00a778497a3",
+  "slug": "boot-volume-free-percent",
+  "type": "sensor",
+  "name": "Boot Volume Free Percent",
+  "description": "Console sensor name: boot_volume_free_percent. Free space on the boot volume as a percentage. The percentage matters more than the absolute figure because macOS needs headroom for snapshots and updates in proportion to the disk.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📉",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "storage",
+    "disk",
+    "capacity",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGYgLVAgLyAyPi9kZXYvbnVsbCB8IGF3ayAnTlI9PTIge2dzdWIoIiUiLCIiLCQ1KTsgcHJpbnQgMTAwLSQ1fScpCmNhc2UgIiR2IiBpbiAnJ3wqWyEwLTldKikgdj0tMSA7OyBlc2FjCmVjaG8gIiR2Igo="
+}

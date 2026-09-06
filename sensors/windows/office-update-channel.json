@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "863c4584-703c-40b8-8508-c51b53bba075",
+  "slug": "office-update-channel",
+  "type": "sensor",
+  "name": "Office Update Channel",
+  "description": "Console sensor name: office_update_channel. Closed set: Current, MonthlyEnterprise, SemiAnnual, SemiAnnualPreview, CurrentPreview, Beta, NotInstalled. Matched on the channel GUID, because the friendly names have been renamed twice.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "office",
+    "m365",
+    "patching",
+    "channel"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxPZmZpY2VcQ2xpY2tUb1J1blxDb25maWd1cmF0aW9uJwogICAgJHUgPSBbc3RyaW5nXShHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnQ0ROQmFzZVVybCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkNETkJhc2VVcmwKICAgIGlmIChbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKCR1KSkgeyBXcml0ZS1PdXRwdXQgJ05vdEluc3RhbGxlZCcgfQogICAgZWxzZWlmICgkdSAtbWF0Y2ggJzQ5MjM1MGY2LTNhMDEtNGY5Ny1iOWMwLWM3YzZkZGY2N2Q2MCcpIHsgV3JpdGUtT3V0cHV0ICdDdXJyZW50JyB9CiAgICBlbHNlaWYgKCR1IC1tYXRjaCAnNTUzMzZiODItYTE4ZC00ZGQ2LWI1ZjYtOWU1MDk1YzMxNGE2JykgeyBXcml0ZS1PdXRwdXQgJ01vbnRobHlFbnRlcnByaXNlJyB9CiAgICBlbHNlaWYgKCR1IC1tYXRjaCAnN2ZmYmM2YmYtYmMzMi00ZjkyLTg5ODItZjlkZDE3ZmQzMTE0JykgeyBXcml0ZS1PdXRwdXQgJ1NlbWlBbm51YWwnIH0KICAgIGVsc2VpZiAoJHUgLW1hdGNoICdiOGY5Yjg1MC0zMjhkLTQzNTUtOTE0NS1jNTk0MzlhMGM0Y2YnKSB7IFdyaXRlLU91dHB1dCAnU2VtaUFubnVhbFByZXZpZXcnIH0KICAgIGVsc2VpZiAoJHUgLW1hdGNoICc2NDI1NmFmZS1mNWQ5LTRmODYtODkzNi04ODQwYTZhNGY1YmUnKSB7IFdyaXRlLU91dHB1dCAnQ3VycmVudFByZXZpZXcnIH0KICAgIGVsc2VpZiAoJHUgLW1hdGNoICc1NDQwZmQxZi03ZWNiLTQyMjEtODExMC0xNDVlZmFhNjM3MmYnKSB7IFdyaXRlLU91dHB1dCAnQmV0YScgfQogICAgZWxzZSB7IFdyaXRlLU91dHB1dCAnT3RoZXInIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

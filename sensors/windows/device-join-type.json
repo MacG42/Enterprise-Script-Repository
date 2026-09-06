@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1f9dd43d-8c15-47c8-a5cc-9a266cb626cd",
+  "slug": "device-join-type",
+  "type": "sensor",
+  "name": "Device Join Type",
+  "description": "Console sensor name: device_join_type. Closed set: HybridJoined, EntraJoined, DomainJoined, EntraRegistered, Workgroup. Read from dsregcmd state in the registry rather than by shelling out, so it stays inside a sensor's time budget.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "identity",
+    "entra",
+    "domainjoin",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkb20gPSBbYm9vbF0oR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfQ29tcHV0ZXJTeXN0ZW0pLlBhcnRPZkRvbWFpbgogICAgJGsgPSAnSEtMTTpcU1lTVEVNXEN1cnJlbnRDb250cm9sU2V0XENvbnRyb2xcQ2xvdWREb21haW5Kb2luXEpvaW5JbmZvJwogICAgJGFhZCA9IFtib29sXShUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRrKSAtYW5kIChAKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRrIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5Db3VudCAtZ3QgMCkKICAgICR3cGogPSBUZXN0LVBhdGggLUxpdGVyYWxQYXRoICdIS0NVOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvblxXb3JrcGxhY2VKb2luJwogICAgaWYgKCRkb20gLWFuZCAkYWFkKSB7IFdyaXRlLU91dHB1dCAnSHlicmlkSm9pbmVkJyB9CiAgICBlbHNlaWYgKCRhYWQpIHsgV3JpdGUtT3V0cHV0ICdFbnRyYUpvaW5lZCcgfQogICAgZWxzZWlmICgkZG9tKSB7IFdyaXRlLU91dHB1dCAnRG9tYWluSm9pbmVkJyB9CiAgICBlbHNlaWYgKCR3cGopIHsgV3JpdGUtT3V0cHV0ICdFbnRyYVJlZ2lzdGVyZWQnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgJ1dvcmtncm91cCcgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

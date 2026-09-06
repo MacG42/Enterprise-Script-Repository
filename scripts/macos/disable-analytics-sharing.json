@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c070a0c4-d711-4b4c-ad6e-8fafdd405c9e",
+  "slug": "disable-analytics-sharing",
+  "type": "script",
+  "name": "Disable Diagnostic Analytics Sharing",
+  "description": "Stops the device submitting diagnostic and usage data to Apple and to third-party developers. A privacy-posture setting that is usually decided once centrally and never verified on older builds.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "privacy",
+    "analytics",
+    "policy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtYW5hbHl0aWNzLXNoYXJpbmcubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpwPSIvTGlicmFyeS9BcHBsaWNhdGlvbiBTdXBwb3J0L0NyYXNoUmVwb3J0ZXIvRGlhZ25vc3RpY01lc3NhZ2VzSGlzdG9yeS5wbGlzdCIKdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBBdXRvU3VibWl0IDI+L2Rldi9udWxsKQppZiBbICIkdiIgPSAiMCIgXTsgdGhlbiBsb2cgIkFscmVhZHkgZGlzYWJsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJBdXRvU3VibWl0IHdhcyAkdiIKbWtkaXIgLXAgIi9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvQ3Jhc2hSZXBvcnRlciIgMj4vZGV2L251bGwKZGVmYXVsdHMgd3JpdGUgIiRwIiBBdXRvU3VibWl0IC1ib29sIGZhbHNlIDI+L2Rldi9udWxsCmRlZmF1bHRzIHdyaXRlICIkcCIgVGhpcmRQYXJ0eURhdGFTdWJtaXQgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKY2htb2QgNjQ0ICIkcCIgMj4vZGV2L251bGwKYT0kKGRlZmF1bHRzIHJlYWQgIiRwIiBBdXRvU3VibWl0IDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMCIgXTsgdGhlbiBsb2cgIkFuYWx5dGljcyBzaGFyaW5nIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

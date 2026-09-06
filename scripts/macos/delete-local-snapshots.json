@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "089c8f2d-dd9b-4a1e-9b71-07d959aaeae5",
+  "slug": "delete-local-snapshots",
+  "type": "script",
+  "name": "Delete APFS Local Snapshots",
+  "description": "Thins local Time Machine snapshots on the boot volume, then deletes any that remain. Snapshots are the usual reason a disk reports far less free space than the visible files account for.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📸",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "apfs",
+    "snapshots",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 1800,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Reclaim Snapshot Space",
+      "displayDescription": "Frees disk space held by local Time Machine snapshots.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRlbGV0ZS1sb2NhbC1zbmFwc2hvdHMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpuPSQodG11dGlsIGxpc3Rsb2NhbHNuYXBzaG90cyAvIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiY29tLmFwcGxlLlRpbWVNYWNoaW5lIikKaWYgWyAiJG4iIC1lcSAwIF07IHRoZW4gbG9nICJObyBsb2NhbCBzbmFwc2hvdHMgcHJlc2VudCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpiZWZvcmU9JChkZiAtUCAtayAvIDI+L2Rldi9udWxsIHwgYXdrICdOUj09MiB7cHJpbnQgJDR9JykKbG9nICIkbiBsb2NhbCBzbmFwc2hvdChzKSBwcmVzZW50LCB0aGlubmluZyIKdG11dGlsIHRoaW5sb2NhbHNuYXBzaG90cyAvIDEwMDAwMDAwMDAwIDQgPi9kZXYvbnVsbCAyPiYxCmZvciBzIGluICQodG11dGlsIGxpc3Rsb2NhbHNuYXBzaG90cyAvIDI+L2Rldi9udWxsIHwgZ3JlcCAiY29tLmFwcGxlLlRpbWVNYWNoaW5lIiB8IHNlZCAncy8uKlRpbWVNYWNoaW5lXC4vLycpOyBkbwogIHRtdXRpbCBkZWxldGVsb2NhbHNuYXBzaG90cyAiJHMiID4vZGV2L251bGwgMj4mMQpkb25lCmFmdGVyPSQoZGYgLVAgLWsgLyAyPi9kZXYvbnVsbCB8IGF3ayAnTlI9PTIge3ByaW50ICQ0fScpCmxlZnQ9JCh0bXV0aWwgbGlzdGxvY2Fsc25hcHNob3RzIC8gMj4vZGV2L251bGwgfCBncmVwIC1jICJjb20uYXBwbGUuVGltZU1hY2hpbmUiKQpjYXNlICIkYmVmb3JlIiBpbiAnJ3wqWyEwLTldKikgYmVmb3JlPTAgOzsgZXNhYwpjYXNlICIkYWZ0ZXIiIGluICcnfCpbITAtOV0qKSBhZnRlcj0wIDs7IGVzYWMKbG9nICJTbmFwc2hvdHMgJG4gdG8gJGxlZnQsIGZyZWUgc3BhY2UgZ2FpbmVkIGFib3V0ICQoKCAoYWZ0ZXIgLSBiZWZvcmUpIC8gMTAyNCApKSBNQiIKaWYgWyAiJGxlZnQiIC1sdCAiJG4iIF07IHRoZW4gZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fa99b3e3-9b6d-4801-a2d0-032349b3aecd",
+  "slug": "package-manager-lock-held",
+  "type": "sensor",
+  "name": "Package Manager Lock Held",
+  "description": "Console sensor name: package_manager_lock_held. True when another process is holding the package database lock right now. Reported rather than acted on - a sensor must never wait for a lock, and never remove one.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "locking",
+    "diagnostics",
+    "safety"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaGVsZD0iZmFsc2UiCmlmIGNvbW1hbmQgLXYgZnVzZXIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZm9yIGwgaW4gL3Zhci9saWIvZHBrZy9sb2NrLWZyb250ZW5kIC92YXIvbGliL2Rwa2cvbG9jayAvdmFyL2xpYi9ycG0vLnJwbS5sb2NrIC92YXIvcnVuL3p5cHAucGlkOyBkbwogICAgWyAtZSAiJGwiIF0gfHwgY29udGludWUKICAgIGZ1c2VyICIkbCIgPi9kZXYvbnVsbCAyPiYxICYmIGhlbGQ9InRydWUiCiAgZG9uZQpmaQppZiBbICIkaGVsZCIgPSAiZmFsc2UiIF07IHRoZW4KICBmb3IgcCBpbiBhcHQgYXB0LWdldCBkcGtnIGRuZiB5dW0genlwcGVyOyBkbwogICAgcGdyZXAgLXggIiRwIiA+L2Rldi9udWxsIDI+JjEgJiYgaGVsZD0idHJ1ZSIKICBkb25lCmZpCmVjaG8gIiRoZWxkIgo="
+}

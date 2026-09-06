@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7fa53d37-4789-482e-8edd-c9d8d52c219b",
+  "slug": "filevault-enabled-user-count",
+  "type": "sensor",
+  "name": "FileVault Enabled User Count",
+  "description": "Console sensor name: filevault_enabled_user_count. Number of accounts that can unlock the FileVault volume at boot. Zero means only the recovery key can unlock it; a device where the primary user is not enabled will strand them after a restart.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "filevault",
+    "encryption",
+    "accounts",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgppZiAhIGZkZXNldHVwIHN0YXR1cyAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgIkZpbGVWYXVsdCBpcyBPbiI7IHRoZW4KICBlY2hvICItMSIKZWxzZQogIG49JChmZGVzZXR1cCBsaXN0IDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiLCIpCiAgY2FzZSAiJG4iIGluICcnfCpbITAtOV0qKSBuPS0xIDs7IGVzYWMKICBlY2hvICIkbiIKZmkK"
+}

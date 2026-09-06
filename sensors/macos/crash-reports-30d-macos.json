@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "dfe2040c-2281-4c65-81af-f05796a551de",
+  "slug": "crash-reports-30d-macos",
+  "type": "sensor",
+  "name": "Application Crash Reports In 30 Days",
+  "description": "Console sensor name: crash_reports_30d. Count of user-space crash reports written in the last 30 days. A high number on one device points at hardware or a bad extension; the same number across a model points at a build.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "crashes",
+    "reliability",
+    "applications",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPTAKZm9yIGQgaW4gL0xpYnJhcnkvTG9ncy9EaWFnbm9zdGljUmVwb3J0cyAvVXNlcnMvKi9MaWJyYXJ5L0xvZ3MvRGlhZ25vc3RpY1JlcG9ydHM7IGRvCiAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICBjPSQoZmluZCAiJGQiIC1uYW1lICIqLmlwcyIgLW10aW1lIC0zMCAyPi9kZXYvbnVsbCB8IHdjIC1sIHwgdHIgLWQgJyAnKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBuPSQoKG4rYykpCmRvbmUKZWNobyAiJG4iCg=="
+}

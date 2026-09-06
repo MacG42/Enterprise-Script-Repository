@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f96f8d14-ec6e-4c6e-8949-b715db0a9f44",
+  "slug": "clear-print-queue-jobs",
+  "type": "script",
+  "name": "Clear Stuck Print Jobs",
+  "description": "Cancels every queued job and re-enables any queue that has been paused by a failure. Keeps the queues themselves, so this is the gentler alternative to resetting the printing system.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖨️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "printing",
+    "cups",
+    "queues",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clear Print Queue",
+      "displayDescription": "Cancels stuck print jobs and re-enables paused printers.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNsZWFyLXByaW50LXF1ZXVlLWpvYnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgpqb2JzPSQobHBzdGF0IC1vIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAuKQppZiBbICIkam9icyIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIHF1ZXVlZCBqb2JzLCBjaGVja2luZyBmb3IgcGF1c2VkIHF1ZXVlcyI7IGZpCmlmIFsgIiRqb2JzIiAtZ3QgMCBdOyB0aGVuCiAgY2FuY2VsIC1hIC14IDI+L2Rldi9udWxsCiAgbG9nICJDYW5jZWxsZWQgJGpvYnMgcXVldWVkIGpvYihzKSIKZmkKcmVzdW1lZD0wCmZvciBwIGluICQobHBzdGF0IC1wIDI+L2Rldi9udWxsIHwgYXdrICcvXnByaW50ZXIvICYmIC9kaXNhYmxlZC8ge3ByaW50ICQyfScpOyBkbwogIGN1cHNlbmFibGUgIiRwIiAyPi9kZXYvbnVsbAogIGxvZyAiUmUtZW5hYmxlZCBxdWV1ZSAkcCIKICByZXN1bWVkPSQoKHJlc3VtZWQrMSkpCmRvbmUKbGVmdD0kKGxwc3RhdCAtbyAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgLikKbG9nICJKb2JzIHJlbWFpbmluZyAkbGVmdCwgcXVldWVzIHJlc3VtZWQgJHJlc3VtZWQiCmlmIFsgIiRsZWZ0IiAtZXEgMCBdOyB0aGVuIGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

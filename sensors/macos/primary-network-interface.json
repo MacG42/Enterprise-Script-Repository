@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "28aaf903-fd7e-4d1a-88d4-025c7f112820",
+  "slug": "primary-network-interface",
+  "type": "sensor",
+  "name": "Primary Network Interface",
+  "description": "Console sensor name: primary_network_interface. The interface carrying the default route, for example en0. Tells you whether a device is on wireless, on a dock's ethernet or on a virtual adapter before you start reading its network complaints.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "interface",
+    "routing",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQocm91dGUgLW4gZ2V0IGRlZmF1bHQgMj4vZGV2L251bGwgfCBhd2sgLUYnOiAqJyAnL2ludGVyZmFjZS8ge3ByaW50ICQyOyBleGl0fScpClsgLXogIiR2IiBdICYmIHY9Ik5vbmUiCmVjaG8gIiR2Igo="
+}

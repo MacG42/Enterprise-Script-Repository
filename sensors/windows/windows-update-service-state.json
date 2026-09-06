@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e1408d1c-1264-44da-9b67-71e42dd48606",
+  "slug": "windows-update-service-state",
+  "type": "sensor",
+  "name": "Windows Update Service State",
+  "description": "Console sensor name: windows_update_service_state. Closed set: Running, Stopped, Disabled, Missing. A wuauserv set to Disabled is the most common reason a device reports zero missing updates forever.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "patching",
+    "services",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LVNlcnZpY2UgLU5hbWUgJ3d1YXVzZXJ2JyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgaWYgKCRudWxsIC1lcSAkcykgeyBXcml0ZS1PdXRwdXQgJ01pc3NpbmcnIH0KICAgIGVsc2VpZiAoJHMuU3RhcnRUeXBlIC1lcSAnRGlzYWJsZWQnKSB7IFdyaXRlLU91dHB1dCAnRGlzYWJsZWQnIH0KICAgIGVsc2VpZiAoJHMuU3RhdHVzIC1lcSAnUnVubmluZycpIHsgV3JpdGUtT3V0cHV0ICdSdW5uaW5nJyB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0ICdTdG9wcGVkJyB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

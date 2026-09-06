@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "782152ad-ff32-46cb-b019-1b4c90d90eb3",
+  "slug": "clear-diagnostic-reports",
+  "type": "script",
+  "name": "Clear Old Diagnostic Reports",
+  "description": "Removes crash and panic reports older than 60 days from the system and user report folders. Keeps recent ones so an investigation still has something to read.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "logs",
+    "crashes",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNsZWFyLWRpYWdub3N0aWMtcmVwb3J0cy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCm49MApmb3IgZCBpbiAvTGlicmFyeS9Mb2dzL0RpYWdub3N0aWNSZXBvcnRzIC9Vc2Vycy8qL0xpYnJhcnkvTG9ncy9EaWFnbm9zdGljUmVwb3J0czsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGM9JChmaW5kICIkZCIgLXR5cGUgZiAtbXRpbWUgKzYwIDI+L2Rldi9udWxsIHwgd2MgLWwgfCB0ciAtZCAnICcpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIFsgIiRjIiAtZXEgMCBdICYmIGNvbnRpbnVlCiAgZmluZCAiJGQiIC10eXBlIGYgLW10aW1lICs2MCAtZGVsZXRlIDI+L2Rldi9udWxsCiAgbG9nICJSZW1vdmVkICRjIHJlcG9ydChzKSBmcm9tICRkIgogIG49JCgobitjKSkKZG9uZQppZiBbICIkbiIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIHJlcG9ydHMgb2xkZXIgdGhhbiA2MCBkYXlzLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiUmVtb3ZlZCAkbiBkaWFnbm9zdGljIHJlcG9ydChzKSIKZXhpdCAwCg=="
+}

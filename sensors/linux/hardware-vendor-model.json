@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "de902fbe-679e-4a7a-af92-7bf7347d4458",
+  "slug": "hardware-vendor-model",
+  "type": "sensor",
+  "name": "Hardware Vendor And Model",
+  "description": "Console sensor name: hardware_vendor_model. The system vendor and product name from DMI, for example 'Dell Inc. Latitude 7440'. Returns the hypervisor product string on a virtual machine, which is itself useful.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hardware",
+    "dmi",
+    "inventory",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgppZiBbIC1yIC9zeXMvY2xhc3MvZG1pL2lkL3N5c192ZW5kb3IgXSAmJiBbIC1yIC9zeXMvY2xhc3MvZG1pL2lkL3Byb2R1Y3RfbmFtZSBdOyB0aGVuCiAgYT0kKGNhdCAvc3lzL2NsYXNzL2RtaS9pZC9zeXNfdmVuZG9yIDI+L2Rldi9udWxsKQogIGI9JChjYXQgL3N5cy9jbGFzcy9kbWkvaWQvcHJvZHVjdF9uYW1lIDI+L2Rldi9udWxsKQogIHY9JChwcmludGYgJyVzICVzJyAiJGEiICIkYiIgfCBzZWQgJ3MvXiAqLy87cy8gKiQvLycpCmZpClsgLXogIiR2IiBdICYmIHY9IlVua25vd24iCmVjaG8gIiR2Igo="
+}

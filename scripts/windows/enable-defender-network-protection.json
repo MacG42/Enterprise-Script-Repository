@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "89ffc7d0-0278-482c-8537-ff9b7717d339",
+  "slug": "enable-defender-network-protection",
+  "type": "script",
+  "name": "Enable Defender Network Protection",
+  "description": "Puts network protection into block mode so outbound connections to known-bad hosts are stopped at the endpoint rather than only at the corporate egress. Audit mode is the safer first step if the fleet has not run it before.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "networkprotection",
+    "security",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1kZWZlbmRlci1uZXR3b3JrLXByb3RlY3Rpb24ubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkcHJlZiA9IEdldC1NcFByZWZlcmVuY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmICgkbnVsbCAtZXEgJHByZWYpIHsgV3JpdGUtTG9nICdEZWZlbmRlciBwcmVmZXJlbmNlcyBhcmUgdW5hdmFpbGFibGUgLSBhIHRoaXJkLXBhcnR5IHByb2R1Y3QgbWF5IG93biBwcm90ZWN0aW9uJzsgZXhpdCAxMCB9CiAgICBpZiAoW2ludF0kcHJlZi5FbmFibGVOZXR3b3JrUHJvdGVjdGlvbiAtZXEgMSkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgaW4gYmxvY2sgbW9kZSwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ0VuYWJsZU5ldHdvcmtQcm90ZWN0aW9uIHdhcyAnICsgJHByZWYuRW5hYmxlTmV0d29ya1Byb3RlY3Rpb24gKyAnLCBzZXR0aW5nIHRvIDEgKGJsb2NrKScpCiAgICBTZXQtTXBQcmVmZXJlbmNlIC1FbmFibGVOZXR3b3JrUHJvdGVjdGlvbiBFbmFibGVkIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAkYSA9IEdldC1NcFByZWZlcmVuY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmIChbaW50XSRhLkVuYWJsZU5ldHdvcmtQcm90ZWN0aW9uIC1lcSAxKSB7IFdyaXRlLUxvZyAnTmV0d29yayBwcm90ZWN0aW9uIGluIGJsb2NrIG1vZGUnOyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

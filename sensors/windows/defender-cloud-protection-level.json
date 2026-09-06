@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5d0fc9b7-10b7-4523-a1bc-35a5d22104dd",
+  "slug": "defender-cloud-protection-level",
+  "type": "sensor",
+  "name": "Defender Cloud Protection Level",
+  "description": "Console sensor name: defender_cloud_protection_level. Closed set: Advanced, Basic, Disabled. Cloud-delivered protection is what catches the first hour of a new campaign; a Disabled here is a real gap, not a preference.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "☁️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "cloud",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gR2V0LU1wUHJlZmVyZW5jZQogICAgc3dpdGNoIChbaW50XSRwLk1BUFNSZXBvcnRpbmcpIHsKICAgICAgICAyIHsgV3JpdGUtT3V0cHV0ICdBZHZhbmNlZCcgfQogICAgICAgIDEgeyBXcml0ZS1PdXRwdXQgJ0Jhc2ljJyB9CiAgICAgICAgMCB7IFdyaXRlLU91dHB1dCAnRGlzYWJsZWQnIH0KICAgICAgICBkZWZhdWx0IHsgV3JpdGUtT3V0cHV0ICdVbmtub3duJyB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

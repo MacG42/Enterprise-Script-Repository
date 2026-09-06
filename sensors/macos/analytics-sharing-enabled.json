@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "12dcd33e-e330-45b4-bc6a-947c92b2ecc7",
+  "slug": "analytics-sharing-enabled",
+  "type": "sensor",
+  "name": "Diagnostic Analytics Sharing Enabled",
+  "description": "Console sensor name: analytics_sharing_enabled. True when the device submits diagnostics and usage data to Apple. A privacy-posture setting most organisations decide once and then never verify on the devices that were built before the decision.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "privacy",
+    "analytics",
+    "policy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpwPSIvTGlicmFyeS9BcHBsaWNhdGlvbiBTdXBwb3J0L0NyYXNoUmVwb3J0ZXIvRGlhZ25vc3RpY01lc3NhZ2VzSGlzdG9yeS5wbGlzdCIKdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBBdXRvU3VibWl0IDI+L2Rldi9udWxsKQppZiBbICIkdiIgPSAiMSIgXTsgdGhlbiBlY2hvICJ0cnVlIjsgZWxzZSBlY2hvICJmYWxzZSI7IGZpCg=="
+}

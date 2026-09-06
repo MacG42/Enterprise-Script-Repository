@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e8fb0f96-ec86-4728-ac9f-3d95457bcdec",
+  "slug": "bios-version",
+  "type": "sensor",
+  "name": "BIOS Version",
+  "description": "Console sensor name: bios_version. Firmware version string from the system BIOS. Combined with the model, this is what tells you which devices a firmware-fixed issue still applies to.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧰",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firmware",
+    "bios",
+    "hardware",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRiID0gR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfQklPUyAtRXJyb3JBY3Rpb24gU3RvcAogICAgJHYgPSBbc3RyaW5nXSRiLlNNQklPU0JJT1NWZXJzaW9uCiAgICBpZiAoW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkdikpIHsgJHYgPSBbc3RyaW5nXSRiLlZlcnNpb24gfQogICAgaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoJHYpKSB7IFdyaXRlLU91dHB1dCAnVW5rbm93bicgfSBlbHNlIHsgV3JpdGUtT3V0cHV0ICR2LlRyaW0oKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

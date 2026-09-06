@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6ad72158-b13b-4dc0-b3f4-0530c5872909",
+  "slug": "endpoint-security-agent-present",
+  "type": "sensor",
+  "name": "Endpoint Security Agent Present",
+  "description": "Console sensor name: endpoint_security_agent_present. True when a recognised endpoint security agent process is running - Defender for Endpoint, CrowdStrike, SentinelOne, Carbon Black or ClamAV. Detects the process, not the package, so a stopped agent reads as absent.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "edr",
+    "antivirus",
+    "security",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgpmb3IgcCBpbiBtZGF0cCB3ZGF2ZGFlbW9uIGZhbGNvbi1zZW5zb3IgZmFsY29uZCBzZW50aW5lbG9uZSBzMS1hZ2VudCBjYmFnZW50IGNiZGFlbW9uIGNsYW1kOyBkbwogIHBncmVwIC1mICIkcCIgPi9kZXYvbnVsbCAyPiYxICYmIGZvdW5kPSJ0cnVlIgpkb25lCmVjaG8gIiRmb3VuZCIK"
+}

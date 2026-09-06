@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6a19e315-4ff4-46cf-8dc6-029b4c784c5a",
+  "slug": "defender-active-threat-count",
+  "type": "sensor",
+  "name": "Defender Active Threat Count",
+  "description": "Console sensor name: defender_active_threat_count. Number of threats Defender still considers active (not cleaned, quarantined or allowed). Returns -1 when Defender is unavailable. Non-zero means a device needs a human.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🦠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "threats",
+    "incident"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR0ID0gQChHZXQtTXBUaHJlYXREZXRlY3Rpb24gfCBXaGVyZS1PYmplY3QgeyAkXy5UaHJlYXRTdGF0dXNJRCAtaW4gQCgxLCAzLCA1KSB9KQogICAgV3JpdGUtT3V0cHV0IChbaW50XSR0LkNvdW50KQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

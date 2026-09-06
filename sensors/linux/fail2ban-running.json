@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e1e2d14d-1f91-4a8f-a1f3-7724c1891757",
+  "slug": "fail2ban-running",
+  "type": "sensor",
+  "name": "Fail2ban Running",
+  "description": "Console sensor name: fail2ban_running. True when fail2ban is active. On an internet-facing host it is the difference between a brute force attempt being slowed and being allowed to run all night.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "fail2ban",
+    "bruteforce",
+    "ssh",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgcGdyZXAgLWYgImZhaWwyYmFuLXNlcnZlciIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAidHJ1ZSIKZWxpZiBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjEgJiYgc3lzdGVtY3RsIGlzLWFjdGl2ZSBmYWlsMmJhbiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICJ0cnVlIgplbHNlCiAgZWNobyAiZmFsc2UiCmZpCg=="
+}

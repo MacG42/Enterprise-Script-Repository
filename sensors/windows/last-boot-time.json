@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c30bb8e7-aefe-41f0-b09b-4a19d4326c60",
+  "slug": "last-boot-time",
+  "type": "sensor",
+  "name": "Last Boot Time",
+  "description": "Console sensor name: last_boot_time. UTC timestamp of the last real boot, in ISO 8601. Every device has one, so a DateTime sensor is safe here - there is no unknown case to encode.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⏰",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "reboot",
+    "uptime",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "DATETIME"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRiID0gKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX09wZXJhdGluZ1N5c3RlbSAtRXJyb3JBY3Rpb24gU3RvcCkuTGFzdEJvb3RVcFRpbWUKICAgIFdyaXRlLU91dHB1dCAoJGIuVG9Vbml2ZXJzYWxUaW1lKCkuVG9TdHJpbmcoJ3l5eXktTU0tZGRUSEg6bW06c3NaJykpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IChHZXQtRGF0ZSkuVG9Vbml2ZXJzYWxUaW1lKCkuVG9TdHJpbmcoJ3l5eXktTU0tZGRUSEg6bW06c3NaJykKfQo="
+}

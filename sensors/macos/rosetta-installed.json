@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0e2851f7-2732-46dc-9cbc-64affb76f61c",
+  "slug": "rosetta-installed",
+  "type": "sensor",
+  "name": "Rosetta Installed",
+  "description": "Console sensor name: rosetta_installed. True on Apple silicon when Rosetta 2 is present. Always false on Intel, where it is not applicable. Intel-only line-of-business software will not launch without it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "rosetta",
+    "compatibility",
+    "applications",
+    "appleSilicon"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgphcmNoPSQodW5hbWUgLW0gMj4vZGV2L251bGwpCmlmIFsgIiRhcmNoIiAhPSAiYXJtNjQiIF07IHRoZW4KICBlY2hvICJmYWxzZSIKZWxpZiBbIC1mIC9MaWJyYXJ5L0FwcGxlL3Vzci9zaGFyZS9yb3NldHRhL3Jvc2V0dGEgXSB8fCBbIC1mIC9MaWJyYXJ5L0FwcGxlL3Vzci9saWJleGVjL29haC9saWJSb3NldHRhUnVudGltZSBdOyB0aGVuCiAgZWNobyAidHJ1ZSIKZWxzZQogIGVjaG8gImZhbHNlIgpmaQo="
+}

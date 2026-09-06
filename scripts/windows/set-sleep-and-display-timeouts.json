@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.2",
+  "id": "665fb3c0-6d61-4e7f-a066-47cccc9fb677",
+  "slug": "set-sleep-and-display-timeouts",
+  "type": "script",
+  "name": "Set Sleep And Display Timeouts",
+  "description": "Applies the display and sleep timeouts in esr_display_minutes and esr_sleep_minutes to the active power plan, on battery and on mains. Use 0 for never - which is the usual choice for sleep on a desk-bound device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "powercfg",
+    "configuration",
+    "energy"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_display_minutes",
+        "value": "15"
+      },
+      {
+        "key": "esr_sleep_minutes",
+        "value": "30"
+      }
+    ]
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC1zbGVlcC1hbmQtZGlzcGxheS10aW1lb3V0cy5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRkUmF3ID0gJyRlc3JfZGlzcGxheV9taW51dGVzJCcKICAgICRzUmF3ID0gJyRlc3Jfc2xlZXBfbWludXRlcyQnCiAgICBpZiAoJGRSYXcgLWxpa2UgJyplc3JfZGlzcGxheV9taW51dGVzKicpIHsgJGRSYXcgPSAnMTUnIH0KICAgIGlmICgkc1JhdyAtbGlrZSAnKmVzcl9zbGVlcF9taW51dGVzKicpIHsgJHNSYXcgPSAnMzAnIH0KICAgICRkID0gMAogICAgJHMgPSAwCiAgICBpZiAoLW5vdCBbaW50XTo6VHJ5UGFyc2UoJGRSYXcuVHJpbSgpLCBbcmVmXSRkKSkgeyBXcml0ZS1Mb2cgKCdCYWQgZGlzcGxheSB0aW1lb3V0OiAnICsgJGRSYXcpOyBleGl0IDEwIH0KICAgIGlmICgtbm90IFtpbnRdOjpUcnlQYXJzZSgkc1Jhdy5UcmltKCksIFtyZWZdJHMpKSB7IFdyaXRlLUxvZyAoJ0JhZCBzbGVlcCB0aW1lb3V0OiAnICsgJHNSYXcpOyBleGl0IDEwIH0KICAgIGlmICgkZCAtbHQgMCAtb3IgJHMgLWx0IDApIHsgV3JpdGUtTG9nICdUaW1lb3V0cyBjYW5ub3QgYmUgbmVnYXRpdmUnOyBleGl0IDEwIH0KICAgICYgcG93ZXJjZmcgL2NoYW5nZSBtb25pdG9yLXRpbWVvdXQtYWMgJGQgfCBPdXQtTnVsbAogICAgJiBwb3dlcmNmZyAvY2hhbmdlIG1vbml0b3ItdGltZW91dC1kYyAkZCB8IE91dC1OdWxsCiAgICAmIHBvd2VyY2ZnIC9jaGFuZ2Ugc3RhbmRieS10aW1lb3V0LWFjICRzIHwgT3V0LU51bGwKICAgICYgcG93ZXJjZmcgL2NoYW5nZSBzdGFuZGJ5LXRpbWVvdXQtZGMgJHMgfCBPdXQtTnVsbAogICAgV3JpdGUtTG9nICgnU2V0IGRpc3BsYXkgdGltZW91dCB0byAnICsgJGQgKyAnIG1pbiBhbmQgc2xlZXAgdGltZW91dCB0byAnICsgJHMgKyAnIG1pbiBvbiBBQyBhbmQgREMnKQogICAgJHEgPSAoJiBwb3dlcmNmZyAvcXVlcnkgU0NIRU1FX0NVUlJFTlQgU1VCX1NMRUVQIDI+JjEgfCBPdXQtU3RyaW5nKQogICAgaWYgKCRxIC1tYXRjaCAnUG93ZXIgU2V0dGluZycpIHsgV3JpdGUtTG9nICdQb3dlciBwbGFuIHJlYWRhYmxlIGFmdGVyIHRoZSBjaGFuZ2UnOyBleGl0IDAgfQogICAgZXhpdCAwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

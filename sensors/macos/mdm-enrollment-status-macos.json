@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4c60b2d7-d7f2-4876-94e2-b006286db316",
+  "slug": "mdm-enrollment-status-macos",
+  "type": "sensor",
+  "name": "MDM Enrollment Status",
+  "description": "Console sensor name: mdm_enrollment_status. Reports Enrolled, NotEnrolled or Unknown from the enrollment status rather than from the presence of an agent. A device with the Hub installed but no MDM enrolment cannot receive profiles or commands.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📲",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mdm",
+    "enrollment",
+    "workspaceone",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChwcm9maWxlcyBzdGF0dXMgLXR5cGUgZW5yb2xsbWVudCAyPi9kZXYvbnVsbCkKY2FzZSAiJG91dCIgaW4KICAqIk1ETSBlbnJvbGxtZW50OiBZZXMiKikgZWNobyAiRW5yb2xsZWQiIDs7CiAgKiJNRE0gZW5yb2xsbWVudDogTm8iKikgZWNobyAiTm90RW5yb2xsZWQiIDs7CiAgKikgZWNobyAiVW5rbm93biIgOzsKZXNhYwo="
+}

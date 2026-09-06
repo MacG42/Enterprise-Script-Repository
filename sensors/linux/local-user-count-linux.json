@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2215d591-2f8d-4aa1-9a11-363355bdd64b",
+  "slug": "local-user-count-linux",
+  "type": "sensor",
+  "name": "Local User Account Count",
+  "description": "Console sensor name: local_user_count. Number of accounts with a UID of 1000 or higher and a real login shell, which excludes the service accounts. Growth over time on a server usually means leavers were never removed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "👥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "identity",
+    "inventory",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0kKGF3ayAtRjogJygkMyA+PSAxMDAwICYmICQzIDwgNjU1MzQgJiYgJDcgIX4gLyhub2xvZ2lufGZhbHNlKSQvKSB7YysrfSBFTkQge3ByaW50IGMrMH0nIC9ldGMvcGFzc3dkIDI+L2Rldi9udWxsKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

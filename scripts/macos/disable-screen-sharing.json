@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "47fd78b0-1bc5-484b-b822-1b71206a88bc",
+  "slug": "disable-screen-sharing",
+  "type": "script",
+  "name": "Disable Screen Sharing",
+  "description": "Unloads and disables the built-in screen sharing service. Reported and handled separately from Apple Remote Desktop, because a device can have either or both.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "screensharing",
+    "remoteaccess",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtc2NyZWVuLXNoYXJpbmcubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiAhIGxhdW5jaGN0bCBwcmludCBzeXN0ZW0vY29tLmFwcGxlLnNjcmVlbnNoYXJpbmcgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJTY3JlZW4gc2hhcmluZyBpcyBub3QgbG9hZGVkLCBubyBhY3Rpb24iCiAgZXhpdCAwCmZpCmxvZyAiU2NyZWVuIHNoYXJpbmcgaXMgbG9hZGVkLCBkaXNhYmxpbmciCmxhdW5jaGN0bCBkaXNhYmxlIHN5c3RlbS9jb20uYXBwbGUuc2NyZWVuc2hhcmluZyA+L2Rldi9udWxsIDI+JjEKbGF1bmNoY3RsIGJvb3RvdXQgc3lzdGVtL2NvbS5hcHBsZS5zY3JlZW5zaGFyaW5nID4vZGV2L251bGwgMj4mMQpzbGVlcCAyCmlmIGxhdW5jaGN0bCBwcmludCBzeXN0ZW0vY29tLmFwcGxlLnNjcmVlbnNoYXJpbmcgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJTZXJ2aWNlIHN0aWxsIGxvYWRlZCIKICBleGl0IDMwCmZpCmxvZyAiU2NyZWVuIHNoYXJpbmcgZGlzYWJsZWQiCmV4aXQgMAo="
+}

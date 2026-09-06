@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2e425047-d3eb-4f99-a7e5-704223e70b08",
+  "slug": "zombie-process-count",
+  "type": "sensor",
+  "name": "Zombie Process Count",
+  "description": "Console sensor name: zombie_process_count. Number of processes in the zombie state. A handful is noise; a steadily rising count means a parent process is not reaping its children and will eventually exhaust the process table.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧟",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "processes",
+    "reliability",
+    "diagnostics",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0kKHBzIC1lbyBzdGF0IDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiXloiKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

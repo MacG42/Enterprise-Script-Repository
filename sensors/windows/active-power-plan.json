@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f523b1c6-ccd8-486a-a823-e0130efebddf",
+  "slug": "active-power-plan",
+  "type": "sensor",
+  "name": "Active Power Plan",
+  "description": "Console sensor name: active_power_plan. Closed set: Balanced, HighPerformance, PowerSaver, UltimatePerformance, Custom. Matched on the scheme GUID rather than the display name, so a localised device still groups correctly.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⚡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "performance",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRnID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxQb3dlclxVc2VyXFBvd2VyU2NoZW1lcycgLU5hbWUgJ0FjdGl2ZVBvd2VyU2NoZW1lJyAtRXJyb3JBY3Rpb24gU3RvcCkuQWN0aXZlUG93ZXJTY2hlbWUKICAgIHN3aXRjaCAoW3N0cmluZ10kZykgewogICAgICAgICczODFiNDIyMi1mNjk0LTQxZjAtOTY4NS1mZjViYjI2MGRmMmUnIHsgV3JpdGUtT3V0cHV0ICdCYWxhbmNlZCcgfQogICAgICAgICc4YzVlN2ZkYS1lOGJmLTRhOTYtOWE4NS1hNmUyM2E4YzYzNWMnIHsgV3JpdGUtT3V0cHV0ICdIaWdoUGVyZm9ybWFuY2UnIH0KICAgICAgICAnYTE4NDEzMDgtMzU0MS00ZmFiLWJjODEtZjcxNTU2ZjIwYjRhJyB7IFdyaXRlLU91dHB1dCAnUG93ZXJTYXZlcicgfQogICAgICAgICdlOWE0MmIwMi1kNWRmLTQ0OGQtYWEwMC0wM2YxNDc0OWViNjEnIHsgV3JpdGUtT3V0cHV0ICdVbHRpbWF0ZVBlcmZvcm1hbmNlJyB9CiAgICAgICAgZGVmYXVsdCB7IFdyaXRlLU91dHB1dCAnQ3VzdG9tJyB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

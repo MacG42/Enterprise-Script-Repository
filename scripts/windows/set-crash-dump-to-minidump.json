@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c6cc34c9-f03d-48ac-86ee-9f8f72cf3707",
+  "slug": "set-crash-dump-to-minidump",
+  "type": "script",
+  "name": "Set Crash Dump Type To Small Memory Dump",
+  "description": "Switches the crash dump type to a small memory dump and caps the minidump folder. A full or kernel dump on a 64 GB device can fill the system drive after a single bugcheck; the minidump is enough for a bugcheck code and a faulting module.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "crashdump",
+    "disk",
+    "configuration",
+    "reliability"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC1jcmFzaC1kdW1wLXRvLW1pbmlkdW1wLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGsgPSAnSEtMTTpcU1lTVEVNXEN1cnJlbnRDb250cm9sU2V0XENvbnRyb2xcQ3Jhc2hDb250cm9sJwogICAgJHYgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0NyYXNoRHVtcEVuYWJsZWQnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5DcmFzaER1bXBFbmFibGVkCiAgICBpZiAoJG51bGwgLW5lICR2IC1hbmQgW2ludF0kdiAtZXEgMykgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgc2V0IHRvIHNtYWxsIG1lbW9yeSBkdW1wLCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnQ3Jhc2hEdW1wRW5hYmxlZCB3YXMgJyArICQoaWYgKCRudWxsIC1lcSAkdikgeyAndW5zZXQnIH0gZWxzZSB7ICR2IH0pICsgJywgc2V0dGluZyB0byAzIChzbWFsbCBtZW1vcnkgZHVtcCknKQogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0NyYXNoRHVtcEVuYWJsZWQnIC1WYWx1ZSAzIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdNaW5pZHVtcHNDb3VudCcgLVZhbHVlIDEwIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdPdmVyd3JpdGUnIC1WYWx1ZSAxIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgICRhID0gW2ludF0oR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0NyYXNoRHVtcEVuYWJsZWQnKS5DcmFzaER1bXBFbmFibGVkCiAgICBpZiAoJGEgLWVxIDMpIHsgV3JpdGUtTG9nICdDcmFzaCBkdW1wIHR5cGUgc2V0IHRvIHNtYWxsIG1lbW9yeSBkdW1wJzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

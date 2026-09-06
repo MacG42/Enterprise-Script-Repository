@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "acbdbd2a-7776-4cec-bb68-404f435a781b",
+  "slug": "harden-tmp-mount-options",
+  "type": "script",
+  "name": "Harden The Temp Mount Options",
+  "description": "Delivery: packaged post-install. Adds nodev, nosuid and noexec to /tmp and /dev/shm and remounts them, so a dropped payload in a world-writable directory cannot be executed. Skips /tmp where it is not a separate mount.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "filesystem",
+    "mounts",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1oYXJkZW4tdG1wLW1vdW50LW9wdGlvbnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpjaGFuZ2VkPTAKZm9yIG0gaW4gL3RtcCAvZGV2L3NobTsgZG8KICBhd2sgLXYgdD0iJG0iICckMiA9PSB0IHtmb3VuZD0xfSBFTkQge2V4aXQgIWZvdW5kfScgL3Byb2MvbW91bnRzIDI+L2Rldi9udWxsIHx8IHsgbG9nICIkbSBpcyBub3QgYSBzZXBhcmF0ZSBtb3VudCwgc2tpcHBpbmciOyBjb250aW51ZTsgfQogIG9wdHM9JChhd2sgLXYgdD0iJG0iICckMiA9PSB0IHtwcmludCAkNDsgZXhpdH0nIC9wcm9jL21vdW50cyAyPi9kZXYvbnVsbCkKICBjYXNlICIkb3B0cyIgaW4KICAgICpub2RldiopIGNhc2UgIiRvcHRzIiBpbiAqbm9zdWlkKikgY2FzZSAiJG9wdHMiIGluICpub2V4ZWMqKSBsb2cgIiRtIGFscmVhZHkgaGFyZGVuZWQgKCRvcHRzKSI7IGNvbnRpbnVlIDs7IGVzYWMgOzsgZXNhYyA7OwogIGVzYWMKICBsb2cgIiRtIG9wdGlvbnMgd2VyZSAkb3B0cyIKICBtb3VudCAtbyByZW1vdW50LG5vZGV2LG5vc3VpZCxub2V4ZWMgIiRtIiA+L2Rldi9udWxsIDI+JjEKICBhPSQoYXdrIC12IHQ9IiRtIiAnJDIgPT0gdCB7cHJpbnQgJDQ7IGV4aXR9JyAvcHJvYy9tb3VudHMgMj4vZGV2L251bGwpCiAgY2FzZSAiJGEiIGluCiAgICAqbm9leGVjKikgbG9nICIkbSByZW1vdW50ZWQgd2l0aCAkYSI7IGNoYW5nZWQ9JCgoY2hhbmdlZCsxKSkgOzsKICAgICopIGxvZyAiJG0gY291bGQgbm90IGJlIHJlbW91bnRlZCwgb3B0aW9ucyBhcmUgJGEiIDs7CiAgZXNhYwogIGlmIGdyZXAgLXFFICJeW14jXS4qW1s6c3BhY2U6XV0kbVtbOnNwYWNlOl1dIiAvZXRjL2ZzdGFiIDI+L2Rldi9udWxsOyB0aGVuCiAgICBjcCAvZXRjL2ZzdGFiICIvZXRjL2ZzdGFiLmJhay0kKGRhdGUgLXUgKyVZJW0lZCVIJU0lUykiIDI+L2Rldi9udWxsCiAgICBhd2sgLXYgdD0iJG0iICdCRUdJTntPRlM9Ilx0In0gJDAgIX4gL14jLyAmJiAkMiA9PSB0IHsgaWYgKCQ0ICF+IC9ub2V4ZWMvKSAkNCA9ICQ0Iixub2Rldixub3N1aWQsbm9leGVjIiB9IHtwcmludH0nIC9ldGMvZnN0YWIgPiAvdG1wL2Vzci1mc3RhYi4kJCAyPi9kZXYvbnVsbAogICAgaWYgWyAtcyAvdG1wL2Vzci1mc3RhYi4kJCBdOyB0aGVuCiAgICAgIGNwIC90bXAvZXNyLWZzdGFiLiQkIC9ldGMvZnN0YWIgMj4vZGV2L251bGwKICAgICAgbG9nICJQZXJzaXN0ZWQgdGhlIG9wdGlvbnMgZm9yICRtIGluIC9ldGMvZnN0YWIiCiAgICBmaQogICAgcm0gLWYgL3RtcC9lc3ItZnN0YWIuJCQgMj4vZGV2L251bGwKICBmaQpkb25lCmlmIFsgIiRjaGFuZ2VkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm90aGluZyBuZWVkZWQgaGFyZGVuaW5nLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiSGFyZGVuZWQgJGNoYW5nZWQgbW91bnQocykiCmV4aXQgMAo="
+}

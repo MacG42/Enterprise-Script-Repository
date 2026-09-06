@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "32193dc3-1ab9-408d-8f38-070f9f877740",
+  "slug": "sync-hosts-file-with-hostname",
+  "type": "script",
+  "name": "Sync The Hosts File With The Hostname",
+  "description": "Delivery: packaged post-install. Makes sure the current hostname resolves locally by fixing the 127.0.1.1 entry. A hostname with no matching hosts entry makes sudo pause for seconds on every single command.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "hostname",
+    "dns",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zeW5jLWhvc3RzLWZpbGUtd2l0aC1ob3N0bmFtZS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmg9JChob3N0bmFtZSAyPi9kZXYvbnVsbCkKaWYgWyAteiAiJGgiIF07IHRoZW4gbG9nICJObyBob3N0bmFtZSBzZXQiOyBleGl0IDEwOyBmaQppZiBnZXRlbnQgaG9zdHMgIiRoIiA+L2Rldi9udWxsIDI+JjE7IHRoZW4gbG9nICIkaCBhbHJlYWR5IHJlc29sdmVzIGxvY2FsbHksIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKc3RhbXA9JChkYXRlIC11ICslWSVtJWQlSCVNJVMpCmNwIC9ldGMvaG9zdHMgIi9ldGMvaG9zdHMuYmFrLSRzdGFtcCIgMj4vZGV2L251bGwKaWYgZ3JlcCAtcSAiXjEyN1wuMFwuMVwuMSIgL2V0Yy9ob3N0cyAyPi9kZXYvbnVsbDsgdGhlbgogIHNlZCAtaSAtRSAicy9eMTI3XC4wXC4xXC4xLiovMTI3LjAuMS4xXHQkaC8iIC9ldGMvaG9zdHMKICBsb2cgIlJld3JvdGUgdGhlIDEyNy4wLjEuMSBlbnRyeSBmb3IgJGgiCmVsc2UKICBwcmludGYgJzEyNy4wLjEuMVx0JXNcbicgIiRoIiA+PiAvZXRjL2hvc3RzCiAgbG9nICJBZGRlZCBhIDEyNy4wLjEuMSBlbnRyeSBmb3IgJGgiCmZpCmlmIGdldGVudCBob3N0cyAiJGgiID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgIiRoIG5vdyByZXNvbHZlcyBsb2NhbGx5IjsgZXhpdCAwOyBmaQpsb2cgIlN0aWxsIG5vdCByZXNvbHZpbmcgLSByZXN0b3JpbmcgdGhlIGJhY2t1cCIKY3AgIi9ldGMvaG9zdHMuYmFrLSRzdGFtcCIgL2V0Yy9ob3N0cyAyPi9kZXYvbnVsbApleGl0IDIwCg=="
+}

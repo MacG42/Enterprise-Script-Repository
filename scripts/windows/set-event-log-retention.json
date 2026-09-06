@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7a60b452-ae84-4850-a89f-e5aedf76c265",
+  "slug": "set-event-log-retention",
+  "type": "script",
+  "name": "Set Event Log Size And Retention",
+  "description": "Raises the Application, System and Security log caps to 128 MB with overwrite-as-needed retention. The default 20 MB Security log on a busy device rolls in hours, which is why an investigation so often finds nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "eventlog",
+    "logging",
+    "forensics",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC1ldmVudC1sb2ctcmV0ZW50aW9uLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGxvZ3MgPSBAKCdBcHBsaWNhdGlvbicsICdTeXN0ZW0nLCAnU2VjdXJpdHknKQogICAgJHdhbnQgPSAxMzQyMTc3MjgKICAgICRjaGFuZ2VkID0gMAogICAgZm9yZWFjaCAoJGwgaW4gJGxvZ3MpIHsKICAgICAgICAkY2ZnID0gR2V0LVdpbkV2ZW50IC1MaXN0TG9nICRsIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgaWYgKCRudWxsIC1lcSAkY2ZnKSB7IGNvbnRpbnVlIH0KICAgICAgICBpZiAoW2xvbmddJGNmZy5NYXhpbXVtU2l6ZUluQnl0ZXMgLWdlICR3YW50IC1hbmQgJGNmZy5Mb2dNb2RlIC1lcSAnQ2lyY3VsYXInKSB7IGNvbnRpbnVlIH0KICAgICAgICBXcml0ZS1Mb2cgKCRsICsgJyB3YXMgJyArIFtpbnRdKFtsb25nXSRjZmcuTWF4aW11bVNpemVJbkJ5dGVzIC8gMU1CKSArICcgTUIgLyAnICsgJGNmZy5Mb2dNb2RlKQogICAgICAgICYgd2V2dHV0aWwuZXhlIHNsICRsIC9tczokd2FudCAvcnQ6ZmFsc2UgL2FiOmZhbHNlIHwgT3V0LU51bGwKICAgICAgICAkY2hhbmdlZCsrCiAgICB9CiAgICBpZiAoJGNoYW5nZWQgLWVxIDApIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRiYWQgPSAwCiAgICBmb3JlYWNoICgkbCBpbiAkbG9ncykgewogICAgICAgICRjID0gR2V0LVdpbkV2ZW50IC1MaXN0TG9nICRsIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgaWYgKCRudWxsIC1uZSAkYyAtYW5kIFtsb25nXSRjLk1heGltdW1TaXplSW5CeXRlcyAtbHQgJHdhbnQpIHsgJGJhZCsrIH0KICAgIH0KICAgIFdyaXRlLUxvZyAoJ1Jlc2l6ZWQgJyArICRjaGFuZ2VkICsgJyBsb2cocyksICcgKyAkYmFkICsgJyBzdGlsbCBiZWxvdyB0YXJnZXQnKQogICAgaWYgKCRiYWQgLWVxIDApIHsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

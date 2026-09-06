@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f82bdd7c-18d8-4b45-96aa-fa8e0209bba3",
+  "slug": "refresh-package-metadata",
+  "type": "script",
+  "name": "Refresh Package Metadata",
+  "description": "Delivery: systemd timer. Refreshes the package index so a pending-update sensor reads current data. Never installs anything, and waits for the lock rather than fighting it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "packages",
+    "patching",
+    "maintenance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZWZyZXNoLXBhY2thZ2UtbWV0YWRhdGEubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpidXN5PTAKZm9yIHAgaW4gYXB0IGFwdC1nZXQgZHBrZyBkbmYgeXVtIHp5cHBlcjsgZG8KICBwZ3JlcCAteCAiJHAiID4vZGV2L251bGwgMj4mMSAmJiBidXN5PTEKZG9uZQppZiBbICIkYnVzeSIgLWVxIDEgXTsgdGhlbiBsb2cgIlBhY2thZ2UgbWFuYWdlciBpcyBidXN5LCBza2lwcGluZyB0aGlzIHJ1biI7IGV4aXQgMDsgZmkKaWYgY29tbWFuZCAtdiBhcHQtZ2V0ID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGFwdC1nZXQgdXBkYXRlIC1xcSA+L2Rldi9udWxsIDI+JjEKICByYz0kPwplbGlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGRuZiBtYWtlY2FjaGUgLXEgPi9kZXYvbnVsbCAyPiYxCiAgcmM9JD8KZWxpZiBjb21tYW5kIC12IHl1bSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB5dW0gbWFrZWNhY2hlIC1xID4vZGV2L251bGwgMj4mMQogIHJjPSQ/CmVsaWYgY29tbWFuZCAtdiB6eXBwZXIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgenlwcGVyIC0tbm9uLWludGVyYWN0aXZlIHJlZnJlc2ggPi9kZXYvbnVsbCAyPiYxCiAgcmM9JD8KZWxzZQogIGxvZyAiTm8gc3VwcG9ydGVkIHBhY2thZ2UgbWFuYWdlciIKICBleGl0IDEwCmZpCmlmIFsgIiRyYyIgLWVxIDAgXTsgdGhlbiBsb2cgIlBhY2thZ2UgbWV0YWRhdGEgcmVmcmVzaGVkIjsgZXhpdCAwOyBmaQpsb2cgIk1ldGFkYXRhIHJlZnJlc2ggcmV0dXJuZWQgJHJjIC0gY2hlY2sgdGhlIHJlcG9zaXRvcnkgY29uZmlndXJhdGlvbiIKZXhpdCAyMAo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "11a0108c-d945-431e-9970-3163ad01f068",
+  "slug": "root-filesystem-total-gb",
+  "type": "sensor",
+  "name": "Root Filesystem Total GB",
+  "description": "Console sensor name: root_filesystem_total_gb. Total size of the root filesystem in gigabytes. Pairs with the free-percent sensor so a 5 percent warning on a 2 TB volume is not treated like one on a 20 GB volume.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖴",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "storage",
+    "capacity",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKGRmIC1QIC1rIC8gMj4vZGV2L251bGwgfCBhd2sgJ05SPT0yIHtwcmludCBpbnQoJDIvMTA0ODU3Nil9JykKY2FzZSAiJHYiIGluICcnfCpbITAtOV0qKSB2PS0xIDs7IGVzYWMKZWNobyAiJHYiCg=="
+}

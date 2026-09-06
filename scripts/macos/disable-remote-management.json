@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "71861b81-185d-4f96-8218-a37a4dd4ad38",
+  "slug": "disable-remote-management",
+  "type": "script",
+  "name": "Disable Apple Remote Desktop",
+  "description": "Deactivates and stops the Apple Remote Desktop agent and removes its access privileges. Use where remote control is provided by another tool and ARD is simply unmanaged surface.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💻",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ard",
+    "remotemanagement",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtcmVtb3RlLW1hbmFnZW1lbnQubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgprPSIvU3lzdGVtL0xpYnJhcnkvQ29yZVNlcnZpY2VzL1JlbW90ZU1hbmFnZW1lbnQvQVJEQWdlbnQuYXBwL0NvbnRlbnRzL1Jlc291cmNlcy9raWNrc3RhcnQiCmlmIFsgISAteCAiJGsiIF07IHRoZW4gbG9nICJraWNrc3RhcnQgbm90IHByZXNlbnQiOyBleGl0IDEwOyBmaQppZiAhIHBncmVwIC1mICJBUkRBZ2VudCIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJBUkQgYWdlbnQgaXMgbm90IHJ1bm5pbmcsIGRlYWN0aXZhdGluZyBhbnl3YXkgdG8gY2xlYXIgdGhlIGNvbmZpZ3VyYXRpb24iCmZpCiIkayIgLWRlYWN0aXZhdGUgLWNvbmZpZ3VyZSAtYWNjZXNzIC1vZmYgPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDMKaWYgcGdyZXAgLWYgIkFSREFnZW50IiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgIkFSRCBhZ2VudCBzdGlsbCBydW5uaW5nIgogIGV4aXQgMzAKZmkKbG9nICJSZW1vdGUgbWFuYWdlbWVudCBkZWFjdGl2YXRlZCIKZXhpdCAwCg=="
+}

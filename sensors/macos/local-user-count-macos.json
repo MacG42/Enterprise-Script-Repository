@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bcb31810-563d-4d8f-a7ed-d8be6dc11fdc",
+  "slug": "local-user-count-macos",
+  "type": "sensor",
+  "name": "Local User Account Count",
+  "description": "Console sensor name: local_user_count. Number of local accounts with a UID of 500 or higher, which excludes the system and service accounts. Rising over time on a shared device usually means mobile accounts are never cleaned up.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "userprofile",
+    "inventory",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQoZHNjbCAuIC1saXN0IC9Vc2VycyBVbmlxdWVJRCAyPi9kZXYvbnVsbCB8IGF3ayAnJDIgPj0gNTAwIHtjKyt9IEVORCB7cHJpbnQgYyswfScpCmNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0tMSA7OyBlc2FjCmVjaG8gIiRuIgo="
+}

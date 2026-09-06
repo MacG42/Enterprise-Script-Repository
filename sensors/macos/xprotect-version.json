@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "cf65b72f-98c7-4fd6-adbc-487f630672d9",
+  "slug": "xprotect-version",
+  "type": "sensor",
+  "name": "XProtect Definition Version",
+  "description": "Console sensor name: xprotect_version. The XProtect malware definition bundle version. Compare across the fleet: a device several versions behind is not receiving background content updates, whatever its OS patch level says.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧬",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "xprotect",
+    "malware",
+    "definitions",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpwPSIvTGlicmFyeS9BcHBsZS9TeXN0ZW0vTGlicmFyeS9Db3JlU2VydmljZXMvWFByb3RlY3QuYnVuZGxlL0NvbnRlbnRzL0luZm8ucGxpc3QiCnY9JChkZWZhdWx0cyByZWFkICIkcCIgQ0ZCdW5kbGVTaG9ydFZlcnNpb25TdHJpbmcgMj4vZGV2L251bGwpClsgLXogIiR2IiBdICYmIHY9IlVua25vd24iCmVjaG8gIiR2Igo="
+}

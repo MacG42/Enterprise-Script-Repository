@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "95bb9765-6375-44f8-99a7-e2bf54939950",
+  "slug": "time-machine-last-backup-days",
+  "type": "sensor",
+  "name": "Days Since Last Time Machine Backup",
+  "description": "Console sensor name: time_machine_last_backup_days. Days since the newest Time Machine snapshot, derived from the backup path. Returns -1 where Time Machine is not configured or the destination is not attached, which is not the same as a failed backup.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📆",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "timemachine",
+    "backup",
+    "reliability",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpwPSQodG11dGlsIGxhdGVzdGJhY2t1cCAyPi9kZXYvbnVsbCkKaWYgWyAteiAiJHAiIF07IHRoZW4KICBlY2hvICItMSIKZWxzZQogIGI9JChiYXNlbmFtZSAiJHAiIHwgY3V0IC1jMS0xMCkKICB0PSQoZGF0ZSAtaiAtZiAiJVktJW0tJWQiICIkYiIgIislcyIgMj4vZGV2L251bGwpCiAgaWYgWyAteiAiJHQiIF07IHRoZW4KICAgIGVjaG8gIi0xIgogIGVsc2UKICAgIG5vdz0kKGRhdGUgIislcyIpCiAgICBlY2hvICQoKCAobm93IC0gdCkgLyA4NjQwMCApKQogIGZpCmZpCg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2511557c-c3cf-4e5a-bcb6-ac4e28ec984e",
+  "slug": "network-configuration-manager",
+  "type": "sensor",
+  "name": "Network Configuration Manager",
+  "description": "Console sensor name: network_configuration_manager. Which stack owns the network configuration: NetworkManager, systemd-networkd, ifupdown or netplan. Every network change script has to branch on this before it edits anything.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "configuration",
+    "compatibility",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgcGdyZXAgLXggTmV0d29ya01hbmFnZXIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAiTmV0d29ya01hbmFnZXIiCmVsaWYgcGdyZXAgLXggc3lzdGVtZC1uZXR3b3JrZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICJzeXN0ZW1kLW5ldHdvcmtkIgplbGlmIFsgLWQgL2V0Yy9uZXRwbGFuIF0gJiYgbHMgL2V0Yy9uZXRwbGFuLyoueWFtbCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICJuZXRwbGFuIgplbGlmIFsgLWYgL2V0Yy9uZXR3b3JrL2ludGVyZmFjZXMgXTsgdGhlbgogIGVjaG8gImlmdXBkb3duIgplbHNlCiAgZWNobyAiVW5rbm93biIKZmkK"
+}

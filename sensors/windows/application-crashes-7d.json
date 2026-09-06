@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "698001ee-b99c-4e85-8f5b-76d564b5e07d",
+  "slug": "application-crashes-7d",
+  "type": "sensor",
+  "name": "Application Crashes (7 Days)",
+  "description": "Console sensor name: application_crashes_7d. Application Error events in the last seven days. The absolute number matters less than which devices sit in the tail - those are the ones with a broken profile or a bad add-in.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "reliability",
+    "crash",
+    "applications",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRlID0gQChHZXQtV2luRXZlbnQgLUZpbHRlckhhc2h0YWJsZSBAeyBMb2dOYW1lID0gJ0FwcGxpY2F0aW9uJzsgUHJvdmlkZXJOYW1lID0gJ0FwcGxpY2F0aW9uIEVycm9yJzsgSWQgPSAxMDAwOyBTdGFydFRpbWUgPSAoR2V0LURhdGUpLkFkZERheXMoLTcpIH0gLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJGUuQ291bnQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

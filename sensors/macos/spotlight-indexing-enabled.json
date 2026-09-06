@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b84b9aef-c19b-46e1-9ea4-483c5a265196",
+  "slug": "spotlight-indexing-enabled",
+  "type": "sensor",
+  "name": "Spotlight Indexing Enabled",
+  "description": "Console sensor name: spotlight_indexing_enabled. True when the boot volume is indexed. Indexing off breaks Spotlight search, Mail search and several management tools that rely on metadata queries, and users report it as 'search is broken'.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔎",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "spotlight",
+    "search",
+    "indexing",
+    "userexperience"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChtZHV0aWwgLXMgLyAyPi9kZXYvbnVsbCkKY2FzZSAiJG91dCIgaW4KICAqIkluZGV4aW5nIGVuYWJsZWQiKikgZWNobyAidHJ1ZSIgOzsKICAqKSBlY2hvICJmYWxzZSIgOzsKZXNhYwo="
+}

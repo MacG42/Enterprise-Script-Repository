@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ccfd953d-2aae-4219-8e4d-ee3a3197ade9",
+  "slug": "enable-apparmor-profiles",
+  "type": "script",
+  "name": "Enable AppArmor Profiles",
+  "description": "Delivery: packaged post-install. Starts AppArmor and moves any profile in complain mode to enforce. Complain mode is the state worth finding - it looks configured in an audit and enforces nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "apparmor",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtYXBwYXJtb3ItcHJvZmlsZXMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiBbICEgLWQgL3N5cy9rZXJuZWwvc2VjdXJpdHkvYXBwYXJtb3IgXTsgdGhlbiBsb2cgIkFwcEFybW9yIGlzIG5vdCBhdmFpbGFibGUgb24gdGhpcyBrZXJuZWwiOyBleGl0IDEwOyBmaQppZiAhIGNvbW1hbmQgLXYgYWEtc3RhdHVzID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgImFwcGFybW9yLXV0aWxzIGlzIG5vdCBpbnN0YWxsZWQiOyBleGl0IDEwOyBmaQpzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGFwcGFybW9yID4vZGV2L251bGwgMj4mMQpjb21wbGFpbj0kKGFhLXN0YXR1cyAyPi9kZXYvbnVsbCB8IGF3ayAnL3Byb2ZpbGVzIGFyZSBpbiBjb21wbGFpbiBtb2RlLyB7cHJpbnQgJDE7IGV4aXR9JykKY2FzZSAiJGNvbXBsYWluIiBpbiAnJ3wqWyEwLTldKikgY29tcGxhaW49MCA7OyBlc2FjCmlmIFsgIiRjb21wbGFpbiIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIHByb2ZpbGVzIGluIGNvbXBsYWluIG1vZGUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICIkY29tcGxhaW4gcHJvZmlsZShzKSBpbiBjb21wbGFpbiBtb2RlLCBtb3ZpbmcgdGhlbSB0byBlbmZvcmNlIgppZiBjb21tYW5kIC12IGFhLWVuZm9yY2UgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgYWEtZW5mb3JjZSAvZXRjL2FwcGFybW9yLmQvKiA+L2Rldi9udWxsIDI+JjEKZmkKYWZ0ZXI9JChhYS1zdGF0dXMgMj4vZGV2L251bGwgfCBhd2sgJy9wcm9maWxlcyBhcmUgaW4gY29tcGxhaW4gbW9kZS8ge3ByaW50ICQxOyBleGl0fScpCmNhc2UgIiRhZnRlciIgaW4gJyd8KlshMC05XSopIGFmdGVyPTAgOzsgZXNhYwpsb2cgIkNvbXBsYWluLW1vZGUgcHJvZmlsZXMgd2VudCBmcm9tICRjb21wbGFpbiB0byAkYWZ0ZXIiCmlmIFsgIiRhZnRlciIgLWx0ICIkY29tcGxhaW4iIF07IHRoZW4gZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6285eab7-c115-40d3-9d46-9fcd59a44ebd",
+  "slug": "enable-firewall-logging",
+  "type": "script",
+  "name": "Enable Windows Firewall Logging",
+  "description": "Turns on dropped and allowed packet logging for all three firewall profiles and raises the log cap to 16 MB, so a blocked-connection complaint can be answered from pfirewall.log instead of guesswork.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📝",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firewall",
+    "logging",
+    "network",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1maXJld2FsbC1sb2dnaW5nLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJG5hbWVzID0gQCgnRG9tYWluJywgJ1ByaXZhdGUnLCAnUHVibGljJykKICAgICRjaGFuZ2VkID0gMAogICAgZm9yZWFjaCAoJG4gaW4gJG5hbWVzKSB7CiAgICAgICAgJHAgPSBHZXQtTmV0RmlyZXdhbGxQcm9maWxlIC1OYW1lICRuIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgaWYgKCRudWxsIC1lcSAkcCkgeyBjb250aW51ZSB9CiAgICAgICAgaWYgKCRwLkxvZ0Jsb2NrZWQgLWVxICdUcnVlJyAtYW5kICRwLkxvZ0FsbG93ZWQgLWVxICdUcnVlJyAtYW5kIFtpbnRdJHAuTG9nTWF4U2l6ZUtpbG9ieXRlcyAtZ2UgMTYzODQpIHsgY29udGludWUgfQogICAgICAgICRmaWxlID0gJyVTeXN0ZW1Sb290JVxzeXN0ZW0zMlxMb2dGaWxlc1xGaXJld2FsbFxwZmlyZXdhbGxfJyArICRuICsgJy5sb2cnCiAgICAgICAgU2V0LU5ldEZpcmV3YWxsUHJvZmlsZSAtTmFtZSAkbiAtTG9nQmxvY2tlZCBUcnVlIC1Mb2dBbGxvd2VkIFRydWUgLUxvZ0lnbm9yZWQgRmFsc2UgLUxvZ01heFNpemVLaWxvYnl0ZXMgMTYzODQgLUxvZ0ZpbGVOYW1lICRmaWxlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgV3JpdGUtTG9nICgnRW5hYmxlZCBsb2dnaW5nIGZvciB0aGUgJyArICRuICsgJyBwcm9maWxlJykKICAgICAgICAkY2hhbmdlZCsrCiAgICB9CiAgICBpZiAoJGNoYW5nZWQgLWVxIDApIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRiYWQgPSBAKEdldC1OZXRGaXJld2FsbFByb2ZpbGUgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBXaGVyZS1PYmplY3QgeyAkXy5Mb2dCbG9ja2VkIC1uZSAnVHJ1ZScgfSkKICAgIGlmICgkYmFkLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAoJ0xvZ2dpbmcgZW5hYmxlZCBvbiAnICsgJGNoYW5nZWQgKyAnIHByb2ZpbGUocyknKTsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ1N0aWxsIG5vdCBsb2dnaW5nOiAnICsgKCRiYWQuTmFtZSAtam9pbiAnLCAnKSkKICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

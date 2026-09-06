@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0399229c-5732-48d0-bcce-a7f11c8a0165",
+  "slug": "remove-broken-appx-packages",
+  "type": "script",
+  "name": "Remove Broken Provisioned App Packages",
+  "description": "Finds provisioned app packages whose install folder is missing and removes the stale registration. These are the packages that make a feature update fail with an 0x80073712-family error and are invisible in Settings.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "appx",
+    "featureupdate",
+    "cleanup",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlbW92ZS1icm9rZW4tYXBweC1wYWNrYWdlcy5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRhbGwgPSBAKEdldC1BcHB4UGFja2FnZSAtQWxsVXNlcnMgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICBpZiAoJGFsbC5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ05vIEFwcFggcGFja2FnZXMgZW51bWVyYXRlZCc7IGV4aXQgMTAgfQogICAgJGJyb2tlbiA9IEAoJGFsbCB8IFdoZXJlLU9iamVjdCB7CiAgICAgICAgKC1ub3QgW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZShbc3RyaW5nXSRfLkluc3RhbGxMb2NhdGlvbikpIC1hbmQgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJF8uSW5zdGFsbExvY2F0aW9uKSkKICAgIH0pCiAgICBpZiAoJGJyb2tlbi5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ05vIGJyb2tlbiBwYWNrYWdlIHJlZ2lzdHJhdGlvbnMgZm91bmQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICAkcmVtb3ZlZCA9IDAKICAgIGZvcmVhY2ggKCRiIGluICRicm9rZW4pIHsKICAgICAgICBXcml0ZS1Mb2cgKCdSZW1vdmluZyBzdGFsZSByZWdpc3RyYXRpb24gJyArICRiLlBhY2thZ2VGdWxsTmFtZSkKICAgICAgICBSZW1vdmUtQXBweFBhY2thZ2UgLVBhY2thZ2UgJGIuUGFja2FnZUZ1bGxOYW1lIC1BbGxVc2VycyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgICAgICRyZW1vdmVkKysKICAgIH0KICAgICRsZWZ0ID0gQChHZXQtQXBweFBhY2thZ2UgLUFsbFVzZXJzIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgV2hlcmUtT2JqZWN0IHsKICAgICAgICAoLW5vdCBbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKFtzdHJpbmddJF8uSW5zdGFsbExvY2F0aW9uKSkgLWFuZCAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkXy5JbnN0YWxsTG9jYXRpb24pKQogICAgfSkKICAgIFdyaXRlLUxvZyAoJ1JlbW92ZWQgJyArICRyZW1vdmVkICsgJywgJyArICRsZWZ0LkNvdW50ICsgJyBzdGlsbCBicm9rZW4nKQogICAgaWYgKCRsZWZ0LkNvdW50IC1lcSAwKSB7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

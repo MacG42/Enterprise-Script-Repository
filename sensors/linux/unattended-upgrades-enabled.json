@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9d5ccc21-d29b-41b7-8358-2f41dda14fec",
+  "slug": "unattended-upgrades-enabled",
+  "type": "sensor",
+  "name": "Unattended Upgrades Enabled",
+  "description": "Console sensor name: unattended_upgrades_enabled. True when the distribution's automatic update mechanism is enabled - unattended-upgrades, dnf-automatic or the zypper timer. The single most useful patching sensor on a fleet nobody logs into.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🤖",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "patching",
+    "automation",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgppZiBbIC1mIC9ldGMvYXB0L2FwdC5jb25mLmQvMjBhdXRvLXVwZ3JhZGVzIF07IHRoZW4KICBncmVwIC1xICdVbmF0dGVuZGVkLVVwZ3JhZGUgIjEiJyAvZXRjL2FwdC9hcHQuY29uZi5kLzIwYXV0by11cGdyYWRlcyAyPi9kZXYvbnVsbCAmJiBmb3VuZD0idHJ1ZSIKZmkKaWYgWyAiJGZvdW5kIiA9ICJmYWxzZSIgXSAmJiBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmb3IgdSBpbiBkbmYtYXV0b21hdGljLWluc3RhbGwudGltZXIgZG5mLWF1dG9tYXRpYy50aW1lciB1bmF0dGVuZGVkLXVwZ3JhZGVzLnNlcnZpY2UgeXVtLWNyb24uc2VydmljZTsgZG8KICAgIHN5c3RlbWN0bCBpcy1lbmFibGVkICIkdSIgPi9kZXYvbnVsbCAyPiYxICYmIGZvdW5kPSJ0cnVlIgogIGRvbmUKZmkKZWNobyAiJGZvdW5kIgo="
+}

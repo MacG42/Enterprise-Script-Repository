@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d052b96a-4587-4319-a6f9-981b2f11b3f0",
+  "slug": "gatekeeper-enabled",
+  "type": "sensor",
+  "name": "Gatekeeper Enabled",
+  "description": "Console sensor name: gatekeeper_enabled. True when assessment of downloaded applications is enabled. Gatekeeper off means unsigned software runs without a prompt, and it is a common leftover from a developer or a troubleshooting session.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "gatekeeper",
+    "security",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3BjdGwgLS1zdGF0dXMgMj4vZGV2L251bGwpCmNhc2UgIiR2IiBpbgogICoiYXNzZXNzbWVudHMgZW5hYmxlZCIqKSBlY2hvICJ0cnVlIiA7OwogICopIGVjaG8gImZhbHNlIiA7Owplc2FjCg=="
+}

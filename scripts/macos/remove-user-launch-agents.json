@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "04c17702-e88d-4d41-b9b2-035568e6af9e",
+  "slug": "remove-user-launch-agents",
+  "type": "script",
+  "name": "Quarantine User Launch Agents",
+  "description": "Moves launch agents in the signed-in user's Library that are not in esr_launch_allowlist into a holding folder in their home. User-scope persistence that no machine-scope audit will find.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "launchagents",
+    "persistence",
+    "security",
+    "userprofile"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_launch_allowlist",
+        "value": "com.airwatch,com.vmware,com.omnissa,com.microsoft,com.google"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbW92ZS11c2VyLWxhdW5jaC1hZ2VudHMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgphbGxvdz0nJGVzcl9sYXVuY2hfYWxsb3dsaXN0JCcKY2FzZSAiJGFsbG93IiBpbgogICplc3JfbGF1bmNoX2FsbG93bGlzdCopIGxvZyAiTm8gYWxsb3dsaXN0IHN1cHBsaWVkLCByZWZ1c2luZyB0byBtb3ZlIGFueXRoaW5nIjsgZXhpdCAxMCA7Owplc2FjCmQ9IiRIT01FL0xpYnJhcnkvTGF1bmNoQWdlbnRzIgppZiBbICEgLWQgIiRkIiBdOyB0aGVuIGxvZyAiTm8gdXNlciBsYXVuY2ggYWdlbnRzIGZvbGRlciwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpzdGFtcD0kKGRhdGUgLXUgKyVZJW0lZCVIJU0lUykKaG9sZD0iJEhPTUUvLnF1YXJhbnRpbmVkLWxhdW5jaGFnZW50cy0kc3RhbXAiCm1vdmVkPTAKZm9yIGYgaW4gIiRkIi8qLnBsaXN0OyBkbwogIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgYj0kKGJhc2VuYW1lICIkZiIpCiAgY2FzZSAiJGIiIGluIGNvbS5hcHBsZS4qKSBjb250aW51ZSA7OyBlc2FjCiAga2VlcD0wCiAgb2xkPSRJRlMKICBJRlM9LAogIGZvciBhIGluICRhbGxvdzsgZG8KICAgIGE9JChwcmludGYgJyVzJyAiJGEiIHwgc2VkICdzL14gKi8vO3MvICokLy8nKQogICAgWyAtbiAiJGEiIF0gfHwgY29udGludWUKICAgIGNhc2UgIiRiIiBpbiAqIiRhIiopIGtlZXA9MSA7OyBlc2FjCiAgZG9uZQogIElGUz0kb2xkCiAgWyAiJGtlZXAiIC1lcSAxIF0gJiYgY29udGludWUKICBta2RpciAtcCAiJGhvbGQiIDI+L2Rldi9udWxsCiAgbGF1bmNoY3RsIGJvb3RvdXQgImd1aS8kKGlkIC11KS8ke2IlLnBsaXN0fSIgPi9kZXYvbnVsbCAyPiYxCiAgbXYgIiRmIiAiJGhvbGQvIiAyPi9kZXYvbnVsbAogIGxvZyAiUXVhcmFudGluZWQgJGYiCiAgbW92ZWQ9JCgobW92ZWQrMSkpCmRvbmUKaWYgWyAiJG1vdmVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm90aGluZyBvdXRzaWRlIHRoZSBhbGxvd2xpc3QsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJRdWFyYW50aW5lZCAkbW92ZWQgdXNlciBsYXVuY2ggYWdlbnQocykgaW50byAkaG9sZCIKZXhpdCAwCg=="
+}

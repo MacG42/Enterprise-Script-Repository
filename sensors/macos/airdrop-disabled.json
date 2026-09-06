@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ebb0c08c-99ba-4d59-b6b1-f9c8e8561a1a",
+  "slug": "airdrop-disabled",
+  "type": "sensor",
+  "name": "AirDrop Disabled",
+  "description": "Console sensor name: airdrop_disabled. True when AirDrop is blocked at machine scope. A common data-movement control, and one that a user cannot see is missing until they successfully send a file off the device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "airdrop",
+    "dlp",
+    "policy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuTmV0d29ya0Jyb3dzZXIgRGlzYWJsZUFpckRyb3AgMj4vZGV2L251bGwpCmlmIFsgIiR2IiA9ICIxIiBdOyB0aGVuIGVjaG8gInRydWUiOyBlbHNlIGVjaG8gImZhbHNlIjsgZmkK"
+}

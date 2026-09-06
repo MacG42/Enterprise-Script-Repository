@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e370275a-1f3e-477d-8fe2-aca3c0f2bf02",
+  "slug": "hub-agent-installed-linux",
+  "type": "sensor",
+  "name": "Hub Agent Installed",
+  "description": "Console sensor name: hub_agent_installed. True when the Workspace ONE Intelligent Hub for Linux is installed. The first thing to establish before anything else about management state means much.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm91bmQ9ImZhbHNlIgpmb3IgcCBpbiAvb3B0L3Ztd2FyZS9odWIgL29wdC9vbW5pc3NhL2h1YiAvdXNyL2xvY2FsL2Jpbi9odWJjbGkgL29wdC92bXdhcmUvYXdjbTsgZG8KICBbIC1lICIkcCIgXSAmJiBmb3VuZD0idHJ1ZSIKZG9uZQppZiBbICIkZm91bmQiID0gImZhbHNlIiBdICYmIGNvbW1hbmQgLXYgZHBrZy1xdWVyeSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBkcGtnLXF1ZXJ5IC1XIHdzMS1odWIgMj4vZGV2L251bGwgfCBncmVwIC1xIC4gJiYgZm91bmQ9InRydWUiCmZpCmlmIFsgIiRmb3VuZCIgPSAiZmFsc2UiIF0gJiYgY29tbWFuZCAtdiBycG0gPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgcnBtIC1xIHdzMS1odWIgPi9kZXYvbnVsbCAyPiYxICYmIGZvdW5kPSJ0cnVlIgpmaQplY2hvICIkZm91bmQiCg=="
+}

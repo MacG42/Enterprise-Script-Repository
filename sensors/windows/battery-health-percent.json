@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4d9d415c-767c-45de-b9a9-725ff32ff48a",
+  "slug": "battery-health-percent",
+  "type": "sensor",
+  "name": "Battery Health Percent",
+  "description": "Console sensor name: battery_health_percent. Full-charge capacity as a percentage of the battery's design capacity. Returns -1 on desktops and on hardware that does not expose the WMI battery classes, so filter on Battery Present first.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🪫",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "hardware",
+    "health",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkID0gR2V0LUNpbUluc3RhbmNlIC1OYW1lc3BhY2UgJ3Jvb3RcV01JJyAtQ2xhc3NOYW1lIEJhdHRlcnlTdGF0aWNEYXRhIC1FcnJvckFjdGlvbiBTdG9wIHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgJGYgPSBHZXQtQ2ltSW5zdGFuY2UgLU5hbWVzcGFjZSAncm9vdFxXTUknIC1DbGFzc05hbWUgQmF0dGVyeUZ1bGxDaGFyZ2VkQ2FwYWNpdHkgLUVycm9yQWN0aW9uIFN0b3AgfCBTZWxlY3QtT2JqZWN0IC1GaXJzdCAxCiAgICBpZiAoJG51bGwgLWVxICRkIC1vciAkbnVsbCAtZXEgJGYgLW9yIFtkb3VibGVdJGQuRGVzaWduZWRDYXBhY2l0eSAtbGUgMCkgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgZWxzZSB7IFdyaXRlLU91dHB1dCAoW2ludF1bbWF0aF06OlJvdW5kKChbZG91YmxlXSRmLkZ1bGxDaGFyZ2VkQ2FwYWNpdHkgLyBbZG91YmxlXSRkLkRlc2lnbmVkQ2FwYWNpdHkpICogMTAwKSkgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

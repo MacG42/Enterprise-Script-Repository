@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b002a653-3016-4b34-baa0-a71b6d33828d",
+  "slug": "edge-browser-version",
+  "type": "sensor",
+  "name": "Edge Browser Version",
+  "description": "Console sensor name: edge_browser_version. File version of the installed Microsoft Edge binary, or NotInstalled. Edge updates itself, so the spread here is a direct measure of which devices its updater cannot reach.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "browser",
+    "edge",
+    "version",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwYXRocyA9IEAoCiAgICAgICAgKEpvaW4tUGF0aCAke2VudjpQcm9ncmFtRmlsZXMoeDg2KX0gJ01pY3Jvc29mdFxFZGdlXEFwcGxpY2F0aW9uXG1zZWRnZS5leGUnKSwKICAgICAgICAoSm9pbi1QYXRoICRlbnY6UHJvZ3JhbUZpbGVzICdNaWNyb3NvZnRcRWRnZVxBcHBsaWNhdGlvblxtc2VkZ2UuZXhlJykKICAgICkKICAgICRleGUgPSBAKCRwYXRocyB8IFdoZXJlLU9iamVjdCB7ICRfIC1hbmQgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJF8pIH0pIHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgaWYgKCRudWxsIC1lcSAkZXhlKSB7IFdyaXRlLU91dHB1dCAnTm90SW5zdGFsbGVkJyB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0IChbc3RyaW5nXShHZXQtSXRlbSAtTGl0ZXJhbFBhdGggJGV4ZSkuVmVyc2lvbkluZm8uUHJvZHVjdFZlcnNpb24pLlRyaW0oKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

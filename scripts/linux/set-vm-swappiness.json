@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c83ebcd5-a81e-4bf6-a916-35616781af51",
+  "slug": "set-vm-swappiness",
+  "type": "script",
+  "name": "Set Virtual Memory Swappiness",
+  "description": "Delivery: packaged post-install. Sets vm.swappiness to 10 so the kernel prefers reclaiming cache over swapping application memory. Skips hosts with no swap, where the setting means nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "sysctl",
+    "memory",
+    "performance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zZXQtdm0tc3dhcHBpbmVzcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnQ9JChhd2sgJy9eU3dhcFRvdGFsOi8ge3ByaW50ICQyfScgL3Byb2MvbWVtaW5mbyAyPi9kZXYvbnVsbCkKY2FzZSAiJHQiIGluICcnfCpbITAtOV0qKSB0PTAgOzsgZXNhYwppZiBbICIkdCIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIHN3YXAgY29uZmlndXJlZCwgc3dhcHBpbmVzcyBpcyBpcnJlbGV2YW50IGhlcmUiOyBleGl0IDA7IGZpCmN1cj0kKHN5c2N0bCAtbiB2bS5zd2FwcGluZXNzIDI+L2Rldi9udWxsKQppZiBbICIkY3VyIiA9ICIxMCIgXTsgdGhlbiBsb2cgIkFscmVhZHkgc2V0IHRvIDEwLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAidm0uc3dhcHBpbmVzcyB3YXMgJGN1ciwgc2V0dGluZyB0byAxMCIKbWtkaXIgLXAgL2V0Yy9zeXNjdGwuZCAyPi9kZXYvbnVsbApwcmludGYgJyVzXG4nICJ2bS5zd2FwcGluZXNzID0gMTAiID4gL2V0Yy9zeXNjdGwuZC82MC1lc3Itc3dhcHBpbmVzcy5jb25mCnN5c2N0bCAtdyB2bS5zd2FwcGluZXNzPTEwID4vZGV2L251bGwgMj4mMQphPSQoc3lzY3RsIC1uIHZtLnN3YXBwaW5lc3MgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICIxMCIgXTsgdGhlbiBsb2cgIlN3YXBwaW5lc3Mgc2V0IHRvIDEwIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

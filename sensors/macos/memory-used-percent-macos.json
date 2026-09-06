@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6cdee6f8-8f9b-49f4-9c7f-4a61ee7b5824",
+  "slug": "memory-used-percent-macos",
+  "type": "sensor",
+  "name": "Memory Used Percent",
+  "description": "Console sensor name: memory_used_percent. Percentage of physical memory that is not free, taken from the system memory pressure tool. A device sitting above 90 with heavy swap is a device that needs more memory, not a cleanup script.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "performance",
+    "capacity",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpmcmVlPSQobWVtb3J5X3ByZXNzdXJlIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJy9mcmVlIHBlcmNlbnRhZ2UvIHtnc3ViKCIlIiwiIiwkMik7IHByaW50ICQyOyBleGl0fScpCmNhc2UgIiRmcmVlIiBpbiAnJ3wqWyEwLTldKikgZWNobyAiLTEiIDs7ICopIGVjaG8gJCgoIDEwMCAtIGZyZWUgKSkgOzsgZXNhYwo="
+}

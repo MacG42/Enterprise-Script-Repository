@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "aa9ec99d-0501-4fa3-b82b-40b4f5888f31",
+  "slug": "mobile-accounts-present",
+  "type": "sensor",
+  "name": "Mobile Accounts Present",
+  "description": "Console sensor name: mobile_accounts_present. True when any local account is a cached directory account. Mobile accounts outlive the directory they came from, which is how a device ends up with a login nobody can disable centrally.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "directory",
+    "identity",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQoZHNjbCAuIC1yZWFkYWxsIC9Vc2VycyBPcmlnaW5hbE5vZGVOYW1lIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAiT3JpZ2luYWxOb2RlTmFtZToiKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49MCA7OyBlc2FjCmlmIFsgIiRuIiAtZ3QgMCBdOyB0aGVuIGVjaG8gInRydWUiOyBlbHNlIGVjaG8gImZhbHNlIjsgZmkK"
+}

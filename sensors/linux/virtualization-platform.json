@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3a4394c7-6a2a-43c8-9b82-8e10d7201f4a",
+  "slug": "virtualization-platform",
+  "type": "sensor",
+  "name": "Virtualization Platform",
+  "description": "Console sensor name: virtualization_platform. Reports the hypervisor or container runtime the device is running under, or 'none' on bare metal. Determines which hardware sensors mean anything on this device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "virtualization",
+    "hypervisor",
+    "inventory",
+    "platform"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgppZiBjb21tYW5kIC12IHN5c3RlbWQtZGV0ZWN0LXZpcnQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdj0kKHN5c3RlbWQtZGV0ZWN0LXZpcnQgMj4vZGV2L251bGwpCmZpCmlmIFsgLXogIiR2IiBdICYmIFsgLXIgL3N5cy9jbGFzcy9kbWkvaWQvcHJvZHVjdF9uYW1lIF07IHRoZW4KICBjYXNlICIkKGNhdCAvc3lzL2NsYXNzL2RtaS9pZC9wcm9kdWN0X25hbWUgMj4vZGV2L251bGwpIiBpbgogICAgKlZNd2FyZSopIHY9InZtd2FyZSIgOzsKICAgICpWaXJ0dWFsQm94Kikgdj0ib3JhY2xlIiA7OwogICAgKktWTSp8KlFFTVUqKSB2PSJrdm0iIDs7CiAgICAqVmlydHVhbCpNYWNoaW5lKikgdj0ibWljcm9zb2Z0IiA7OwogIGVzYWMKZmkKWyAteiAiJHYiIF0gJiYgdj0ibm9uZSIKZWNobyAiJHYiCg=="
+}

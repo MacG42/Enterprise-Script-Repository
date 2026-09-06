@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6f2450e2-e7ae-413b-8fc0-a0e163089878",
+  "slug": "network-time-server",
+  "type": "sensor",
+  "name": "Network Time Server",
+  "description": "Console sensor name: network_time_server. The configured time server. Devices still pointed at a decommissioned internal server look healthy until the clock drifts far enough to break authentication.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🕑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "ntp",
+    "configuration",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3lzdGVtc2V0dXAgLWdldG5ldHdvcmt0aW1lc2VydmVyIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJ3twcmludCAkMjsgZXhpdH0nKQpbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgplY2hvICIkdiIK"
+}

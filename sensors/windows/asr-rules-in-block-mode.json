@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d939efa0-0308-4c43-9e78-6829b58ad41e",
+  "slug": "asr-rules-in-block-mode",
+  "type": "sensor",
+  "name": "ASR Rules In Block Mode",
+  "description": "Console sensor name: asr_rules_in_block_mode. How many Attack Surface Reduction rules are set to Block (action 1). Audit-mode and unconfigured rules are not counted, so this is the honest measure of ASR coverage.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "asr",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gR2V0LU1wUHJlZmVyZW5jZQogICAgJGEgPSBAKCRwLkF0dGFja1N1cmZhY2VSZWR1Y3Rpb25SdWxlc19BY3Rpb25zKQogICAgV3JpdGUtT3V0cHV0IChbaW50XShAKCRhIHwgV2hlcmUtT2JqZWN0IHsgW2ludF0kXyAtZXEgMSB9KS5Db3VudCkpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

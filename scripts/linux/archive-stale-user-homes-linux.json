@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0b2adaee-434e-42fc-8e23-e49ec639f947",
+  "slug": "archive-stale-user-homes-linux",
+  "type": "script",
+  "name": "Archive Stale User Home Folders",
+  "description": "Delivery: ad hoc. Moves home directories whose owner has not logged in for 180 days into a holding folder on the same volume. Never deletes, skips logged-in users and skips anyone in sudo or wheel.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗃️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "userprofile",
+    "disk",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1hcmNoaXZlLXN0YWxlLXVzZXItaG9tZXMtbGludXgubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpkYXlzPTE4MApob2xkPSIvaG9tZS8uYXJjaGl2ZWQtaG9tZXMiCmFkbWlucz0iJChnZXRlbnQgZ3JvdXAgc3VkbyAyPi9kZXYvbnVsbCB8IGN1dCAtZDogLWY0KSwkKGdldGVudCBncm91cCB3aGVlbCAyPi9kZXYvbnVsbCB8IGN1dCAtZDogLWY0KSIKYWN0aXZlPSQod2hvIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JyB8IHNvcnQgLXUgfCB0ciAnXG4nICcsJykKbW92ZWQ9MApmb3IgaCBpbiAvaG9tZS8qOyBkbwogIFsgLWQgIiRoIiBdIHx8IGNvbnRpbnVlCiAgdT0kKGJhc2VuYW1lICIkaCIpCiAgY2FzZSAiJHUiIGluIC4qKSBjb250aW51ZSA7OyBlc2FjCiAgaWQgLXUgIiR1IiA+L2Rldi9udWxsIDI+JjEgfHwgY29udGludWUKICBjYXNlICIsJGFkbWlucywiIGluICoiLCR1LCIqKSBjb250aW51ZSA7OyBlc2FjCiAgY2FzZSAiLCRhY3RpdmUsIiBpbiAqIiwkdSwiKikgY29udGludWUgOzsgZXNhYwogIHJlY2VudD0kKGZpbmQgIiRoIiAtbWF4ZGVwdGggMSAtbXRpbWUgIi0kZGF5cyIgMj4vZGV2L251bGwgfCBoZWFkIC0xKQogIFsgLW4gIiRyZWNlbnQiIF0gJiYgY29udGludWUKICBta2RpciAtcCAiJGhvbGQiIDI+L2Rldi9udWxsCiAgbXYgIiRoIiAiJGhvbGQvIiAyPi9kZXYvbnVsbAogIGlmIFsgISAtZCAiJGgiIF07IHRoZW4KICAgIGxvZyAiQXJjaGl2ZWQgdGhlIGhvbWUgZGlyZWN0b3J5IGZvciAkdSB0byAkaG9sZCIKICAgIG1vdmVkPSQoKG1vdmVkKzEpKQogIGZpCmRvbmUKaWYgWyAiJG1vdmVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gaG9tZSBkaXJlY3RvcnkgaWRsZSBmb3IgJGRheXMgZGF5cywgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkFyY2hpdmVkICRtb3ZlZCBob21lIGRpcmVjdG9yeShpZXMpIC0gZGVsZXRlICRob2xkIG9uY2UgdGhlIHJldGVudGlvbiB3aW5kb3cgaGFzIHBhc3NlZCIKZXhpdCAwCg=="
+}

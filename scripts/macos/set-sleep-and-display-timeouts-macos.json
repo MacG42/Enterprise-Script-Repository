@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.2",
+  "id": "44c234d1-441f-4f3c-8a07-e6fa0d743117",
+  "slug": "set-sleep-and-display-timeouts-macos",
+  "type": "script",
+  "name": "Set Sleep And Display Timeouts",
+  "description": "Applies the display and system sleep timeouts in esr_display_minutes and esr_sleep_minutes to every power source. Use 0 for never, which is the usual choice for sleep on a desk-bound device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "pmset",
+    "sleep",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_display_minutes",
+        "value": "15"
+      },
+      {
+        "key": "esr_sleep_minutes",
+        "value": "30"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1zbGVlcC1hbmQtZGlzcGxheS10aW1lb3V0cy1tYWNvcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmQ9JyRlc3JfZGlzcGxheV9taW51dGVzJCcKcz0nJGVzcl9zbGVlcF9taW51dGVzJCcKY2FzZSAiJGQiIGluICplc3JfZGlzcGxheV9taW51dGVzKnwnJykgZD0xNSA7OyBlc2FjCmNhc2UgIiRzIiBpbiAqZXNyX3NsZWVwX21pbnV0ZXMqfCcnKSBzPTMwIDs7IGVzYWMKY2FzZSAiJGQiIGluICcnfCpbITAtOV0qKSBsb2cgIkJhZCBkaXNwbGF5IHRpbWVvdXQ6ICRkIjsgZXhpdCAxMCA7OyBlc2FjCmNhc2UgIiRzIiBpbiAnJ3wqWyEwLTldKikgbG9nICJCYWQgc2xlZXAgdGltZW91dDogJHMiOyBleGl0IDEwIDs7IGVzYWMKbG9nICJTZXR0aW5nIGRpc3BsYXlzbGVlcCB0byAkZCBhbmQgc2xlZXAgdG8gJHMgb24gYWxsIHBvd2VyIHNvdXJjZXMiCnBtc2V0IC1hIGRpc3BsYXlzbGVlcCAiJGQiID4vZGV2L251bGwgMj4mMQpwbXNldCAtYSBzbGVlcCAiJHMiID4vZGV2L251bGwgMj4mMQphPSQocG1zZXQgLWcgY3VzdG9tIDI+L2Rldi9udWxsIHwgYXdrICcvZGlzcGxheXNsZWVwLyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAiJGEiID0gIiRkIiBdOyB0aGVuIGxvZyAiVGltZW91dHMgYXBwbGllZCI7IGV4aXQgMDsgZmkKbG9nICJkaXNwbGF5c2xlZXAgcmVhZHMgYmFjayBhcyAkYSIKZXhpdCAzMAo="
+}

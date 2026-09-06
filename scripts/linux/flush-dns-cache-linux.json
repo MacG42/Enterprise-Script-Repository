@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c0be55bc-1ed9-497d-9143-81546c4d4737",
+  "slug": "flush-dns-cache-linux",
+  "type": "script",
+  "name": "Flush The DNS Cache",
+  "description": "Delivery: ad hoc. Clears the resolver cache in systemd-resolved, nscd or dnsmasq, whichever is in use. First move for a host resolving a stale address after a DNS change.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "dns",
+    "network",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1mbHVzaC1kbnMtY2FjaGUtbGludXgubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgpkb25lX2FueT0wCmlmIGNvbW1hbmQgLXYgcmVzb2x2ZWN0bCA+L2Rldi9udWxsIDI+JjEgJiYgcGdyZXAgLXggc3lzdGVtZC1yZXNvbHZlZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICByZXNvbHZlY3RsIGZsdXNoLWNhY2hlcyA+L2Rldi9udWxsIDI+JjEKICBsb2cgIkZsdXNoZWQgdGhlIHN5c3RlbWQtcmVzb2x2ZWQgY2FjaGUiCiAgZG9uZV9hbnk9MQpmaQppZiBwZ3JlcCAteCBuc2NkID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG5zY2QgLWkgaG9zdHMgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJJbnZhbGlkYXRlZCB0aGUgbnNjZCBob3N0cyBjYWNoZSIKICBkb25lX2FueT0xCmZpCmlmIHBncmVwIC14IGRuc21hc3EgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgcGtpbGwgLUhVUCBkbnNtYXNxID4vZGV2L251bGwgMj4mMQogIGxvZyAiU2lnbmFsbGVkIGRuc21hc3EgdG8gY2xlYXIgaXRzIGNhY2hlIgogIGRvbmVfYW55PTEKZmkKaWYgWyAiJGRvbmVfYW55IiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gY2FjaGluZyByZXNvbHZlciBpcyBydW5uaW5nIC0gbm90aGluZyB0byBmbHVzaCI7IGV4aXQgMDsgZmkKZXhpdCAwCg=="
+}

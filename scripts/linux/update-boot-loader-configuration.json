@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "734c3d04-2f76-45c5-8a5f-371db91d66ff",
+  "slug": "update-boot-loader-configuration",
+  "type": "script",
+  "name": "Update The Boot Loader Configuration",
+  "description": "Delivery: ad hoc. Regenerates the GRUB configuration so newly installed kernels appear in the boot menu. Backs up the existing configuration first, because an empty menu is an unbootable host.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧭",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "grub",
+    "boot",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC11cGRhdGUtYm9vdC1sb2FkZXItY29uZmlndXJhdGlvbi5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmNmZz0iIgpmb3IgYyBpbiAvYm9vdC9ncnViL2dydWIuY2ZnIC9ib290L2dydWIyL2dydWIuY2ZnIC9ib290L2VmaS9FRkkvKi9ncnViLmNmZzsgZG8KICBbIC1mICIkYyIgXSAmJiBjZmc9IiRjIiAmJiBicmVhawpkb25lCmlmIFsgLXogIiRjZmciIF07IHRoZW4gbG9nICJObyBHUlVCIGNvbmZpZ3VyYXRpb24gZm91bmQgLSB0aGlzIGhvc3QgbWF5IG5vdCB1c2UgR1JVQiI7IGV4aXQgMTA7IGZpCnN0YW1wPSQoZGF0ZSAtdSArJVklbSVkJUglTSVTKQpjcCAiJGNmZyIgIiRjZmcuYmFrLSRzdGFtcCIgMj4vZGV2L251bGwKbG9nICJCYWNrZWQgdXAgJGNmZyB0byAkY2ZnLmJhay0kc3RhbXAiCmlmIGNvbW1hbmQgLXYgdXBkYXRlLWdydWIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdXBkYXRlLWdydWIgPi9kZXYvbnVsbCAyPiYxCiAgcmM9JD8KZWxpZiBjb21tYW5kIC12IGdydWIyLW1rY29uZmlnID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGdydWIyLW1rY29uZmlnIC1vICIkY2ZnIiA+L2Rldi9udWxsIDI+JjEKICByYz0kPwplbGlmIGNvbW1hbmQgLXYgZ3J1Yi1ta2NvbmZpZyA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBncnViLW1rY29uZmlnIC1vICIkY2ZnIiA+L2Rldi9udWxsIDI+JjEKICByYz0kPwplbHNlCiAgbG9nICJObyBHUlVCIGNvbmZpZ3VyYXRpb24gdG9vbCBhdmFpbGFibGUiCiAgZXhpdCAxMApmaQpuPSQoZ3JlcCAtYyAiXm1lbnVlbnRyeVx8XlxzKm1lbnVlbnRyeSIgIiRjZmciIDI+L2Rldi9udWxsKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49MCA7OyBlc2FjCmlmIFsgIiRyYyIgLWVxIDAgXSAmJiBbICIkbiIgLWd0IDAgXTsgdGhlbgogIGxvZyAiQm9vdCBjb25maWd1cmF0aW9uIHJlZ2VuZXJhdGVkIHdpdGggJG4gbWVudSBlbnRyeShpZXMpIgogIGV4aXQgMApmaQpsb2cgIlJlZ2VuZXJhdGlvbiByZXR1cm5lZCAkcmMgd2l0aCAkbiBlbnRyaWVzIC0gcmVzdG9yaW5nIHRoZSBiYWNrdXAiCmNwICIkY2ZnLmJhay0kc3RhbXAiICIkY2ZnIiAyPi9kZXYvbnVsbApleGl0IDIwCg=="
+}

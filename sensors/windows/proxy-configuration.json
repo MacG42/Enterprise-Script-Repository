@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "33525907-247f-42b9-a8bc-a323eee6aabc",
+  "slug": "proxy-configuration",
+  "type": "sensor",
+  "name": "Proxy Configuration",
+  "description": "Console sensor name: proxy_configuration. Closed set: None, Manual, AutoConfig, Both. Read from the machine-wide Internet Settings and policy keys, so it reflects what a SYSTEM-context process such as the Hub will actually use.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔗",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "proxy",
+    "connectivity",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRtYW51YWwgPSAkZmFsc2UKICAgICRhdXRvID0gJGZhbHNlCiAgICBmb3JlYWNoICgkayBpbiBAKCdIS0xNOlxTT0ZUV0FSRVxQb2xpY2llc1xNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxJbnRlcm5ldCBTZXR0aW5ncycsCiAgICAgICAgICAgICAgICAgICAgICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxJbnRlcm5ldCBTZXR0aW5ncycpKSB7CiAgICAgICAgJHAgPSBHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgICAgIGlmICgkbnVsbCAtbmUgJHAuUHJveHlFbmFibGUgLWFuZCBbaW50XSRwLlByb3h5RW5hYmxlIC1lcSAxKSB7ICRtYW51YWwgPSAkdHJ1ZSB9CiAgICAgICAgaWYgKC1ub3QgW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZShbc3RyaW5nXSRwLkF1dG9Db25maWdVUkwpKSB7ICRhdXRvID0gJHRydWUgfQogICAgfQogICAgaWYgKCRtYW51YWwgLWFuZCAkYXV0bykgeyBXcml0ZS1PdXRwdXQgJ0JvdGgnIH0KICAgIGVsc2VpZiAoJG1hbnVhbCkgeyBXcml0ZS1PdXRwdXQgJ01hbnVhbCcgfQogICAgZWxzZWlmICgkYXV0bykgeyBXcml0ZS1PdXRwdXQgJ0F1dG9Db25maWcnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgJ05vbmUnIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

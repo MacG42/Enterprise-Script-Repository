@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1403ebe9-5518-405f-9c82-5fb8b4784cfe",
+  "slug": "enable-address-space-randomisation",
+  "type": "script",
+  "name": "Enable Address Space Randomisation",
+  "description": "Delivery: packaged post-install. Sets kernel.randomize_va_space to full randomisation and persists it. Turned down on some legacy application hosts years ago and never turned back up.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🎲",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "aslr",
+    "kernel",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtYWRkcmVzcy1zcGFjZS1yYW5kb21pc2F0aW9uLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKY3VyPSQoc3lzY3RsIC1uIGtlcm5lbC5yYW5kb21pemVfdmFfc3BhY2UgMj4vZGV2L251bGwpCmlmIFsgIiRjdXIiID0gIjIiIF07IHRoZW4gbG9nICJBbHJlYWR5IHNldCB0byBmdWxsIHJhbmRvbWlzYXRpb24sIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJyYW5kb21pemVfdmFfc3BhY2Ugd2FzICRjdXIsIHNldHRpbmcgdG8gMiIKbWtkaXIgLXAgL2V0Yy9zeXNjdGwuZCAyPi9kZXYvbnVsbApwcmludGYgJyVzXG4nICJrZXJuZWwucmFuZG9taXplX3ZhX3NwYWNlID0gMiIgPiAvZXRjL3N5c2N0bC5kLzYwLWVzci1hc2xyLmNvbmYKc3lzY3RsIC13IGtlcm5lbC5yYW5kb21pemVfdmFfc3BhY2U9MiA+L2Rldi9udWxsIDI+JjEKYT0kKHN5c2N0bCAtbiBrZXJuZWwucmFuZG9taXplX3ZhX3NwYWNlIDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMiIgXTsgdGhlbiBsb2cgIkZ1bGwgYWRkcmVzcyBzcGFjZSByYW5kb21pc2F0aW9uIGVuYWJsZWQiOyBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

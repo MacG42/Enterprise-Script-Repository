@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0b08dc3e-fcb5-42b3-8077-476cf55711fa",
+  "slug": "address-space-randomisation-enabled",
+  "type": "sensor",
+  "name": "Address Space Randomisation Enabled",
+  "description": "Console sensor name: address_space_randomisation_enabled. True when kernel.randomize_va_space is set to full randomisation. Turned down on some legacy application hosts and then never turned back up after the application was retired.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🎲",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "aslr",
+    "kernel",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgpbIC1yIC9wcm9jL3N5cy9rZXJuZWwvcmFuZG9taXplX3ZhX3NwYWNlIF0gJiYgdj0kKGNhdCAvcHJvYy9zeXMva2VybmVsL3JhbmRvbWl6ZV92YV9zcGFjZSAyPi9kZXYvbnVsbCkKaWYgWyAiJHYiID0gIjIiIF07IHRoZW4gZWNobyAidHJ1ZSI7IGVsc2UgZWNobyAiZmFsc2UiOyBmaQo="
+}

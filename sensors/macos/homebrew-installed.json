@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d9768546-22f2-491b-a2df-1178d89c73de",
+  "slug": "homebrew-installed",
+  "type": "sensor",
+  "name": "Homebrew Installed",
+  "description": "Console sensor name: homebrew_installed. True when Homebrew is present. Not necessarily wrong, but it is an unmanaged package manager that installs software outside the patching pipeline, so the fleet should know where it is.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🍺",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "homebrew",
+    "packages",
+    "shadowit",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgppZiBbIC14IC9vcHQvaG9tZWJyZXcvYmluL2JyZXcgXSB8fCBbIC14IC91c3IvbG9jYWwvYmluL2JyZXcgXTsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

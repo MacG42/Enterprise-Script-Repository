@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fe59e207-6df7-47f5-9205-bc62f6faf8c3",
+  "slug": "reset-software-update-preferences",
+  "type": "script",
+  "name": "Reset Software Update Preferences",
+  "description": "Clears ignored updates and the cached catalogue so a device that has been told to skip an update starts offering it again. Frequently the reason a Mac reports compliant and never patches.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "remediation",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LXNvZnR3YXJlLXVwZGF0ZS1wcmVmZXJlbmNlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlnPSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuU29mdHdhcmVVcGRhdGUgSW5hY3RpdmVVcGRhdGVzIDI+L2Rldi9udWxsKQpjYXQ9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5Tb2Z0d2FyZVVwZGF0ZSBDYXRhbG9nVVJMIDI+L2Rldi9udWxsKQppZiBbIC16ICIkaWciIF0gJiYgWyAteiAiJGNhdCIgXTsgdGhlbiBsb2cgIk5vdGhpbmcgaWdub3JlZCBhbmQgbm8gY3VzdG9tIGNhdGFsb2d1ZSwgcnVubmluZyBhIHNjYW4gYW55d2F5IjsgZmkKWyAtbiAiJGlnIiBdICYmIGxvZyAiSWdub3JlZCB1cGRhdGVzIHByZXNlbnQsIGNsZWFyaW5nIgpzb2Z0d2FyZXVwZGF0ZSAtLXJlc2V0LWlnbm9yZWQgPi9kZXYvbnVsbCAyPiYxClsgLW4gIiRjYXQiIF0gJiYgc29mdHdhcmV1cGRhdGUgLS1jbGVhci1jYXRhbG9nID4vZGV2L251bGwgMj4mMQpzb2Z0d2FyZXVwZGF0ZSAtbCA+L2Rldi9udWxsIDI+JjEKYT0kKGRlZmF1bHRzIHJlYWQgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLlNvZnR3YXJlVXBkYXRlIEluYWN0aXZlVXBkYXRlcyAyPi9kZXYvbnVsbCkKaWYgWyAteiAiJGEiIF07IHRoZW4gbG9nICJVcGRhdGUgcHJlZmVyZW5jZXMgcmVzZXQgYW5kIGEgZnJlc2ggc2NhbiBydW4iOyBleGl0IDA7IGZpCmxvZyAiSWdub3JlZCB1cGRhdGUgbGlzdCBpcyBzdGlsbCBwcmVzZW50IgpleGl0IDMwCg=="
+}

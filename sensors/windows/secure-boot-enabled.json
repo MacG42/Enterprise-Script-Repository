@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "02a8cf77-e24d-490c-9793-08935775137c",
+  "slug": "secure-boot-enabled",
+  "type": "sensor",
+  "name": "Secure Boot Enabled",
+  "description": "Console sensor name: secure_boot_enabled. True when the firmware reports Secure Boot active. Legacy BIOS and CSM devices return false and are the ones blocking a Windows 11 or Credential Guard rollout.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "uefi",
+    "secureboot",
+    "readiness"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKENvbmZpcm0tU2VjdXJlQm9vdFVFRkkpKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

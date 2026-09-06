@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "60d16964-d049-46a0-a4f0-ecf55fad6691",
+  "slug": "running-kernel-is-newest",
+  "type": "sensor",
+  "name": "Running Kernel Is The Newest Installed",
+  "description": "Console sensor name: running_kernel_is_newest. True when the running kernel matches the newest kernel on disk. False is the honest way to report 'patched but not restarted', which a package count alone will not tell you.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "kernel",
+    "patching",
+    "reboot",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKcnVuPSQodW5hbWUgLXIgMj4vZGV2L251bGwpCm5ld2VzdD0iIgppZiBbIC1kIC9ib290IF07IHRoZW4KICBuZXdlc3Q9JChscyAtMSAvYm9vdCAyPi9kZXYvbnVsbCB8IHNlZCAtbiAncy9edm1saW51ei0vL3AnIHwgc29ydCAtViB8IHRhaWwgLTEpCmZpCmlmIFsgLXogIiRydW4iIF0gfHwgWyAteiAiJG5ld2VzdCIgXTsgdGhlbgogIGVjaG8gInRydWUiCmVsaWYgWyAiJHJ1biIgPSAiJG5ld2VzdCIgXTsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

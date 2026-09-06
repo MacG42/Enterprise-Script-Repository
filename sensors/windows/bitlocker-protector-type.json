@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f7c80994-54f7-4755-82ae-218f890a8047",
+  "slug": "bitlocker-protector-type",
+  "type": "sensor",
+  "name": "BitLocker Protector Type",
+  "description": "Console sensor name: bitlocker_protector_type. Closed set: TpmAndPin, TpmOnly, PasswordOnly, Other, None. Separates devices meeting a pre-boot authentication standard from those relying on TPM alone.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bitlocker",
+    "encryption",
+    "compliance",
+    "tpm"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrcCA9IEAoKEdldC1CaXRMb2NrZXJWb2x1bWUgLU1vdW50UG9pbnQgJGVudjpTeXN0ZW1Ecml2ZSkuS2V5UHJvdGVjdG9yLktleVByb3RlY3RvclR5cGUpCiAgICBpZiAoJGtwLkNvdW50IC1lcSAwKSB7IFdyaXRlLU91dHB1dCAnTm9uZScgfQogICAgZWxzZWlmICgka3AgLWNvbnRhaW5zICdUcG1QaW4nIC1vciAka3AgLWNvbnRhaW5zICdUcG1QaW5TdGFydHVwS2V5JykgeyBXcml0ZS1PdXRwdXQgJ1RwbUFuZFBpbicgfQogICAgZWxzZWlmICgka3AgLWNvbnRhaW5zICdUcG0nIC1vciAka3AgLWNvbnRhaW5zICdUcG1TdGFydHVwS2V5JykgeyBXcml0ZS1PdXRwdXQgJ1RwbU9ubHknIH0KICAgIGVsc2VpZiAoJGtwIC1jb250YWlucyAnUGFzc3dvcmQnKSB7IFdyaXRlLU91dHB1dCAnUGFzc3dvcmRPbmx5JyB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0ICdPdGhlcicgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

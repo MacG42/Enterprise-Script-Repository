@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bb02925d-3491-4ec0-920c-877a6fe20040",
+  "slug": "kernel-taint-value",
+  "type": "sensor",
+  "name": "Kernel Taint Value",
+  "description": "Console sensor name: kernel_taint_value. The kernel taint bitmask. Anything other than zero means an out-of-tree module, a firmware warning or a prior oops, and it changes how much a vendor will help with a crash.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⚠️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "kernel",
+    "stability",
+    "modules",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgpbIC1yIC9wcm9jL3N5cy9rZXJuZWwvdGFpbnRlZCBdICYmIHY9JChjYXQgL3Byb2Mvc3lzL2tlcm5lbC90YWludGVkIDI+L2Rldi9udWxsKQpjYXNlICIkdiIgaW4gJyd8KlshMC05XSopIHY9LTEgOzsgZXNhYwplY2hvICIkdiIK"
+}

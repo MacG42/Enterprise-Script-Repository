@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e306fb23-9a65-452a-b0d6-d6384c030e88",
+  "slug": "remove-proxy-configuration-macos",
+  "type": "script",
+  "name": "Remove Proxy Configuration",
+  "description": "Turns off web, secure web, SOCKS and automatic proxy configuration on every network service. Use when a decommissioned proxy is stopping the Hub or software update from reaching the internet.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "proxy",
+    "network",
+    "connectivity",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Reset Proxy Settings",
+      "displayDescription": "Clears a stale proxy that blocks corporate services.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlbW92ZS1wcm94eS1jb25maWd1cmF0aW9uLW1hY29zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKc3Zjcz0kKG5ldHdvcmtzZXR1cCAtbGlzdGFsbG5ldHdvcmtzZXJ2aWNlcyAyPi9kZXYvbnVsbCB8IHNlZCAnMWQnIHwgc2VkICdzL15cKi8vJykKaWYgWyAteiAiJHN2Y3MiIF07IHRoZW4gbG9nICJObyBuZXR3b3JrIHNlcnZpY2VzIGxpc3RlZCI7IGV4aXQgMTA7IGZpCmNoYW5nZWQ9MApvbGQ9JElGUwpJRlM9JwonCmZvciBzIGluICRzdmNzOyBkbwogIFsgLW4gIiRzIiBdIHx8IGNvbnRpbnVlCiAgc3Q9JChuZXR3b3Jrc2V0dXAgLWdldHdlYnByb3h5ICIkcyIgMj4vZGV2L251bGwgfCBhd2sgLUYnOiAqJyAnL15FbmFibGVkLyB7cHJpbnQgJDI7IGV4aXR9JykKICBzcz0kKG5ldHdvcmtzZXR1cCAtZ2V0c2VjdXJld2VicHJveHkgIiRzIiAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvXkVuYWJsZWQvIHtwcmludCAkMjsgZXhpdH0nKQogIGF1PSQobmV0d29ya3NldHVwIC1nZXRhdXRvcHJveHl1cmwgIiRzIiAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvXkVuYWJsZWQvIHtwcmludCAkMjsgZXhpdH0nKQogIGlmIFsgIiRzdCIgPSAiTm8iIF0gJiYgWyAiJHNzIiA9ICJObyIgXSAmJiBbICIkYXUiID0gIk5vIiBdOyB0aGVuIGNvbnRpbnVlOyBmaQogIG5ldHdvcmtzZXR1cCAtc2V0d2VicHJveHlzdGF0ZSAiJHMiIG9mZiA+L2Rldi9udWxsIDI+JjEKICBuZXR3b3Jrc2V0dXAgLXNldHNlY3VyZXdlYnByb3h5c3RhdGUgIiRzIiBvZmYgPi9kZXYvbnVsbCAyPiYxCiAgbmV0d29ya3NldHVwIC1zZXRzb2Nrc2ZpcmV3YWxscHJveHlzdGF0ZSAiJHMiIG9mZiA+L2Rldi9udWxsIDI+JjEKICBuZXR3b3Jrc2V0dXAgLXNldGF1dG9wcm94eXN0YXRlICIkcyIgb2ZmID4vZGV2L251bGwgMj4mMQogIGxvZyAiQ2xlYXJlZCBwcm94eSBzZXR0aW5ncyBvbiAkcyIKICBjaGFuZ2VkPSQoKGNoYW5nZWQrMSkpCmRvbmUKSUZTPSRvbGQKaWYgWyAiJGNoYW5nZWQiIC1lcSAwIF07IHRoZW4gbG9nICJObyBwcm94eSBjb25maWd1cmVkIG9uIGFueSBzZXJ2aWNlLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiQ2xlYXJlZCBwcm94aWVzIG9uICRjaGFuZ2VkIHNlcnZpY2UocykiCmV4aXQgMAo="
+}

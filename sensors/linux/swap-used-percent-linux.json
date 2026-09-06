@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6cb23378-5b27-4c65-b197-3453324a4397",
+  "slug": "swap-used-percent-linux",
+  "type": "sensor",
+  "name": "Swap Used Percent",
+  "description": "Console sensor name: swap_used_percent. Percentage of configured swap in use. Returns -1 where there is no swap. Sustained swap use is the clearest sign that the memory allocation no longer matches the workload.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📈",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "swap",
+    "performance",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdD0kKGF3ayAnL15Td2FwVG90YWw6LyB7cHJpbnQgJDJ9JyAvcHJvYy9tZW1pbmZvIDI+L2Rldi9udWxsKQpmPSQoYXdrICcvXlN3YXBGcmVlOi8ge3ByaW50ICQyfScgL3Byb2MvbWVtaW5mbyAyPi9kZXYvbnVsbCkKY2FzZSAiJHQiIGluICcnfCpbITAtOV0qKSB0PTAgOzsgZXNhYwpjYXNlICIkZiIgaW4gJyd8KlshMC05XSopIGY9MCA7OyBlc2FjCmlmIFsgIiR0IiAtZXEgMCBdOyB0aGVuCiAgZWNobyAiLTEiCmVsc2UKICBlY2hvICQoKCAodCAtIGYpICogMTAwIC8gdCApKQpmaQo="
+}

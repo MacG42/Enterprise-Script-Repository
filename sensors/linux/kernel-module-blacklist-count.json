@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0bffc2b7-d481-4ad2-9c7c-78f5e551b214",
+  "slug": "kernel-module-blacklist-count",
+  "type": "sensor",
+  "name": "Blacklisted Kernel Module Count",
+  "description": "Console sensor name: kernel_module_blacklist_count. Number of modules explicitly blacklisted in modprobe configuration. The measure of how much of a module-hardening baseline has actually landed on this device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🚫",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "kernel",
+    "modules",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBkIGluIC9ldGMvbW9kcHJvYmUuZCAvdXNyL2xpYi9tb2Rwcm9iZS5kOyBkbwogIFsgLWQgIiRkIiBdIHx8IGNvbnRpbnVlCiAgYz0kKGdyZXAgLWhFcyAiXltbOnNwYWNlOl1dKihibGFja2xpc3R8aW5zdGFsbCAuKiAvYmluLyh0cnVlfGZhbHNlKSkiICIkZCIvKi5jb25mIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAuKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBuPSQoKG4rYykpCmRvbmUKZWNobyAiJG4iCg=="
+}

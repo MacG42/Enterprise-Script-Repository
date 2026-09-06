@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4972d38d-5a3b-4796-b363-1b4422705b98",
+  "slug": "clear-delivery-optimization-cache",
+  "type": "script",
+  "name": "Clear Delivery Optimization Cache",
+  "description": "Empties the Delivery Optimization peer cache, which can hold tens of gigabytes on a device that has been seeding for the office. Uses the built-in cmdlet where it exists and falls back to clearing the folder with the service stopped.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "deliveryoptimization",
+    "disk",
+    "cleanup",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLWRlbGl2ZXJ5LW9wdGltaXphdGlvbi1jYWNoZS5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgIGlmIChHZXQtQ29tbWFuZCAtTmFtZSBEZWxldGUtRGVsaXZlcnlPcHRpbWl6YXRpb25DYWNoZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkgewogICAgICAgIFdyaXRlLUxvZyAnVXNpbmcgRGVsZXRlLURlbGl2ZXJ5T3B0aW1pemF0aW9uQ2FjaGUnCiAgICAgICAgRGVsZXRlLURlbGl2ZXJ5T3B0aW1pemF0aW9uQ2FjaGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgV3JpdGUtTG9nICdDYWNoZSBkZWxldGUgcmVxdWVzdGVkJwogICAgICAgIGV4aXQgMAogICAgfQogICAgJGRpciA9IEpvaW4tUGF0aCAkZW52OlN5c3RlbVJvb3QgJ1NvZnR3YXJlRGlzdHJpYnV0aW9uXERlbGl2ZXJ5T3B0aW1pemF0aW9uJwogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGRpcikpIHsgV3JpdGUtTG9nICdObyBETyBjYWNoZSBmb2xkZXIsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICAkYmVmb3JlID0gKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRkaXIgLVJlY3Vyc2UgLUZpbGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgTWVhc3VyZS1PYmplY3QgLVByb3BlcnR5IExlbmd0aCAtU3VtKS5TdW0KICAgIGlmICgkbnVsbCAtZXEgJGJlZm9yZSAtb3IgJGJlZm9yZSAtbHQgNTAwTUIpIHsgV3JpdGUtTG9nICdETyBjYWNoZSBiZWxvdyA1MDAgTUIsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdETyBjYWNoZSBpcyAnICsgW2ludF0oJGJlZm9yZSAvIDFNQikgKyAnIE1CLCBjbGVhcmluZycpCiAgICBTdG9wLVNlcnZpY2UgLU5hbWUgJ0RvU3ZjJyAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDMKICAgIEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRkaXIgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgUmVtb3ZlLUl0ZW0gLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBTdGFydC1TZXJ2aWNlIC1OYW1lICdEb1N2YycgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRhZnRlciA9IChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkZGlyIC1SZWN1cnNlIC1GaWxlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IE1lYXN1cmUtT2JqZWN0IC1Qcm9wZXJ0eSBMZW5ndGggLVN1bSkuU3VtCiAgICBpZiAoJG51bGwgLWVxICRhZnRlcikgeyAkYWZ0ZXIgPSAwIH0KICAgIFdyaXRlLUxvZyAoJ1JlY2xhaW1lZCAnICsgW2ludF0oKCRiZWZvcmUgLSAkYWZ0ZXIpIC8gMU1CKSArICcgTUInKQogICAgZXhpdCAwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

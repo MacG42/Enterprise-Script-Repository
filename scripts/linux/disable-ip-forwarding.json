@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0c103fb8-d86f-468f-94a7-589c34c69269",
+  "slug": "disable-ip-forwarding",
+  "type": "script",
+  "name": "Disable IP Forwarding",
+  "description": "Delivery: packaged post-install. Turns off IPv4 and IPv6 forwarding and persists it. Refuses to run where a container runtime or a bridge is present, because forwarding is load-bearing there.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔀",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "network",
+    "routing",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWlwLWZvcndhcmRpbmcubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgpmb3IgYyBpbiBkb2NrZXIgcG9kbWFuIGNvbnRhaW5lcmQ7IGRvCiAgaWYgY29tbWFuZCAtdiAiJGMiID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgIiRjIGlzIGluc3RhbGxlZCAtIGZvcndhcmRpbmcgaXMgcmVxdWlyZWQsIHJlZnVzaW5nIjsgZXhpdCAxMDsgZmkKZG9uZQppZiBpcCBsaW5rIHNob3cgdHlwZSBicmlkZ2UgMj4vZGV2L251bGwgfCBncmVwIC1xICI6IjsgdGhlbiBsb2cgIkEgYnJpZGdlIGludGVyZmFjZSBpcyBwcmVzZW50IC0gcmVmdXNpbmcgdG8gZGlzYWJsZSBmb3J3YXJkaW5nIjsgZXhpdCAxMDsgZmkKY3VyPSQoc3lzY3RsIC1uIG5ldC5pcHY0LmlwX2ZvcndhcmQgMj4vZGV2L251bGwpCmlmIFsgIiRjdXIiID0gIjAiIF07IHRoZW4gbG9nICJBbHJlYWR5IGRpc2FibGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiaXBfZm9yd2FyZCB3YXMgJGN1ciwgZGlzYWJsaW5nIgpta2RpciAtcCAvZXRjL3N5c2N0bC5kIDI+L2Rldi9udWxsCnsKICBwcmludGYgJyVzXG4nICJuZXQuaXB2NC5pcF9mb3J3YXJkID0gMCIKICBwcmludGYgJyVzXG4nICJuZXQuaXB2Ni5jb25mLmFsbC5mb3J3YXJkaW5nID0gMCIKfSA+IC9ldGMvc3lzY3RsLmQvNjAtZXNyLW5vZm9yd2FyZC5jb25mCnN5c2N0bCAtcCAvZXRjL3N5c2N0bC5kLzYwLWVzci1ub2ZvcndhcmQuY29uZiA+L2Rldi9udWxsIDI+JjEKYT0kKHN5c2N0bCAtbiBuZXQuaXB2NC5pcF9mb3J3YXJkIDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMCIgXTsgdGhlbiBsb2cgIklQIGZvcndhcmRpbmcgZGlzYWJsZWQiOyBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

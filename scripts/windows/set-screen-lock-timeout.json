@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2",
+  "id": "027a8eae-8e64-4ff0-8ea4-b28f4c91d786",
+  "slug": "set-screen-lock-timeout",
+  "type": "script",
+  "name": "Set Screen Lock Timeout",
+  "description": "Sets the machine inactivity limit to the number of seconds in esr_lock_seconds and requires a password on resume. The registry route applies to every user on the device, including the ones who turned the screen saver off.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "screenlock",
+    "hardening",
+    "compliance",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_lock_seconds",
+        "value": "900"
+      }
+    ]
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC1zY3JlZW4tbG9jay10aW1lb3V0LmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHJhdyA9ICckZXNyX2xvY2tfc2Vjb25kcyQnCiAgICBpZiAoJHJhdyAtbGlrZSAnKmVzcl9sb2NrX3NlY29uZHMqJyAtb3IgJHJhdy5UcmltKCkgLWVxICcnKSB7ICRyYXcgPSAnOTAwJyB9CiAgICAkc2VjcyA9IDAKICAgIGlmICgtbm90IFtpbnRdOjpUcnlQYXJzZSgkcmF3LlRyaW0oKSwgW3JlZl0kc2VjcykpIHsgV3JpdGUtTG9nICgnQmFkIHRpbWVvdXQgdmFsdWU6ICcgKyAkcmF3KTsgZXhpdCAxMCB9CiAgICBpZiAoJHNlY3MgLWx0IDYwIC1vciAkc2VjcyAtZ3QgMzYwMCkgeyBXcml0ZS1Mb2cgKCdUaW1lb3V0IG91dCBvZiB0aGUgc2Vuc2libGUgNjAtMzYwMCByYW5nZTogJyArICRzZWNzKTsgZXhpdCAxMCB9CiAgICAkayA9ICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxQb2xpY2llc1xTeXN0ZW0nCiAgICAkY3VyID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdJbmFjdGl2aXR5VGltZW91dFNlY3MnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5JbmFjdGl2aXR5VGltZW91dFNlY3MKICAgIGlmICgkbnVsbCAtbmUgJGN1ciAtYW5kIFtpbnRdJGN1ciAtZXEgJHNlY3MpIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ0luYWN0aXZpdHkgdGltZW91dCB3YXMgJyArICQoaWYgKCRudWxsIC1lcSAkY3VyKSB7ICd1bnNldCcgfSBlbHNlIHsgJGN1ciB9KSArICcsIHNldHRpbmcgdG8gJyArICRzZWNzKQogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0luYWN0aXZpdHlUaW1lb3V0U2VjcycgLVZhbHVlICRzZWNzIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgICRhID0gW2ludF0oR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0luYWN0aXZpdHlUaW1lb3V0U2VjcycpLkluYWN0aXZpdHlUaW1lb3V0U2VjcwogICAgaWYgKCRhIC1lcSAkc2VjcykgeyBXcml0ZS1Mb2cgJ1NjcmVlbiBsb2NrIHRpbWVvdXQgc2V0JzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

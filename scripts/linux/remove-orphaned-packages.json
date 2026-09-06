@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "931a8800-d118-4ee5-8fbc-a484e972e47a",
+  "slug": "remove-orphaned-packages",
+  "type": "script",
+  "name": "Remove Orphaned Packages",
+  "description": "Delivery: systemd timer. Removes packages that were pulled in as dependencies and are no longer needed by anything. Uses the package manager's own autoremove, so nothing explicitly installed is touched.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "packages",
+    "cleanup",
+    "disk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZW1vdmUtb3JwaGFuZWQtcGFja2FnZXMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpiZWZvcmU9JChkZiAtUCAtayAvIDI+L2Rldi9udWxsIHwgYXdrICdOUj09MiB7cHJpbnQgJDR9JykKaWYgY29tbWFuZCAtdiBhcHQtZ2V0ID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JChhcHQtZ2V0IC1zIGF1dG9yZW1vdmUgMj4vZGV2L251bGwgfCBncmVwIC1jICJeUmVtdiIpCiAgaWYgWyAiJG4iIC1lcSAwIF07IHRoZW4gbG9nICJOb3RoaW5nIHRvIGF1dG9yZW1vdmUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKICBsb2cgIlJlbW92aW5nICRuIG9ycGhhbmVkIHBhY2thZ2UocykiCiAgREVCSUFOX0ZST05URU5EPW5vbmludGVyYWN0aXZlIGFwdC1nZXQgLXkgYXV0b3JlbW92ZSAtLXB1cmdlID4vZGV2L251bGwgMj4mMQplbGlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAiUnVubmluZyBkbmYgYXV0b3JlbW92ZSIKICBkbmYgLXkgYXV0b3JlbW92ZSA+L2Rldi9udWxsIDI+JjEKZWxpZiBjb21tYW5kIC12IHp5cHBlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgIlJlbW92aW5nIHVubmVlZGVkIHBhY2thZ2VzIgogIHp5cHBlciAtLW5vbi1pbnRlcmFjdGl2ZSByZW1vdmUgLS1jbGVhbi1kZXBzICQoenlwcGVyIHBhY2thZ2VzIC0tdW5uZWVkZWQgMj4vZGV2L251bGwgfCBhd2sgLUYnfCcgJ05SPjQge2dzdWIoIiAiLCIiLCQzKTsgcHJpbnQgJDN9JykgPi9kZXYvbnVsbCAyPiYxCmVsc2UKICBsb2cgIk5vIHN1cHBvcnRlZCBwYWNrYWdlIG1hbmFnZXIiCiAgZXhpdCAxMApmaQphZnRlcj0kKGRmIC1QIC1rIC8gMj4vZGV2L251bGwgfCBhd2sgJ05SPT0yIHtwcmludCAkNH0nKQpjYXNlICIkYmVmb3JlIiBpbiAnJ3wqWyEwLTldKikgYmVmb3JlPTAgOzsgZXNhYwpjYXNlICIkYWZ0ZXIiIGluICcnfCpbITAtOV0qKSBhZnRlcj0wIDs7IGVzYWMKbG9nICJSZWNsYWltZWQgYWJvdXQgJCgoIChhZnRlciAtIGJlZm9yZSkgLyAxMDI0ICkpIE1CIgpleGl0IDAK"
+}

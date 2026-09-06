@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b3936a4d-05b9-4662-befd-1c9cada0a663",
+  "slug": "bitlocker-encryption-percentage",
+  "type": "sensor",
+  "name": "BitLocker Encryption Percentage",
+  "description": "Console sensor name: bitlocker_encryption_percentage. How far the OS volume has encrypted, 0-100. Returns -1 when BitLocker is unavailable. Catches devices stuck part-way through encryption, which read as protected in most reports.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📊",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bitlocker",
+    "encryption",
+    "progress"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gR2V0LUJpdExvY2tlclZvbHVtZSAtTW91bnRQb2ludCAkZW52OlN5c3RlbURyaXZlCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJHYuRW5jcnlwdGlvblBlcmNlbnRhZ2UpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

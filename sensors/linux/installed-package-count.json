@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6752942c-2d28-4281-924d-323d6bf92e59",
+  "slug": "installed-package-count",
+  "type": "sensor",
+  "name": "Installed Package Count",
+  "description": "Console sensor name: installed_package_count. Total packages installed. A shape measure rather than a threshold: devices far from the fleet median are usually carrying software that was never part of the build.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "inventory",
+    "software",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0tMQppZiBjb21tYW5kIC12IGRwa2ctcXVlcnkgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbj0kKGRwa2ctcXVlcnkgLWYgJy5cbicgLVcgMj4vZGV2L251bGwgfCB3YyAtbCB8IHRyIC1kICcgJykKZWxpZiBjb21tYW5kIC12IHJwbSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQocnBtIC1xYSAyPi9kZXYvbnVsbCB8IHdjIC1sIHwgdHIgLWQgJyAnKQpmaQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "91b2abb7-c6fc-4c59-a2a4-e51031b33b74",
+  "slug": "sudo-group-member-count",
+  "type": "sensor",
+  "name": "Sudo Group Member Count",
+  "description": "Console sensor name: sudo_group_member_count. Number of accounts in the sudo or wheel group. The practical measure of how many people can become root on this device, which is rarely the number anyone expects.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "sudo",
+    "privilege",
+    "accounts",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBnIGluIHN1ZG8gd2hlZWwgYWRtaW47IGRvCiAgbT0kKGdldGVudCBncm91cCAiJGciIDI+L2Rldi9udWxsIHwgY3V0IC1kOiAtZjQpCiAgWyAteiAiJG0iIF0gJiYgY29udGludWUKICBjPSQocHJpbnRmICclcycgIiRtIiB8IHRyICcsJyAnXG4nIHwgZ3JlcCAtYyAuKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBuPSQoKG4rYykpCmRvbmUKZWNobyAiJG4iCg=="
+}

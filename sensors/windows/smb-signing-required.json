@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5f78cd9a-2e57-4550-ac32-83bd5da2be65",
+  "slug": "smb-signing-required",
+  "type": "sensor",
+  "name": "SMB Signing Required",
+  "description": "Console sensor name: smb_signing_required. True when the SMB server requires packet signing. Required signing is what defeats SMB relay; enabled-but-not-required is the state most fleets are actually in.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📝",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "smb",
+    "security",
+    "network",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjID0gR2V0LVNtYlNlcnZlckNvbmZpZ3VyYXRpb24KICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdJGMuUmVxdWlyZVNlY3VyaXR5U2lnbmF0dXJlKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

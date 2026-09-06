@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "db341219-4134-4abf-b3b8-0a0fabdadd0b",
+  "slug": "unexpected-shutdowns-30d",
+  "type": "sensor",
+  "name": "Unexpected Shutdowns (30 Days)",
+  "description": "Console sensor name: unexpected_shutdowns_30d. Kernel-Power 41 events in the last 30 days - power loss, bugcheck or a hard hang. Two or more on a laptop is a hardware conversation, not a software one.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⚡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "reliability",
+    "crash",
+    "power",
+    "hardware"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRlID0gQChHZXQtV2luRXZlbnQgLUZpbHRlckhhc2h0YWJsZSBAeyBMb2dOYW1lID0gJ1N5c3RlbSc7IElkID0gNDE7IFN0YXJ0VGltZSA9IChHZXQtRGF0ZSkuQWRkRGF5cygtMzApIH0gLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdJGUuQ291bnQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

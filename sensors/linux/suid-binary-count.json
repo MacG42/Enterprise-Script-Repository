@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5e6362b9-62e9-4f9e-ac54-39b931817d6c",
+  "slug": "suid-binary-count",
+  "type": "sensor",
+  "name": "SUID Binary Count",
+  "description": "Console sensor name: suid_binary_count. Number of set-uid binaries in the standard binary directories. The absolute number matters less than the change: a device that gains one has gained a new route to root.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔴",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "suid",
+    "permissions",
+    "hardening",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBkIGluIC91c3IvYmluIC91c3Ivc2JpbiAvYmluIC9zYmluIC91c3IvbG9jYWwvYmluIC91c3IvbG9jYWwvc2JpbjsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGM9JChmaW5kICIkZCIgLXhkZXYgLXR5cGUgZiAtcGVybSAtNDAwMCAyPi9kZXYvbnVsbCB8IHdjIC1sIHwgdHIgLWQgJyAnKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBuPSQoKG4rYykpCmRvbmUKZWNobyAiJG4iCg=="
+}

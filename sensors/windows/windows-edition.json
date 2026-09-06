@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6321c863-cb0a-47aa-8306-07faaca83f82",
+  "slug": "windows-edition",
+  "type": "sensor",
+  "name": "Windows Edition",
+  "description": "Console sensor name: windows_edition. The SKU name, for example Enterprise, Professional or Education. Edition drives which of BitLocker, WDAC, Credential Guard and AppLocker a device can actually take.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🪟",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "inventory",
+    "licensing",
+    "edition",
+    "readiness"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRlID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvbicgLU5hbWUgJ0VkaXRpb25JRCcgLUVycm9yQWN0aW9uIFN0b3ApLkVkaXRpb25JRAogICAgaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoJGUpKSB7IFdyaXRlLU91dHB1dCAnVW5rbm93bicgfSBlbHNlIHsgV3JpdGUtT3V0cHV0IChbc3RyaW5nXSRlKS5UcmltKCkgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

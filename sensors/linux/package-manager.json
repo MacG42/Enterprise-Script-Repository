@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e885d813-3577-4800-a5f0-2d40eff883b8",
+  "slug": "package-manager",
+  "type": "sensor",
+  "name": "Package Manager",
+  "description": "Console sensor name: package_manager. Which package manager the device actually has: apt, dnf, yum, zypper, pacman or None. Detected rather than assumed, so a script can branch on it instead of guessing from the distribution name.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "inventory",
+    "compatibility",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm9yIHAgaW4gYXB0LWdldCBkbmYgeXVtIHp5cHBlciBwYWNtYW47IGRvCiAgaWYgY29tbWFuZCAtdiAiJHAiID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgY2FzZSAiJHAiIGluCiAgICAgIGFwdC1nZXQpIGVjaG8gImFwdCIgOzsKICAgICAgKikgZWNobyAiJHAiIDs7CiAgICBlc2FjCiAgICBleGl0IDAKICBmaQpkb25lCmVjaG8gIk5vbmUiCg=="
+}

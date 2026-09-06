@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4e0ea535-fe0a-4c7b-acb1-87becda44efc",
+  "slug": "defender-realtime-protection-enabled",
+  "type": "sensor",
+  "name": "Defender Real-Time Protection Enabled",
+  "description": "Console sensor name: defender_realtime_protection_enabled. True when Microsoft Defender real-time protection is on. False on devices where a user or a stale third-party AV left the engine passive.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "security",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LU1wQ29tcHV0ZXJTdGF0dXMKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdJHMuUmVhbFRpbWVQcm90ZWN0aW9uRW5hYmxlZCkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

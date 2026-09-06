@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "89894efe-9127-4445-852e-0e431c233510",
+  "slug": "desktop-environment",
+  "type": "sensor",
+  "name": "Desktop Environment",
+  "description": "Console sensor name: desktop_environment. The installed desktop session type - GNOME, KDE, XFCE or Headless. Separates the workstation fleet from the server fleet without relying on a naming convention.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "desktop",
+    "gui",
+    "inventory",
+    "formfactor"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgWyAtbiAiJFhER19DVVJSRU5UX0RFU0tUT1AiIF07IHRoZW4KICBlY2hvICIkWERHX0NVUlJFTlRfREVTS1RPUCIKZWxpZiBbIC1kIC91c3Ivc2hhcmUvZ25vbWUgXSB8fCBjb21tYW5kIC12IGdub21lLXNoZWxsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gIkdOT01FIgplbGlmIGNvbW1hbmQgLXYgcGxhc21hc2hlbGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAiS0RFIgplbGlmIGNvbW1hbmQgLXYgeGZjZTQtc2Vzc2lvbiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICJYRkNFIgplbGlmIFsgLWQgL2V0Yy9YMTEgXSAmJiBwZ3JlcCAteCBYb3JnID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gIlgxMS1PdGhlciIKZWxzZQogIGVjaG8gIkhlYWRsZXNzIgpmaQo="
+}

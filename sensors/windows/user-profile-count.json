@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "792ddca7-3672-4fc7-9176-e361ea5a1761",
+  "slug": "user-profile-count",
+  "type": "sensor",
+  "name": "User Profile Count",
+  "description": "Console sensor name: user_profile_count. How many non-system user profiles exist on the device. Shared and hot-desk machines accumulate profiles until the system drive fills, and the count is the cheap early warning.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "👥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "profiles",
+    "disk",
+    "cleanup",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gQChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9Vc2VyUHJvZmlsZSAtRmlsdGVyICdTcGVjaWFsID0gRmFsc2UnIC1FcnJvckFjdGlvbiBTdG9wKQogICAgV3JpdGUtT3V0cHV0IChbaW50XSRwLkNvdW50KQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

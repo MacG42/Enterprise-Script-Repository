@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6723d942-118c-4a0e-aaf4-69993cdd1561",
+  "slug": "repair-hub-service-unit",
+  "type": "script",
+  "name": "Repair The Hub Service Registration",
+  "description": "Delivery: ad hoc. Re-enables and starts a Hub service that has been disabled or masked, which is how an agent ends up installed but never running after a hardening pass has been over the host.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "hub",
+    "workspaceone",
+    "systemd"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZXBhaXItaHViLXNlcnZpY2UtdW5pdC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnU9IiIKZm9yIGMgaW4gd3MxaHViZCBodWJkIGF3Y20gdm13YXJlLWh1YiBvbW5pc3NhLWh1YjsgZG8KICBzeXN0ZW1jdGwgbGlzdC11bml0LWZpbGVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiXiRjLnNlcnZpY2UiICYmIHU9IiRjIiAmJiBicmVhawpkb25lCmlmIFsgLXogIiR1IiBdOyB0aGVuIGxvZyAiTm8gSHViIHNlcnZpY2UgdW5pdCBmb3VuZCBvbiB0aGlzIGhvc3QiOyBleGl0IDEwOyBmaQpzPSQoc3lzdGVtY3RsIGlzLWVuYWJsZWQgIiR1IiAyPi9kZXYvbnVsbCkKYT0kKHN5c3RlbWN0bCBpcy1hY3RpdmUgIiR1IiAyPi9kZXYvbnVsbCkKaWYgWyAiJHMiID0gImVuYWJsZWQiIF0gJiYgWyAiJGEiID0gImFjdGl2ZSIgXTsgdGhlbiBsb2cgIiR1IGlzIGVuYWJsZWQgYW5kIGFjdGl2ZSwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIiR1IHdhcyAkcyAvICRhIgpbICIkcyIgPSAibWFza2VkIiBdICYmIHN5c3RlbWN0bCB1bm1hc2sgIiR1IiA+L2Rldi9udWxsIDI+JjEKc3lzdGVtY3RsIGRhZW1vbi1yZWxvYWQgPi9kZXYvbnVsbCAyPiYxCnN5c3RlbWN0bCBlbmFibGUgLS1ub3cgIiR1IiA+L2Rldi9udWxsIDI+JjEKc2xlZXAgMTAKczI9JChzeXN0ZW1jdGwgaXMtZW5hYmxlZCAiJHUiIDI+L2Rldi9udWxsKQphMj0kKHN5c3RlbWN0bCBpcy1hY3RpdmUgIiR1IiAyPi9kZXYvbnVsbCkKbG9nICIkdSBpcyBub3cgJHMyIC8gJGEyIgppZiBbICIkYTIiID0gImFjdGl2ZSIgXTsgdGhlbiBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

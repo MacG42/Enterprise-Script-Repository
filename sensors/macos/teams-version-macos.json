@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "cabc71a2-ad5c-4c01-a561-b27ed47ad499",
+  "slug": "teams-version-macos",
+  "type": "sensor",
+  "name": "Microsoft Teams Version",
+  "description": "Console sensor name: teams_version. Version of the installed Teams client, checking the current app and the classic one. Old classic installs left beside the new client are a common source of duplicate notifications.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💬",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "teams",
+    "collaboration",
+    "applications",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpmb3IgcCBpbiAiL0FwcGxpY2F0aW9ucy9NaWNyb3NvZnQgVGVhbXMuYXBwL0NvbnRlbnRzL0luZm8ucGxpc3QiICIvQXBwbGljYXRpb25zL01pY3Jvc29mdCBUZWFtcyBjbGFzc2ljLmFwcC9Db250ZW50cy9JbmZvLnBsaXN0IjsgZG8KICBpZiBbIC1mICIkcCIgXTsgdGhlbgogICAgdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBDRkJ1bmRsZVNob3J0VmVyc2lvblN0cmluZyAyPi9kZXYvbnVsbCkKICAgIFsgLW4gIiR2IiBdICYmIHsgZWNobyAiJHYiOyBleGl0IDA7IH0KICBmaQpkb25lCmVjaG8gIk5vdEluc3RhbGxlZCIK"
+}

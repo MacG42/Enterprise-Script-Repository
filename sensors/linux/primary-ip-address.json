@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "51fc75d2-7661-49c3-92a3-fa560e5710bc",
+  "slug": "primary-ip-address",
+  "type": "sensor",
+  "name": "Primary IP Address",
+  "description": "Console sensor name: primary_ip_address. The source address the device would use to reach the internet, taken from the routing table rather than from an interface list, so it is the address that actually matters.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "ipaddress",
+    "inventory",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgppZiBjb21tYW5kIC12IGlwID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHY9JChpcCByb3V0ZSBnZXQgMS4xLjEuMSAyPi9kZXYvbnVsbCB8IGF3ayAne2ZvciAoaT0xO2k8PU5GO2krKykgaWYgKCRpPT0ic3JjIikge3ByaW50ICQoaSsxKTsgZXhpdH19JykKZmkKaWYgWyAteiAiJHYiIF0gJiYgY29tbWFuZCAtdiBob3N0bmFtZSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB2PSQoaG9zdG5hbWUgLUkgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQpmaQpbIC16ICIkdiIgXSAmJiB2PSJOb25lIgplY2hvICIkdiIK"
+}

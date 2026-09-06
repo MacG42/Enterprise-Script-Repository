@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f8bebd65-3884-44b4-8789-64dc6c819527",
+  "slug": "create-local-admin-account",
+  "type": "script",
+  "name": "Create A Local Administrator Account",
+  "description": "Creates the hidden local administrator in esr_admin_user with the password in esr_admin_password, if it does not already exist. The account has no secure token, so it cannot unlock FileVault - grant that separately and deliberately.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "admin",
+    "provisioning",
+    "support"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_admin_user",
+        "value": "macadmin"
+      },
+      {
+        "key": "esr_admin_password",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNyZWF0ZS1sb2NhbC1hZG1pbi1hY2NvdW50LmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdT0nJGVzcl9hZG1pbl91c2VyJCcKcD0nJGVzcl9hZG1pbl9wYXNzd29yZCQnCmNhc2UgIiR1IiBpbgogICplc3JfYWRtaW5fdXNlcip8JycpIGxvZyAiTm8gYWNjb3VudCBuYW1lIHN1cHBsaWVkIjsgZXhpdCAxMCA7OwogICpbIWEtejAtOV8tXSopIGxvZyAiQWNjb3VudCBuYW1lIG11c3QgYmUgbG93ZXJjYXNlIGxldHRlcnMsIGRpZ2l0cywgaHlwaGVuIG9yIHVuZGVyc2NvcmU6ICR1IiA7IGV4aXQgMTAgOzsKZXNhYwpjYXNlICIkcCIgaW4KICAqZXNyX2FkbWluX3Bhc3N3b3JkKnwnJykgbG9nICJObyBwYXNzd29yZCBzdXBwbGllZCI7IGV4aXQgMTAgOzsKZXNhYwppZiBpZCAiJHUiID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgIkFjY291bnQgJHUgYWxyZWFkeSBleGlzdHMsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJDcmVhdGluZyBoaWRkZW4gYWRtaW5pc3RyYXRvciAkdSIKc3lzYWRtaW5jdGwgLWFkZFVzZXIgIiR1IiAtZnVsbE5hbWUgIiR1IiAtcGFzc3dvcmQgIiRwIiAtYWRtaW4gPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDMKaWYgISBpZCAiJHUiID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgIkFjY291bnQgd2FzIG5vdCBjcmVhdGVkIjsgZXhpdCAyMDsgZmkKZHNjbCAuIC1jcmVhdGUgIi9Vc2Vycy8kdSIgSXNIaWRkZW4gMSAyPi9kZXYvbnVsbAppZiBkc2VkaXRncm91cCAtbyBjaGVja21lbWJlciAtbSAiJHUiIGFkbWluID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAiQWNjb3VudCAkdSBjcmVhdGVkIGFuZCBpcyBhbiBhZG1pbmlzdHJhdG9yIgogIGV4aXQgMApmaQpsb2cgIkFjY291bnQgJHUgY3JlYXRlZCBidXQgaXMgbm90IGluIHRoZSBhZG1pbiBncm91cCIKZXhpdCAzMAo="
+}

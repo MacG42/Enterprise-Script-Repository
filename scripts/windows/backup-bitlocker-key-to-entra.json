@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "03ab4dbc-154b-4861-bd97-35bae01bcaf0",
+  "slug": "backup-bitlocker-key-to-entra",
+  "type": "script",
+  "name": "Backup BitLocker Key To Entra",
+  "description": "Escrows every recovery password protector on the OS volume to Entra ID. Exits 10 on devices that are not Entra joined, where the call has nowhere to go.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "☁️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bitlocker",
+    "encryption",
+    "recovery",
+    "entra"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGJhY2t1cC1iaXRsb2NrZXIta2V5LXRvLWVudHJhLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGpvaW4gPSAnSEtMTTpcU1lTVEVNXEN1cnJlbnRDb250cm9sU2V0XENvbnRyb2xcQ2xvdWREb21haW5Kb2luXEpvaW5JbmZvJwogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGpvaW4pIC1vciBAKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRqb2luIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5Db3VudCAtZXEgMCkgewogICAgICAgIFdyaXRlLUxvZyAnRGV2aWNlIGlzIG5vdCBFbnRyYSBqb2luZWQnCiAgICAgICAgZXhpdCAxMAogICAgfQogICAgJHYgPSBHZXQtQml0TG9ja2VyVm9sdW1lIC1Nb3VudFBvaW50ICRlbnY6U3lzdGVtRHJpdmUKICAgICRrcCA9IEAoJHYuS2V5UHJvdGVjdG9yIHwgV2hlcmUtT2JqZWN0IHsgJF8uS2V5UHJvdGVjdG9yVHlwZSAtZXEgJ1JlY292ZXJ5UGFzc3dvcmQnIH0pCiAgICBpZiAoJGtwLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAnTm8gcmVjb3ZlcnkgcGFzc3dvcmQgcHJvdGVjdG9yIHRvIGVzY3Jvdyc7IGV4aXQgMTAgfQogICAgJG9rID0gMAogICAgZm9yZWFjaCAoJGsgaW4gJGtwKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQmFja3VwVG9BQUQtQml0TG9ja2VyS2V5UHJvdGVjdG9yIC1Nb3VudFBvaW50ICRlbnY6U3lzdGVtRHJpdmUgLUtleVByb3RlY3RvcklkICRrLktleVByb3RlY3RvcklkIC1FcnJvckFjdGlvbiBTdG9wCiAgICAgICAgICAgIFdyaXRlLUxvZyAoJ0VzY3Jvd2VkICcgKyAkay5LZXlQcm90ZWN0b3JJZCkKICAgICAgICAgICAgJG9rKysKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgV3JpdGUtTG9nICgnRXNjcm93IGZhaWxlZCBmb3IgJyArICRrLktleVByb3RlY3RvcklkICsgJzogJyArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgICAgIH0KICAgIH0KICAgIGlmICgkb2sgLWd0IDApIHsgZXhpdCAwIH0KICAgIGV4aXQgMjAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

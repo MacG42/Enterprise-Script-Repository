@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c433dbd4-9bf0-4941-aad8-68ece6e693b1",
+  "slug": "set-login-window-banner",
+  "type": "script",
+  "name": "Set The Login Window Banner",
+  "description": "Displays the text in esr_login_banner at the login window. Used where an acceptable-use or monitoring notice has to be shown before anyone signs in.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📜",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "loginwindow",
+    "policy",
+    "compliance",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_login_banner",
+        "value": "Authorised users only. Activity may be monitored."
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1sb2dpbi13aW5kb3ctYmFubmVyLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdD0nJGVzcl9sb2dpbl9iYW5uZXIkJwpjYXNlICIkdCIgaW4KICAqZXNyX2xvZ2luX2Jhbm5lcip8JycpIGxvZyAiTm8gYmFubmVyIHRleHQgc3VwcGxpZWQiOyBleGl0IDEwIDs7CmVzYWMKcD0iL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLmxvZ2lud2luZG93IgpjdXI9JChkZWZhdWx0cyByZWFkICIkcCIgTG9naW53aW5kb3dUZXh0IDI+L2Rldi9udWxsKQppZiBbICIkY3VyIiA9ICIkdCIgXTsgdGhlbiBsb2cgIkJhbm5lciBhbHJlYWR5IHNldCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIlNldHRpbmcgdGhlIGxvZ2luIHdpbmRvdyBiYW5uZXIiCmRlZmF1bHRzIHdyaXRlICIkcCIgTG9naW53aW5kb3dUZXh0IC1zdHJpbmcgIiR0IiAyPi9kZXYvbnVsbAphPSQoZGVmYXVsdHMgcmVhZCAiJHAiIExvZ2lud2luZG93VGV4dCAyPi9kZXYvbnVsbCkKaWYgWyAiJGEiID0gIiR0IiBdOyB0aGVuIGxvZyAiQmFubmVyIHNldCI7IGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

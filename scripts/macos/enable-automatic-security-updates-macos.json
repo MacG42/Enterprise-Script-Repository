@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7d6f14dc-bf01-43f7-8cae-9f1cccead084",
+  "slug": "enable-automatic-security-updates-macos",
+  "type": "script",
+  "name": "Enable Automatic Security Updates",
+  "description": "Turns on background installation of system data files and security responses, and enables the update check itself. This is the path XProtect definitions arrive by, independent of full OS updates.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏬",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "security",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVuYWJsZS1hdXRvbWF0aWMtc2VjdXJpdHktdXBkYXRlcy1tYWNvcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmQ9Ii9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5Tb2Z0d2FyZVVwZGF0ZSIKYT0kKGRlZmF1bHRzIHJlYWQgIiRkIiBDb25maWdEYXRhSW5zdGFsbCAyPi9kZXYvbnVsbCkKYj0kKGRlZmF1bHRzIHJlYWQgIiRkIiBDcml0aWNhbFVwZGF0ZUluc3RhbGwgMj4vZGV2L251bGwpCmM9JChkZWZhdWx0cyByZWFkICIkZCIgQXV0b21hdGljQ2hlY2tFbmFibGVkIDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMSIgXSAmJiBbICIkYiIgPSAiMSIgXSAmJiBbICIkYyIgPSAiMSIgXTsgdGhlbiBsb2cgIkFscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiQ29uZmlnRGF0YUluc3RhbGw9JGEgQ3JpdGljYWxVcGRhdGVJbnN0YWxsPSRiIEF1dG9tYXRpY0NoZWNrRW5hYmxlZD0kYyIKZGVmYXVsdHMgd3JpdGUgIiRkIiBBdXRvbWF0aWNDaGVja0VuYWJsZWQgLWJvb2wgdHJ1ZSAyPi9kZXYvbnVsbApkZWZhdWx0cyB3cml0ZSAiJGQiIENvbmZpZ0RhdGFJbnN0YWxsIC1ib29sIHRydWUgMj4vZGV2L251bGwKZGVmYXVsdHMgd3JpdGUgIiRkIiBDcml0aWNhbFVwZGF0ZUluc3RhbGwgLWJvb2wgdHJ1ZSAyPi9kZXYvbnVsbAphMj0kKGRlZmF1bHRzIHJlYWQgIiRkIiBDb25maWdEYXRhSW5zdGFsbCAyPi9kZXYvbnVsbCkKYjI9JChkZWZhdWx0cyByZWFkICIkZCIgQ3JpdGljYWxVcGRhdGVJbnN0YWxsIDI+L2Rldi9udWxsKQppZiBbICIkYTIiID0gIjEiIF0gJiYgWyAiJGIyIiA9ICIxIiBdOyB0aGVuIGxvZyAiQXV0b21hdGljIHNlY3VyaXR5IHVwZGF0ZXMgZW5hYmxlZCI7IGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

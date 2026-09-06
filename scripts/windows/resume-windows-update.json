@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "22a6ab17-7561-4f0d-b516-92ef9db840fc",
+  "slug": "resume-windows-update",
+  "type": "script",
+  "name": "Resume Windows Update",
+  "description": "Clears an active update pause set in Settings or by a stale policy, and re-enables the update service if it was disabled. The values it clears are logged first so a deliberate pause can be put back.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "▶️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "patching",
+    "compliance",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlc3VtZS13aW5kb3dzLXVwZGF0ZS5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzVXBkYXRlXFVYXFNldHRpbmdzJwogICAgJG5hbWVzID0gQCgnUGF1c2VGZWF0dXJlVXBkYXRlc1N0YXJ0VGltZScsICdQYXVzZUZlYXR1cmVVcGRhdGVzRW5kVGltZScsICdQYXVzZVF1YWxpdHlVcGRhdGVzU3RhcnRUaW1lJywKICAgICAgICAgICAgICAgJ1BhdXNlUXVhbGl0eVVwZGF0ZXNFbmRUaW1lJywgJ1BhdXNlVXBkYXRlc1N0YXJ0VGltZScsICdQYXVzZVVwZGF0ZXNFeHBpcnlUaW1lJywgJ0ZsaWdodFNldHRpbmdzTWF4UGF1c2VEYXlzJykKICAgICRwID0gR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRzZXQgPSBAKCRuYW1lcyB8IFdoZXJlLU9iamVjdCB7ICRudWxsIC1uZSAkcC4kXyB9KQogICAgJHN2YyA9IEdldC1TZXJ2aWNlIC1OYW1lICd3dWF1c2VydicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRkaXNhYmxlZCA9ICgkbnVsbCAtbmUgJHN2YyAtYW5kICRzdmMuU3RhcnRUeXBlIC1lcSAnRGlzYWJsZWQnKQogICAgaWYgKCRzZXQuQ291bnQgLWVxIDAgLWFuZCAtbm90ICRkaXNhYmxlZCkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgZm9yZWFjaCAoJG4gaW4gJHNldCkgewogICAgICAgIFdyaXRlLUxvZyAoJ0NsZWFyaW5nICcgKyAkbiArICcgPSAnICsgJHAuJG4pCiAgICAgICAgUmVtb3ZlLUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJG4gLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIH0KICAgIGlmICgkZGlzYWJsZWQpIHsKICAgICAgICBXcml0ZS1Mb2cgJ3d1YXVzZXJ2IHdhcyBEaXNhYmxlZCwgc2V0dGluZyB0byBNYW51YWwnCiAgICAgICAgU2V0LVNlcnZpY2UgLU5hbWUgJ3d1YXVzZXJ2JyAtU3RhcnR1cFR5cGUgTWFudWFsIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICB9CiAgICAkYSA9IEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAkbGVmdCA9IEAoJG5hbWVzIHwgV2hlcmUtT2JqZWN0IHsgJG51bGwgLW5lICRhLiRfIH0pCiAgICAkc3ZjMiA9IEdldC1TZXJ2aWNlIC1OYW1lICd3dWF1c2VydicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmICgkbGVmdC5Db3VudCAtZXEgMCAtYW5kICRzdmMyLlN0YXJ0VHlwZSAtbmUgJ0Rpc2FibGVkJykgeyBXcml0ZS1Mb2cgJ1VwZGF0ZXMgcmVzdW1lZCc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

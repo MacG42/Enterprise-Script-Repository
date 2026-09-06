@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8bed0230-090a-4947-8100-027774cacc66",
+  "slug": "flush-directory-service-cache",
+  "type": "script",
+  "name": "Flush The Directory Service Cache",
+  "description": "Clears the local cache of users, groups and hosts and restarts the directory daemon. Clears the group membership a device is still enforcing after a change, without waiting for the cache to age out.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "directoryservices",
+    "identity",
+    "cache",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Refresh Account Information",
+      "displayDescription": "Clears cached user and group information after a change.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWZsdXNoLWRpcmVjdG9yeS1zZXJ2aWNlLWNhY2hlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZHNjYWNoZXV0aWwgLWZsdXNoY2FjaGUgMj4vZGV2L251bGwKbG9nICJGbHVzaGVkIHRoZSBkaXJlY3Rvcnkgc2VydmljZSBjYWNoZSIKa2lsbGFsbCAtSFVQIG1ETlNSZXNwb25kZXIgMj4vZGV2L251bGwKbGF1bmNoY3RsIGtpY2tzdGFydCAtayBzeXN0ZW0vY29tLmFwcGxlLm9wZW5kaXJlY3RvcnlkID4vZGV2L251bGwgMj4mMQpzbGVlcCA1CmlmICEgcGdyZXAgLXggb3BlbmRpcmVjdG9yeWQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJvcGVuZGlyZWN0b3J5ZCBpcyBub3QgcnVubmluZyBhZnRlciB0aGUgcmVzdGFydCIKICBleGl0IDMwCmZpCmlmIGlkIHJvb3QgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJEaXJlY3Rvcnkgc2VydmljZXMgcmVzcG9uZGluZyBhZnRlciB0aGUgZmx1c2giCiAgZXhpdCAwCmZpCmxvZyAiRGlyZWN0b3J5IGxvb2t1cHMgYXJlIG5vdCByZXNwb25kaW5nIgpleGl0IDMwCg=="
+}

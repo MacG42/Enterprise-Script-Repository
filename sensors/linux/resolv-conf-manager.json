@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "36492f62-2319-4a1d-bd12-616d11aa1888",
+  "slug": "resolv-conf-manager",
+  "type": "sensor",
+  "name": "Resolver Configuration Manager",
+  "description": "Console sensor name: resolv_conf_manager. Which component owns /etc/resolv.conf: systemd-resolved, NetworkManager, resolvconf or static. Editing the file by hand on a managed host is why a DNS change keeps reverting.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔗",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dns",
+    "network",
+    "configuration",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgWyAtTCAvZXRjL3Jlc29sdi5jb25mIF07IHRoZW4KICB0PSQocmVhZGxpbmsgLWYgL2V0Yy9yZXNvbHYuY29uZiAyPi9kZXYvbnVsbCkKICBjYXNlICIkdCIgaW4KICAgICpzeXN0ZW1kKikgZWNobyAic3lzdGVtZC1yZXNvbHZlZCIgOzsKICAgICpyZXNvbHZjb25mKikgZWNobyAicmVzb2x2Y29uZiIgOzsKICAgICpOZXR3b3JrTWFuYWdlciopIGVjaG8gIk5ldHdvcmtNYW5hZ2VyIiA7OwogICAgKikgZWNobyAic3ltbGluayIgOzsKICBlc2FjCmVsaWYgZ3JlcCAtcXMgIkdlbmVyYXRlZCBieSBOZXR3b3JrTWFuYWdlciIgL2V0Yy9yZXNvbHYuY29uZjsgdGhlbgogIGVjaG8gIk5ldHdvcmtNYW5hZ2VyIgplbHNlCiAgZWNobyAic3RhdGljIgpmaQo="
+}

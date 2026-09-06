@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3a2a145c-3e6d-4854-b37f-8390239dca50",
+  "slug": "rebuild-mail-index",
+  "type": "script",
+  "name": "Rebuild The Mail Index",
+  "description": "Closes Mail and removes the envelope index for the signed-in user so it is rebuilt on the next launch. Fixes search that returns nothing and messages that will not open; nothing on the server is affected.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mail",
+    "search",
+    "index",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Rebuild Mail Search",
+      "displayDescription": "Rebuilds the Mail index when search finds nothing.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlYnVpbGQtbWFpbC1pbmRleC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmIHBncmVwIC14IE1haWwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgb3Nhc2NyaXB0IC1lICdxdWl0IGFwcCAiTWFpbCInID4vZGV2L251bGwgMj4mMQogIHNsZWVwIDUKICBwa2lsbCAteCBNYWlsIDI+L2Rldi9udWxsCiAgbG9nICJDbG9zZWQgTWFpbCIKZmkKbj0wCnN0YW1wPSQoZGF0ZSAtdSArJVklbSVkJUglTSVTKQpmb3IgZiBpbiAiJEhPTUUiL0xpYnJhcnkvTWFpbC9WKi9NYWlsRGF0YS9FbnZlbG9wZVwgSW5kZXgqOyBkbwogIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgbXYgIiRmIiAiJGYuYmFrLSRzdGFtcCIgMj4vZGV2L251bGwKICBuPSQoKG4rMSkpCmRvbmUKaWYgWyAiJG4iIC1lcSAwIF07IHRoZW4gbG9nICJObyBNYWlsIGVudmVsb3BlIGluZGV4IGZvdW5kIGZvciB0aGlzIHVzZXIsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJNb3ZlZCAkbiBpbmRleCBmaWxlKHMpIGFzaWRlIC0gTWFpbCB3aWxsIHJlYnVpbGQgb24gbmV4dCBsYXVuY2giCmV4aXQgMAo="
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "baf5e2a1-71c9-458d-be65-be1ac18b537f",
+  "slug": "empty-trash-macos",
+  "type": "script",
+  "name": "Empty Trash",
+  "description": "Empties the signed-in user's Trash and reports how much was reclaimed. The cheapest thing to do first on a disk-full ticket, and entirely reversible only before it runs - so it is offered rather than pushed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "trash",
+    "cleanup",
+    "userprofile"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Empty Trash",
+      "displayDescription": "Permanently removes items in the Trash to free disk space.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVtcHR5LXRyYXNoLW1hY29zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZD0iJEhPTUUvLlRyYXNoIgppZiBbICEgLWQgIiRkIiBdOyB0aGVuIGxvZyAiTm8gVHJhc2ggZm9sZGVyIGZvciB0aGlzIHVzZXIiOyBleGl0IDA7IGZpCmJlZm9yZT0kKGR1IC1zayAiJGQiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKY2FzZSAiJGJlZm9yZSIgaW4gJyd8KlshMC05XSopIGJlZm9yZT0wIDs7IGVzYWMKaWYgWyAiJGJlZm9yZSIgLWx0IDEwMjQgXTsgdGhlbiBsb2cgIlRyYXNoIGhvbGRzIHVuZGVyIDEgTUIsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKcm0gLXJmICIkZCIvKiAiJGQiLy4/PyogMj4vZGV2L251bGwKYWZ0ZXI9JChkdSAtc2sgIiRkIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCmNhc2UgIiRhZnRlciIgaW4gJyd8KlshMC05XSopIGFmdGVyPTAgOzsgZXNhYwpsb2cgIlJlY2xhaW1lZCBhYm91dCAkKCggKGJlZm9yZSAtIGFmdGVyKSAvIDEwMjQgKSkgTUIgZnJvbSB0aGUgVHJhc2giCmV4aXQgMAo="
+}

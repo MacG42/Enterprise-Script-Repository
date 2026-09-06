@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7d133033-9af1-48b8-a2ad-89af5114a1d1",
+  "slug": "truncate-oversized-system-logs",
+  "type": "script",
+  "name": "Truncate Oversized System Logs",
+  "description": "Runs the system log rotation and truncates any file in /private/var/log larger than the megabytes given in esr_log_max_mb. Truncates rather than deletes, so a writer holding the file keeps working.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "logs",
+    "disk",
+    "cleanup",
+    "maintenance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_log_max_mb",
+        "value": "200"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXRydW5jYXRlLW92ZXJzaXplZC1zeXN0ZW0tbG9ncy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCm1iPSckZXNyX2xvZ19tYXhfbWIkJwpjYXNlICIkbWIiIGluCiAgKmVzcl9sb2dfbWF4X21iKnwnJykgbWI9MjAwIDs7CmVzYWMKY2FzZSAiJG1iIiBpbgogICcnfCpbITAtOV0qKSBsb2cgIlNpemUgaXMgbm90IGEgbnVtYmVyOiAkbWIiOyBleGl0IDEwIDs7CmVzYWMKbmV3c3lzbG9nIC1GID4vZGV2L251bGwgMj4mMQpuPTAKZm9yIGYgaW4gJChmaW5kIC9wcml2YXRlL3Zhci9sb2cgLXR5cGUgZiAtc2l6ZSAiKyR7bWJ9bSIgMj4vZGV2L251bGwpOyBkbwogIHN6PSQoKCAkKHN0YXQgLWYgJXogIiRmIiAyPi9kZXYvbnVsbCkgLyAxMDQ4NTc2ICkpCiAgOiA+ICIkZiIgMj4vZGV2L251bGwKICBsb2cgIlRydW5jYXRlZCAkZiAod2FzICR7c3p9IE1CKSIKICBuPSQoKG4rMSkpCmRvbmUKaWYgWyAiJG4iIC1lcSAwIF07IHRoZW4gbG9nICJObyBsb2cgZmlsZSBhYm92ZSAke21ifSBNQiwgcm90YXRpb24gcnVuIG9ubHkiOyBleGl0IDA7IGZpCmxvZyAiVHJ1bmNhdGVkICRuIGxvZyBmaWxlKHMpIgpleGl0IDAK"
+}

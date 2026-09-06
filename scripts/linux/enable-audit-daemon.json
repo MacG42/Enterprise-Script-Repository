@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d1925bd5-9a6a-4569-aee2-6cab503f98fc",
+  "slug": "enable-audit-daemon",
+  "type": "script",
+  "name": "Enable The Audit Daemon",
+  "description": "Delivery: packaged post-install. Installs auditd where the package manager can reach it, then enables and starts the service. Without auditd the kernel's audit events go nowhere at all.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📋",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "auditd",
+    "logging",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtYXVkaXQtZGFlbW9uLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgcGdyZXAgLXggYXVkaXRkID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgImF1ZGl0ZCBhbHJlYWR5IHJ1bm5pbmcsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKaWYgISBjb21tYW5kIC12IGF1ZGl0Y3RsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAiYXVkaXRkIGlzIG5vdCBpbnN0YWxsZWQsIGF0dGVtcHRpbmcgdG8gaW5zdGFsbCBpdCIKICBpZiBjb21tYW5kIC12IGFwdC1nZXQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBERUJJQU5fRlJPTlRFTkQ9bm9uaW50ZXJhY3RpdmUgYXB0LWdldCBpbnN0YWxsIC15IGF1ZGl0ZCA+L2Rldi9udWxsIDI+JjEKICBlbGlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgZG5mIGluc3RhbGwgLXkgYXVkaXQgPi9kZXYvbnVsbCAyPiYxCiAgZWxpZiBjb21tYW5kIC12IHl1bSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIHl1bSBpbnN0YWxsIC15IGF1ZGl0ID4vZGV2L251bGwgMj4mMQogIGVsaWYgY29tbWFuZCAtdiB6eXBwZXIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICB6eXBwZXIgLS1ub24taW50ZXJhY3RpdmUgaW5zdGFsbCBhdWRpdCA+L2Rldi9udWxsIDI+JjEKICBmaQpmaQppZiAhIGNvbW1hbmQgLXYgYXVkaXRjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiYXVkaXRkIGNvdWxkIG5vdCBiZSBpbnN0YWxsZWQiOyBleGl0IDIwOyBmaQpzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGF1ZGl0ZCA+L2Rldi9udWxsIDI+JjEKc2xlZXAgMwppZiBwZ3JlcCAteCBhdWRpdGQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiYXVkaXRkIGluc3RhbGxlZCBhbmQgcnVubmluZyI7IGV4aXQgMDsgZmkKbG9nICJhdWRpdGQgZGlkIG5vdCBzdGFydCIKZXhpdCAzMAo="
+}

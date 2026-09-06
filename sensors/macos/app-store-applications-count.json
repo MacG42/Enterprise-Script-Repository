@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "65efbcce-8746-46fe-8143-539ea2367a6e",
+  "slug": "app-store-applications-count",
+  "type": "sensor",
+  "name": "App Store Application Count",
+  "description": "Console sensor name: app_store_applications_count. Number of installed applications that carry a Mac App Store receipt. These update outside the managed patching path, which matters when you are trying to account for every version on the device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🛍️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "appstore",
+    "applications",
+    "patching",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPSQobHMgLTFkIC9BcHBsaWNhdGlvbnMvKi5hcHAvQ29udGVudHMvX01BU1JlY2VpcHQgMj4vZGV2L251bGwgfCB3YyAtbCB8IHRyIC1kICcgJykKY2FzZSAiJG4iIGluICcnfCpbITAtOV0qKSBuPTAgOzsgZXNhYwplY2hvICIkbiIK"
+}

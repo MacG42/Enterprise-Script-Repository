@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5e6d7b67-a784-4716-902a-8221ea892590",
+  "slug": "dkms-modules-not-installed",
+  "type": "sensor",
+  "name": "DKMS Modules Not Installed",
+  "description": "Console sensor name: dkms_modules_not_installed. Number of DKMS modules that are registered but not built for the running kernel. This is why a graphics or VPN driver stops working after a kernel update and only after the reboot.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧩",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dkms",
+    "kernel",
+    "drivers",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgISBjb21tYW5kIC12IGRrbXMgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAiMCIKZWxzZQogIGs9JCh1bmFtZSAtciAyPi9kZXYvbnVsbCkKICB0b3RhbD0kKGRrbXMgc3RhdHVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAuKQogIG9rPSQoZGttcyBzdGF0dXMgMj4vZGV2L251bGwgfCBncmVwIC1jICIkay4qaW5zdGFsbGVkIikKICBjYXNlICIkdG90YWwiIGluICcnfCpbITAtOV0qKSB0b3RhbD0wIDs7IGVzYWMKICBjYXNlICIkb2siIGluICcnfCpbITAtOV0qKSBvaz0wIDs7IGVzYWMKICBpZiBbICIkdG90YWwiIC1lcSAwIF07IHRoZW4gZWNobyAiMCI7IGVsc2UgZWNobyAkKCggdG90YWwgLSBvayApKTsgZmkKZmkK"
+}

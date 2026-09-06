@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b6c9b904-2b14-43cb-ab56-469b08460cb6",
+  "slug": "reset-spotlight-index",
+  "type": "script",
+  "name": "Reset Spotlight Index",
+  "description": "Turns indexing off and on for the boot volume and erases the existing index so it is rebuilt from scratch. Fixes searches that return nothing while the files are plainly there.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔎",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "spotlight",
+    "search",
+    "indexing",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Rebuild Spotlight Search",
+      "displayDescription": "Rebuilds the search index when Spotlight finds nothing.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LXNwb3RsaWdodC1pbmRleC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnM9JChtZHV0aWwgLXMgLyAyPi9kZXYvbnVsbCkKbG9nICJJbmRleGluZyBzdGF0ZSBiZWZvcmU6ICQocHJpbnRmICclcycgIiRzIiB8IHRyICdcbicgJyAnKSIKbWR1dGlsIC1pIG9mZiAvID4vZGV2L251bGwgMj4mMQptZHV0aWwgLUUgLyA+L2Rldi9udWxsIDI+JjEKbWR1dGlsIC1pIG9uIC8gPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDUKYT0kKG1kdXRpbCAtcyAvIDI+L2Rldi9udWxsKQpjYXNlICIkYSIgaW4KICAqIkluZGV4aW5nIGVuYWJsZWQiKikgbG9nICJJbmRleGluZyByZS1lbmFibGVkLCByZWJ1aWxkIGlzIHJ1bm5pbmcgaW4gdGhlIGJhY2tncm91bmQiOyBleGl0IDAgOzsKZXNhYwpsb2cgIkluZGV4aW5nIHN0YXRlIGFmdGVyOiAkKHByaW50ZiAnJXMnICIkYSIgfCB0ciAnXG4nICcgJykiCmV4aXQgMzAK"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f4948654-5fa3-4271-a73e-45a2ba79aa5d",
+  "slug": "battery-charging-macos",
+  "type": "sensor",
+  "name": "Battery Charging",
+  "description": "Console sensor name: battery_charging. True while the battery is actively charging. Combined with the AC power sensor it separates a device on mains from one on mains with a dead charging circuit or a dock that is not delivering power.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⚡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "power",
+    "hardware",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChwbXNldCAtZyBiYXR0IDI+L2Rldi9udWxsKQpjYXNlICIkb3V0IiBpbgogICoiOyBjaGFyZ2luZzsiKikgZWNobyAidHJ1ZSIgOzsKICAqKSBlY2hvICJmYWxzZSIgOzsKZXNhYwo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8e2d4b00-2b28-45b5-a27d-3aa4b0ebc1df",
+  "slug": "firewall-active-linux",
+  "type": "sensor",
+  "name": "Firewall Active",
+  "description": "Console sensor name: firewall_active. True when nftables, iptables or a front end such as ufw or firewalld is actually filtering. Checks for rules rather than for an installed package, because an installed firewall with no rules filters nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firewall",
+    "network",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKYWN0aXZlPSJmYWxzZSIKaWYgY29tbWFuZCAtdiB1ZncgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdWZ3IHN0YXR1cyAyPi9kZXYvbnVsbCB8IGdyZXAgLXFpICJTdGF0dXM6IGFjdGl2ZSIgJiYgYWN0aXZlPSJ0cnVlIgpmaQppZiBbICIkYWN0aXZlIiA9ICJmYWxzZSIgXSAmJiBjb21tYW5kIC12IGZpcmV3YWxsLWNtZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmaXJld2FsbC1jbWQgLS1zdGF0ZSAyPi9kZXYvbnVsbCB8IGdyZXAgLXFpICJydW5uaW5nIiAmJiBhY3RpdmU9InRydWUiCmZpCmlmIFsgIiRhY3RpdmUiID0gImZhbHNlIiBdICYmIGNvbW1hbmQgLXYgbmZ0ID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG5mdCBsaXN0IHJ1bGVzZXQgMj4vZGV2L251bGwgfCBncmVwIC1xICJjaGFpbiIgJiYgYWN0aXZlPSJ0cnVlIgpmaQppZiBbICIkYWN0aXZlIiA9ICJmYWxzZSIgXSAmJiBjb21tYW5kIC12IGlwdGFibGVzID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JChpcHRhYmxlcyAtUyAyPi9kZXYvbnVsbCB8IGdyZXAgLXZjICJeLVAiKQogIGNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0wIDs7IGVzYWMKICBbICIkbiIgLWd0IDAgXSAmJiBhY3RpdmU9InRydWUiCmZpCmVjaG8gIiRhY3RpdmUiCg=="
+}

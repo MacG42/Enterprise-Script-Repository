@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "224f6db6-3811-4b08-8ba0-26866dd444b8",
+  "slug": "days-since-last-update-install",
+  "type": "sensor",
+  "name": "Days Since Last Update Install",
+  "description": "Console sensor name: days_since_last_update_install. Days since Windows Update last recorded a successful install, from the Auto Update Results key. Returns -1 when the key is absent, which itself means the agent has never completed an install.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📅",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "patching",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFdpbmRvd3NVcGRhdGVcQXV0byBVcGRhdGVcUmVzdWx0c1xJbnN0YWxsJwogICAgJHYgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0xhc3RTdWNjZXNzVGltZScgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkxhc3RTdWNjZXNzVGltZQogICAgaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoW3N0cmluZ10kdikpIHsgV3JpdGUtT3V0cHV0IC0xIH0KICAgIGVsc2UgewogICAgICAgICRkID0gW2RhdGV0aW1lXTo6TWluVmFsdWUKICAgICAgICBpZiAoW2RhdGV0aW1lXTo6VHJ5UGFyc2UoW3N0cmluZ10kdiwgW3JlZl0kZCkpIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Rmxvb3IoKChHZXQtRGF0ZSkgLSAkZCkuVG90YWxEYXlzKSkgfQogICAgICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

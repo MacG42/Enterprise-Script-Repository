@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9dd34429-ee20-4704-83c0-f98e2fa7aafd",
+  "slug": "clear-thumbnail-caches",
+  "type": "script",
+  "name": "Clear Thumbnail Caches",
+  "description": "Delivery: systemd timer. Empties the thumbnail caches in every home directory. On a desktop fleet with shared media these grow to gigabytes and are rebuilt on demand, so nothing is lost.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🖼️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "cache",
+    "desktop",
+    "disk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhci10aHVtYm5haWwtY2FjaGVzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZnJlZWQ9MApoaXQ9MApmb3IgaCBpbiAvaG9tZS8qOyBkbwogIGQ9IiRoLy5jYWNoZS90aHVtYm5haWxzIgogIFsgLWQgIiRkIiBdIHx8IGNvbnRpbnVlCiAgaz0kKGR1IC1zayAiJGQiIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKICBjYXNlICIkayIgaW4gJyd8KlshMC05XSopIGs9MCA7OyBlc2FjCiAgWyAiJGsiIC1sdCAxMDI0MCBdICYmIGNvbnRpbnVlCiAgcm0gLXJmICIkZCIvKiAyPi9kZXYvbnVsbAogIGZyZWVkPSQoKGZyZWVkK2spKQogIGhpdD0kKChoaXQrMSkpCiAgbG9nICJDbGVhcmVkIHRoZSB0aHVtYm5haWwgY2FjaGUgZm9yICQoYmFzZW5hbWUgIiRoIikgKHdhcyAkKCggayAvIDEwMjQgKSkgTUIpIgpkb25lCmlmIFsgIiRoaXQiIC1lcSAwIF07IHRoZW4gbG9nICJObyB0aHVtYm5haWwgY2FjaGUgYWJvdmUgMTAgTUIsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJDbGVhcmVkICRoaXQgY2FjaGUocyksIGFib3V0ICQoKCBmcmVlZCAvIDEwMjQgKSkgTUIiCmV4aXQgMAo="
+}

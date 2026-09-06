@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c453c6a3-57b1-4c14-a5fc-a89ed1d0baf8",
+  "slug": "cpu-core-count",
+  "type": "sensor",
+  "name": "CPU Core Count",
+  "description": "Console sensor name: cpu_core_count. Number of online logical processors. Segments a fleet, sizes a workload and gives every load-average threshold something to be relative to.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "cpu",
+    "hardware",
+    "inventory",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKGdldGNvbmYgX05QUk9DRVNTT1JTX09OTE4gMj4vZGV2L251bGwpCmNhc2UgIiR2IiBpbiAnJ3wqWyEwLTldKikgdj0tMSA7OyBlc2FjCmVjaG8gIiR2Igo="
+}

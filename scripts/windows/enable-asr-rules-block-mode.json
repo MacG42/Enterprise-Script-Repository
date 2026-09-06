@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3a654280-231e-4d1e-98ad-636113feb379",
+  "slug": "enable-asr-rules-block-mode",
+  "type": "script",
+  "name": "Enable ASR Rules In Block Mode",
+  "description": "Puts a conservative set of five Attack Surface Reduction rules into Block mode. Only the rules named here are touched, so audit-mode pilots of other rules are left exactly as they were.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "asr",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1hc3ItcnVsZXMtYmxvY2stbW9kZS5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRydWxlcyA9IEAoCiAgICAgICAgJzU2YTg2M2E5LTg3NWUtNDE4NS05OGE3LWI4ODJjNjRiNWNlNScsCiAgICAgICAgJzc2NzRiYTUyLTM3ZWItNGE0Zi1hOWExLWYwZjlhMTYxOWEyYycsCiAgICAgICAgJ2Q0Zjk0MGFiLTQwMWItNGVmYy1hYWRjLWFkNWYzYzUwNjg4YScsCiAgICAgICAgJzllNmM0ZTFmLTdkNjAtNDcyZi1iYTFhLWEzOWVmNjY5ZTRiMicsCiAgICAgICAgJ2IyYjNmMDNkLTZhNjUtNGY3Yi1hOWM3LTFjN2VmNzRhOWJhNCcKICAgICkKICAgICRwID0gR2V0LU1wUHJlZmVyZW5jZQogICAgJGN1cnJlbnQgPSBAe30KICAgIGZvciAoJGkgPSAwOyAkaSAtbHQgQCgkcC5BdHRhY2tTdXJmYWNlUmVkdWN0aW9uUnVsZXNfSWRzKS5Db3VudDsgJGkrKykgewogICAgICAgICRjdXJyZW50W1tzdHJpbmddQCgkcC5BdHRhY2tTdXJmYWNlUmVkdWN0aW9uUnVsZXNfSWRzKVskaV1dID0gW2ludF1AKCRwLkF0dGFja1N1cmZhY2VSZWR1Y3Rpb25SdWxlc19BY3Rpb25zKVskaV0KICAgIH0KICAgICR0b2RvID0gQCgkcnVsZXMgfCBXaGVyZS1PYmplY3QgeyAkY3VycmVudFskX10gLW5lIDEgfSkKICAgIGlmICgkdG9kby5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0FsbCBmaXZlIHJ1bGVzIGFscmVhZHkgaW4gYmxvY2sgbW9kZSwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ1NldHRpbmcgJyArICR0b2RvLkNvdW50ICsgJyBydWxlKHMpIHRvIEJsb2NrJykKICAgIGZvcmVhY2ggKCRyIGluICR0b2RvKSB7IEFkZC1NcFByZWZlcmVuY2UgLUF0dGFja1N1cmZhY2VSZWR1Y3Rpb25SdWxlc19JZHMgJHIgLUF0dGFja1N1cmZhY2VSZWR1Y3Rpb25SdWxlc19BY3Rpb25zIEVuYWJsZWQgfQogICAgJGEgPSBHZXQtTXBQcmVmZXJlbmNlCiAgICAkYWZ0ZXIgPSBAe30KICAgIGZvciAoJGkgPSAwOyAkaSAtbHQgQCgkYS5BdHRhY2tTdXJmYWNlUmVkdWN0aW9uUnVsZXNfSWRzKS5Db3VudDsgJGkrKykgewogICAgICAgICRhZnRlcltbc3RyaW5nXUAoJGEuQXR0YWNrU3VyZmFjZVJlZHVjdGlvblJ1bGVzX0lkcylbJGldXSA9IFtpbnRdQCgkYS5BdHRhY2tTdXJmYWNlUmVkdWN0aW9uUnVsZXNfQWN0aW9ucylbJGldCiAgICB9CiAgICBpZiAoQCgkcnVsZXMgfCBXaGVyZS1PYmplY3QgeyAkYWZ0ZXJbJF9dIC1uZSAxIH0pLkNvdW50IC1lcSAwKSB7IFdyaXRlLUxvZyAnQWxsIHJ1bGVzIG5vdyBpbiBibG9jayBtb2RlJzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAnT25lIG9yIG1vcmUgcnVsZXMgZGlkIG5vdCBhcHBseScKICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

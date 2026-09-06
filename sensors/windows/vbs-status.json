@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b2810555-438c-4b0a-b8ee-f75b3a04dc0c",
+  "slug": "vbs-status",
+  "type": "sensor",
+  "name": "Virtualization Based Security Status",
+  "description": "Console sensor name: vbs_status. Closed set: Running, Enabled, Disabled, NotApplicable. VBS is the floor under Credential Guard and memory integrity, so check it before chasing either of those.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "vbs",
+    "virtualization"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkZyA9IEdldC1DaW1JbnN0YW5jZSAtTmFtZXNwYWNlICdyb290XE1pY3Jvc29mdFxXaW5kb3dzXERldmljZUd1YXJkJyAtQ2xhc3NOYW1lIFdpbjMyX0RldmljZUd1YXJkCiAgICBpZiAoJG51bGwgLWVxICRkZykgeyBXcml0ZS1PdXRwdXQgJ05vdEFwcGxpY2FibGUnIH0KICAgIGVsc2UgewogICAgICAgIHN3aXRjaCAoW2ludF0kZGcuVmlydHVhbGl6YXRpb25CYXNlZFNlY3VyaXR5U3RhdHVzKSB7CiAgICAgICAgICAgIDIgeyBXcml0ZS1PdXRwdXQgJ1J1bm5pbmcnIH0KICAgICAgICAgICAgMSB7IFdyaXRlLU91dHB1dCAnRW5hYmxlZCcgfQogICAgICAgICAgICAwIHsgV3JpdGUtT3V0cHV0ICdEaXNhYmxlZCcgfQogICAgICAgICAgICBkZWZhdWx0IHsgV3JpdGUtT3V0cHV0ICdVbmtub3duJyB9CiAgICAgICAgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

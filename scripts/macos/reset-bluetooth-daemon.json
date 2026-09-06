@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6bee1cd9-5509-44c0-ac9f-c1400e727205",
+  "slug": "reset-bluetooth-daemon",
+  "type": "script",
+  "name": "Restart The Bluetooth Daemon",
+  "description": "Restarts bluetoothd so the stack re-enumerates its peripherals. Pairings are kept - this is the recovery for a device that has stopped seeing a keyboard or headset, not a reset of the pairing list.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📶",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bluetooth",
+    "peripherals",
+    "hardware",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Bluetooth",
+      "displayDescription": "Restarts Bluetooth when a keyboard, mouse or headset stops connecting.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LWJsdWV0b290aC1kYWVtb24ubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpiZWZvcmU9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5CbHVldG9vdGggQ29udHJvbGxlclBvd2VyU3RhdGUgMj4vZGV2L251bGwpCmxvZyAiQ29udHJvbGxlciBwb3dlciBzdGF0ZSBiZWZvcmU6ICRiZWZvcmUiCmxhdW5jaGN0bCBraWNrc3RhcnQgLWsgc3lzdGVtL2NvbS5hcHBsZS5ibHVldG9vdGhkID4vZGV2L251bGwgMj4mMQpzbGVlcCA1CmlmICEgcGdyZXAgLXggYmx1ZXRvb3RoZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgImJsdWV0b290aGQgaXMgbm90IHJ1bm5pbmcgYWZ0ZXIgdGhlIHJlc3RhcnQiCiAgZXhpdCAzMApmaQppZiBbICIkYmVmb3JlIiA9ICIwIiBdOyB0aGVuCiAgZGVmYXVsdHMgd3JpdGUgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLkJsdWV0b290aCBDb250cm9sbGVyUG93ZXJTdGF0ZSAtaW50IDEgMj4vZGV2L251bGwKICBsb2cgIkNvbnRyb2xsZXIgd2FzIHBvd2VyZWQgb2ZmLCBwb3dlcmluZyBpdCBiYWNrIG9uIgpmaQpsb2cgIkJsdWV0b290aCBkYWVtb24gcmVzdGFydGVkIgpleGl0IDAK"
+}

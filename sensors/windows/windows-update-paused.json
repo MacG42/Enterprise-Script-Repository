@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1d35a118-ca87-4e8e-b89c-e9a50dcda881",
+  "slug": "windows-update-paused",
+  "type": "sensor",
+  "name": "Windows Update Paused",
+  "description": "Console sensor name: windows_update_paused. True when feature or quality updates are paused by policy or by a user in Settings, and the pause has not yet expired. A paused device looks compliant to anything that only counts pending updates.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⏸️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "patching",
+    "compliance",
+    "drift"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwYXVzZWQgPSAkZmFsc2UKICAgIGZvcmVhY2ggKCRrIGluIEAoJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzVXBkYXRlXFVYXFNldHRpbmdzJykpIHsKICAgICAgICAkcCA9IEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgZm9yZWFjaCAoJG4gaW4gQCgnUGF1c2VGZWF0dXJlVXBkYXRlc0VuZFRpbWUnLCAnUGF1c2VRdWFsaXR5VXBkYXRlc0VuZFRpbWUnLCAnUGF1c2VVcGRhdGVzRXhwaXJ5VGltZScpKSB7CiAgICAgICAgICAgICR2ID0gW3N0cmluZ10kcC4kbgogICAgICAgICAgICBpZiAoLW5vdCBbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKCR2KSkgewogICAgICAgICAgICAgICAgJGQgPSBbZGF0ZXRpbWVdOjpNaW5WYWx1ZQogICAgICAgICAgICAgICAgaWYgKFtkYXRldGltZV06OlRyeVBhcnNlKCR2LCBbcmVmXSRkKSAtYW5kICRkIC1ndCAoR2V0LURhdGUpKSB7ICRwYXVzZWQgPSAkdHJ1ZSB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSRwYXVzZWQpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICRmYWxzZQp9Cg=="
+}

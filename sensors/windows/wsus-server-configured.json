@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7061a75a-b889-4db6-978f-d7e08f0f4deb",
+  "slug": "wsus-server-configured",
+  "type": "sensor",
+  "name": "WSUS Server Configured",
+  "description": "Console sensor name: wsus_server_configured. True when a WUServer policy points the device at an on-premises update server. Devices that should have moved to Windows Update for Business often still carry the old policy from a stale GPO.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗄️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "wsus",
+    "patching",
+    "policy"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXFBvbGljaWVzXE1pY3Jvc29mdFxXaW5kb3dzXFdpbmRvd3NVcGRhdGUnCiAgICAkdiA9IChHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtTmFtZSAnV1VTZXJ2ZXInIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5XVVNlcnZlcgogICAgV3JpdGUtT3V0cHV0IChbYm9vbF0oLW5vdCBbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKFtzdHJpbmddJHYpKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

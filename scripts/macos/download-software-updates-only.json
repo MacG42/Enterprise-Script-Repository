@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0054aa46-4b58-4beb-ac7e-6f25ccbaa4e4",
+  "slug": "download-software-updates-only",
+  "type": "script",
+  "name": "Download Software Updates Only",
+  "description": "Downloads pending updates without installing them, so a later install window is short instead of being dominated by the download. Safe to run during the working day.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⬇️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "staging",
+    "maintenance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 3600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRvd25sb2FkLXNvZnR3YXJlLXVwZGF0ZXMtb25seS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmxpc3Q9JChzb2Z0d2FyZXVwZGF0ZSAtbCAyPiYxKQpjYXNlICIkbGlzdCIgaW4KICAqIk5vIG5ldyBzb2Z0d2FyZSBhdmFpbGFibGUiKikgbG9nICJOb3RoaW5nIHRvIGRvd25sb2FkLCBubyBhY3Rpb24iOyBleGl0IDAgOzsKZXNhYwpuPSQocHJpbnRmICclc1xuJyAiJGxpc3QiIHwgZ3JlcCAtYyAiXlwqIikKbG9nICJEb3dubG9hZGluZyAkbiBwZW5kaW5nIHVwZGF0ZShzKSIKb3V0PSQoc29mdHdhcmV1cGRhdGUgLWQgLWEgMj4mMSkKbG9nICJzb2Z0d2FyZXVwZGF0ZSBvdXRwdXQ6ICQocHJpbnRmICclcycgIiRvdXQiIHwgdHIgJ1xuJyAnICcgfCBjdXQgLWMxLTQwMCkiCmV4aXQgMAo="
+}

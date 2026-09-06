@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "219a69ff-62ce-4c7b-916b-11f11af10f8f",
+  "slug": "enable-unattended-security-upgrades",
+  "type": "script",
+  "name": "Enable Unattended Security Upgrades",
+  "description": "Delivery: packaged post-install. Turns on the distribution's own automatic security update mechanism - unattended-upgrades on Debian family, dnf-automatic on RHEL family - restricted to security updates and with automatic reboot left off.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🤖",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "patching",
+    "automation",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtdW5hdHRlbmRlZC1zZWN1cml0eS11cGdyYWRlcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmIGNvbW1hbmQgLXYgYXB0LWdldCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBpZiBbICEgLXggL3Vzci9iaW4vdW5hdHRlbmRlZC11cGdyYWRlIF07IHRoZW4KICAgIERFQklBTl9GUk9OVEVORD1ub25pbnRlcmFjdGl2ZSBhcHQtZ2V0IGluc3RhbGwgLXkgdW5hdHRlbmRlZC11cGdyYWRlcyA+L2Rldi9udWxsIDI+JjEKICBmaQogIFsgLXggL3Vzci9iaW4vdW5hdHRlbmRlZC11cGdyYWRlIF0gfHwgeyBsb2cgInVuYXR0ZW5kZWQtdXBncmFkZXMgY291bGQgbm90IGJlIGluc3RhbGxlZCI7IGV4aXQgMjA7IH0KICBmPSIvZXRjL2FwdC9hcHQuY29uZi5kLzIwYXV0by11cGdyYWRlcyIKICB7CiAgICBwcmludGYgJyVzXG4nICdBUFQ6OlBlcmlvZGljOjpVcGRhdGUtUGFja2FnZS1MaXN0cyAiMSI7JwogICAgcHJpbnRmICclc1xuJyAnQVBUOjpQZXJpb2RpYzo6VW5hdHRlbmRlZC1VcGdyYWRlICIxIjsnCiAgfSA+ICIkZiIKICBwcmludGYgJyVzXG4nICdVbmF0dGVuZGVkLVVwZ3JhZGU6OkF1dG9tYXRpYy1SZWJvb3QgImZhbHNlIjsnID4gL2V0Yy9hcHQvYXB0LmNvbmYuZC81MS1lc3Itbm8tcmVib290CiAgc3lzdGVtY3RsIGVuYWJsZSAtLW5vdyB1bmF0dGVuZGVkLXVwZ3JhZGVzID4vZGV2L251bGwgMj4mMQogIGxvZyAidW5hdHRlbmRlZC11cGdyYWRlcyBlbmFibGVkIHdpdGggYXV0b21hdGljIHJlYm9vdCBvZmYiCiAgZXhpdCAwCmZpCmlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHJwbSAtcSBkbmYtYXV0b21hdGljID4vZGV2L251bGwgMj4mMSB8fCBkbmYgaW5zdGFsbCAteSBkbmYtYXV0b21hdGljID4vZGV2L251bGwgMj4mMQogIGM9Ii9ldGMvZG5mL2F1dG9tYXRpYy5jb25mIgogIFsgLWYgIiRjIiBdIHx8IHsgbG9nICJkbmYtYXV0b21hdGljIGNvdWxkIG5vdCBiZSBpbnN0YWxsZWQiOyBleGl0IDIwOyB9CiAgc2VkIC1pIC1FICJzL151cGdyYWRlX3R5cGVbWzpzcGFjZTpdXSo9LiovdXBncmFkZV90eXBlID0gc2VjdXJpdHkvIiAiJGMiCiAgc2VkIC1pIC1FICJzL15hcHBseV91cGRhdGVzW1s6c3BhY2U6XV0qPS4qL2FwcGx5X3VwZGF0ZXMgPSB5ZXMvIiAiJGMiCiAgc3lzdGVtY3RsIGVuYWJsZSAtLW5vdyBkbmYtYXV0b21hdGljLnRpbWVyID4vZGV2L251bGwgMj4mMQogIHN5c3RlbWN0bCBpcy1lbmFibGVkIGRuZi1hdXRvbWF0aWMudGltZXIgPi9kZXYvbnVsbCAyPiYxICYmIHsgbG9nICJkbmYtYXV0b21hdGljIGVuYWJsZWQgZm9yIHNlY3VyaXR5IHVwZGF0ZXMiOyBleGl0IDA7IH0KICBleGl0IDMwCmZpCmxvZyAiTm8gc3VwcG9ydGVkIGF1dG9tYXRpYyB1cGRhdGUgbWVjaGFuaXNtIG9uIHRoaXMgZGlzdHJpYnV0aW9uIgpleGl0IDEwCg=="
+}

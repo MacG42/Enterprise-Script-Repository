@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "beeed4d9-7a78-4432-a6ca-ca5f0e6612f8",
+  "slug": "disable-root-account",
+  "type": "script",
+  "name": "Disable Root Account",
+  "description": "Removes the root account's password so it can no longer be used to log in. Sudo is unaffected - this closes the direct root login that a support session sometimes leaves enabled.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "root",
+    "accounts",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtcm9vdC1hY2NvdW50LmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKYT0kKGRzY2wgLiAtcmVhZCAvVXNlcnMvcm9vdCBBdXRoZW50aWNhdGlvbkF1dGhvcml0eSAyPi9kZXYvbnVsbCkKY2FzZSAiJGEiIGluCiAgKlNoYWRvd0hhc2gqKSA6IDs7CiAgKikgbG9nICJSb290IGFjY291bnQgYWxyZWFkeSBkaXNhYmxlZCwgbm8gYWN0aW9uIjsgZXhpdCAwIDs7CmVzYWMKbG9nICJSb290IGFjY291bnQgaGFzIGEgcGFzc3dvcmQgc2V0LCBkaXNhYmxpbmciCmRzY2wgLiAtY3JlYXRlIC9Vc2Vycy9yb290IFVzZXJTaGVsbCAvdXNyL2Jpbi9mYWxzZSAyPi9kZXYvbnVsbApkc2NsIC4gLWRlbGV0ZSAvVXNlcnMvcm9vdCBBdXRoZW50aWNhdGlvbkF1dGhvcml0eSAyPi9kZXYvbnVsbApkc2NsIC4gLWNyZWF0ZSAvVXNlcnMvcm9vdCBQYXNzd29yZCAnKicgMj4vZGV2L251bGwKYj0kKGRzY2wgLiAtcmVhZCAvVXNlcnMvcm9vdCBBdXRoZW50aWNhdGlvbkF1dGhvcml0eSAyPi9kZXYvbnVsbCkKY2FzZSAiJGIiIGluCiAgKlNoYWRvd0hhc2gqKSBsb2cgIlJvb3Qgc3RpbGwgaGFzIGEgc2hhZG93IGhhc2giOyBleGl0IDMwIDs7CmVzYWMKbG9nICJSb290IGFjY291bnQgZGlzYWJsZWQiCmV4aXQgMAo="
+}

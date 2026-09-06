@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "758ed977-19a3-433b-8b5d-ea3da9168ea3",
+  "slug": "remote-management-enabled",
+  "type": "sensor",
+  "name": "Remote Management Enabled",
+  "description": "Console sensor name: remote_management_enabled. True when the Apple Remote Desktop agent is running. Legitimate in some support models, but on most fleets it is an unmanaged remote control path that nobody remembers enabling.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💻",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ard",
+    "remotemanagement",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgppZiBwZ3JlcCAtZiAiQVJEQWdlbnQiID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

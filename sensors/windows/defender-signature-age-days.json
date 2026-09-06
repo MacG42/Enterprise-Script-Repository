@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d1ce804e-bad2-40f1-ac2c-950c8c92ad52",
+  "slug": "defender-signature-age-days",
+  "type": "sensor",
+  "name": "Defender Signature Age (Days)",
+  "description": "Console sensor name: defender_signature_age_days. Days since the antivirus definitions were last updated. Returns -1 when Defender is not the active engine. Anything over 3 is a device that has not reached the update path in a week of business days.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📅",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "signatures",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LU1wQ29tcHV0ZXJTdGF0dXMKICAgICRhZ2UgPSBbaW50XSRzLkFudGl2aXJ1c1NpZ25hdHVyZUFnZQogICAgaWYgKCRhZ2UgLWx0IDAgLW9yICRhZ2UgLWd0IDM2NTApIHsgJGFnZSA9IC0xIH0KICAgIFdyaXRlLU91dHB1dCAkYWdlCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

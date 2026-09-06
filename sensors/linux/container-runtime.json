@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "80dc7985-4397-4ace-ac82-fbe4ed946a2f",
+  "slug": "container-runtime",
+  "type": "sensor",
+  "name": "Container Runtime",
+  "description": "Console sensor name: container_runtime. Which container runtime is installed: docker, podman, containerd or None. Determines whether the workload sensors on this host mean anything and whether image patching is in scope.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🐳",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "containers",
+    "docker",
+    "podman",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZm9yIGMgaW4gZG9ja2VyIHBvZG1hbiBjb250YWluZXJkOyBkbwogIGlmIGNvbW1hbmQgLXYgIiRjIiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIGVjaG8gIiRjIgogICAgZXhpdCAwCiAgZmkKZG9uZQplY2hvICJOb25lIgo="
+}

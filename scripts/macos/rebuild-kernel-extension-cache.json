@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a77b80dd-fa29-4703-bf4e-c0e8a7573478",
+  "slug": "rebuild-kernel-extension-cache",
+  "type": "script",
+  "name": "Rebuild Kernel Extension Cache",
+  "description": "Rebuilds the boot kernel collection so a device with a stale or damaged cache boots with the drivers it should have. Reports that a restart is needed rather than taking one.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧩",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "kext",
+    "drivers",
+    "boot",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 1800,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlYnVpbGQta2VybmVsLWV4dGVuc2lvbi1jYWNoZS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmIGNvbW1hbmQgLXYga211dGlsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG91dD0kKGttdXRpbCBpbnN0YWxsIC0tdXBkYXRlLWFsbCAyPiYxKQogIHJjPSQ/CiAgbG9nICJrbXV0aWwgaW5zdGFsbCAtLXVwZGF0ZS1hbGwgcmV0dXJuZWQgJHJjOiAkKHByaW50ZiAnJXMnICIkb3V0IiB8IHRyICdcbicgJyAnIHwgY3V0IC1jMS0zMDApIgplbGlmIGNvbW1hbmQgLXYga2V4dGNhY2hlID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG91dD0kKGtleHRjYWNoZSAtaSAvIDI+JjEpCiAgcmM9JD8KICBsb2cgImtleHRjYWNoZSAtaSAvIHJldHVybmVkICRyYzogJChwcmludGYgJyVzJyAiJG91dCIgfCB0ciAnXG4nICcgJyB8IGN1dCAtYzEtMzAwKSIKZWxzZQogIGxvZyAiTmVpdGhlciBrbXV0aWwgbm9yIGtleHRjYWNoZSBpcyBhdmFpbGFibGUiCiAgZXhpdCAxMApmaQppZiBbICIkcmMiIC1lcSAwIF07IHRoZW4gbG9nICJLZXJuZWwgY29sbGVjdGlvbiByZWJ1aWx0IC0gYSByZXN0YXJ0IGlzIHJlcXVpcmVkIHRvIHVzZSBpdCI7IGV4aXQgMDsgZmkKZXhpdCAyMAo="
+}

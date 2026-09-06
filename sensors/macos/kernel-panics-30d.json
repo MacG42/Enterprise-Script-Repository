@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1556919d-7504-42a4-b731-60f58f5238ca",
+  "slug": "kernel-panics-30d",
+  "type": "sensor",
+  "name": "Kernel Panics In 30 Days",
+  "description": "Console sensor name: kernel_panics_30d. Count of panic reports written in the last 30 days. One is worth a look at the report; a pattern across a model or a driver version is a fleet problem rather than a device problem.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "panic",
+    "reliability",
+    "stability",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSIvTGlicmFyeS9Mb2dzL0RpYWdub3N0aWNSZXBvcnRzIgppZiBbICEgLWQgIiRkIiBdOyB0aGVuCiAgZWNobyAiMCIKZWxzZQogIG49JChmaW5kICIkZCIgLW5hbWUgIioucGFuaWMiIC1tdGltZSAtMzAgMj4vZGV2L251bGwgfCB3YyAtbCB8IHRyIC1kICcgJykKICBjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwogIGVjaG8gIiRuIgpmaQo="
+}

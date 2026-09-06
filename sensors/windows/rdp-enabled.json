@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3f4b7276-3187-46a7-9b28-e7dc3a134450",
+  "slug": "rdp-enabled",
+  "type": "sensor",
+  "name": "RDP Enabled",
+  "description": "Console sensor name: rdp_enabled. True when Remote Desktop connections are permitted. On a client fleet this should normally be a small, named set of devices; anything else is drift or a helpdesk workaround left behind.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "rdp",
+    "remoteaccess",
+    "security",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXFRlcm1pbmFsIFNlcnZlcicKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdmRGVueVRTQ29ubmVjdGlvbnMnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5mRGVueVRTQ29ubmVjdGlvbnMKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKCRudWxsIC1uZSAkdiAtYW5kIFtpbnRdJHYgLWVxIDApKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

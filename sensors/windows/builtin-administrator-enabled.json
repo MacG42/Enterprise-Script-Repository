@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "26660cbb-2b1b-46c5-bb3d-cb33d1b3157f",
+  "slug": "builtin-administrator-enabled",
+  "type": "sensor",
+  "name": "Built-in Administrator Enabled",
+  "description": "Console sensor name: builtin_administrator_enabled. True when the well-known RID 500 account is enabled. Matched on the SID rather than the name so a renamed Administrator account is still caught.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "security",
+    "localadmin",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRhID0gR2V0LUxvY2FsVXNlciAtRXJyb3JBY3Rpb24gU3RvcCB8IFdoZXJlLU9iamVjdCB7ICRfLlNJRC5WYWx1ZSAtbGlrZSAnUy0xLTUtKi01MDAnIH0KICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKCRudWxsIC1uZSAkYSAtYW5kICRhLkVuYWJsZWQpKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

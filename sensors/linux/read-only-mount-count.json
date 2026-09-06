@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c1d182de-f9ee-45ab-b7c8-08cd1963e1fa",
+  "slug": "read-only-mount-count",
+  "type": "sensor",
+  "name": "Read Only Mount Count",
+  "description": "Console sensor name: read_only_mount_count. Number of local filesystems mounted read-only that are not meant to be. A filesystem the kernel has remounted read-only after an error is a device about to fail in a confusing way.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "filesystem",
+    "mounts",
+    "health",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0kKGF3ayAnJDEgfiAvXlwvZGV2LyAmJiAkNCB+IC8oXnwsKXJvKCx8JCkvIHtjKyt9IEVORCB7cHJpbnQgYyswfScgL3Byb2MvbW91bnRzIDI+L2Rldi9udWxsKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

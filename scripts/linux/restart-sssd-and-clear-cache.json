@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ee66cbe5-5898-4de0-8f29-ec6759efae71",
+  "slug": "restart-sssd-and-clear-cache",
+  "type": "script",
+  "name": "Restart SSSD And Clear Its Cache",
+  "description": "Delivery: ad hoc. Clears the SSSD cache and restarts the daemon, so a group membership or account change in the directory takes effect now rather than when the cache ages out.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "sssd",
+    "identity",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZXN0YXJ0LXNzc2QtYW5kLWNsZWFyLWNhY2hlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBzeXN0ZW1jdGwgbGlzdC11bml0LWZpbGVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiXnNzc2Quc2VydmljZSI7IHRoZW4gbG9nICJTU1NEIGlzIG5vdCBpbnN0YWxsZWQgb24gdGhpcyBob3N0IjsgZXhpdCAxMDsgZmkKbG9nICJTdG9wcGluZyBTU1NEIgpzeXN0ZW1jdGwgc3RvcCBzc3NkID4vZGV2L251bGwgMj4mMQppZiBjb21tYW5kIC12IHNzc19jYWNoZSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBzc3NfY2FjaGUgLUUgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJJbnZhbGlkYXRlZCB0aGUgU1NTRCBjYWNoZSIKZmkKcm0gLWYgL3Zhci9saWIvc3NzL2RiL2NhY2hlXyoubGRiIC92YXIvbGliL3Nzcy9kYi90aW1lc3RhbXBzXyoubGRiIDI+L2Rldi9udWxsCnN5c3RlbWN0bCBzdGFydCBzc3NkID4vZGV2L251bGwgMj4mMQpzbGVlcCAxMAppZiBzeXN0ZW1jdGwgaXMtYWN0aXZlIHNzc2QgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJTU1NEIHJlc3RhcnRlZCB3aXRoIGEgY2xlYXJlZCBjYWNoZSIKICBleGl0IDAKZmkKbG9nICJTU1NEIGRpZCBub3QgY29tZSBiYWNrIgpleGl0IDMwCg=="
+}

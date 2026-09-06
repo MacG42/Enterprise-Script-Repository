@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e82ce329-6d49-4f7f-8deb-689116f6c16b",
+  "slug": "disable-remote-login",
+  "type": "script",
+  "name": "Disable SSH Remote Login",
+  "description": "Turns off the SSH server. Inbound SSH is rarely part of a managed Mac support path and is a straightforward lateral movement route when it is left on from a build.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ssh",
+    "remotelogin",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtcmVtb3RlLWxvZ2luLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdj0kKHN5c3RlbXNldHVwIC1nZXRyZW1vdGVsb2dpbiAyPi9kZXYvbnVsbCkKY2FzZSAiJHYiIGluCiAgKk9mZiopIGxvZyAiQWxyZWFkeSBvZmYsIG5vIGFjdGlvbiI7IGV4aXQgMCA7Owplc2FjCmxvZyAiUmVtb3RlIGxvZ2luIHdhczogJHYiCnN5c3RlbXNldHVwIC1mIC1zZXRyZW1vdGVsb2dpbiBvZmYgPi9kZXYvbnVsbCAyPiYxCmE9JChzeXN0ZW1zZXR1cCAtZ2V0cmVtb3RlbG9naW4gMj4vZGV2L251bGwpCmNhc2UgIiRhIiBpbgogICpPZmYqKSBsb2cgIlJlbW90ZSBsb2dpbiBkaXNhYmxlZCI7IGV4aXQgMCA7Owplc2FjCmxvZyAiU3RpbGwgcmVwb3J0aW5nOiAkYSIKZXhpdCAzMAo="
+}

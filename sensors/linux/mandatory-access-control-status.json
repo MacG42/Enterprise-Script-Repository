@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0f39d9ff-3f0a-44e9-92f9-f7e5a45228d8",
+  "slug": "mandatory-access-control-status",
+  "type": "sensor",
+  "name": "Mandatory Access Control Status",
+  "description": "Console sensor name: mandatory_access_control_status. Reports SELinux-Enforcing, SELinux-Permissive, SELinux-Disabled, AppArmor-Enabled or None. Permissive is the state worth finding: it looks configured in an audit and enforces nothing.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "selinux",
+    "apparmor",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgY29tbWFuZCAtdiBnZXRlbmZvcmNlID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHY9JChnZXRlbmZvcmNlIDI+L2Rldi9udWxsKQogIGNhc2UgIiR2IiBpbgogICAgRW5mb3JjaW5nKSBlY2hvICJTRUxpbnV4LUVuZm9yY2luZyI7IGV4aXQgMCA7OwogICAgUGVybWlzc2l2ZSkgZWNobyAiU0VMaW51eC1QZXJtaXNzaXZlIjsgZXhpdCAwIDs7CiAgICBEaXNhYmxlZCkgZWNobyAiU0VMaW51eC1EaXNhYmxlZCI7IGV4aXQgMCA7OwogIGVzYWMKZmkKaWYgWyAtZCAvc3lzL2tlcm5lbC9zZWN1cml0eS9hcHBhcm1vciBdOyB0aGVuCiAgZWNobyAiQXBwQXJtb3ItRW5hYmxlZCIKZWxzZQogIGVjaG8gIk5vbmUiCmZpCg=="
+}

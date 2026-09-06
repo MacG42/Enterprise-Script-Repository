@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "015d651a-8975-4244-a55d-2c613ec716a2",
+  "slug": "disable-avahi-daemon",
+  "type": "script",
+  "name": "Disable The Avahi Daemon",
+  "description": "Delivery: packaged post-install. Stops, disables and masks avahi. Multicast DNS advertises the host to everyone on the segment and is rarely needed outside a desktop network with shared printers.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔇",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "avahi",
+    "network",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWF2YWhpLWRhZW1vbi5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmICEgY29tbWFuZCAtdiBzeXN0ZW1jdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAic3lzdGVtZCBpcyBub3QgdGhlIGluaXQgc3lzdGVtIGhlcmUiOyBleGl0IDEwOyBmaQppZiAhIHN5c3RlbWN0bCBsaXN0LXVuaXQtZmlsZXMgMj4vZGV2L251bGwgfCBncmVwIC1xICJeYXZhaGktZGFlbW9uIjsgdGhlbiBsb2cgImF2YWhpIGlzIG5vdCBpbnN0YWxsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKcz0kKHN5c3RlbWN0bCBpcy1lbmFibGVkIGF2YWhpLWRhZW1vbi5zZXJ2aWNlIDI+L2Rldi9udWxsKQppZiBbICIkcyIgPSAibWFza2VkIiBdOyB0aGVuIGxvZyAiYXZhaGkgaXMgYWxyZWFkeSBtYXNrZWQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKaWYgY29tbWFuZCAtdiBscHN0YXQgPi9kZXYvbnVsbCAyPiYxICYmIGxwc3RhdCAtcCAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgIl5wcmludGVyIjsgdGhlbgogIGxvZyAiUHJpbnQgcXVldWVzIGFyZSBjb25maWd1cmVkIC0gYXZhaGkgbWF5IGJlIGRpc2NvdmVyaW5nIHRoZW0sIGNvbnRpbnVpbmcgYW55d2F5IGJ1dCBjaGVjayBwcmludGluZyBhZnRlcndhcmRzIgpmaQpsb2cgImF2YWhpLWRhZW1vbiB3YXMgJHMsIGRpc2FibGluZyBhbmQgbWFza2luZyIKc3lzdGVtY3RsIGRpc2FibGUgLS1ub3cgYXZhaGktZGFlbW9uLnNvY2tldCA+L2Rldi9udWxsIDI+JjEKc3lzdGVtY3RsIGRpc2FibGUgLS1ub3cgYXZhaGktZGFlbW9uLnNlcnZpY2UgPi9kZXYvbnVsbCAyPiYxCnN5c3RlbWN0bCBtYXNrIGF2YWhpLWRhZW1vbi5zb2NrZXQgPi9kZXYvbnVsbCAyPiYxCnN5c3RlbWN0bCBtYXNrIGF2YWhpLWRhZW1vbi5zZXJ2aWNlID4vZGV2L251bGwgMj4mMQphPSQoc3lzdGVtY3RsIGlzLWVuYWJsZWQgYXZhaGktZGFlbW9uLnNlcnZpY2UgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICJtYXNrZWQiIF07IHRoZW4gbG9nICJhdmFoaSBkaXNhYmxlZCBhbmQgbWFza2VkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

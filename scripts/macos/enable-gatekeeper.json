@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "765028a8-9599-4fd3-a4c5-30a49877df57",
+  "slug": "enable-gatekeeper",
+  "type": "script",
+  "name": "Enable Gatekeeper",
+  "description": "Turns assessment of downloaded applications back on. Gatekeeper off is almost always a leftover from a one-off install, and it stays off silently for the rest of the device's life.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "gatekeeper",
+    "security",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVuYWJsZS1nYXRla2VlcGVyLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKcz0kKHNwY3RsIC0tc3RhdHVzIDI+L2Rldi9udWxsKQpjYXNlICIkcyIgaW4KICAqImFzc2Vzc21lbnRzIGVuYWJsZWQiKikgbG9nICJBbHJlYWR5IGVuYWJsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMCA7Owplc2FjCmxvZyAiR2F0ZWtlZXBlciByZXBvcnRlZDogJHMiCnNwY3RsIC0tbWFzdGVyLWVuYWJsZSAyPi9kZXYvbnVsbAphPSQoc3BjdGwgLS1zdGF0dXMgMj4vZGV2L251bGwpCmNhc2UgIiRhIiBpbgogICoiYXNzZXNzbWVudHMgZW5hYmxlZCIqKSBsb2cgIkdhdGVrZWVwZXIgZW5hYmxlZCI7IGV4aXQgMCA7Owplc2FjCmxvZyAiU3RpbGwgcmVwb3J0aW5nOiAkYSIKZXhpdCAzMAo="
+}

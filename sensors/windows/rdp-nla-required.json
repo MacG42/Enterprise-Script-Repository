@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "951862c5-0aa8-4a7d-bac7-27f36b2fca7f",
+  "slug": "rdp-nla-required",
+  "type": "sensor",
+  "name": "RDP Network Level Authentication Required",
+  "description": "Console sensor name: rdp_nla_required. True when RDP requires Network Level Authentication. Only meaningful where RDP is enabled, so pair it with that sensor rather than reading a false on a device with RDP off as a finding.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "rdp",
+    "remoteaccess",
+    "security",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxDb250cm9sXFRlcm1pbmFsIFNlcnZlclxXaW5TdGF0aW9uc1xSRFAtVGNwJwogICAgJHYgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ1VzZXJBdXRoZW50aWNhdGlvbicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlVzZXJBdXRoZW50aWNhdGlvbgogICAgV3JpdGUtT3V0cHV0IChbYm9vbF0oJG51bGwgLW5lICR2IC1hbmQgW2ludF0kdiAtZXEgMSkpCn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICRmYWxzZQp9Cg=="
+}

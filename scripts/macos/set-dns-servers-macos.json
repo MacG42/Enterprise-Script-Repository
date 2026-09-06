@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "277b8e22-71a0-40c7-8194-e60e5242f829",
+  "slug": "set-dns-servers-macos",
+  "type": "script",
+  "name": "Set DNS Servers",
+  "description": "Sets the resolvers on the service carrying the default route to the space-separated list in esr_dns_servers, or clears them back to DHCP when the value is 'empty'. Validates each address before applying.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dns",
+    "network",
+    "resolution",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_dns_servers",
+        "value": "empty"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1kbnMtc2VydmVycy1tYWNvcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnZhbD0nJGVzcl9kbnNfc2VydmVycyQnCmNhc2UgIiR2YWwiIGluCiAgKmVzcl9kbnNfc2VydmVycyp8JycpIGxvZyAiTm8gRE5TIHZhbHVlIHN1cHBsaWVkIjsgZXhpdCAxMCA7Owplc2FjCmk9JChyb3V0ZSAtbiBnZXQgZGVmYXVsdCAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvaW50ZXJmYWNlLyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAteiAiJGkiIF07IHRoZW4gbG9nICJObyBkZWZhdWx0IHJvdXRlIGludGVyZmFjZSI7IGV4aXQgMTA7IGZpCnN2Yz0kKG5ldHdvcmtzZXR1cCAtbGlzdG5ldHdvcmtzZXJ2aWNlb3JkZXIgMj4vZGV2L251bGwgfCBncmVwIC1CMSAiRGV2aWNlOiAkaSkiIHwgaGVhZCAtMSB8IHNlZCAncy9eKFswLTldKikgLy8nKQppZiBbIC16ICIkc3ZjIiBdOyB0aGVuIGxvZyAiQ291bGQgbm90IG1hcCBpbnRlcmZhY2UgJGkgdG8gYSBuZXR3b3JrIHNlcnZpY2UiOyBleGl0IDEwOyBmaQppZiBbICIkdmFsIiA9ICJlbXB0eSIgXTsgdGhlbgogIGxvZyAiQ2xlYXJpbmcgRE5TIHNlcnZlcnMgb24gJHN2YyBiYWNrIHRvIERIQ1AiCiAgbmV0d29ya3NldHVwIC1zZXRkbnNzZXJ2ZXJzICIkc3ZjIiBlbXB0eSA+L2Rldi9udWxsIDI+JjEKICBleGl0IDAKZmkKZm9yIGEgaW4gJHZhbDsgZG8KICBjYXNlICIkYSIgaW4KICAgICpbITAtOS5dKikgbG9nICJOb3QgYW4gSVB2NCBhZGRyZXNzOiAkYSI7IGV4aXQgMTAgOzsKICBlc2FjCmRvbmUKY3VyPSQobmV0d29ya3NldHVwIC1nZXRkbnNzZXJ2ZXJzICIkc3ZjIiAyPi9kZXYvbnVsbCB8IHRyICdcbicgJyAnIHwgc2VkICdzLyAqJC8vJykKbG9nICJETlMgb24gJHN2YyB3YXM6ICRjdXIgLSBzZXR0aW5nIHRvICR2YWwiCm5ldHdvcmtzZXR1cCAtc2V0ZG5zc2VydmVycyAiJHN2YyIgJHZhbCA+L2Rldi9udWxsIDI+JjEKYTI9JChuZXR3b3Jrc2V0dXAgLWdldGRuc3NlcnZlcnMgIiRzdmMiIDI+L2Rldi9udWxsIHwgdHIgJ1xuJyAnICcgfCBzZWQgJ3MvICokLy8nKQpsb2cgIkROUyBvbiAkc3ZjIGlzIG5vdzogJGEyIgpleGl0IDAK"
+}

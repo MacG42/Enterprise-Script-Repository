@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "79c6bce9-4eab-4496-b9d4-2a5e11c25644",
+  "slug": "disable-airplay-receiver",
+  "type": "script",
+  "name": "Disable AirPlay Receiver",
+  "description": "Stops the Mac accepting AirPlay from other devices, at machine scope and for each existing user. On a shared floor it stops a laptop appearing as a screen anyone nearby can cast to.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📺",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "airplay",
+    "hardening",
+    "privacy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtYWlycGxheS1yZWNlaXZlci5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnA9Ii9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5hcHBsaWNhdGlvbmFjY2VzcyIKY3VyPSQoZGVmYXVsdHMgcmVhZCAiJHAiIGFsbG93QWlyUGxheUluY29taW5nUmVxdWVzdHMgMj4vZGV2L251bGwpCmlmIFsgIiRjdXIiID0gIjAiIF07IHRoZW4gbG9nICJBbHJlYWR5IGJsb2NrZWQgYXQgbWFjaGluZSBzY29wZSwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgImFsbG93QWlyUGxheUluY29taW5nUmVxdWVzdHMgd2FzICRjdXIsIGJsb2NraW5nIgpkZWZhdWx0cyB3cml0ZSAiJHAiIGFsbG93QWlyUGxheUluY29taW5nUmVxdWVzdHMgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgiIF0gfHwgY29udGludWUKICBjYXNlICIkaCIgaW4gKi9TaGFyZWR8Ki9HdWVzdCkgY29udGludWUgOzsgZXNhYwogIHU9JChiYXNlbmFtZSAiJGgiKQogIGlkICIkdSIgPi9kZXYvbnVsbCAyPiYxIHx8IGNvbnRpbnVlCiAgc3VkbyAtdSAiJHUiIGRlZmF1bHRzIHdyaXRlIGNvbS5hcHBsZS5jb250cm9sY2VudGVyIEFpcnBsYXlSZWNpZXZlckVuYWJsZWQgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKZG9uZQphPSQoZGVmYXVsdHMgcmVhZCAiJHAiIGFsbG93QWlyUGxheUluY29taW5nUmVxdWVzdHMgMj4vZGV2L251bGwpCmlmIFsgIiRhIiA9ICIwIiBdOyB0aGVuIGxvZyAiQWlyUGxheSByZWNlaXZlciBkaXNhYmxlZCI7IGV4aXQgMDsgZmkKZXhpdCAzMAo="
+}

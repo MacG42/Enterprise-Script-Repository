@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "919724af-caf6-4eff-bb27-2b2fcbfc74a5",
+  "slug": "battery-maximum-capacity-percent",
+  "type": "sensor",
+  "name": "Battery Maximum Capacity Percent",
+  "description": "Console sensor name: battery_maximum_capacity_percent. Current maximum charge capacity as a percentage of design capacity. Below roughly 80 percent the user is reporting a battery that will not last a meeting, and this is the number that justifies the replacement.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔋",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "hardware",
+    "health",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3lzdGVtX3Byb2ZpbGVyIFNQUG93ZXJEYXRhVHlwZSAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvTWF4aW11bSBDYXBhY2l0eS8ge2dzdWIoIiUiLCIiLCQyKTsgcHJpbnQgJDI7IGV4aXR9JykKY2FzZSAiJHYiIGluICcnfCpbITAtOV0qKSB2PS0xIDs7IGVzYWMKZWNobyAiJHYiCg=="
+}

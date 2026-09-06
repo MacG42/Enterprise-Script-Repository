@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "04ed5f2f-3241-459a-b7e0-d1591c1fd82d",
+  "slug": "days-since-last-package-update",
+  "type": "sensor",
+  "name": "Days Since Last Package Update",
+  "description": "Console sensor name: days_since_last_package_update. Days since the package database last recorded an install or upgrade. A large number is the clearest sign that a device has fallen out of the patching pipeline entirely.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📅",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "patching",
+    "compliance",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZj0iIgpmb3IgYyBpbiAvdmFyL2xvZy9kcGtnLmxvZyAvdmFyL2xpYi9ycG0vUGFja2FnZXMgL3Zhci9saWIvcnBtL3JwbWRiLnNxbGl0ZSAvdmFyL2xvZy96eXBwL2hpc3Rvcnk7IGRvCiAgWyAtZiAiJGMiIF0gJiYgZj0iJGMiICYmIGJyZWFrCmRvbmUKaWYgWyAteiAiJGYiIF07IHRoZW4KICBlY2hvICItMSIKZWxzZQogIG09JChzdGF0IC1jICVZICIkZiIgMj4vZGV2L251bGwpCiAgY2FzZSAiJG0iIGluCiAgICAnJ3wqWyEwLTldKikgZWNobyAiLTEiIDs7CiAgICAqKSBub3c9JChkYXRlICslcyk7IGVjaG8gJCgoIChub3cgLSBtKSAvIDg2NDAwICkpIDs7CiAgZXNhYwpmaQo="
+}

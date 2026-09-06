@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3b9ffad5-c0c9-4709-badb-861df8670472",
+  "slug": "set-restart-on-power-failure",
+  "type": "script",
+  "name": "Restart Automatically After A Power Failure",
+  "description": "Enables automatic restart after a power loss and after a system freeze. For lab machines, digital signage and anything else expected to come back on its own after an outage.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⚡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "pmset",
+    "kiosk",
+    "resilience"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1yZXN0YXJ0LW9uLXBvd2VyLWZhaWx1cmUubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgphcj0kKHBtc2V0IC1nIGN1c3RvbSAyPi9kZXYvbnVsbCB8IGF3ayAnL2F1dG9yZXN0YXJ0LyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAteiAiJGFyIiBdOyB0aGVuIGxvZyAiYXV0b3Jlc3RhcnQgaXMgbm90IHN1cHBvcnRlZCBvbiB0aGlzIGhhcmR3YXJlLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmlmIFsgIiRhciIgPSAiMSIgXTsgdGhlbiBsb2cgIkFscmVhZHkgZW5hYmxlZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgImF1dG9yZXN0YXJ0IHdhcyAkYXIsIGVuYWJsaW5nIgpwbXNldCAtYSBhdXRvcmVzdGFydCAxID4vZGV2L251bGwgMj4mMQpzeXN0ZW1zZXR1cCAtc2V0cmVzdGFydGZyZWV6ZSBvbiA+L2Rldi9udWxsIDI+JjEKYT0kKHBtc2V0IC1nIGN1c3RvbSAyPi9kZXYvbnVsbCB8IGF3ayAnL2F1dG9yZXN0YXJ0LyB7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAiJGEiID0gIjEiIF07IHRoZW4gbG9nICJBdXRvbWF0aWMgcmVzdGFydCBhZnRlciBwb3dlciBmYWlsdXJlIGVuYWJsZWQiOyBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

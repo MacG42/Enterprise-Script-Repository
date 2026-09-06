@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c0ad2d61-a956-4b89-9637-9628a5e2bd27",
+  "slug": "system-log-size-gb",
+  "type": "sensor",
+  "name": "System Log Directory Size GB",
+  "description": "Console sensor name: system_log_size_gb. Size of /private/var/log in gigabytes. A log directory measured in gigabytes usually means one component is failing in a loop and writing about it thousands of times a minute.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "logs",
+    "disk",
+    "capacity",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpjPSQoZHUgLXNrIC9wcml2YXRlL3Zhci9sb2cgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQpjYXNlICIkYyIgaW4gJyd8KlshMC05XSopIGVjaG8gIi0xIiA7OyAqKSBlY2hvICQoKCBjIC8gMTA0ODU3NiApKSA7OyBlc2FjCg=="
+}

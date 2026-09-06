@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d5160ef6-7d6f-480d-9227-44e825fae0d3",
+  "slug": "time-service-state",
+  "type": "sensor",
+  "name": "Time Service State",
+  "description": "Console sensor name: time_service_state. Closed set: Running, Stopped, Disabled, Missing. W32Time set to Manual and not running is the default on workgroup devices and the reason their clocks drift until Kerberos or certificate validation fails.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⌚",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "services",
+    "kerberos",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LVNlcnZpY2UgLU5hbWUgJ1czMlRpbWUnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJG51bGwgLWVxICRzKSB7IFdyaXRlLU91dHB1dCAnTWlzc2luZycgfQogICAgZWxzZWlmICgkcy5TdGFydFR5cGUgLWVxICdEaXNhYmxlZCcpIHsgV3JpdGUtT3V0cHV0ICdEaXNhYmxlZCcgfQogICAgZWxzZWlmICgkcy5TdGF0dXMgLWVxICdSdW5uaW5nJykgeyBXcml0ZS1PdXRwdXQgJ1J1bm5pbmcnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgJ1N0b3BwZWQnIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

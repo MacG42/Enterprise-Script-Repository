@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1c573287-662a-42ac-b222-05f20870568e",
+  "slug": "third-party-antivirus-present",
+  "type": "sensor",
+  "name": "Third-Party Antivirus Present",
+  "description": "Console sensor name: third_party_antivirus_present. True when Security Center registers an antivirus product other than Microsoft Defender. This is what puts Defender into passive mode, and it explains most 'Defender is off' reports.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧪",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "antivirus",
+    "security",
+    "inventory",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRhdiA9IEAoR2V0LUNpbUluc3RhbmNlIC1OYW1lc3BhY2UgJ3Jvb3RcU2VjdXJpdHlDZW50ZXIyJyAtQ2xhc3NOYW1lIEFudGlWaXJ1c1Byb2R1Y3QgfAogICAgICAgIFdoZXJlLU9iamVjdCB7ICRfLmRpc3BsYXlOYW1lIC1ub3RtYXRjaCAnV2luZG93cyBEZWZlbmRlcnxNaWNyb3NvZnQgRGVmZW5kZXInIH0pCiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSgkYXYuQ291bnQgLWd0IDApKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

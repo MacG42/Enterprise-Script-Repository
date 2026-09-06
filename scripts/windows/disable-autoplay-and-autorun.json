@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9d15990e-d5a9-4aed-a98d-7ebc73a1b824",
+  "slug": "disable-autoplay-and-autorun",
+  "type": "script",
+  "name": "Disable AutoPlay And AutoRun",
+  "description": "Sets NoDriveTypeAutoRun to 0xFF machine-wide and disables the AutoRun handler, closing the removable-media execution path. Applies at machine scope so it holds for every profile including new ones.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "💿",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "removablemedia",
+    "autorun",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 60,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtYXV0b3BsYXktYW5kLWF1dG9ydW4ubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkcG9sID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFBvbGljaWVzXEV4cGxvcmVyJwogICAgJGV4cCA9ICdIS0xNOlxTT0ZUV0FSRVxQb2xpY2llc1xNaWNyb3NvZnRcV2luZG93c1xFeHBsb3JlcicKICAgICRhID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRwb2wgLU5hbWUgJ05vRHJpdmVUeXBlQXV0b1J1bicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLk5vRHJpdmVUeXBlQXV0b1J1bgogICAgJGIgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGV4cCAtTmFtZSAnTm9BdXRvcnVuJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuTm9BdXRvcnVuCiAgICBpZiAoJG51bGwgLW5lICRhIC1hbmQgW2ludF0kYSAtZXEgMjU1IC1hbmQgJG51bGwgLW5lICRiIC1hbmQgW2ludF0kYiAtZXEgMSkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgZm9yZWFjaCAoJHAgaW4gQCgkcG9sLCAkZXhwKSkgeyBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkcCkpIHsgTmV3LUl0ZW0gLVBhdGggJHAgLUZvcmNlIHwgT3V0LU51bGwgfSB9CiAgICBXcml0ZS1Mb2cgKCdOb0RyaXZlVHlwZUF1dG9SdW4gd2FzICcgKyAkYSArICcsIE5vQXV0b3J1biB3YXMgJyArICRiICsgJyAtIHNldHRpbmcgMjU1IC8gMScpCiAgICBOZXctSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkcG9sIC1OYW1lICdOb0RyaXZlVHlwZUF1dG9SdW4nIC1WYWx1ZSAyNTUgLVByb3BlcnR5VHlwZSBEV29yZCAtRm9yY2UgfCBPdXQtTnVsbAogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGV4cCAtTmFtZSAnTm9BdXRvcnVuJyAtVmFsdWUgMSAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICBOZXctSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkZXhwIC1OYW1lICdOb0F1dG9wbGF5Zm9ybm9uVm9sdW1lJyAtVmFsdWUgMSAtUHJvcGVydHlUeXBlIERXb3JkIC1Gb3JjZSB8IE91dC1OdWxsCiAgICBpZiAoW2ludF0oR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJHBvbCAtTmFtZSAnTm9Ecml2ZVR5cGVBdXRvUnVuJykuTm9Ecml2ZVR5cGVBdXRvUnVuIC1lcSAyNTUpIHsgV3JpdGUtTG9nICdBdXRvUGxheSBhbmQgQXV0b1J1biBkaXNhYmxlZCc7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

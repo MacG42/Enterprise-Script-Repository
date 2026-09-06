@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ef7ad5a8-4341-4cc3-8446-e307cdba3231",
+  "slug": "fix-world-writable-directories",
+  "type": "script",
+  "name": "Add The Sticky Bit To World Writable Directories",
+  "description": "Delivery: systemd timer. Finds world-writable directories under /var and /opt without the sticky bit and adds it, so one user cannot delete another's files there. Bounded to those two trees to stay cheap.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📂",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "permissions",
+    "filesystem",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1maXgtd29ybGQtd3JpdGFibGUtZGlyZWN0b3JpZXMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpmaXhlZD0wCmZvciBkIGluIC92YXIgL29wdDsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGZvciB0IGluICQoZmluZCAiJGQiIC14ZGV2IC10eXBlIGQgLXBlcm0gLTAwMDIgISAtcGVybSAtMTAwMCAyPi9kZXYvbnVsbCk7IGRvCiAgICBjaG1vZCArdCAiJHQiIDI+L2Rldi9udWxsCiAgICBpZiBbIC1rICIkdCIgXTsgdGhlbgogICAgICBsb2cgIkFkZGVkIHRoZSBzdGlja3kgYml0IHRvICR0IgogICAgICBmaXhlZD0kKChmaXhlZCsxKSkKICAgIGZpCiAgZG9uZQpkb25lCmlmIFsgIiRmaXhlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIHdvcmxkLXdyaXRhYmxlIGRpcmVjdG9yaWVzIHdpdGhvdXQgdGhlIHN0aWNreSBiaXQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJGaXhlZCAkZml4ZWQgZGlyZWN0b3J5IHBlcm1pc3Npb24ocykiCmV4aXQgMAo="
+}

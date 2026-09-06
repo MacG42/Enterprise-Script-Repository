@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e520ec3b-a806-4061-ac72-31e92b1f1692",
+  "slug": "root-account-enabled",
+  "type": "sensor",
+  "name": "Root Account Enabled",
+  "description": "Console sensor name: root_account_enabled. True when the root account has a password set and can be used to log in. Almost always a leftover from a support session and almost never intended on a managed endpoint.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "root",
+    "accounts",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChkc2NsIC4gLXJlYWQgL1VzZXJzL3Jvb3QgQXV0aGVudGljYXRpb25BdXRob3JpdHkgMj4vZGV2L251bGwpCmNhc2UgIiRvdXQiIGluCiAgKlNoYWRvd0hhc2gqKSBlY2hvICJ0cnVlIiA7OwogICopIGVjaG8gImZhbHNlIiA7Owplc2FjCg=="
+}

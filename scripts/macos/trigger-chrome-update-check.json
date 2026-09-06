@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0f4b73e3-53ed-4ad7-b896-51bc0fcfc5de",
+  "slug": "trigger-chrome-update-check",
+  "type": "script",
+  "name": "Trigger A Chrome Update Check",
+  "description": "Kicks the Google Keystone daemon so Chrome checks for an update now instead of at its own leisure. Does not force a version - it removes the delay, which is usually the actual problem.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "chrome",
+    "browser",
+    "patching",
+    "applications"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Check For Chrome Updates",
+      "displayDescription": "Asks Chrome to check for and install an update now.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXRyaWdnZXItY2hyb21lLXVwZGF0ZS1jaGVjay5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmI9Ii9MaWJyYXJ5L0dvb2dsZS9Hb29nbGVTb2Z0d2FyZVVwZGF0ZS9Hb29nbGVTb2Z0d2FyZVVwZGF0ZS5idW5kbGUiCmlmIFsgISAtZCAiJGIiIF07IHRoZW4gbG9nICJHb29nbGUgU29mdHdhcmUgVXBkYXRlIGlzIG5vdCBpbnN0YWxsZWQgYXQgc3lzdGVtIHNjb3BlIjsgZXhpdCAxMDsgZmkKYmVmb3JlPSQoZGVmYXVsdHMgcmVhZCAiL0FwcGxpY2F0aW9ucy9Hb29nbGUgQ2hyb21lLmFwcC9Db250ZW50cy9JbmZvIiBDRkJ1bmRsZVNob3J0VmVyc2lvblN0cmluZyAyPi9kZXYvbnVsbCkKbG9nICJDaHJvbWUgdmVyc2lvbiBiZWZvcmU6ICR7YmVmb3JlOi1ub3QgaW5zdGFsbGVkfSIKaz0iJGIvQ29udGVudHMvSGVscGVycy9rc2FkbWluIgpbIC14ICIkayIgXSB8fCBrPSIkYi9Db250ZW50cy9NYWNPUy9rc2FkbWluIgppZiBbIC14ICIkayIgXTsgdGhlbgogICIkayIgLS1wcmludC10aWNrZXRzID4vZGV2L251bGwgMj4mMQpmaQpsYXVuY2hjdGwga2lja3N0YXJ0IC1rIHN5c3RlbS9jb20uZ29vZ2xlLmtleXN0b25lLmRhZW1vbiA+L2Rldi9udWxsIDI+JjEKbG9nICJLZXlzdG9uZSB1cGRhdGUgY2hlY2sgdHJpZ2dlcmVkIC0gdGhlIGRvd25sb2FkIHJ1bnMgaW4gdGhlIGJhY2tncm91bmQiCmV4aXQgMAo="
+}

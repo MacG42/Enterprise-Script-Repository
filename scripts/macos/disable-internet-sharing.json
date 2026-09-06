@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "2fe07379-7037-4f4f-8c0d-961f5288a2a9",
+  "slug": "disable-internet-sharing",
+  "type": "script",
+  "name": "Disable Internet Sharing",
+  "description": "Stops and disables Internet Sharing, which turns a managed laptop into an unmanaged access point on the corporate network. Rarely deliberate and rarely noticed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📶",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "internetsharing",
+    "network",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtaW50ZXJuZXQtc2hhcmluZy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnA9Ii9MaWJyYXJ5L1ByZWZlcmVuY2VzL1N5c3RlbUNvbmZpZ3VyYXRpb24vY29tLmFwcGxlLm5hdCIKdj0kKGRlZmF1bHRzIHJlYWQgIiRwIiBOQVQgMj4vZGV2L251bGwgfCBncmVwIC1jICJFbmFibGVkID0gMSIpCmlmIFsgIiR2IiAtZXEgMCBdICYmICEgcGdyZXAgLXggIkludGVybmV0U2hhcmluZyIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbG9nICJJbnRlcm5ldCBTaGFyaW5nIGlzIG5vdCBlbmFibGVkLCBubyBhY3Rpb24iCiAgZXhpdCAwCmZpCmxvZyAiSW50ZXJuZXQgU2hhcmluZyBpcyBlbmFibGVkLCBkaXNhYmxpbmciCmRlZmF1bHRzIHdyaXRlICIkcCIgTkFUIC1kaWN0IEVuYWJsZWQgLWludCAwIDI+L2Rldi9udWxsCmxhdW5jaGN0bCBib290b3V0IHN5c3RlbS9jb20uYXBwbGUuSW50ZXJuZXRTaGFyaW5nID4vZGV2L251bGwgMj4mMQpsYXVuY2hjdGwgZGlzYWJsZSBzeXN0ZW0vY29tLmFwcGxlLkludGVybmV0U2hhcmluZyA+L2Rldi9udWxsIDI+JjEKc2xlZXAgMgphPSQoZGVmYXVsdHMgcmVhZCAiJHAiIE5BVCAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgIkVuYWJsZWQgPSAxIikKaWYgWyAiJGEiIC1lcSAwIF07IHRoZW4gbG9nICJJbnRlcm5ldCBTaGFyaW5nIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

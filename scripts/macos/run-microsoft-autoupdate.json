@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e47d4909-93ed-46d3-be02-585ca8d508f8",
+  "slug": "run-microsoft-autoupdate",
+  "type": "script",
+  "name": "Run Microsoft AutoUpdate",
+  "description": "Asks Microsoft AutoUpdate to install everything it has pending for the signed-in user. Runs in the user context because msupdate will not act from a root session.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📎",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "office",
+    "m365",
+    "patching",
+    "applications"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "USER",
+    "timeout": 3600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Update Microsoft Apps",
+      "displayDescription": "Installs pending updates for Office and other Microsoft apps.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJ1bi1taWNyb3NvZnQtYXV0b3VwZGF0ZS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCm09Ii9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvTWljcm9zb2Z0L01BVTIuMC9NaWNyb3NvZnQgQXV0b1VwZGF0ZS5hcHAvQ29udGVudHMvTWFjT1MvbXN1cGRhdGUiCmlmIFsgISAteCAiJG0iIF07IHRoZW4gbG9nICJNaWNyb3NvZnQgQXV0b1VwZGF0ZSBpcyBub3QgaW5zdGFsbGVkIjsgZXhpdCAxMDsgZmkKbG9nICJMaXN0aW5nIHBlbmRpbmcgTWljcm9zb2Z0IHVwZGF0ZXMiCiIkbSIgLS1saXN0ID4vZGV2L251bGwgMj4mMQpvdXQ9JCgiJG0iIC0taW5zdGFsbCAyPiYxKQpsb2cgIm1zdXBkYXRlIC0taW5zdGFsbDogJChwcmludGYgJyVzJyAiJG91dCIgfCB0ciAnXG4nICcgJyB8IGN1dCAtYzEtNDAwKSIKY2FzZSAiJG91dCIgaW4KICAqcnJvciopIGxvZyAibXN1cGRhdGUgcmVwb3J0ZWQgYW4gZXJyb3IiOyBleGl0IDIwIDs7CmVzYWMKZXhpdCAwCg=="
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f48cf9ad-2c77-4563-9d71-3d32eada92e5",
+  "slug": "reset-bluetooth-stack",
+  "type": "script",
+  "name": "Reset Bluetooth Stack",
+  "description": "Restarts the Bluetooth support service and cycles the radio devices, which clears a stack that has stopped enumerating headsets or mice. Paired devices are kept - nothing is unpaired.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📶",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bluetooth",
+    "hardware",
+    "drivers",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Bluetooth",
+      "displayDescription": "Resets Bluetooth when headsets or mice stop connecting.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJlc2V0LWJsdWV0b290aC1zdGFjay5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRzdmMgPSBHZXQtU2VydmljZSAtTmFtZSAnYnRoc2VydicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmICgkbnVsbCAtZXEgJHN2YykgeyBXcml0ZS1Mb2cgJ0JsdWV0b290aCBzdXBwb3J0IHNlcnZpY2Ugbm90IHByZXNlbnQnOyBleGl0IDEwIH0KICAgIGlmICgkc3ZjLlN0YXJ0VHlwZSAtZXEgJ0Rpc2FibGVkJykgeyBTZXQtU2VydmljZSAtTmFtZSAnYnRoc2VydicgLVN0YXJ0dXBUeXBlIE1hbnVhbCAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZTsgV3JpdGUtTG9nICdidGhzZXJ2IHdhcyBEaXNhYmxlZCwgc2V0IHRvIE1hbnVhbCcgfQogICAgUmVzdGFydC1TZXJ2aWNlIC1OYW1lICdidGhzZXJ2JyAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRyYWRpb3MgPSBAKEdldC1QbnBEZXZpY2UgLUNsYXNzICdCbHVldG9vdGgnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgV2hlcmUtT2JqZWN0IHsgJF8uRnJpZW5kbHlOYW1lIC1saWtlICcqUmFkaW8qJyAtb3IgJF8uU2VydmljZSAtZXEgJ0JUSFVTQicgfSkKICAgIGZvcmVhY2ggKCRyIGluICRyYWRpb3MpIHsKICAgICAgICBXcml0ZS1Mb2cgKCdDeWNsaW5nICcgKyAkci5GcmllbmRseU5hbWUgKyAnICgnICsgJHIuU3RhdHVzICsgJyknKQogICAgICAgIERpc2FibGUtUG5wRGV2aWNlIC1JbnN0YW5jZUlkICRyLkluc3RhbmNlSWQgLUNvbmZpcm06JGZhbHNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgU3RhcnQtU2xlZXAgLVNlY29uZHMgMwogICAgICAgIEVuYWJsZS1QbnBEZXZpY2UgLUluc3RhbmNlSWQgJHIuSW5zdGFuY2VJZCAtQ29uZmlybTokZmFsc2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIH0KICAgIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDUKICAgICRiYWQgPSBAKEdldC1QbnBEZXZpY2UgLUNsYXNzICdCbHVldG9vdGgnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgV2hlcmUtT2JqZWN0IHsgJF8uU3RhdHVzIC1lcSAnRXJyb3InIH0pCiAgICAkc3ZjMiA9IEdldC1TZXJ2aWNlIC1OYW1lICdidGhzZXJ2JyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgaWYgKCRiYWQuQ291bnQgLWVxIDAgLWFuZCAkc3ZjMi5TdGF0dXMgLWVxICdSdW5uaW5nJykgeyBXcml0ZS1Mb2cgJ0JsdWV0b290aCBzdGFjayBoZWFsdGh5JzsgZXhpdCAwIH0KICAgIFdyaXRlLUxvZyAoJ0RldmljZXMgaW4gZXJyb3I6ICcgKyAkYmFkLkNvdW50ICsgJywgYnRoc2VydiBpcyAnICsgJHN2YzIuU3RhdHVzKQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

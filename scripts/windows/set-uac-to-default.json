@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c5cba061-20d8-4478-a72c-565229de9bfa",
+  "slug": "set-uac-to-default",
+  "type": "script",
+  "name": "Set UAC To Default",
+  "description": "Restores User Account Control to the shipped defaults - prompt on the secure desktop, no silent elevation for administrators. Reverses the local 'turn UAC off' that follows a badly behaved line-of-business installer.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "uac",
+    "security",
+    "hardening",
+    "drift"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 60,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC11YWMtdG8tZGVmYXVsdC5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFBvbGljaWVzXFN5c3RlbScKICAgICR3YW50ID0gQHsgRW5hYmxlTFVBID0gMTsgQ29uc2VudFByb21wdEJlaGF2aW9yQWRtaW4gPSA1OyBQcm9tcHRPblNlY3VyZURlc2t0b3AgPSAxOyBFbmFibGVJbnN0YWxsZXJEZXRlY3Rpb24gPSAxIH0KICAgICRwID0gR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICRiYWQgPSBAKCR3YW50LktleXMgfCBXaGVyZS1PYmplY3QgeyAkbnVsbCAtZXEgJHAuJF8gLW9yIFtpbnRdJHAuJF8gLW5lICR3YW50WyRfXSB9KQogICAgaWYgKCRiYWQuQ291bnQgLWVxIDApIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIGZvcmVhY2ggKCRuIGluICRiYWQpIHsKICAgICAgICBXcml0ZS1Mb2cgKCRuICsgJyB3YXMgJyArICRwLiRuICsgJywgc2V0dGluZyB0byAnICsgJHdhbnRbJG5dKQogICAgICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICRuIC1WYWx1ZSAkd2FudFskbl0gLVByb3BlcnR5VHlwZSBEV29yZCAtRm9yY2UgfCBPdXQtTnVsbAogICAgfQogICAgJGEgPSBHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkawogICAgaWYgKEAoJHdhbnQuS2V5cyB8IFdoZXJlLU9iamVjdCB7IFtpbnRdJGEuJF8gLW5lICR3YW50WyRfXSB9KS5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ1VBQyByZXN0b3JlZCB0byBkZWZhdWx0cyAtIHJlc3RhcnQgcmVxdWlyZWQgZm9yIEVuYWJsZUxVQSBjaGFuZ2VzJzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

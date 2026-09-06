@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0d78660f-fd80-4ac7-8f17-a7a1c778ef0e",
+  "slug": "clear-user-caches-linux",
+  "type": "script",
+  "name": "Clear User Cache Directories",
+  "description": "Delivery: systemd timer. Removes files older than 30 days from every home directory's .cache, skipping accounts with an active session so nothing is pulled out from under a running application.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "cache",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhci11c2VyLWNhY2hlcy1saW51eC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmFjdGl2ZT0kKHdobyAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScgfCBzb3J0IC11IHwgdHIgJ1xuJyAnLCcpCnJlbW92ZWQ9MApmcmVlZD0wCmZvciBoIGluIC9ob21lLyogL3Jvb3Q7IGRvCiAgWyAtZCAiJGgvLmNhY2hlIiBdIHx8IGNvbnRpbnVlCiAgdT0kKGJhc2VuYW1lICIkaCIpCiAgY2FzZSAiLCRhY3RpdmUsIiBpbiAqIiwkdSwiKikgbG9nICJTa2lwcGluZyAkdSAtIHNlc3Npb24gYWN0aXZlIjsgY29udGludWUgOzsgZXNhYwogIGJlZm9yZT0kKGR1IC1zayAiJGgvLmNhY2hlIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCiAgY2FzZSAiJGJlZm9yZSIgaW4gJyd8KlshMC05XSopIGJlZm9yZT0wIDs7IGVzYWMKICBuPSQoZmluZCAiJGgvLmNhY2hlIiAtdHlwZSBmIC1tdGltZSArMzAgMj4vZGV2L251bGwgfCB3YyAtbCB8IHRyIC1kICcgJykKICBjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49MCA7OyBlc2FjCiAgWyAiJG4iIC1lcSAwIF0gJiYgY29udGludWUKICBmaW5kICIkaC8uY2FjaGUiIC10eXBlIGYgLW10aW1lICszMCAtZGVsZXRlIDI+L2Rldi9udWxsCiAgYWZ0ZXI9JChkdSAtc2sgIiRoLy5jYWNoZSIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQogIGNhc2UgIiRhZnRlciIgaW4gJyd8KlshMC05XSopIGFmdGVyPTAgOzsgZXNhYwogIHJlbW92ZWQ9JCgocmVtb3ZlZCtuKSkKICBmcmVlZD0kKChmcmVlZCArIGJlZm9yZSAtIGFmdGVyKSkKICBsb2cgIkNsZWFyZWQgJG4gY2FjaGVkIGZpbGUocykgZm9yICR1Igpkb25lCmlmIFsgIiRyZW1vdmVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm90aGluZyBvbGQgZW5vdWdoIHRvIHJlbW92ZSwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIlJlbW92ZWQgJHJlbW92ZWQgZmlsZShzKSwgcmVjbGFpbWVkIGFib3V0ICQoKCBmcmVlZCAvIDEwMjQgKSkgTUIiCmV4aXQgMAo="
+}

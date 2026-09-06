@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f0c57ad7-8008-40b7-a796-e53cabc34ed2",
+  "slug": "repair-hub-launch-daemons",
+  "type": "script",
+  "name": "Repair Hub Launch Daemon Registration",
+  "description": "Re-enables and bootstraps any Hub launch daemon that has been disabled or unloaded, which is how an agent ends up installed but never running after a cleanup tool has been near the device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "launchd",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlcGFpci1odWItbGF1bmNoLWRhZW1vbnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpmaXhlZD0wCnByZXNlbnQ9MApmb3IgZCBpbiAvTGlicmFyeS9MYXVuY2hEYWVtb25zL2NvbS5haXJ3YXRjaC4qLnBsaXN0IC9MaWJyYXJ5L0xhdW5jaERhZW1vbnMvY29tLnZtd2FyZS5odWIuKi5wbGlzdCAvTGlicmFyeS9MYXVuY2hEYWVtb25zL2NvbS5vbW5pc3NhLioucGxpc3Q7IGRvCiAgWyAtZiAiJGQiIF0gfHwgY29udGludWUKICBwcmVzZW50PSQoKHByZXNlbnQrMSkpCiAgbGFiZWw9JChiYXNlbmFtZSAiJGQiIC5wbGlzdCkKICBpZiBsYXVuY2hjdGwgcHJpbnQgInN5c3RlbS8kbGFiZWwiID4vZGV2L251bGwgMj4mMTsgdGhlbiBjb250aW51ZTsgZmkKICBsYXVuY2hjdGwgZW5hYmxlICJzeXN0ZW0vJGxhYmVsIiA+L2Rldi9udWxsIDI+JjEKICBsYXVuY2hjdGwgYm9vdHN0cmFwIHN5c3RlbSAiJGQiID4vZGV2L251bGwgMj4mMQogIGxvZyAiQm9vdHN0cmFwcGVkIHN5c3RlbS8kbGFiZWwiCiAgZml4ZWQ9JCgoZml4ZWQrMSkpCmRvbmUKaWYgWyAiJHByZXNlbnQiIC1lcSAwIF07IHRoZW4gbG9nICJObyBIdWIgbGF1bmNoIGRhZW1vbnMgcHJlc2VudCI7IGV4aXQgMTA7IGZpCmlmIFsgIiRmaXhlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIkFsbCAkcHJlc2VudCBIdWIgZGFlbW9uKHMpIGFscmVhZHkgbG9hZGVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnNsZWVwIDUKc3RpbGw9MApmb3IgZCBpbiAvTGlicmFyeS9MYXVuY2hEYWVtb25zL2NvbS5haXJ3YXRjaC4qLnBsaXN0IC9MaWJyYXJ5L0xhdW5jaERhZW1vbnMvY29tLnZtd2FyZS5odWIuKi5wbGlzdCAvTGlicmFyeS9MYXVuY2hEYWVtb25zL2NvbS5vbW5pc3NhLioucGxpc3Q7IGRvCiAgWyAtZiAiJGQiIF0gfHwgY29udGludWUKICBsYWJlbD0kKGJhc2VuYW1lICIkZCIgLnBsaXN0KQogIGxhdW5jaGN0bCBwcmludCAic3lzdGVtLyRsYWJlbCIgPi9kZXYvbnVsbCAyPiYxIHx8IHN0aWxsPSQoKHN0aWxsKzEpKQpkb25lCmxvZyAiUmVwYWlyZWQgJGZpeGVkIGRhZW1vbihzKSwgJHN0aWxsIHN0aWxsIG5vdCBsb2FkZWQiCmlmIFsgIiRzdGlsbCIgLWVxIDAgXTsgdGhlbiBleGl0IDA7IGZpCmV4aXQgMzAK"
+}

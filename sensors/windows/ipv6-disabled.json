@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0e13ccfa-362c-4c6f-a5f0-069cd10d8c12",
+  "slug": "ipv6-disabled",
+  "type": "sensor",
+  "name": "IPv6 Disabled",
+  "description": "Console sensor name: ipv6_disabled. True when DisabledComponents has IPv6 switched off across interfaces. Fleets that disabled IPv6 years ago break Teams media paths and DirectAccess without anyone connecting the two.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🚫",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "ipv6",
+    "configuration",
+    "drift"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxTZXJ2aWNlc1xUY3BpcDZcUGFyYW1ldGVycycKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdEaXNhYmxlZENvbXBvbmVudHMnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5EaXNhYmxlZENvbXBvbmVudHMKICAgIGlmICgkbnVsbCAtZXEgJHYpIHsgV3JpdGUtT3V0cHV0ICRmYWxzZSB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0IChbYm9vbF0oKFtpbnRdJHYgLWJhbmQgMHgxMCkgLW5lIDAgLW9yIFtpbnRdJHYgLWVxIDB4RkYpKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICRmYWxzZQp9Cg=="
+}

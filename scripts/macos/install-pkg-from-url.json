@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.2",
+  "id": "80591b40-858d-4045-9f65-e063c3b51fee",
+  "slug": "install-pkg-from-url",
+  "type": "script",
+  "name": "Install A Package From A URL",
+  "description": "Downloads the installer at esr_pkg_url, checks it against the SHA-256 in esr_pkg_sha256 and installs it. Refuses to install anything whose checksum does not match, so a compromised or truncated download cannot run.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "deployment",
+    "installer",
+    "software",
+    "packaging"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 1800,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_pkg_url",
+        "value": ""
+      },
+      {
+        "key": "esr_pkg_sha256",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWluc3RhbGwtcGtnLWZyb20tdXJsLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdT0nJGVzcl9wa2dfdXJsJCcKaD0nJGVzcl9wa2dfc2hhMjU2JCcKY2FzZSAiJHUiIGluCiAgaHR0cHM6Ly8qKSA6IDs7CiAgKikgbG9nICJSZWZ1c2luZyBhIG5vbi1IVFRQUyBvciBtaXNzaW5nIFVSTCI7IGV4aXQgMTAgOzsKZXNhYwpjYXNlICIkaCIgaW4KICAqZXNyX3BrZ19zaGEyNTYqfCcnKSBsb2cgIk5vIFNIQS0yNTYgc3VwcGxpZWQsIHJlZnVzaW5nIHRvIGluc3RhbGwiOyBleGl0IDEwIDs7CmVzYWMKdD0iL3RtcC9lc3ItZG93bmxvYWQtJCQucGtnIgppZiAhIGN1cmwgLWZzU0wgLS1tYXgtdGltZSA5MDAgLW8gIiR0IiAiJHUiOyB0aGVuCiAgbG9nICJEb3dubG9hZCBmYWlsZWQgZnJvbSAkdSIKICBybSAtZiAiJHQiIDI+L2Rldi9udWxsCiAgZXhpdCAyMApmaQpnb3Q9JChzaGFzdW0gLWEgMjU2ICIkdCIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQp3YW50PSQocHJpbnRmICclcycgIiRoIiB8IHRyICdBLVonICdhLXonIHwgdHIgLWQgJyAnKQppZiBbICIkZ290IiAhPSAiJHdhbnQiIF07IHRoZW4KICBsb2cgIkNoZWNrc3VtIG1pc21hdGNoOiBleHBlY3RlZCAkd2FudCwgZ290ICRnb3QiCiAgcm0gLWYgIiR0IiAyPi9kZXYvbnVsbAogIGV4aXQgMjAKZmkKbG9nICJDaGVja3N1bSB2ZXJpZmllZCwgaW5zdGFsbGluZyIKb3V0PSQoaW5zdGFsbGVyIC1wa2cgIiR0IiAtdGFyZ2V0IC8gMj4mMSkKcmM9JD8Kcm0gLWYgIiR0IiAyPi9kZXYvbnVsbApsb2cgImluc3RhbGxlciByZXR1cm5lZCAkcmM6ICQocHJpbnRmICclcycgIiRvdXQiIHwgdHIgJ1xuJyAnICcgfCBjdXQgLWMxLTMwMCkiCmlmIFsgIiRyYyIgLWVxIDAgXTsgdGhlbiBleGl0IDA7IGZpCmV4aXQgMjAK"
+}

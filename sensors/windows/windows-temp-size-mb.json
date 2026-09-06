@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "850fb613-778a-4187-81a6-b8a44b8837ce",
+  "slug": "windows-temp-size-mb",
+  "type": "sensor",
+  "name": "Windows Temp Size (MB)",
+  "description": "Console sensor name: windows_temp_size_mb. Size of the machine temp folder in whole megabytes. Pairs with the disk cleanup script: measure it, clean it, and watch the number come down rather than guessing at how much was recovered.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "temp",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwID0gSm9pbi1QYXRoICRlbnY6U3lzdGVtUm9vdCAnVGVtcCcKICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRwKSkgeyBXcml0ZS1PdXRwdXQgMCB9CiAgICBlbHNlIHsKICAgICAgICAkYiA9IChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkcCAtUmVjdXJzZSAtRmlsZSAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfAogICAgICAgICAgICBNZWFzdXJlLU9iamVjdCAtUHJvcGVydHkgTGVuZ3RoIC1TdW0pLlN1bQogICAgICAgIGlmICgkbnVsbCAtZXEgJGIpIHsgV3JpdGUtT3V0cHV0IDAgfSBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Um91bmQoJGIgLyAxTUIpKSB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

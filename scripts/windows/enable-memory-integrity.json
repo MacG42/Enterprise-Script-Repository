@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "47fde4dd-c9d2-49c0-9dc8-e2843f5e6b93",
+  "slug": "enable-memory-integrity",
+  "type": "script",
+  "name": "Enable Memory Integrity",
+  "description": "Turns on hypervisor-protected code integrity. Refuses to act when Windows reports an incompatible driver, because forcing it there produces a device that boots without HVCI and looks compliant in the registry.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "hvci",
+    "vbs",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1tZW1vcnktaW50ZWdyaXR5LmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGRnID0gR2V0LUNpbUluc3RhbmNlIC1OYW1lc3BhY2UgJ3Jvb3RcTWljcm9zb2Z0XFdpbmRvd3NcRGV2aWNlR3VhcmQnIC1DbGFzc05hbWUgV2luMzJfRGV2aWNlR3VhcmQgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIGlmICgkbnVsbCAtZXEgJGRnKSB7IFdyaXRlLUxvZyAnRGV2aWNlR3VhcmQgV01JIGNsYXNzIHVuYXZhaWxhYmxlJzsgZXhpdCAxMCB9CiAgICBpZiAoQCgkZGcuU2VjdXJpdHlTZXJ2aWNlc1J1bm5pbmcpIC1jb250YWlucyAyKSB7IFdyaXRlLUxvZyAnQWxyZWFkeSBjb21wbGlhbnQsIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBpZiAoQCgkZGcuQXZhaWxhYmxlU2VjdXJpdHlQcm9wZXJ0aWVzKSAtbm90Y29udGFpbnMgMikgeyBXcml0ZS1Mb2cgJ1NlY3VyZSBCb290IC8gRE1BIHByZXJlcXVpc2l0ZXMgbm90IHJlcG9ydGVkIGFzIGF2YWlsYWJsZSc7IGV4aXQgMTAgfQogICAgJGsgPSAnSEtMTTpcU1lTVEVNXEN1cnJlbnRDb250cm9sU2V0XENvbnRyb2xcRGV2aWNlR3VhcmRcU2NlbmFyaW9zXEh5cGVydmlzb3JFbmZvcmNlZENvZGVJbnRlZ3JpdHknCiAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkaykpIHsgTmV3LUl0ZW0gLVBhdGggJGsgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgTmV3LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0VuYWJsZWQnIC1WYWx1ZSAxIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdXYXNFbmFibGVkQnknIC1WYWx1ZSAyIC1Qcm9wZXJ0eVR5cGUgRFdvcmQgLUZvcmNlIHwgT3V0LU51bGwKICAgIE5ldy1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxEZXZpY2VHdWFyZCcgLU5hbWUgJ0VuYWJsZVZpcnR1YWxpemF0aW9uQmFzZWRTZWN1cml0eScgLVZhbHVlIDEgLVByb3BlcnR5VHlwZSBEV29yZCAtRm9yY2UgfCBPdXQtTnVsbAogICAgV3JpdGUtTG9nICdNZW1vcnkgaW50ZWdyaXR5IGNvbmZpZ3VyZWQgLSByZXN0YXJ0IHJlcXVpcmVkJwogICAgaWYgKFtpbnRdKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdFbmFibGVkJykuRW5hYmxlZCAtZXEgMSkgeyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

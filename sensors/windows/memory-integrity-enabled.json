@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "67bbd4e3-5105-457f-aa8f-9ea02531295c",
+  "slug": "memory-integrity-enabled",
+  "type": "sensor",
+  "name": "Memory Integrity Enabled",
+  "description": "Console sensor name: memory_integrity_enabled. True when HVCI (hypervisor-protected code integrity) is running. The usual blocker is an incompatible driver, so pair this with the unsigned driver count.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧠",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "hvci",
+    "vbs",
+    "drivers"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkZyA9IEdldC1DaW1JbnN0YW5jZSAtTmFtZXNwYWNlICdyb290XE1pY3Jvc29mdFxXaW5kb3dzXERldmljZUd1YXJkJyAtQ2xhc3NOYW1lIFdpbjMyX0RldmljZUd1YXJkCiAgICBXcml0ZS1PdXRwdXQgKFtib29sXShAKCRkZy5TZWN1cml0eVNlcnZpY2VzUnVubmluZykgLWNvbnRhaW5zIDIpKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

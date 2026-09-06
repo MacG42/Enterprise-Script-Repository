@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9c253140-43e9-4b28-8fd0-d3f0fc3129d1",
+  "slug": "remove-old-snap-revisions",
+  "type": "script",
+  "name": "Remove Old Snap Revisions",
+  "description": "Delivery: systemd timer. Removes disabled snap revisions, which each keep a full copy of the application on disk. On a desktop fleet this is often the single largest reclaimable area.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "snap",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZW1vdmUtb2xkLXNuYXAtcmV2aXNpb25zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBjb21tYW5kIC12IHNuYXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAic25hcGQgaXMgbm90IGluc3RhbGxlZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpuPSQoc25hcCBsaXN0IC0tYWxsIDI+L2Rldi9udWxsIHwgYXdrICcvZGlzYWJsZWQvIHtjKyt9IEVORCB7cHJpbnQgYyswfScpCmlmIFsgIiRuIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gZGlzYWJsZWQgc25hcCByZXZpc2lvbnMsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJSZW1vdmluZyAkbiBkaXNhYmxlZCBzbmFwIHJldmlzaW9uKHMpIgpzbmFwIGxpc3QgLS1hbGwgMj4vZGV2L251bGwgfCBhd2sgJy9kaXNhYmxlZC8ge3ByaW50ICQxLCAkM30nIHwgd2hpbGUgcmVhZCAtciBuYW1lIHJldjsgZG8KICBbIC1uICIkbmFtZSIgXSAmJiBbIC1uICIkcmV2IiBdIHx8IGNvbnRpbnVlCiAgc25hcCByZW1vdmUgIiRuYW1lIiAtLXJldmlzaW9uPSIkcmV2IiA+L2Rldi9udWxsIDI+JjEKZG9uZQpzbmFwIHNldCBzeXN0ZW0gcmVmcmVzaC5yZXRhaW49MiA+L2Rldi9udWxsIDI+JjEKYT0kKHNuYXAgbGlzdCAtLWFsbCAyPi9kZXYvbnVsbCB8IGF3ayAnL2Rpc2FibGVkLyB7YysrfSBFTkQge3ByaW50IGMrMH0nKQpsb2cgIkRpc2FibGVkIHJldmlzaW9ucyB3ZW50IGZyb20gJG4gdG8gJGEsIHJldGVudGlvbiBzZXQgdG8gMiIKZXhpdCAwCg=="
+}

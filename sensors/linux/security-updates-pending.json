@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "554c2566-2e86-4550-9b15-87a6fbb465bb",
+  "slug": "security-updates-pending",
+  "type": "sensor",
+  "name": "Security Updates Pending",
+  "description": "Console sensor name: security_updates_pending. Number of pending updates the package manager marks as security, read from the cached metadata without taking a lock. Returns -1 where the family does not separate security updates.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "patching",
+    "security",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0tMQppZiBjb21tYW5kIC12IGFwdC1nZXQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgbj0kKGFwdC1nZXQgLXMgLW8gRGVidWc6Ok5vTG9ja2luZz10cnVlIHVwZ3JhZGUgMj4vZGV2L251bGwgfCBncmVwIC1jICJeSW5zdC4qc2VjdXJpdHkiKQplbGlmIGNvbW1hbmQgLXYgZG5mID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JChkbmYgLUMgLS1zZWN1cml0eSBjaGVjay11cGRhdGUgMj4vZGV2L251bGwgfCBncmVwIC1jICJeW2EtekEtWjAtOV0iKQplbGlmIGNvbW1hbmQgLXYgeXVtID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JCh5dW0gLUMgLS1zZWN1cml0eSBjaGVjay11cGRhdGUgMj4vZGV2L251bGwgfCBncmVwIC1jICJeW2EtekEtWjAtOV0iKQplbGlmIGNvbW1hbmQgLXYgenlwcGVyID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JCh6eXBwZXIgLS1ub24taW50ZXJhY3RpdmUgbGlzdC1wYXRjaGVzIC0tY2F0ZWdvcnkgc2VjdXJpdHkgMj4vZGV2L251bGwgfCBncmVwIC1jICJuZWVkZWQiKQpmaQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

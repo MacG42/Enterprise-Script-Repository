@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f2fbbff5-26f2-49c1-899d-95e6c4e2a4d8",
+  "slug": "disable-ipv6-on-primary-service",
+  "type": "script",
+  "name": "Disable IPv6 On The Primary Service",
+  "description": "Turns IPv6 off on the network service carrying the default route. A blunt instrument, and the right one where a legacy VPN or an internal service breaks the moment a device prefers IPv6.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🕳️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ipv6",
+    "network",
+    "compatibility",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtaXB2Ni1vbi1wcmltYXJ5LXNlcnZpY2UubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppPSQocm91dGUgLW4gZ2V0IGRlZmF1bHQgMj4vZGV2L251bGwgfCBhd2sgLUYnOiAqJyAnL2ludGVyZmFjZS8ge3ByaW50ICQyOyBleGl0fScpCmlmIFsgLXogIiRpIiBdOyB0aGVuIGxvZyAiTm8gZGVmYXVsdCByb3V0ZSBpbnRlcmZhY2UiOyBleGl0IDEwOyBmaQpzdmM9JChuZXR3b3Jrc2V0dXAgLWxpc3RuZXR3b3Jrc2VydmljZW9yZGVyIDI+L2Rldi9udWxsIHwgZ3JlcCAtQjEgIkRldmljZTogJGkpIiB8IGhlYWQgLTEgfCBzZWQgJ3MvXihbMC05XSopIC8vJykKaWYgWyAteiAiJHN2YyIgXTsgdGhlbiBsb2cgIkNvdWxkIG5vdCBtYXAgaW50ZXJmYWNlICRpIHRvIGEgbmV0d29yayBzZXJ2aWNlIjsgZXhpdCAxMDsgZmkKY3VyPSQobmV0d29ya3NldHVwIC1nZXRpbmZvICIkc3ZjIiAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgIklQdjY6IE9mZiIpCmlmIFsgIiRjdXIiIC1ndCAwIF07IHRoZW4gbG9nICJJUHY2IGFscmVhZHkgb2ZmIG9uICRzdmMsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJUdXJuaW5nIElQdjYgb2ZmIG9uICRzdmMiCm5ldHdvcmtzZXR1cCAtc2V0djZvZmYgIiRzdmMiID4vZGV2L251bGwgMj4mMQphPSQobmV0d29ya3NldHVwIC1nZXRpbmZvICIkc3ZjIiAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgIklQdjY6IE9mZiIpCmlmIFsgIiRhIiAtZ3QgMCBdOyB0aGVuIGxvZyAiSVB2NiBkaXNhYmxlZCBvbiAkc3ZjIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d9ccca8b-a3d7-4e11-bae2-4a752f480690",
+  "slug": "autologon-configured",
+  "type": "sensor",
+  "name": "Autologon Configured",
+  "description": "Console sensor name: autologon_configured. True when AutoAdminLogon is set with a stored username. Usually a leftover from imaging or a kiosk build, and it often leaves the password in the registry in clear text.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "security",
+    "autologon",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzIE5UXEN1cnJlbnRWZXJzaW9uXFdpbmxvZ29uJwogICAgJHAgPSBHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgJG9uID0gKCRudWxsIC1uZSAkcC5BdXRvQWRtaW5Mb2dvbiAtYW5kIFtzdHJpbmddJHAuQXV0b0FkbWluTG9nb24gLWVxICcxJykKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKCRvbiAtYW5kIC1ub3QgW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZShbc3RyaW5nXSRwLkRlZmF1bHRVc2VyTmFtZSkpKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

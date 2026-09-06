@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f0e4c71b-f238-46a6-901d-4a6971dcee6c",
+  "slug": "disable-wake-for-network-access",
+  "type": "script",
+  "name": "Disable Wake For Network Access",
+  "description": "Clears Wake for network access so a sleeping laptop stays asleep in a bag. Devices that wake on network traffic overheat in cases and drain overnight, and the setting is on by default.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "pmset",
+    "sleep",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtd2FrZS1mb3ItbmV0d29yay1hY2Nlc3MubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgp2PSQocG1zZXQgLWcgY3VzdG9tIDI+L2Rldi9udWxsIHwgYXdrICcvd29tcC8ge3ByaW50ICQyOyBleGl0fScpCmlmIFsgIiR2IiA9ICIwIiBdOyB0aGVuIGxvZyAiQWxyZWFkeSBkaXNhYmxlZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIndvbXAgd2FzICR2LCBkaXNhYmxpbmciCnBtc2V0IC1hIHdvbXAgMCA+L2Rldi9udWxsIDI+JjEKYT0kKHBtc2V0IC1nIGN1c3RvbSAyPi9kZXYvbnVsbCB8IGF3ayAnL3dvbXAvIHtwcmludCAkMjsgZXhpdH0nKQppZiBbICIkYSIgPSAiMCIgXTsgdGhlbiBsb2cgIldha2UgZm9yIG5ldHdvcmsgYWNjZXNzIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpsb2cgIndvbXAgaXMgbm93ICRhIgpleGl0IDMwCg=="
+}

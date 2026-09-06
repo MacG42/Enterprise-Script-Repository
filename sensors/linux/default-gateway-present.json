@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e6e9e028-aab4-4aff-83ef-937689bf5a70",
+  "slug": "default-gateway-present",
+  "type": "sensor",
+  "name": "Default Gateway Present",
+  "description": "Console sensor name: default_gateway_present. True when the device has a default route. False on a host that is up and reachable on its own segment but cannot reach anything beyond it, which is a very specific and common fault.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🛣️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "routing",
+    "connectivity",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgY29tbWFuZCAtdiBpcCA+L2Rldi9udWxsIDI+JjEgJiYgaXAgcm91dGUgc2hvdyBkZWZhdWx0IDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiZGVmYXVsdCI7IHRoZW4KICBlY2hvICJ0cnVlIgplbGlmIFsgLXIgL3Byb2MvbmV0L3JvdXRlIF0gJiYgYXdrICckMiA9PSAiMDAwMDAwMDAiIHtmb3VuZD0xfSBFTkQge2V4aXQgIWZvdW5kfScgL3Byb2MvbmV0L3JvdXRlIDI+L2Rldi9udWxsOyB0aGVuCiAgZWNobyAidHJ1ZSIKZWxzZQogIGVjaG8gImZhbHNlIgpmaQo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "fc2006c7-42fc-4c5c-842c-c77569f88cc9",
+  "slug": "hardware-model-identifier",
+  "type": "sensor",
+  "name": "Hardware Model Identifier",
+  "description": "Console sensor name: hardware_model_identifier. The model identifier, for example Mac15,7. More useful than a marketing name for working out which devices a macOS release will drop and which are due for replacement.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "💻",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hardware",
+    "model",
+    "inventory",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgp2PSQoc3lzY3RsIC1uIGh3Lm1vZGVsIDI+L2Rldi9udWxsKQpbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgplY2hvICIkdiIK"
+}

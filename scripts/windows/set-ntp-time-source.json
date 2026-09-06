@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c96a43dd-f017-4f2f-af04-d994b3f02bd5",
+  "slug": "set-ntp-time-source",
+  "type": "script",
+  "name": "Set NTP Time Source",
+  "description": "Points the Windows Time service at the time source in esr_ntp_server, sets it to the NTP type and resyncs. Only for workgroup or Entra-joined devices - a domain-joined device should take time from the domain hierarchy instead.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🕑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "w32time",
+    "ntp",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_ntp_server",
+        "value": "time.windows.com"
+      }
+    ]
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHNldC1udHAtdGltZS1zb3VyY2UubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkc2VydmVyID0gJyRlc3JfbnRwX3NlcnZlciQnCiAgICBpZiAoJHNlcnZlciAtbGlrZSAnKmVzcl9udHBfc2VydmVyKicgLW9yICRzZXJ2ZXIuVHJpbSgpIC1lcSAnJykgeyAkc2VydmVyID0gJ3RpbWUud2luZG93cy5jb20nIH0KICAgICRzZXJ2ZXIgPSAkc2VydmVyLlRyaW0oKQogICAgJGpvaW4gPSAoR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfQ29tcHV0ZXJTeXN0ZW0gLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlBhcnRPZkRvbWFpbgogICAgaWYgKCRqb2luIC1lcSAkdHJ1ZSkgeyBXcml0ZS1Mb2cgJ0RldmljZSBpcyBkb21haW4gam9pbmVkLCBsZWF2aW5nIHRoZSBkb21haW4gdGltZSBoaWVyYXJjaHkgYWxvbmUnOyBleGl0IDEwIH0KICAgICRjdXIgPSAoJiB3MzJ0bSAvcXVlcnkgL3NvdXJjZSAyPiYxIHwgT3V0LVN0cmluZykuVHJpbSgpCiAgICBpZiAoJGN1ciAtbGlrZSAoJHNlcnZlciArICcqJykpIHsgV3JpdGUtTG9nICgnQWxyZWFkeSBzb3VyY2luZyB0aW1lIGZyb20gJyArICRzZXJ2ZXIpOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnVGltZSBzb3VyY2Ugd2FzICcgKyAkY3VyICsgJywgc2V0dGluZyB0byAnICsgJHNlcnZlcikKICAgIFNldC1TZXJ2aWNlIC1OYW1lICdXMzJUaW1lJyAtU3RhcnR1cFR5cGUgQXV0b21hdGljIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBTdGFydC1TZXJ2aWNlIC1OYW1lICdXMzJUaW1lJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgJiB3MzJ0bSAvY29uZmlnIC9tYW51YWxwZWVybGlzdDoiJHNlcnZlciwweDkiIC9zeW5jZnJvbWZsYWdzOm1hbnVhbCAvcmVsaWFibGU6bm8gL3VwZGF0ZSAyPiYxIHwgT3V0LU51bGwKICAgICYgdzMydG0gL3Jlc3luYyAvZm9yY2UgMj4mMSB8IE91dC1OdWxsCiAgICBTdGFydC1TbGVlcCAtU2Vjb25kcyA1CiAgICAkYWZ0ZXIgPSAoJiB3MzJ0bSAvcXVlcnkgL3NvdXJjZSAyPiYxIHwgT3V0LVN0cmluZykuVHJpbSgpCiAgICBXcml0ZS1Mb2cgKCdUaW1lIHNvdXJjZSBpcyBub3cgJyArICRhZnRlcikKICAgIGlmICgkYWZ0ZXIgLWxpa2UgKCRzZXJ2ZXIgKyAnKicpKSB7IGV4aXQgMCB9CiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

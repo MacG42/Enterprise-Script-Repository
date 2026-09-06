@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "545edbda-27f0-4bbd-b22b-8ec2868cc7bc",
+  "slug": "page-file-configuration",
+  "type": "sensor",
+  "name": "Page File Configuration",
+  "description": "Console sensor name: page_file_configuration. Closed set: SystemManaged, Custom, None, Multiple. A device with no page file will not write a crash dump, which is how a recurring bugcheck stays undiagnosable.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "pagefile",
+    "crashdump",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjcyA9IEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX0NvbXB1dGVyU3lzdGVtIC1FcnJvckFjdGlvbiBTdG9wCiAgICAkcyA9IEAoR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfUGFnZUZpbGVTZXR0aW5nIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKQogICAgaWYgKCRjcy5BdXRvbWF0aWNNYW5hZ2VkUGFnZWZpbGUpIHsgV3JpdGUtT3V0cHV0ICdTeXN0ZW1NYW5hZ2VkJyB9CiAgICBlbHNlaWYgKCRzLkNvdW50IC1lcSAwKSB7IFdyaXRlLU91dHB1dCAnTm9uZScgfQogICAgZWxzZWlmICgkcy5Db3VudCAtZ3QgMSkgeyBXcml0ZS1PdXRwdXQgJ011bHRpcGxlJyB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0ICdDdXN0b20nIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

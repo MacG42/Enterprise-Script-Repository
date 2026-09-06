@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b92f5888-2131-4a72-81dd-77e910ed2bc8",
+  "slug": "user-cron-job-count",
+  "type": "sensor",
+  "name": "User Cron Job Count",
+  "description": "Console sensor name: user_cron_job_count. Number of user crontabs installed. User cron is a persistence mechanism nobody audits and a scheduling mechanism nobody documents, so the count is worth watching for change.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⏰",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "cron",
+    "scheduling",
+    "persistence",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmZvciBkIGluIC92YXIvc3Bvb2wvY3Jvbi9jcm9udGFicyAvdmFyL3Nwb29sL2Nyb247IGRvCiAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICBjPSQobHMgLTEgIiRkIiAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgLikKICBjYXNlICIkYyIgaW4gJyd8KlshMC05XSopIGM9MCA7OyBlc2FjCiAgbj0kKChuK2MpKQpkb25lCmVjaG8gIiRuIgo="
+}

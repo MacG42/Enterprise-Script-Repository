@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ff9826e8-161a-4f72-9a75-8c40f6b24b37",
+  "slug": "disable-guest-account-macos",
+  "type": "script",
+  "name": "Disable Guest Account",
+  "description": "Turns off the guest login and guest file sharing. A guest session leaves activity on the device that cannot be attributed to anyone.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🚷",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "guest",
+    "accounts",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtZ3Vlc3QtYWNjb3VudC1tYWNvcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmc9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5sb2dpbndpbmRvdyBHdWVzdEVuYWJsZWQgMj4vZGV2L251bGwpCnM9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5BcHBsZUZpbGVTZXJ2ZXIgZ3Vlc3RBY2Nlc3MgMj4vZGV2L251bGwpCmlmIFsgIiRnIiA9ICIwIiBdICYmIFsgIiRzIiAhPSAiMSIgXTsgdGhlbiBsb2cgIkFscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiR3Vlc3RFbmFibGVkIHdhcyAkZywgQUZQIGd1ZXN0QWNjZXNzIHdhcyAkcyIKZGVmYXVsdHMgd3JpdGUgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLmxvZ2lud2luZG93IEd1ZXN0RW5hYmxlZCAtYm9vbCBmYWxzZSAyPi9kZXYvbnVsbApkZWZhdWx0cyB3cml0ZSAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuQXBwbGVGaWxlU2VydmVyIGd1ZXN0QWNjZXNzIC1ib29sIGZhbHNlIDI+L2Rldi9udWxsCmRlZmF1bHRzIHdyaXRlIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL1N5c3RlbUNvbmZpZ3VyYXRpb24vY29tLmFwcGxlLnNtYi5zZXJ2ZXIgQWxsb3dHdWVzdEFjY2VzcyAtYm9vbCBmYWxzZSAyPi9kZXYvbnVsbAphPSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUubG9naW53aW5kb3cgR3Vlc3RFbmFibGVkIDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMCIgXTsgdGhlbiBsb2cgIkd1ZXN0IGFjY291bnQgZGlzYWJsZWQiOyBleGl0IDA7IGZpCmxvZyAiR3Vlc3RFbmFibGVkIGlzIG5vdyAkYSIKZXhpdCAzMAo="
+}

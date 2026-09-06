@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4efe1166-19d8-48b9-b092-f3b02024aa99",
+  "slug": "disable-automatic-login-macos",
+  "type": "script",
+  "name": "Disable Automatic Login",
+  "description": "Removes the automatic login user and the stored key file. Automatic login defeats FileVault, because a stolen device boots straight into a signed-in session.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "autologin",
+    "loginwindow",
+    "filevault",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtYXV0b21hdGljLWxvZ2luLW1hY29zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdT0kKGRlZmF1bHRzIHJlYWQgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLmxvZ2lud2luZG93IGF1dG9Mb2dpblVzZXIgMj4vZGV2L251bGwpCmlmIFsgLXogIiR1IiBdICYmIFsgISAtZiAvZXRjL2tjcGFzc3dvcmQgXTsgdGhlbiBsb2cgIkFscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiQXV0b21hdGljIGxvZ2luIHVzZXIgd2FzOiAkdSIKZGVmYXVsdHMgZGVsZXRlIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5sb2dpbndpbmRvdyBhdXRvTG9naW5Vc2VyIDI+L2Rldi9udWxsCmlmIFsgLWYgL2V0Yy9rY3Bhc3N3b3JkIF07IHRoZW4KICBtdiAvZXRjL2tjcGFzc3dvcmQgIi9ldGMva2NwYXNzd29yZC5kaXNhYmxlZC0kKGRhdGUgLXUgKyVZJW0lZCVIJU0lUykiIDI+L2Rldi9udWxsCiAgbG9nICJNb3ZlZCAvZXRjL2tjcGFzc3dvcmQgYXNpZGUiCmZpCmE9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5sb2dpbndpbmRvdyBhdXRvTG9naW5Vc2VyIDI+L2Rldi9udWxsKQppZiBbIC16ICIkYSIgXTsgdGhlbiBsb2cgIkF1dG9tYXRpYyBsb2dpbiBkaXNhYmxlZCI7IGV4aXQgMDsgZmkKbG9nICJhdXRvTG9naW5Vc2VyIGlzIHN0aWxsICRhIgpleGl0IDMwCg=="
+}

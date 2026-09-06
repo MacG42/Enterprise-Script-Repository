@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3637b279-2cf0-4b77-8c23-f29d54d72c80",
+  "slug": "set-timezone-macos",
+  "type": "script",
+  "name": "Set Time Zone",
+  "description": "Sets the device time zone to the identifier in esr_timezone, for example America/New_York. Validates the value against the list the device accepts before applying it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🌍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "timezone",
+    "configuration",
+    "kiosk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_timezone",
+        "value": "America/New_York"
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC10aW1lem9uZS1tYWNvcy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnR6PSckZXNyX3RpbWV6b25lJCcKY2FzZSAiJHR6IiBpbgogICplc3JfdGltZXpvbmUqfCcnKSBsb2cgIk5vIHRpbWUgem9uZSBzdXBwbGllZCI7IGV4aXQgMTAgOzsKZXNhYwppZiAhIHN5c3RlbXNldHVwIC1saXN0dGltZXpvbmVzIDI+L2Rldi9udWxsIHwgZ3JlcCAtcXggIiAqJHR6IjsgdGhlbgogIGxvZyAiTm90IGEgdGltZSB6b25lIHRoaXMgZGV2aWNlIHJlY29nbmlzZXM6ICR0eiIKICBleGl0IDEwCmZpCmN1cj0kKHN5c3RlbXNldHVwIC1nZXR0aW1lem9uZSAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICd7cHJpbnQgJDI7IGV4aXR9JykKaWYgWyAiJGN1ciIgPSAiJHR6IiBdOyB0aGVuIGxvZyAiQWxyZWFkeSBzZXQgdG8gJHR6LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiVGltZSB6b25lIHdhcyAkY3VyLCBzZXR0aW5nIHRvICR0eiIKc3lzdGVtc2V0dXAgLXNldHRpbWV6b25lICIkdHoiID4vZGV2L251bGwgMj4mMQphPSQoc3lzdGVtc2V0dXAgLWdldHRpbWV6b25lIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJ3twcmludCAkMjsgZXhpdH0nKQppZiBbICIkYSIgPSAiJHR6IiBdOyB0aGVuIGxvZyAiVGltZSB6b25lIHNldCI7IGV4aXQgMDsgZmkKbG9nICJUaW1lIHpvbmUgaXMgbm93ICRhIgpleGl0IDMwCg=="
+}

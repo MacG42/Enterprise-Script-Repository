@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a73d2029-e331-4313-bd6a-2276edb26c97",
+  "slug": "boot-duration-seconds",
+  "type": "sensor",
+  "name": "Boot Duration (Seconds)",
+  "description": "Console sensor name: boot_duration_seconds. How long the last boot took, from the Diagnostics-Performance operational log, in whole seconds. Returns -1 where that log is disabled. The number a user means when they say the machine is slow.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⏳",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "boot",
+    "performance",
+    "userexperience"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRlID0gQChHZXQtV2luRXZlbnQgLUZpbHRlckhhc2h0YWJsZSBAeyBMb2dOYW1lID0gJ01pY3Jvc29mdC1XaW5kb3dzLURpYWdub3N0aWNzLVBlcmZvcm1hbmNlL09wZXJhdGlvbmFsJzsgSWQgPSAxMDAgfSAtTWF4RXZlbnRzIDEgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICBpZiAoJGUuQ291bnQgLWVxIDApIHsgV3JpdGUtT3V0cHV0IC0xIH0KICAgIGVsc2UgewogICAgICAgICR4ID0gW3htbF0kZVswXS5Ub1htbCgpCiAgICAgICAgJG4gPSAkeC5FdmVudC5FdmVudERhdGEuRGF0YSB8IFdoZXJlLU9iamVjdCB7ICRfLk5hbWUgLWVxICdCb290VGltZScgfSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKICAgICAgICBpZiAoJG51bGwgLWVxICRuKSB7IFdyaXRlLU91dHB1dCAtMSB9IGVsc2UgeyBXcml0ZS1PdXRwdXQgKFtpbnRdW21hdGhdOjpSb3VuZChbZG91YmxlXSRuLicjdGV4dCcgLyAxMDAwKSkgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "98b323e8-f6e4-41ed-bbb2-8584f200eefb",
+  "slug": "set-hostname-linux",
+  "type": "script",
+  "name": "Set The Hostname From Inventory",
+  "description": "Delivery: packaged post-install. Sets the static hostname from the ESR_HOSTNAME environment variable, or from the DMI serial number when that is not set, and keeps /etc/hosts consistent with it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🏷️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "hostname",
+    "naming",
+    "provisioning"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zZXQtaG9zdG5hbWUtbGludXgubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgp3YW50PSIke0VTUl9IT1NUTkFNRTotfSIKaWYgWyAteiAiJHdhbnQiIF07IHRoZW4KICBzPSQoY2F0IC9zeXMvY2xhc3MvZG1pL2lkL3Byb2R1Y3Rfc2VyaWFsIDI+L2Rldi9udWxsIHwgdHIgLWNkICdBLVphLXowLTknKQogIFsgLW4gIiRzIiBdICYmIHdhbnQ9Imhvc3QtJHMiCmZpCmlmIFsgLXogIiR3YW50IiBdOyB0aGVuIGxvZyAiTm8gaG9zdG5hbWUgc3VwcGxpZWQgYW5kIG5vIHVzYWJsZSBzZXJpYWwgbnVtYmVyIjsgZXhpdCAxMDsgZmkKY3VyPSQoaG9zdG5hbWUgMj4vZGV2L251bGwpCmlmIFsgIiRjdXIiID0gIiR3YW50IiBdOyB0aGVuIGxvZyAiSG9zdG5hbWUgaXMgYWxyZWFkeSAkd2FudCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkhvc3RuYW1lIHdhcyAkY3VyLCBzZXR0aW5nIHRvICR3YW50IgppZiBjb21tYW5kIC12IGhvc3RuYW1lY3RsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGhvc3RuYW1lY3RsIHNldC1ob3N0bmFtZSAiJHdhbnQiID4vZGV2L251bGwgMj4mMQplbHNlCiAgcHJpbnRmICclc1xuJyAiJHdhbnQiID4gL2V0Yy9ob3N0bmFtZQogIGhvc3RuYW1lICIkd2FudCIgPi9kZXYvbnVsbCAyPiYxCmZpCmdyZXAgLXEgIjEyNy4wLjEuMSIgL2V0Yy9ob3N0cyAyPi9kZXYvbnVsbCAmJiBzZWQgLWkgLUUgInMvXjEyN1wuMFwuMVwuMS4qLzEyNy4wLjEuMVx0JHdhbnQvIiAvZXRjL2hvc3RzCmE9JChob3N0bmFtZSAyPi9kZXYvbnVsbCkKaWYgWyAiJGEiID0gIiR3YW50IiBdOyB0aGVuIGxvZyAiSG9zdG5hbWUgc2V0IHRvICR3YW50IjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "29cb204e-aaaa-457d-8447-bc8c0045c5d0",
+  "slug": "lock-extra-uid-zero-accounts",
+  "type": "script",
+  "name": "Lock Extra UID Zero Accounts",
+  "description": "Delivery: ad hoc. Locks any account with UID 0 other than root itself. A second UID 0 account is a root by another name and a common persistence trick; locking is reversible, deleting is not.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "accounts",
+    "root",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1sb2NrLWV4dHJhLXVpZC16ZXJvLWFjY291bnRzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKZXh0cmE9JChhd2sgLUY6ICcoJDMgPT0gMCAmJiAkMSAhPSAicm9vdCIpIHtwcmludCAkMX0nIC9ldGMvcGFzc3dkIDI+L2Rldi9udWxsKQppZiBbIC16ICIkZXh0cmEiIF07IHRoZW4gbG9nICJyb290IGlzIHRoZSBvbmx5IFVJRCAwIGFjY291bnQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9ja2VkPTAKZm9yIHUgaW4gJGV4dHJhOyBkbwogIHBhc3N3ZCAtbCAiJHUiID4vZGV2L251bGwgMj4mMQogIHVzZXJtb2QgLXMgL3Vzci9zYmluL25vbG9naW4gIiR1IiA+L2Rldi9udWxsIDI+JjEgfHwgdXNlcm1vZCAtcyAvc2Jpbi9ub2xvZ2luICIkdSIgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJMb2NrZWQgVUlEIDAgYWNjb3VudCAkdSBhbmQgc2V0IGl0cyBzaGVsbCB0byBub2xvZ2luIgogIGxvY2tlZD0kKChsb2NrZWQrMSkpCmRvbmUKbG9nICJMb2NrZWQgJGxvY2tlZCBleHRyYSBVSUQgMCBhY2NvdW50KHMpIC0gaW52ZXN0aWdhdGUgaG93IHRoZXkgd2VyZSBjcmVhdGVkIgpleGl0IDAK"
+}

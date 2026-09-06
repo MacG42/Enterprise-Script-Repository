@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9b56d582-6031-405b-98a1-dde76544975a",
+  "slug": "print-spooler-state",
+  "type": "sensor",
+  "name": "Print Spooler State",
+  "description": "Console sensor name: print_spooler_state. Closed set: Running, Stopped, Disabled, Missing. Disabled is a legitimate hardening choice on servers and a broken printing experience on a laptop, so read it against the device's role.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖨️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "printing",
+    "spooler",
+    "services",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LVNlcnZpY2UgLU5hbWUgJ1Nwb29sZXInIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJG51bGwgLWVxICRzKSB7IFdyaXRlLU91dHB1dCAnTWlzc2luZycgfQogICAgZWxzZWlmICgkcy5TdGFydFR5cGUgLWVxICdEaXNhYmxlZCcpIHsgV3JpdGUtT3V0cHV0ICdEaXNhYmxlZCcgfQogICAgZWxzZWlmICgkcy5TdGF0dXMgLWVxICdSdW5uaW5nJykgeyBXcml0ZS1PdXRwdXQgJ1J1bm5pbmcnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgJ1N0b3BwZWQnIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

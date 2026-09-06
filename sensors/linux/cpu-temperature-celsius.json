@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0d5eeb85-1b68-45d6-b854-a9c1e5c2e553",
+  "slug": "cpu-temperature-celsius",
+  "type": "sensor",
+  "name": "CPU Temperature Celsius",
+  "description": "Console sensor name: cpu_temperature_celsius. Highest thermal zone reading in whole degrees. Returns -1 on hardware that exposes no thermal zone, which includes most virtual machines.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🌡️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "thermal",
+    "hardware",
+    "performance",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbWF4PS0xCmZvciB6IGluIC9zeXMvY2xhc3MvdGhlcm1hbC90aGVybWFsX3pvbmUqL3RlbXA7IGRvCiAgWyAtciAiJHoiIF0gfHwgY29udGludWUKICB2PSQoY2F0ICIkeiIgMj4vZGV2L251bGwpCiAgY2FzZSAiJHYiIGluICcnfCpbITAtOV0qKSBjb250aW51ZSA7OyBlc2FjCiAgYz0kKCggdiAvIDEwMDAgKSkKICBbICIkYyIgLWd0ICIkbWF4IiBdICYmIG1heD0kYwpkb25lCmVjaG8gIiRtYXgiCg=="
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b79f9892-8386-4926-8a32-2f593ef71d0d",
+  "slug": "disable-usb-selective-suspend",
+  "type": "script",
+  "name": "Disable USB Selective Suspend",
+  "description": "Turns off USB selective suspend on the active power plan for both AC and battery. The usual cure for a dock that drops its network adapter or a headset that disconnects a few minutes into a call.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "usb",
+    "power",
+    "dock",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtdXNiLXNlbGVjdGl2ZS1zdXNwZW5kLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHN1YiA9ICcyYTczNzQ0MS0xOTMwLTQ0MDItOGQ3Ny1iMmJlYmJhMzA4YTMnCiAgICAkc2V0ID0gJzQ4ZTZiN2E2LTUwZjUtNDc4Mi1hNWQ0LTUzYmI4ZjA3ZTIyNicKICAgICYgcG93ZXJjZmcgL3NldGFjdmFsdWVpbmRleCBTQ0hFTUVfQ1VSUkVOVCAkc3ViICRzZXQgMCB8IE91dC1OdWxsCiAgICAmIHBvd2VyY2ZnIC9zZXRkY3ZhbHVlaW5kZXggU0NIRU1FX0NVUlJFTlQgJHN1YiAkc2V0IDAgfCBPdXQtTnVsbAogICAgJiBwb3dlcmNmZyAvc2V0YWN0aXZlIFNDSEVNRV9DVVJSRU5UIHwgT3V0LU51bGwKICAgICRxID0gKCYgcG93ZXJjZmcgL3F1ZXJ5IFNDSEVNRV9DVVJSRU5UICRzdWIgJHNldCAyPiYxIHwgT3V0LVN0cmluZykKICAgIFdyaXRlLUxvZyAnU2V0IFVTQiBzZWxlY3RpdmUgc3VzcGVuZCB0byBEaXNhYmxlZCBvbiBBQyBhbmQgREMnCiAgICBpZiAoJHEgLW1hdGNoICcweDAwMDAwMDAwJykgeyBXcml0ZS1Mb2cgJ1ZlcmlmaWVkIGRpc2FibGVkIGluIHRoZSBhY3RpdmUgcGxhbic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdDb3VsZCBub3QgdmVyaWZ5IHRoZSBzZXR0aW5nIC0gcG93ZXJjZmcgc2FpZDogJyArICgkcS5UcmltKCkgLXJlcGxhY2UgJ1xzKycsICcgJykpCiAgICBleGl0IDMwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

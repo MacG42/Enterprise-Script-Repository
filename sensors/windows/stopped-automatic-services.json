@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0402a74c-257a-48d3-9055-7b3cdab8c015",
+  "slug": "stopped-automatic-services",
+  "type": "sensor",
+  "name": "Stopped Automatic Services",
+  "description": "Console sensor name: stopped_automatic_services. Count of services set to start automatically that are not running, excluding delayed-start services that legitimately start late. A device far above the fleet norm has something failing at boot.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "services",
+    "health",
+    "boot",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gQChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9TZXJ2aWNlIC1GaWx0ZXIgIlN0YXJ0TW9kZT0nQXV0bycgQU5EIFN0YXRlIT0nUnVubmluZyciIC1FcnJvckFjdGlvbiBTdG9wIHwKICAgICAgICBXaGVyZS1PYmplY3QgeyAkXy5EZWxheWVkQXV0b1N0YXJ0IC1uZSAkdHJ1ZSB9KQogICAgV3JpdGUtT3V0cHV0IChbaW50XSRzLkNvdW50KQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

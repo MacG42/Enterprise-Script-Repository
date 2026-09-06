@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8563f561-7944-4d77-bcd8-d95d8f0f0ac7",
+  "slug": "delivery-optimization-mode",
+  "type": "sensor",
+  "name": "Delivery Optimization Mode",
+  "description": "Console sensor name: delivery_optimization_mode. Closed set: HttpOnly, LanPeering, GroupPeering, InternetPeering, SimpleBypass, BypassDO, Default. Effective DODownloadMode drives whether peering is doing anything for your bandwidth at all.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "deliveryoptimization",
+    "bandwidth",
+    "windowsupdate",
+    "policy"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gJG51bGwKICAgIGZvcmVhY2ggKCRrIGluIEAoJ0hLTE06XFNPRlRXQVJFXFBvbGljaWVzXE1pY3Jvc29mdFxXaW5kb3dzXERlbGl2ZXJ5T3B0aW1pemF0aW9uJywKICAgICAgICAgICAgICAgICAgICAgJ0hLTE06XFNPRlRXQVJFXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXERlbGl2ZXJ5T3B0aW1pemF0aW9uXENvbmZpZycpKSB7CiAgICAgICAgJHAgPSBHZXQtSXRlbVByb3BlcnR5IC1MaXRlcmFsUGF0aCAkayAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgICAgIGlmICgkbnVsbCAtbmUgJHAuRE9Eb3dubG9hZE1vZGUpIHsgJHYgPSBbaW50XSRwLkRPRG93bmxvYWRNb2RlOyBicmVhayB9CiAgICAgICAgaWYgKCRudWxsIC1uZSAkcC5Eb3dubG9hZE1vZGUpIHsgJHYgPSBbaW50XSRwLkRvd25sb2FkTW9kZTsgYnJlYWsgfQogICAgfQogICAgaWYgKCRudWxsIC1lcSAkdikgeyBXcml0ZS1PdXRwdXQgJ0RlZmF1bHQnIH0KICAgIGVsc2UgewogICAgICAgIHN3aXRjaCAoJHYpIHsKICAgICAgICAgICAgMCB7IFdyaXRlLU91dHB1dCAnSHR0cE9ubHknIH0KICAgICAgICAgICAgMSB7IFdyaXRlLU91dHB1dCAnTGFuUGVlcmluZycgfQogICAgICAgICAgICAyIHsgV3JpdGUtT3V0cHV0ICdHcm91cFBlZXJpbmcnIH0KICAgICAgICAgICAgMyB7IFdyaXRlLU91dHB1dCAnSW50ZXJuZXRQZWVyaW5nJyB9CiAgICAgICAgICAgIDk5IHsgV3JpdGUtT3V0cHV0ICdTaW1wbGVCeXBhc3MnIH0KICAgICAgICAgICAgMTAwIHsgV3JpdGUtT3V0cHV0ICdCeXBhc3NETycgfQogICAgICAgICAgICBkZWZhdWx0IHsgV3JpdGUtT3V0cHV0ICdEZWZhdWx0JyB9CiAgICAgICAgfQogICAgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAnVW5rbm93bicKfQo="
+}

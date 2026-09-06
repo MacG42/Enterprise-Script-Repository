@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "50845063-be76-4f30-baeb-74d51796ed32",
+  "slug": "hub-log-age-hours",
+  "type": "sensor",
+  "name": "Hub Log Age (Hours)",
+  "description": "Console sensor name: hub_log_age_hours. Hours since anything was written to the Hub log folder, as a proxy for the last real check-in. Returns -1 when the folder is missing. A device above 24 has stopped talking even if the console still shows it online.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkaXIgPSBKb2luLVBhdGggJGVudjpQcm9ncmFtRGF0YSAnQWlyV2F0Y2hcVW5pZmllZEFnZW50XExvZ3MnCiAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZGlyKSkgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgZWxzZSB7CiAgICAgICAgJG5ld2VzdCA9IEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRkaXIgLUZpbHRlciAnKi5sb2cnIC1GaWxlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwKICAgICAgICAgICAgU29ydC1PYmplY3QgTGFzdFdyaXRlVGltZSAtRGVzY2VuZGluZyB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKICAgICAgICBpZiAoJG51bGwgLWVxICRuZXdlc3QpIHsgV3JpdGUtT3V0cHV0IC0xIH0KICAgICAgICBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Rmxvb3IoKChHZXQtRGF0ZSkgLSAkbmV3ZXN0Lkxhc3RXcml0ZVRpbWUpLlRvdGFsSG91cnMpKSB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}

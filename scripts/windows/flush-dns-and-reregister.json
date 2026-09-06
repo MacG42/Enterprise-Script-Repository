@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1b23be33-0c08-47e8-877b-d6fba2de280b",
+  "slug": "flush-dns-and-reregister",
+  "type": "script",
+  "name": "Flush DNS Cache And Re-register Records",
+  "description": "Clears the resolver cache, restarts the DNS Client service and re-registers the device's A records. First move for a device resolving a stale address after a site move or a DNS change.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "dns",
+    "network",
+    "connectivity",
+    "troubleshooting"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Flush DNS Cache",
+      "displayDescription": "Clears cached name lookups when a site cannot be reached.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGZsdXNoLWRucy1hbmQtcmVyZWdpc3Rlci5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICYgaXBjb25maWcgL2ZsdXNoZG5zIHwgT3V0LU51bGwKICAgIFdyaXRlLUxvZyAnUmVzb2x2ZXIgY2FjaGUgZmx1c2hlZCcKICAgICRzdmMgPSBHZXQtU2VydmljZSAtTmFtZSAnRG5zY2FjaGUnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJG51bGwgLW5lICRzdmMgLWFuZCAkc3ZjLlN0YXR1cyAtbmUgJ1J1bm5pbmcnKSB7CiAgICAgICAgU3RhcnQtU2VydmljZSAtTmFtZSAnRG5zY2FjaGUnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgV3JpdGUtTG9nICdTdGFydGVkIHRoZSBETlMgQ2xpZW50IHNlcnZpY2UnCiAgICB9CiAgICAmIGlwY29uZmlnIC9yZWdpc3RlcmRucyB8IE91dC1OdWxsCiAgICBXcml0ZS1Mb2cgJ1JlcXVlc3RlZCBETlMgcmVnaXN0cmF0aW9uJwogICAgU3RhcnQtU2xlZXAgLVNlY29uZHMgMwogICAgJHN2YzIgPSBHZXQtU2VydmljZSAtTmFtZSAnRG5zY2FjaGUnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJG51bGwgLW5lICRzdmMyIC1hbmQgJHN2YzIuU3RhdHVzIC1lcSAnUnVubmluZycpIHsgV3JpdGUtTG9nICdETlMgY2xpZW50IGhlYWx0aHknOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICdETlMgQ2xpZW50IHNlcnZpY2UgaXMgbm90IHJ1bm5pbmcgYWZ0ZXIgdGhlIGZsdXNoJwogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a12f6862-36fa-453d-b9a8-8f4bfb35f989",
+  "slug": "system-certificate-min-days",
+  "type": "sensor",
+  "name": "Days To Nearest System Certificate Expiry",
+  "description": "Console sensor name: system_certificate_min_days. Days until the soonest expiry among certificates in the System keychain. Negative means something has already expired; -1 means no certificate could be read at all.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📜",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "certificates",
+    "pki",
+    "expiry",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSQobWt0ZW1wIC1kIDI+L2Rldi9udWxsKQppZiBbIC16ICIkZCIgXTsgdGhlbgogIGVjaG8gIi0xIgplbHNlCiAgc2VjdXJpdHkgZmluZC1jZXJ0aWZpY2F0ZSAtYSAtcCAvTGlicmFyeS9LZXljaGFpbnMvU3lzdGVtLmtleWNoYWluIDI+L2Rldi9udWxsIHwgYXdrIC12IGRpcj0iJGQiICdCRUdJTntuPTB9IC9CRUdJTiBDRVJUSUZJQ0FURS97bisrfSB7cHJpbnQgPj4gKGRpciAiL2MiIG4gIi5wZW0iKX0nCiAgbm93PSQoZGF0ZSArJXMpCiAgbWluPTk5OTk5CiAgc2Vlbj0wCiAgZm9yIGYgaW4gIiRkIi8qLnBlbTsgZG8KICAgIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgICBlPSQob3BlbnNzbCB4NTA5IC1pbiAiJGYiIC1ub291dCAtZW5kZGF0ZSAyPi9kZXYvbnVsbCB8IGN1dCAtZD0gLWYyKQogICAgWyAteiAiJGUiIF0gJiYgY29udGludWUKICAgIHQ9JChkYXRlIC1qIC1mICIlYiAlZCAlSDolTTolUyAlWSAlWiIgIiRlIiAiKyVzIiAyPi9kZXYvbnVsbCkKICAgIFsgLXogIiR0IiBdICYmIGNvbnRpbnVlCiAgICBkYXlzPSQoKCAodCAtIG5vdykgLyA4NjQwMCApKQogICAgc2Vlbj0xCiAgICBbICIkZGF5cyIgLWx0ICIkbWluIiBdICYmIG1pbj0kZGF5cwogIGRvbmUKICBybSAtcmYgIiRkIiAyPi9kZXYvbnVsbAogIGlmIFsgIiRzZWVuIiAtZXEgMSBdOyB0aGVuIGVjaG8gIiRtaW4iOyBlbHNlIGVjaG8gIi0xIjsgZmkKZmkK"
+}

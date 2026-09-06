@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f962973e-2d27-4ae2-906b-8be8a07371b9",
+  "slug": "enable-firewall-all-profiles",
+  "type": "script",
+  "name": "Enable Firewall All Profiles",
+  "description": "Enables the Windows Firewall on any profile that is switched off and sets the inbound default to Block. Names the profiles it changed in the log so you can tell a local override from a policy failure.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧱",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firewall",
+    "security",
+    "network",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Turn On Windows Firewall",
+      "displayDescription": "Re-enables the Windows Firewall on all network profiles.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1maXJld2FsbC1hbGwtcHJvZmlsZXMubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkb2ZmID0gQChHZXQtTmV0RmlyZXdhbGxQcm9maWxlIC1BbGwgfCBXaGVyZS1PYmplY3QgeyAtbm90ICRfLkVuYWJsZWQgfSkKICAgICRvcGVuID0gQChHZXQtTmV0RmlyZXdhbGxQcm9maWxlIC1BbGwgfCBXaGVyZS1PYmplY3QgeyAkXy5EZWZhdWx0SW5ib3VuZEFjdGlvbiAtbmUgJ0Jsb2NrJyB9KQogICAgaWYgKCRvZmYuQ291bnQgLWVxIDAgLWFuZCAkb3Blbi5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgaWYgKCRvZmYuQ291bnQgLWd0IDApIHsgV3JpdGUtTG9nICgnUHJvZmlsZXMgZGlzYWJsZWQ6ICcgKyAoKCRvZmYgfCBTZWxlY3QtT2JqZWN0IC1FeHBhbmRQcm9wZXJ0eSBOYW1lKSAtam9pbiAnLCcpKSB9CiAgICBTZXQtTmV0RmlyZXdhbGxQcm9maWxlIC1BbGwgLUVuYWJsZWQgVHJ1ZSAtRGVmYXVsdEluYm91bmRBY3Rpb24gQmxvY2sKICAgICRzdGlsbCA9IEAoR2V0LU5ldEZpcmV3YWxsUHJvZmlsZSAtQWxsIHwgV2hlcmUtT2JqZWN0IHsgLW5vdCAkXy5FbmFibGVkIC1vciAkXy5EZWZhdWx0SW5ib3VuZEFjdGlvbiAtbmUgJ0Jsb2NrJyB9KQogICAgaWYgKCRzdGlsbC5Db3VudCAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0FsbCBwcm9maWxlcyBlbmFibGVkIGFuZCBibG9ja2luZyBpbmJvdW5kIGJ5IGRlZmF1bHQnOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICdHcm91cCBQb2xpY3kgaXMgb3ZlcnJpZGluZyB0aGUgbG9jYWwgZmlyZXdhbGwgc2V0dGluZycKICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

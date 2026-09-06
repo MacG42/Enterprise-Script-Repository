@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "a7cb84c5-015c-4b96-92e7-e6f1eb15a418",
+  "slug": "rebuild-launch-services-database",
+  "type": "script",
+  "name": "Rebuild Launch Services Database",
+  "description": "Rebuilds the application registration database, which clears duplicate entries in Open With and file types that open the wrong application. A user-visible fix that costs nothing to run.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗂️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "launchservices",
+    "applications",
+    "userexperience",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Fix Open With Menu",
+      "displayDescription": "Rebuilds the file association database when apps open the wrong files.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlYnVpbGQtbGF1bmNoLXNlcnZpY2VzLWRhdGFiYXNlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKbHNyPSIvU3lzdGVtL0xpYnJhcnkvRnJhbWV3b3Jrcy9Db3JlU2VydmljZXMuZnJhbWV3b3JrL1ZlcnNpb25zL0EvRnJhbWV3b3Jrcy9MYXVuY2hTZXJ2aWNlcy5mcmFtZXdvcmsvVmVyc2lvbnMvQS9TdXBwb3J0L2xzcmVnaXN0ZXIiCmlmIFsgISAteCAiJGxzciIgXTsgdGhlbiBsb2cgImxzcmVnaXN0ZXIgbm90IGZvdW5kIGF0IHRoZSBleHBlY3RlZCBwYXRoIjsgZXhpdCAxMDsgZmkKbG9nICJSZWJ1aWxkaW5nIHRoZSBMYXVuY2ggU2VydmljZXMgZGF0YWJhc2UiCiIkbHNyIiAta2lsbCAtciAtZG9tYWluIGxvY2FsIC1kb21haW4gc3lzdGVtIC1kb21haW4gdXNlciA+L2Rldi9udWxsIDI+JjEKcmM9JD8Ka2lsbGFsbCBGaW5kZXIgMj4vZGV2L251bGwKa2lsbGFsbCBEb2NrIDI+L2Rldi9udWxsCmlmIFsgIiRyYyIgLWVxIDAgXTsgdGhlbiBsb2cgIkxhdW5jaCBTZXJ2aWNlcyBkYXRhYmFzZSByZWJ1aWx0IjsgZXhpdCAwOyBmaQpsb2cgImxzcmVnaXN0ZXIgcmV0dXJuZWQgJHJjIgpleGl0IDIwCg=="
+}

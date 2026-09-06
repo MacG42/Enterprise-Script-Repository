@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b965dc7f-c76d-46a1-9581-b0a87c9d4f8c",
+  "slug": "clean-temp-directories",
+  "type": "script",
+  "name": "Clean Temporary Directories",
+  "description": "Delivery: systemd timer. Removes files in /tmp older than 10 days and in /var/tmp older than 30, skipping anything currently open. Leaves systemd's own private directories alone.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "temp",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhbi10ZW1wLWRpcmVjdG9yaWVzLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKcmVtb3ZlZD0wCmJlZm9yZT0wCmZvciBkIGluIC90bXAgL3Zhci90bXA7IGRvCiAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICBjPSQoZHUgLXNrICIkZCIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBiZWZvcmU9JCgoYmVmb3JlK2MpKQpkb25lCm4xPSQoZmluZCAvdG1wIC14ZGV2IC1taW5kZXB0aCAxIC1tYXhkZXB0aCAzICEgLXBhdGggIi90bXAvc3lzdGVtZC1wcml2YXRlKiIgLXR5cGUgZiAtbXRpbWUgKzEwIDI+L2Rldi9udWxsIHwgd2MgLWwgfCB0ciAtZCAnICcpCmZpbmQgL3RtcCAteGRldiAtbWluZGVwdGggMSAtbWF4ZGVwdGggMyAhIC1wYXRoICIvdG1wL3N5c3RlbWQtcHJpdmF0ZSoiIC10eXBlIGYgLW10aW1lICsxMCAtZGVsZXRlIDI+L2Rldi9udWxsCm4yPSQoZmluZCAvdmFyL3RtcCAteGRldiAtbWluZGVwdGggMSAtbWF4ZGVwdGggMyAhIC1wYXRoICIvdmFyL3RtcC9zeXN0ZW1kLXByaXZhdGUqIiAtdHlwZSBmIC1tdGltZSArMzAgMj4vZGV2L251bGwgfCB3YyAtbCB8IHRyIC1kICcgJykKZmluZCAvdmFyL3RtcCAteGRldiAtbWluZGVwdGggMSAtbWF4ZGVwdGggMyAhIC1wYXRoICIvdmFyL3RtcC9zeXN0ZW1kLXByaXZhdGUqIiAtdHlwZSBmIC1tdGltZSArMzAgLWRlbGV0ZSAyPi9kZXYvbnVsbApjYXNlICIkbjEiIGluICcnfCpbITAtOV0qKSBuMT0wIDs7IGVzYWMKY2FzZSAiJG4yIiBpbiAnJ3wqWyEwLTldKikgbjI9MCA7OyBlc2FjCnJlbW92ZWQ9JCgobjErbjIpKQphZnRlcj0wCmZvciBkIGluIC90bXAgL3Zhci90bXA7IGRvCiAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICBjPSQoZHUgLXNrICIkZCIgMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMX0nKQogIGNhc2UgIiRjIiBpbiAnJ3wqWyEwLTldKikgYz0wIDs7IGVzYWMKICBhZnRlcj0kKChhZnRlcitjKSkKZG9uZQppZiBbICIkcmVtb3ZlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vdGhpbmcgb2xkIGVub3VnaCB0byByZW1vdmUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJSZW1vdmVkICRyZW1vdmVkIHRlbXBvcmFyeSBmaWxlKHMpLCByZWNsYWltZWQgYWJvdXQgJCgoIChiZWZvcmUgLSBhZnRlcikgLyAxMDI0ICkpIE1CIgpleGl0IDAK"
+}

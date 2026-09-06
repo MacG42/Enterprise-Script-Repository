@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "43a676ae-1fb3-4e65-93f5-274196bc8118",
+  "slug": "clear-windows-update-cache",
+  "type": "script",
+  "name": "Clear Windows Update Cache",
+  "description": "Stops the update services, empties the SoftwareDistribution download folder and starts them again. Narrower than a full component reset - it reclaims the space and clears a poisoned download without touching the datastore.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "windowsupdate",
+    "disk",
+    "cleanup",
+    "patching"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clear Update Downloads",
+      "displayDescription": "Frees space used by cached Windows Update downloads.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLXdpbmRvd3MtdXBkYXRlLWNhY2hlLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGRpciA9IEpvaW4tUGF0aCAkZW52OlN5c3RlbVJvb3QgJ1NvZnR3YXJlRGlzdHJpYnV0aW9uXERvd25sb2FkJwogICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGRpcikpIHsgV3JpdGUtTG9nICdEb3dubG9hZCBmb2xkZXIgYWJzZW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgJGJlZm9yZSA9IChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkZGlyIC1SZWN1cnNlIC1GaWxlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IE1lYXN1cmUtT2JqZWN0IC1Qcm9wZXJ0eSBMZW5ndGggLVN1bSkuU3VtCiAgICBpZiAoJG51bGwgLWVxICRiZWZvcmUpIHsgJGJlZm9yZSA9IDAgfQogICAgaWYgKCRiZWZvcmUgLWx0IDEwME1CKSB7IFdyaXRlLUxvZyAoJ0NhY2hlIGlzICcgKyBbaW50XSgkYmVmb3JlIC8gMU1CKSArICcgTUIsIGJlbG93IHRoZSAxMDAgTUIgdGhyZXNob2xkIC0gbm8gYWN0aW9uJyk7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdDYWNoZSBpcyAnICsgW2ludF0oJGJlZm9yZSAvIDFNQikgKyAnIE1CLCBjbGVhcmluZycpCiAgICBmb3JlYWNoICgkcyBpbiBAKCd3dWF1c2VydicsICdiaXRzJykpIHsgU3RvcC1TZXJ2aWNlIC1OYW1lICRzIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB9CiAgICBTdGFydC1TbGVlcCAtU2Vjb25kcyAzCiAgICBHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkZGlyIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFJlbW92ZS1JdGVtIC1SZWN1cnNlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgZm9yZWFjaCAoJHMgaW4gQCgnYml0cycsICd3dWF1c2VydicpKSB7IFN0YXJ0LVNlcnZpY2UgLU5hbWUgJHMgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfQogICAgJGFmdGVyID0gKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRkaXIgLVJlY3Vyc2UgLUZpbGUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgTWVhc3VyZS1PYmplY3QgLVByb3BlcnR5IExlbmd0aCAtU3VtKS5TdW0KICAgIGlmICgkbnVsbCAtZXEgJGFmdGVyKSB7ICRhZnRlciA9IDAgfQogICAgV3JpdGUtTG9nICgnUmVjbGFpbWVkICcgKyBbaW50XSgoJGJlZm9yZSAtICRhZnRlcikgLyAxTUIpICsgJyBNQjsgd3VhdXNlcnYgaXMgJyArIChHZXQtU2VydmljZSAtTmFtZSB3dWF1c2VydikuU3RhdHVzKQogICAgaWYgKCRhZnRlciAtbHQgJGJlZm9yZSkgeyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "13960089-0db7-4bcd-a1d4-120f2d7ccaa1",
+  "slug": "kernel-lockdown-mode",
+  "type": "sensor",
+  "name": "Kernel Lockdown Mode",
+  "description": "Console sensor name: kernel_lockdown_mode. Reports none, integrity or confidentiality. Lockdown restricts what even root can do to the running kernel, and it is one of the few controls that survives a root compromise.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "kernel",
+    "lockdown",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKZj0iL3N5cy9rZXJuZWwvc2VjdXJpdHkvbG9ja2Rvd24iCmlmIFsgISAtciAiJGYiIF07IHRoZW4KICBlY2hvICJVbmF2YWlsYWJsZSIKZWxzZQogIHY9JChzZWQgLW4gJ3MvLipcW1woLipcKVxdLiovXDEvcCcgIiRmIiAyPi9kZXYvbnVsbCkKICBbIC16ICIkdiIgXSAmJiB2PSJVbmtub3duIgogIGVjaG8gIiR2IgpmaQo="
+}

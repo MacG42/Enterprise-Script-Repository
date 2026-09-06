@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "494f977d-e983-4cab-bdc9-366758efabbd",
+  "slug": "filevault-deferred-enablement",
+  "type": "sensor",
+  "name": "FileVault Deferred Enablement Pending",
+  "description": "Console sensor name: filevault_deferred_enablement. True when FileVault is waiting for a user to sign in and finish enabling encryption. These devices report as targeted for encryption but are not actually encrypted, sometimes for months.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏳",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "filevault",
+    "encryption",
+    "deferred",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpvdXQ9JChmZGVzZXR1cCBzdGF0dXMgMj4vZGV2L251bGwpCmNhc2UgIiRvdXQiIGluCiAgKiJEZWZlcnJlZCBlbmFibGVtZW50IGFwcGVhcnMgdG8gYmUgYWN0aXZlIiopIGVjaG8gInRydWUiIDs7CiAgKikgZWNobyAiZmFsc2UiIDs7CmVzYWMK"
+}

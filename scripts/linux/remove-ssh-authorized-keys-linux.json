@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c1b93ca9-d345-4696-83c9-427110f5b64c",
+  "slug": "remove-ssh-authorized-keys-linux",
+  "type": "script",
+  "name": "Remove SSH Authorized Keys",
+  "description": "Delivery: ad hoc. Moves every authorized_keys file in a home directory and in root aside with a timestamp rather than deleting it, closing standing key access while keeping the evidence of what was there.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗝️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "ssh",
+    "keys",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZW1vdmUtc3NoLWF1dGhvcml6ZWQta2V5cy1saW51eC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnN0YW1wPSQoZGF0ZSAtdSArJVklbSVkJUglTSVTKQptb3ZlZD0wCmZvciBmIGluIC9ob21lLyovLnNzaC9hdXRob3JpemVkX2tleXMgL2hvbWUvKi8uc3NoL2F1dGhvcml6ZWRfa2V5czIgL3Jvb3QvLnNzaC9hdXRob3JpemVkX2tleXM7IGRvCiAgWyAtZiAiJGYiIF0gfHwgY29udGludWUKICBuPSQoZ3JlcCAtYyAiXnNzaC1cfF5lY2RzYS1cfF5zay0iICIkZiIgMj4vZGV2L251bGwpCiAgbXYgIiRmIiAiJGYucmVtb3ZlZC0kc3RhbXAiIDI+L2Rldi9udWxsCiAgaWYgWyAhIC1mICIkZiIgXTsgdGhlbgogICAgbG9nICJNb3ZlZCAkZiBhc2lkZSwgaXQgaGVsZCAkbiBrZXkocykiCiAgICBtb3ZlZD0kKChtb3ZlZCsxKSkKICBmaQpkb25lCmlmIFsgIiRtb3ZlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIk5vIGF1dGhvcml6ZWRfa2V5cyBmaWxlcyBmb3VuZCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIk1vdmVkICRtb3ZlZCBmaWxlKHMpIGFzaWRlIgpleGl0IDAK"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bdb920bf-3065-44c9-9921-4d805137fc9e",
+  "slug": "convert-mobile-account-to-local",
+  "type": "script",
+  "name": "Convert A Mobile Account To Local",
+  "description": "Turns the cached directory account in esr_target_user into a plain local account, keeping the home folder and the UID. The standard move when a Mac leaves a directory it can no longer reach.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "directory",
+    "migration",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_target_user",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNvbnZlcnQtbW9iaWxlLWFjY291bnQtdG8tbG9jYWwubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgp1PSckZXNyX3RhcmdldF91c2VyJCcKY2FzZSAiJHUiIGluCiAgKmVzcl90YXJnZXRfdXNlcip8JycpIGxvZyAiTm8gdXNlciBzdXBwbGllZCI7IGV4aXQgMTAgOzsKZXNhYwppZiAhIGlkICIkdSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiTm8gc3VjaCB1c2VyOiAkdSI7IGV4aXQgMTA7IGZpCm5vZGU9JChkc2NsIC4gLXJlYWQgIi9Vc2Vycy8kdSIgT3JpZ2luYWxOb2RlTmFtZSAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgIk9yaWdpbmFsTm9kZU5hbWUiKQppZiBbICIkbm9kZSIgLWVxIDAgXTsgdGhlbiBsb2cgIiR1IGlzIGFscmVhZHkgYSBsb2NhbCBhY2NvdW50LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmFjdGl2ZT0kKHN0YXQgLWYlU3UgL2Rldi9jb25zb2xlIDI+L2Rldi9udWxsKQppZiBbICIkdSIgPSAiJGFjdGl2ZSIgXTsgdGhlbiBsb2cgIiR1IGlzIGN1cnJlbnRseSBsb2dnZWQgaW4gLSBydW4gdGhpcyB3aGlsZSB0aGV5IGFyZSBzaWduZWQgb3V0IjsgZXhpdCAxMDsgZmkKdWlkPSQoaWQgLXUgIiR1IikKbG9nICJDb252ZXJ0aW5nICR1ICh1aWQgJHVpZCkgZnJvbSBhIG1vYmlsZSBhY2NvdW50IHRvIGxvY2FsIgpmb3IgYSBpbiBjYWNoZWRfZ3JvdXBzIGNhY2hlZF9hdXRoX3BvbGljeSBDb3B5VGltZXN0YW1wIEFsdFNlY3VyaXR5SWRlbnRpdGllcyBTTUJQcmltYXJ5R3JvdXBTSUQgT3JpZ2luYWxBdXRoZW50aWNhdGlvbkF1dGhvcml0eSBPcmlnaW5hbE5vZGVOYW1lIFNNQlNJRCBTTUJTY3JpcHRQYXRoIFNNQlBhc3N3b3JkTGFzdFNldCBTTUJHcm91cFJJRCBQcmltYXJ5TlREb21haW4gQXBwbGVNZXRhUmVjb3JkTmFtZSBNQ1hTZXR0aW5ncyBNQ1hGbGFnczsgZG8KICBkc2NsIC4gLWRlbGV0ZSAiL1VzZXJzLyR1IiAiJGEiIDI+L2Rldi9udWxsCmRvbmUKZHNjbCAuIC1jcmVhdGUgIi9Vc2Vycy8kdSIgQXV0aGVudGljYXRpb25BdXRob3JpdHkgIjtTaGFkb3dIYXNoO0hBU0hMSVNUOjxTQUxURUQtU0hBNTEyLVBCS0RGMj4iIDI+L2Rldi9udWxsCmFmdGVyPSQoZHNjbCAuIC1yZWFkICIvVXNlcnMvJHUiIE9yaWdpbmFsTm9kZU5hbWUgMj4vZGV2L251bGwgfCBncmVwIC1jICJPcmlnaW5hbE5vZGVOYW1lIikKaWYgWyAiJGFmdGVyIiAtZXEgMCBdOyB0aGVuCiAgbG9nICIkdSBpcyBub3cgYSBsb2NhbCBhY2NvdW50IC0gaXQgbmVlZHMgYSBwYXNzd29yZCBzZXQgYmVmb3JlIHRoZSBuZXh0IHNpZ24taW4iCiAgZXhpdCAwCmZpCmxvZyAiRGlyZWN0b3J5IGF0dHJpYnV0ZXMgYXJlIHN0aWxsIHByZXNlbnQgb24gJHUiCmV4aXQgMzAK"
+}

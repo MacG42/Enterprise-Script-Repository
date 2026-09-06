@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ebafe736-6e85-4438-8630-bfbc78412136",
+  "slug": "custom-sudoers-files",
+  "type": "sensor",
+  "name": "Custom Sudoers File Count",
+  "description": "Console sensor name: custom_sudoers_files. Number of drop-in files under /etc/sudoers.d, excluding the shipped README. Each one can grant passwordless root to a user or a script, and they survive most reimaging shortcuts.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "sudo",
+    "privilege",
+    "security",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSIvZXRjL3N1ZG9lcnMuZCIKaWYgWyAhIC1kICIkZCIgXTsgdGhlbgogIGVjaG8gIjAiCmVsc2UKICBuPSQobHMgLTEgIiRkIiAyPi9kZXYvbnVsbCB8IGdyZXAgLXZjICJeUkVBRE1FIikKICBjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwogIGVjaG8gIiRuIgpmaQo="
+}

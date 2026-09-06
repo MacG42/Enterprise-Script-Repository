@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7ebe202b-c7c7-43f8-b7f3-cf1a82f7bb26",
+  "slug": "run-boot-volume-first-aid",
+  "type": "script",
+  "name": "Run First Aid On The Boot Volume",
+  "description": "Runs a verification pass on the boot volume and logs the result. Verification only - a repair needs the volume unmounted, which is a recovery-mode task rather than something to attempt on a running device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🩺",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "filesystem",
+    "diagnostics",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 1800,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJ1bi1ib290LXZvbHVtZS1maXJzdC1haWQubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpvdXQ9JChkaXNrdXRpbCB2ZXJpZnlWb2x1bWUgLyAyPiYxKQpsb2cgInZlcmlmeVZvbHVtZTogJChwcmludGYgJyVzJyAiJG91dCIgfCB0ciAnXG4nICcgJyB8IGN1dCAtYzEtNTAwKSIKY2FzZSAiJG91dCIgaW4KICAqImFwcGVhcnMgdG8gYmUgT0siKikgbG9nICJCb290IHZvbHVtZSB2ZXJpZmllZCBPSyI7IGV4aXQgMCA7OwogICoiY291bGQgbm90IGJlIHZlcmlmaWVkIip8KiJlcnJvciIqfCoiRXJyb3IiKikgbG9nICJCb290IHZvbHVtZSBkaWQgbm90IHZlcmlmeSAtIHNjaGVkdWxlIGEgcmVjb3ZlcnktbW9kZSByZXBhaXIiOyBleGl0IDMwIDs7CmVzYWMKbG9nICJWZXJpZmljYXRpb24gcmVzdWx0IHdhcyBpbmNvbmNsdXNpdmUiCmV4aXQgMAo="
+}

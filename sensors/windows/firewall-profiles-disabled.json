@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c070bf05-97d2-4f35-8de4-6f83364e25a5",
+  "slug": "firewall-profiles-disabled",
+  "type": "sensor",
+  "name": "Firewall Profiles Disabled",
+  "description": "Console sensor name: firewall_profiles_disabled. Closed set: None, Domain, Private, Public, Multiple. Names which Windows Firewall profile is switched off rather than just flagging that one is - the profile tells you where the device was when it happened.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧱",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firewall",
+    "security",
+    "network",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRvZmYgPSBAKEdldC1OZXRGaXJld2FsbFByb2ZpbGUgLVBvbGljeVN0b3JlIEFjdGl2ZVN0b3JlIHwgV2hlcmUtT2JqZWN0IHsgLW5vdCAkXy5FbmFibGVkIH0gfCBTZWxlY3QtT2JqZWN0IC1FeHBhbmRQcm9wZXJ0eSBOYW1lKQogICAgaWYgKCRvZmYuQ291bnQgLWVxIDApIHsgV3JpdGUtT3V0cHV0ICdOb25lJyB9CiAgICBlbHNlaWYgKCRvZmYuQ291bnQgLWd0IDEpIHsgV3JpdGUtT3V0cHV0ICdNdWx0aXBsZScgfQogICAgZWxzZSB7IFdyaXRlLU91dHB1dCAoW3N0cmluZ10kb2ZmWzBdKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

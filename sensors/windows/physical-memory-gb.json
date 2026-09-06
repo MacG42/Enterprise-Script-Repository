@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "19d8fba1-5542-4a69-96cf-ceb7f620e5fa",
+  "slug": "physical-memory-gb",
+  "type": "sensor",
+  "name": "Physical Memory (GB)",
+  "description": "Console sensor name: physical_memory_gb. Installed RAM rounded to the nearest whole gigabyte. The simplest way to find the 4 and 8 GB devices that will not survive the next Teams and Office baseline.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🖥️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "hardware",
+    "inventory",
+    "readiness"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRiID0gKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX0NvbXB1dGVyU3lzdGVtIC1FcnJvckFjdGlvbiBTdG9wKS5Ub3RhbFBoeXNpY2FsTWVtb3J5CiAgICBXcml0ZS1PdXRwdXQgKFtpbnRdW21hdGhdOjpSb3VuZChbZG91YmxlXSRiIC8gMUdCKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

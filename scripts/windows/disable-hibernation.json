@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "26c8bdac-4647-431e-b2bf-80b2d0de264f",
+  "slug": "disable-hibernation",
+  "type": "script",
+  "name": "Disable Hibernation",
+  "description": "Turns hibernation off and removes hiberfil.sys, which is worth several gigabytes on a small system drive. This also disables fast startup, which is usually the point on a managed fleet.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🛌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "power",
+    "disk",
+    "hibernation",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtaGliZXJuYXRpb24ubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkayA9ICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxQb3dlcicKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdIaWJlcm5hdGVFbmFibGVkJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuSGliZXJuYXRlRW5hYmxlZAogICAgaWYgKCRudWxsIC1uZSAkdiAtYW5kIFtpbnRdJHYgLWVxIDApIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgICRoaWIgPSBKb2luLVBhdGggJGVudjpTeXN0ZW1Ecml2ZSAnaGliZXJmaWwuc3lzJwogICAgJHNpemUgPSAwCiAgICBpZiAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkaGliKSB7ICRzaXplID0gKEdldC1JdGVtIC1MaXRlcmFsUGF0aCAkaGliIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkuTGVuZ3RoIH0KICAgIFdyaXRlLUxvZyAoJ0Rpc2FibGluZyBoaWJlcm5hdGlvbiAoaGliZXJmaWwuc3lzIGlzICcgKyBbaW50XSgkc2l6ZSAvIDFNQikgKyAnIE1CKScpCiAgICAmICIkZW52OlN5c3RlbVJvb3RcU3lzdGVtMzJccG93ZXJjZmcuZXhlIiAvaGliZXJuYXRlIG9mZiAqPiAkbnVsbAogICAgU3RhcnQtU2xlZXAgLVNlY29uZHMgMgogICAgJGEgPSAoR2V0LUl0ZW1Qcm9wZXJ0eSAtTGl0ZXJhbFBhdGggJGsgLU5hbWUgJ0hpYmVybmF0ZUVuYWJsZWQnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKS5IaWJlcm5hdGVFbmFibGVkCiAgICBpZiAoJG51bGwgLW5lICRhIC1hbmQgW2ludF0kYSAtZXEgMCkgeyBXcml0ZS1Mb2cgJ0hpYmVybmF0aW9uIGRpc2FibGVkJzsgZXhpdCAwIH0KICAgIGV4aXQgMzAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

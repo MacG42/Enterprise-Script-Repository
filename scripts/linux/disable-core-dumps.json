@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c4c07b89-1927-4d08-95a8-d3966b8427a4",
+  "slug": "disable-core-dumps",
+  "type": "script",
+  "name": "Disable Core Dumps",
+  "description": "Delivery: packaged post-install. Sets the hard core limit to zero, stops setuid programs dumping and tells systemd to store nothing. Core files can contain secrets held in memory at the moment of the crash.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "coredump",
+    "hardening",
+    "privacy"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1kaXNhYmxlLWNvcmUtZHVtcHMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpmPSIvZXRjL3NlY3VyaXR5L2xpbWl0cy5kLzYwLWVzci1jb3JlZHVtcC5jb25mIgpjaGFuZ2VkPTAKaWYgWyAhIC1mICIkZiIgXTsgdGhlbgogIG1rZGlyIC1wIC9ldGMvc2VjdXJpdHkvbGltaXRzLmQgMj4vZGV2L251bGwKICBwcmludGYgJyVzXG4nICIqIGhhcmQgY29yZSAwIiA+ICIkZiIKICBsb2cgIldyb3RlICRmIgogIGNoYW5nZWQ9MQpmaQpzPSIvZXRjL3N5c2N0bC5kLzYwLWVzci1jb3JlZHVtcC5jb25mIgppZiBbICEgLWYgIiRzIiBdOyB0aGVuCiAgbWtkaXIgLXAgL2V0Yy9zeXNjdGwuZCAyPi9kZXYvbnVsbAogIHByaW50ZiAnJXNcbicgImZzLnN1aWRfZHVtcGFibGUgPSAwIiA+ICIkcyIKICBzeXNjdGwgLXAgIiRzIiA+L2Rldi9udWxsIDI+JjEKICBsb2cgIldyb3RlICRzIGFuZCBhcHBsaWVkIGl0IgogIGNoYW5nZWQ9MQpmaQpjPSIvZXRjL3N5c3RlbWQvY29yZWR1bXAuY29uZi5kLzYwLWVzci5jb25mIgppZiBbIC1kIC9ldGMvc3lzdGVtZCBdICYmIFsgISAtZiAiJGMiIF07IHRoZW4KICBta2RpciAtcCAvZXRjL3N5c3RlbWQvY29yZWR1bXAuY29uZi5kIDI+L2Rldi9udWxsCiAgcHJpbnRmICclc1xuJXNcbicgIltDb3JlZHVtcF0iICJTdG9yYWdlPW5vbmUiID4gIiRjIgogIGxvZyAiV3JvdGUgJGMiCiAgY2hhbmdlZD0xCmZpCmlmIFsgIiRjaGFuZ2VkIiAtZXEgMCBdOyB0aGVuIGxvZyAiQWxyZWFkeSBjb25maWd1cmVkLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCnY9JChzeXNjdGwgLW4gZnMuc3VpZF9kdW1wYWJsZSAyPi9kZXYvbnVsbCkKbG9nICJmcy5zdWlkX2R1bXBhYmxlIGlzIG5vdyAkdiIKZXhpdCAwCg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "92b55c51-e387-44c0-bed5-041197357f54",
+  "slug": "third-party-launch-agents",
+  "type": "sensor",
+  "name": "Third Party Launch Agent Count",
+  "description": "Console sensor name: third_party_launch_agents. Number of non-Apple launch agents installed at machine scope. Each one starts code in every user session, so an unexplained rise is worth investigating rather than tidying away.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🧩",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "launchagents",
+    "persistence",
+    "security",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSIvTGlicmFyeS9MYXVuY2hBZ2VudHMiCmlmIFsgISAtZCAiJGQiIF07IHRoZW4KICBlY2hvICIwIgplbHNlCiAgbj0kKGxzIC0xICIkZCIgMj4vZGV2L251bGwgfCBncmVwIC12YyAiXmNvbS5hcHBsZSIpCiAgY2FzZSAiJG4iIGluICcnfCpbITAtOV0qKSBuPS0xIDs7IGVzYWMKICBlY2hvICIkbiIKZmkK"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8c156746-7421-4cf6-aebd-bb1f5f027aa8",
+  "slug": "collect-hub-logs-macos",
+  "type": "script",
+  "name": "Collect Hub Diagnostic Logs",
+  "description": "Gathers the Hub logs, the MDM profile list and a recent system log extract into one timestamped archive under /var/root, so a technician collects a single file. Nothing is uploaded and nothing is deleted.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "logs",
+    "diagnostics",
+    "support"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 900,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Collect Support Logs",
+      "displayDescription": "Gathers management agent logs into one archive for the service desk.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWNvbGxlY3QtaHViLWxvZ3MtbWFjb3MubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpzdGFtcD0kKGRhdGUgLXUgKyVZJW0lZC0lSCVNJVMpCnN0YWdlPSIvdG1wL2h1YmxvZ3MtJHN0YW1wIgpkZXN0PSIvdmFyL3Jvb3QvaHVibG9ncy0kKHNjdXRpbCAtLWdldCBDb21wdXRlck5hbWUgMj4vZGV2L251bGwgfCB0ciAnICcgJy0nKS0kc3RhbXAudGFyLmd6Igpta2RpciAtcCAiJHN0YWdlIiAyPi9kZXYvbnVsbApjb3BpZWQ9MApmb3IgcyBpbiAiL0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9BaXJXYXRjaCIgIi9MaWJyYXJ5L0xvZ3MvQWlyV2F0Y2giICIvTGlicmFyeS9Mb2dzL1ZNd2FyZSIgIi92YXIvbG9nL2luc3RhbGwubG9nIjsgZG8KICBbIC1lICIkcyIgXSB8fCBjb250aW51ZQogIGNwIC1SICIkcyIgIiRzdGFnZS8iIDI+L2Rldi9udWxsCiAgY29waWVkPSQoKGNvcGllZCsxKSkKZG9uZQpwcm9maWxlcyAtUCAtbyBzdGRvdXQgPiAiJHN0YWdlL3Byb2ZpbGVzLnR4dCIgMj4vZGV2L251bGwKbG9nIHNob3cgLS1sYXN0IDJoIC0tc3R5bGUgc3lzbG9nID4gIiRzdGFnZS9zeXN0ZW1sb2ctMmgudHh0IiAyPi9kZXYvbnVsbAppZiBbICIkY29waWVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gSHViIGxvZyBsb2NhdGlvbnMgcHJlc2VudCI7IHJtIC1yZiAiJHN0YWdlIiAyPi9kZXYvbnVsbDsgZXhpdCAxMDsgZmkKdGFyIC1jemYgIiRkZXN0IiAtQyAiJHN0YWdlIiAuIDI+L2Rldi9udWxsCnJtIC1yZiAiJHN0YWdlIiAyPi9kZXYvbnVsbAppZiBbIC1mICIkZGVzdCIgXTsgdGhlbgogIG1iPSQoKCAkKHN0YXQgLWYgJXogIiRkZXN0IiAyPi9kZXYvbnVsbCkgLyAxMDQ4NTc2ICkpCiAgbG9nICJXcm90ZSAkZGVzdCAoYWJvdXQgJHttYn0gTUIpIGZyb20gJGNvcGllZCBzb3VyY2UocykiCiAgZXhpdCAwCmZpCmxvZyAiQXJjaGl2ZSB3YXMgbm90IGNyZWF0ZWQiCmV4aXQgMjAK"
+}

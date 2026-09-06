@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "774f8ed6-8f05-4af8-b459-1f684866f03e",
+  "slug": "enable-firewall-stealth-mode",
+  "type": "script",
+  "name": "Enable Firewall Stealth Mode",
+  "description": "Turns on the application firewall if it is off and enables stealth mode, so the device stops answering probes on closed ports. Existing allowed applications are left alone.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🕳️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firewall",
+    "stealth",
+    "hardening",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVuYWJsZS1maXJld2FsbC1zdGVhbHRoLW1vZGUubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgpmdz0iL3Vzci9saWJleGVjL0FwcGxpY2F0aW9uRmlyZXdhbGwvc29ja2V0ZmlsdGVyZnciCmlmIFsgISAteCAiJGZ3IiBdOyB0aGVuIGxvZyAic29ja2V0ZmlsdGVyZncgbm90IHByZXNlbnQiOyBleGl0IDEwOyBmaQpnPSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuYWxmIGdsb2JhbHN0YXRlIDI+L2Rldi9udWxsKQpzPSQoZGVmYXVsdHMgcmVhZCAvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuYWxmIHN0ZWFsdGhlbmFibGVkIDI+L2Rldi9udWxsKQppZiBbICIkZyIgIT0gIjAiIF0gJiYgWyAiJHMiID0gIjEiIF07IHRoZW4gbG9nICJBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgImdsb2JhbHN0YXRlIHdhcyAkZywgc3RlYWx0aGVuYWJsZWQgd2FzICRzIgoiJGZ3IiAtLXNldGdsb2JhbHN0YXRlIG9uID4vZGV2L251bGwgMj4mMQoiJGZ3IiAtLXNldHN0ZWFsdGhtb2RlIG9uID4vZGV2L251bGwgMj4mMQpnMj0kKGRlZmF1bHRzIHJlYWQgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLmFsZiBnbG9iYWxzdGF0ZSAyPi9kZXYvbnVsbCkKczI9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5hbGYgc3RlYWx0aGVuYWJsZWQgMj4vZGV2L251bGwpCmlmIFsgIiRnMiIgIT0gIjAiIF0gJiYgWyAiJHMyIiA9ICIxIiBdOyB0aGVuIGxvZyAiRmlyZXdhbGwgb24gd2l0aCBzdGVhbHRoIG1vZGUiOyBleGl0IDA7IGZpCmxvZyAiQWZ0ZXIgY2hhbmdlIGdsb2JhbHN0YXRlPSRnMiBzdGVhbHRoZW5hYmxlZD0kczIiCmV4aXQgMzAK"
+}

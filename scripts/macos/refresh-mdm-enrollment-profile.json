@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e614b65f-9fe9-4722-9d05-47206b5f07db",
+  "slug": "refresh-mdm-enrollment-profile",
+  "type": "script",
+  "name": "Refresh MDM Enrollment Profile",
+  "description": "Asks the device to renew its enrolment profile from the MDM service, which repairs an expired identity certificate without re-enrolling. Does nothing on a device that is not enrolled.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📲",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "mdm",
+    "enrollment",
+    "certificates",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlZnJlc2gtbWRtLWVucm9sbG1lbnQtcHJvZmlsZS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnM9JChwcm9maWxlcyBzdGF0dXMgLXR5cGUgZW5yb2xsbWVudCAyPi9kZXYvbnVsbCkKY2FzZSAiJHMiIGluCiAgKiJNRE0gZW5yb2xsbWVudDogWWVzIiopIDogOzsKICAqKSBsb2cgIkRldmljZSBpcyBub3QgTURNIGVucm9sbGVkOiAkcyI7IGV4aXQgMTAgOzsKZXNhYwpsb2cgIlJlcXVlc3RpbmcgYW4gZW5yb2xtZW50IHByb2ZpbGUgcmVuZXdhbCIKcHJvZmlsZXMgcmVuZXcgLXR5cGUgZW5yb2xsbWVudCA+L2Rldi9udWxsIDI+JjEKc2xlZXAgMTAKYT0kKHByb2ZpbGVzIHN0YXR1cyAtdHlwZSBlbnJvbGxtZW50IDI+L2Rldi9udWxsKQpsb2cgIkVucm9sbG1lbnQgc3RhdHVzIGFmdGVyIHJlbmV3YWw6ICQocHJpbnRmICclcycgIiRhIiB8IHRyICdcbicgJyAnKSIKY2FzZSAiJGEiIGluCiAgKiJNRE0gZW5yb2xsbWVudDogWWVzIiopIGV4aXQgMCA7Owplc2FjCmV4aXQgMzAK"
+}

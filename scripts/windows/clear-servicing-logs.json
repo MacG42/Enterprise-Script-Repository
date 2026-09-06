@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "0e047949-3fc0-44ca-952d-8ac41e554002",
+  "slug": "clear-servicing-logs",
+  "type": "script",
+  "name": "Clear Servicing Logs",
+  "description": "Truncates the CBS and DISM log folders, which grow without bound on a device that has been failing updates for months. Keeps the newest log of each so a current failure is still diagnosable.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "servicing",
+    "logs"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLXNlcnZpY2luZy1sb2dzLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJGRpcnMgPSBAKChKb2luLVBhdGggJGVudjpTeXN0ZW1Sb290ICdMb2dzXENCUycpLCAoSm9pbi1QYXRoICRlbnY6U3lzdGVtUm9vdCAnTG9nc1xESVNNJykpCiAgICAkYnl0ZXMgPSAwCiAgICAkcmVtb3ZlZCA9IDAKICAgIGZvcmVhY2ggKCRkIGluICRkaXJzKSB7CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IGNvbnRpbnVlIH0KICAgICAgICAkZmlsZXMgPSBAKEdldC1DaGlsZEl0ZW0gLUxpdGVyYWxQYXRoICRkIC1GaWxlIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNvcnQtT2JqZWN0IExhc3RXcml0ZVRpbWUgLURlc2NlbmRpbmcpCiAgICAgICAgaWYgKCRmaWxlcy5Db3VudCAtbGUgMSkgeyBjb250aW51ZSB9CiAgICAgICAgZm9yZWFjaCAoJGYgaW4gJGZpbGVzWzEuLigkZmlsZXMuQ291bnQgLSAxKV0pIHsKICAgICAgICAgICAgJGJ5dGVzICs9ICRmLkxlbmd0aAogICAgICAgICAgICBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJGYuRnVsbE5hbWUgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgICAgICRyZW1vdmVkKysKICAgICAgICB9CiAgICB9CiAgICBpZiAoJHJlbW92ZWQgLWVxIDApIHsgV3JpdGUtTG9nICdOb3RoaW5nIHRvIHRyaW0sIG5vIGFjdGlvbic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdSZW1vdmVkICcgKyAkcmVtb3ZlZCArICcgc2VydmljaW5nIGxvZyBmaWxlKHMpLCAnICsgW2ludF0oJGJ5dGVzIC8gMU1CKSArICcgTUInKQogICAgZXhpdCAwCn0gY2F0Y2ggewogICAgV3JpdGUtTG9nICgiVW5oYW5kbGVkIGVycm9yOiAiICsgJF8uRXhjZXB0aW9uLk1lc3NhZ2UpCiAgICBleGl0IDIwCn0K"
+}

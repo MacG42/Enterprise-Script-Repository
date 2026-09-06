@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5b13e25b-cf5d-48fc-a1d0-eb90627f3206",
+  "slug": "disable-content-caching",
+  "type": "script",
+  "name": "Disable Content Caching",
+  "description": "Turns off the macOS content cache and flushes what it holds. Deliberate on a site server, accidental on a laptop - where it serves Apple updates to whoever shares the network.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗄️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "contentcaching",
+    "bandwidth",
+    "network",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtY29udGVudC1jYWNoaW5nLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdj0kKGRlZmF1bHRzIHJlYWQgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLkFzc2V0Q2FjaGUucGxpc3QgQWN0aXZhdGVkIDI+L2Rldi9udWxsKQppZiBbICIkdiIgIT0gIjEiIF07IHRoZW4gbG9nICJDb250ZW50IGNhY2hpbmcgaXMgbm90IGFjdGl2ZSwgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkNvbnRlbnQgY2FjaGluZyBpcyBhY3RpdmUsIGRpc2FibGluZyIKQXNzZXRDYWNoZU1hbmFnZXJVdGlsIGRlYWN0aXZhdGUgPi9kZXYvbnVsbCAyPiYxCkFzc2V0Q2FjaGVNYW5hZ2VyVXRpbCBmbHVzaENhY2hlID4vZGV2L251bGwgMj4mMQpzbGVlcCAzCmE9JChkZWZhdWx0cyByZWFkIC9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5Bc3NldENhY2hlLnBsaXN0IEFjdGl2YXRlZCAyPi9kZXYvbnVsbCkKaWYgWyAiJGEiICE9ICIxIiBdOyB0aGVuIGxvZyAiQ29udGVudCBjYWNoaW5nIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7ccfa096-d1b8-4196-9c16-9da386e554df",
+  "slug": "ac-power-connected",
+  "type": "sensor",
+  "name": "AC Power Connected",
+  "description": "Console sensor name: ac_power_connected. True when the device is on mains power at sample time. Useful as a second condition on anything you do not want running on battery, such as a feature update or a full scan.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔌",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "power",
+    "scheduling"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRiID0gR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfQmF0dGVyeSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKICAgIGlmICgkbnVsbCAtZXEgJGIpIHsgV3JpdGUtT3V0cHV0ICR0cnVlIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgKFtib29sXShbaW50XSRiLkJhdHRlcnlTdGF0dXMgLW5lIDEpKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICR0cnVlCn0K"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ce61ed5d-b202-4dea-a265-02ee2e153b2b",
+  "slug": "raid-array-degraded",
+  "type": "sensor",
+  "name": "RAID Array Degraded",
+  "description": "Console sensor name: raid_array_degraded. True when a software RAID array is running with a missing or failed member. Returns false where no software RAID is configured, which is the common case on an endpoint.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💽",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "raid",
+    "storage",
+    "hardware",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgWyAhIC1yIC9wcm9jL21kc3RhdCBdOyB0aGVuCiAgZWNobyAiZmFsc2UiCmVsaWYgZ3JlcCAtcSAiXyIgL3Byb2MvbWRzdGF0IDI+L2Rldi9udWxsOyB0aGVuCiAgZWNobyAidHJ1ZSIKZWxzZQogIGVjaG8gImZhbHNlIgpmaQo="
+}

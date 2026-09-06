@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d6ac0bda-f62e-46a6-867a-d522cc1d4ebe",
+  "slug": "set-default-printer",
+  "type": "script",
+  "name": "Set The Default Printer",
+  "description": "Makes the queue named in esr_default_printer the device default, if it exists. Does not create the queue - pair it with a printer deployment that has already put the queue on the device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🖨️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "printing",
+    "cups",
+    "configuration",
+    "userexperience"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_default_printer",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXNldC1kZWZhdWx0LXByaW50ZXIubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgp3YW50PSckZXNyX2RlZmF1bHRfcHJpbnRlciQnCmNhc2UgIiR3YW50IiBpbgogICplc3JfZGVmYXVsdF9wcmludGVyKnwnJykgbG9nICJObyBwcmludGVyIG5hbWUgc3VwcGxpZWQiOyBleGl0IDEwIDs7CmVzYWMKaWYgISBscHN0YXQgLXAgIiR3YW50IiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBsb2cgIlF1ZXVlICR3YW50IGlzIG5vdCBjb25maWd1cmVkIG9uIHRoaXMgZGV2aWNlIgogIGV4aXQgMTAKZmkKY3VyPSQobHBzdGF0IC1kIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJ3twcmludCAkMjsgZXhpdH0nKQppZiBbICIkY3VyIiA9ICIkd2FudCIgXTsgdGhlbiBsb2cgIkFscmVhZHkgdGhlIGRlZmF1bHQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJEZWZhdWx0IHByaW50ZXIgd2FzICRjdXIsIHNldHRpbmcgdG8gJHdhbnQiCmxwYWRtaW4gLWQgIiR3YW50IiAyPi9kZXYvbnVsbAphPSQobHBzdGF0IC1kIDI+L2Rldi9udWxsIHwgYXdrIC1GJzogKicgJ3twcmludCAkMjsgZXhpdH0nKQppZiBbICIkYSIgPSAiJHdhbnQiIF07IHRoZW4gbG9nICJEZWZhdWx0IHByaW50ZXIgc2V0IjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5eaab7d2-36ff-48ef-a371-53e20f651c52",
+  "slug": "record-suid-baseline",
+  "type": "script",
+  "name": "Record And Compare The SUID Baseline",
+  "description": "Delivery: systemd timer. Writes a list of set-uid binaries to /var/lib and compares it with the previous run, logging anything that has appeared or gone. Reports only - it never changes a permission on its own.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔴",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "suid",
+    "monitoring",
+    "audit"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZWNvcmQtc3VpZC1iYXNlbGluZS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmQ9Ii92YXIvbGliL2VzciIKY3VyPSIkZC9zdWlkLWN1cnJlbnQudHh0IgpwcmV2PSIkZC9zdWlkLWJhc2VsaW5lLnR4dCIKbWtkaXIgLXAgIiRkIiAyPi9kZXYvbnVsbAo6ID4gIiRjdXIiCmZvciBwIGluIC91c3IvYmluIC91c3Ivc2JpbiAvYmluIC9zYmluIC91c3IvbG9jYWwvYmluIC91c3IvbG9jYWwvc2JpbjsgZG8KICBbIC1kICIkcCIgXSB8fCBjb250aW51ZQogIGZpbmQgIiRwIiAteGRldiAtdHlwZSBmIC1wZXJtIC00MDAwIDI+L2Rldi9udWxsID4+ICIkY3VyIgpkb25lCnNvcnQgLW8gIiRjdXIiICIkY3VyIiAyPi9kZXYvbnVsbApuPSQoZ3JlcCAtYyAuICIkY3VyIiAyPi9kZXYvbnVsbCkKaWYgWyAhIC1mICIkcHJldiIgXTsgdGhlbgogIGNwICIkY3VyIiAiJHByZXYiIDI+L2Rldi9udWxsCiAgbG9nICJSZWNvcmRlZCB0aGUgZmlyc3QgU1VJRCBiYXNlbGluZSB3aXRoICRuIGVudHJ5KGllcykiCiAgZXhpdCAwCmZpCmFkZGVkPSQoY29tbSAtMTMgIiRwcmV2IiAiJGN1ciIgMj4vZGV2L251bGwgfCBncmVwIC1jIC4pCnJlbW92ZWQ9JChjb21tIC0yMyAiJHByZXYiICIkY3VyIiAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgLikKY2FzZSAiJGFkZGVkIiBpbiAnJ3wqWyEwLTldKikgYWRkZWQ9MCA7OyBlc2FjCmNhc2UgIiRyZW1vdmVkIiBpbiAnJ3wqWyEwLTldKikgcmVtb3ZlZD0wIDs7IGVzYWMKaWYgWyAiJGFkZGVkIiAtZXEgMCBdICYmIFsgIiRyZW1vdmVkIiAtZXEgMCBdOyB0aGVuIGxvZyAiU1VJRCBzZXQgdW5jaGFuZ2VkLCAkbiBlbnRyeShpZXMpIjsgZXhpdCAwOyBmaQpjb21tIC0xMyAiJHByZXYiICIkY3VyIiAyPi9kZXYvbnVsbCB8IHdoaWxlIHJlYWQgLXIgeDsgZG8gbG9nICJOZXcgU1VJRCBiaW5hcnk6ICR4IjsgZG9uZQpjb21tIC0yMyAiJHByZXYiICIkY3VyIiAyPi9kZXYvbnVsbCB8IHdoaWxlIHJlYWQgLXIgeDsgZG8gbG9nICJTVUlEIGJpbmFyeSBnb25lOiAkeCI7IGRvbmUKY3AgIiRjdXIiICIkcHJldiIgMj4vZGV2L251bGwKbG9nICJTVUlEIHNldCBjaGFuZ2VkOiAkYWRkZWQgYWRkZWQsICRyZW1vdmVkIHJlbW92ZWQgLSBiYXNlbGluZSB1cGRhdGVkIgpleGl0IDAK"
+}

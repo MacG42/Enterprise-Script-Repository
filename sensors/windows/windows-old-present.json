@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8b597b53-6fae-4373-bd6a-ffff01c78bee",
+  "slug": "windows-old-present",
+  "type": "sensor",
+  "name": "Windows.old Present",
+  "description": "Console sensor name: windows_old_present. True when a Windows.old folder from a feature update is still on the system drive. It is typically 15-25 GB and Windows only removes it automatically for the first ten days.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📂",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "featureupdate",
+    "storage"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggKEpvaW4tUGF0aCAkZW52OlN5c3RlbURyaXZlICdXaW5kb3dzLm9sZCcpKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

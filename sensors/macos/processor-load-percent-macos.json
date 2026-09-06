@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "83019849-bbe5-418b-85fa-dbcd0839af8c",
+  "slug": "processor-load-percent-macos",
+  "type": "sensor",
+  "name": "Processor Load Percent",
+  "description": "Console sensor name: processor_load_percent. One-minute load average expressed as a percentage of available cores, so 100 means the machine is exactly saturated. More stable than an instantaneous CPU reading taken by a sensor that runs for a second.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "📈",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "cpu",
+    "performance",
+    "capacity",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpsYT0kKHN5c2N0bCAtbiB2bS5sb2FkYXZnIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDJ9JykKbmM9JChzeXNjdGwgLW4gaHcubmNwdSAyPi9kZXYvbnVsbCkKY2FzZSAiJG5jIiBpbiAnJ3wqWyEwLTldKikgbmM9MCA7OyBlc2FjCmlmIFsgLXogIiRsYSIgXSB8fCBbICIkbmMiIC1lcSAwIF07IHRoZW4KICBlY2hvICItMSIKZWxzZQogIHByaW50ZiAnJXMgJXNcbicgIiRsYSIgIiRuYyIgfCBhd2sgJ3t2PWludCgoJDEvJDIpKjEwMCk7IGlmICh2PDApIHY9MDsgcHJpbnQgdn0nCmZpCg=="
+}

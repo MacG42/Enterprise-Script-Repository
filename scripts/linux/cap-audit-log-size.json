@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "db181a93-1234-4f01-bb35-c6febe6ffe30",
+  "slug": "cap-audit-log-size",
+  "type": "script",
+  "name": "Cap The Audit Log Size",
+  "description": "Delivery: packaged post-install. Bounds the audit log at eight files of fifty megabytes and tells auditd to rotate rather than halt when it fills. An unbounded audit log fills the disk; a halting one stops the host.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📓",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "auditd",
+    "logs",
+    "disk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jYXAtYXVkaXQtbG9nLXNpemUubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpjPSIvZXRjL2F1ZGl0L2F1ZGl0ZC5jb25mIgppZiBbICEgLWYgIiRjIiBdOyB0aGVuIGxvZyAiYXVkaXRkIGlzIG5vdCBpbnN0YWxsZWQgb24gdGhpcyBob3N0IjsgZXhpdCAxMDsgZmkKY3VyPSQoYXdrIC1GJz0gKicgJy9ebWF4X2xvZ19maWxlW1s6c3BhY2U6XV0qPS8ge3ByaW50ICQyOyBleGl0fScgIiRjIiAyPi9kZXYvbnVsbCkKYWN0PSQoYXdrIC1GJz0gKicgJy9ebWF4X2xvZ19maWxlX2FjdGlvbltbOnNwYWNlOl1dKj0vIHtwcmludCAkMjsgZXhpdH0nICIkYyIgMj4vZGV2L251bGwpCmlmIFsgIiRjdXIiID0gIjUwIiBdICYmIFsgIiRhY3QiID0gIlJPVEFURSIgXTsgdGhlbiBsb2cgIkFscmVhZHkgY2FwcGVkIGF0IDUwIE1CIHdpdGggcm90YXRpb24sIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKc3RhbXA9JChkYXRlIC11ICslWSVtJWQlSCVNJVMpCmNwICIkYyIgIiRjLmJhay0kc3RhbXAiIDI+L2Rldi9udWxsCmxvZyAibWF4X2xvZ19maWxlIHdhcyAkY3VyLCBhY3Rpb24gd2FzICRhY3QiCnNlZCAtaSAtRSAicy9ebWF4X2xvZ19maWxlW1s6c3BhY2U6XV0qPS4qL21heF9sb2dfZmlsZSA9IDUwLyIgIiRjIgpzZWQgLWkgLUUgInMvXm1heF9sb2dfZmlsZV9hY3Rpb25bWzpzcGFjZTpdXSo9LiovbWF4X2xvZ19maWxlX2FjdGlvbiA9IFJPVEFURS8iICIkYyIKc2VkIC1pIC1FICJzL15udW1fbG9nc1tbOnNwYWNlOl1dKj0uKi9udW1fbG9ncyA9IDgvIiAiJGMiCmdyZXAgLXEgIl5tYXhfbG9nX2ZpbGUgIiAiJGMiIHx8IHByaW50ZiAnJXNcbicgIm1heF9sb2dfZmlsZSA9IDUwIiA+PiAiJGMiCnNlcnZpY2UgYXVkaXRkIHJlc3RhcnQgPi9kZXYvbnVsbCAyPiYxIHx8IHN5c3RlbWN0bCByZXN0YXJ0IGF1ZGl0ZCA+L2Rldi9udWxsIDI+JjEKc2xlZXAgMwphPSQoYXdrIC1GJz0gKicgJy9ebWF4X2xvZ19maWxlW1s6c3BhY2U6XV0qPS8ge3ByaW50ICQyOyBleGl0fScgIiRjIiAyPi9kZXYvbnVsbCkKaWYgWyAiJGEiID0gIjUwIiBdICYmIHBncmVwIC14IGF1ZGl0ZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4gbG9nICJBdWRpdCBsb2cgY2FwcGVkIGF0IDggeCA1MCBNQiB3aXRoIHJvdGF0aW9uIjsgZXhpdCAwOyBmaQpsb2cgImF1ZGl0ZCBpcyBub3QgcnVubmluZyBhZnRlciB0aGUgY2hhbmdlIC0gcmVzdG9yaW5nIHRoZSBiYWNrdXAiCmNwICIkYy5iYWstJHN0YW1wIiAiJGMiIDI+L2Rldi9udWxsCnNlcnZpY2UgYXVkaXRkIHJlc3RhcnQgPi9kZXYvbnVsbCAyPiYxIHx8IHN5c3RlbWN0bCByZXN0YXJ0IGF1ZGl0ZCA+L2Rldi9udWxsIDI+JjEKZXhpdCAyMAo="
+}

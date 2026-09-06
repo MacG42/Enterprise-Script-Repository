@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "99813e1e-221d-4a74-aee8-a7b23874b32e",
+  "slug": "refresh-desktop-database",
+  "type": "script",
+  "name": "Refresh The Desktop Application Database",
+  "description": "Delivery: ad hoc. Rebuilds the desktop entry, MIME and icon caches so newly installed applications appear in the menu and file associations start working again.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗂️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "desktop",
+    "applications",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZWZyZXNoLWRlc2t0b3AtZGF0YWJhc2UubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgpkb25lX2FueT0wCmlmIGNvbW1hbmQgLXYgdXBkYXRlLWRlc2t0b3AtZGF0YWJhc2UgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdXBkYXRlLWRlc2t0b3AtZGF0YWJhc2UgL3Vzci9zaGFyZS9hcHBsaWNhdGlvbnMgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJSZWJ1aWx0IHRoZSBkZXNrdG9wIGVudHJ5IGRhdGFiYXNlIgogIGRvbmVfYW55PTEKZmkKaWYgY29tbWFuZCAtdiB1cGRhdGUtbWltZS1kYXRhYmFzZSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB1cGRhdGUtbWltZS1kYXRhYmFzZSAvdXNyL3NoYXJlL21pbWUgPi9kZXYvbnVsbCAyPiYxCiAgbG9nICJSZWJ1aWx0IHRoZSBNSU1FIGRhdGFiYXNlIgogIGRvbmVfYW55PTEKZmkKaWYgY29tbWFuZCAtdiBndGstdXBkYXRlLWljb24tY2FjaGUgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZm9yIHQgaW4gL3Vzci9zaGFyZS9pY29ucy8qOyBkbwogICAgWyAtZCAiJHQiIF0gfHwgY29udGludWUKICAgIGd0ay11cGRhdGUtaWNvbi1jYWNoZSAtZiAtcSAiJHQiID4vZGV2L251bGwgMj4mMQogIGRvbmUKICBsb2cgIlJlYnVpbHQgdGhlIGljb24gY2FjaGVzIgogIGRvbmVfYW55PTEKZmkKaWYgWyAiJGRvbmVfYW55IiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gZGVza3RvcCBkYXRhYmFzZSB0b29scyBwcmVzZW50IC0gdGhpcyBsb29rcyBsaWtlIGEgaGVhZGxlc3MgaG9zdCI7IGV4aXQgMTA7IGZpCmV4aXQgMAo="
+}

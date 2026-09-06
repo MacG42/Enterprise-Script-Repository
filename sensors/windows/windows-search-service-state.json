@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4d9c65b6-8614-461b-ad28-6d7fb3bc322f",
+  "slug": "windows-search-service-state",
+  "type": "sensor",
+  "name": "Windows Search Service State",
+  "description": "Console sensor name: windows_search_service_state. Closed set: Running, Stopped, Disabled, Missing. A stopped WSearch is the answer to almost every 'Outlook search finds nothing' ticket, and it is invisible from the application side.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔎",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "search",
+    "outlook",
+    "services",
+    "helpdesk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LVNlcnZpY2UgLU5hbWUgJ1dTZWFyY2gnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICBpZiAoJG51bGwgLWVxICRzKSB7IFdyaXRlLU91dHB1dCAnTWlzc2luZycgfQogICAgZWxzZWlmICgkcy5TdGFydFR5cGUgLWVxICdEaXNhYmxlZCcpIHsgV3JpdGUtT3V0cHV0ICdEaXNhYmxlZCcgfQogICAgZWxzZWlmICgkcy5TdGF0dXMgLWVxICdSdW5uaW5nJykgeyBXcml0ZS1PdXRwdXQgJ1J1bm5pbmcnIH0KICAgIGVsc2UgeyBXcml0ZS1PdXRwdXQgJ1N0b3BwZWQnIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

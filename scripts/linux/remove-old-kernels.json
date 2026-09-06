@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e4bff513-3941-4e6d-ba58-639468aa5c33",
+  "slug": "remove-old-kernels",
+  "type": "script",
+  "name": "Remove Old Kernels",
+  "description": "Delivery: systemd timer. Keeps the running kernel and the two newest and removes the rest, which is what stops a separate /boot partition filling and blocking the next kernel update.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🐧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "kernel",
+    "disk",
+    "cleanup"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZW1vdmUtb2xkLWtlcm5lbHMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpydW49JCh1bmFtZSAtcikKaWYgY29tbWFuZCAtdiBhcHQtZ2V0ID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JChkcGtnIC1sICdsaW51eC1pbWFnZS1bMC05XSonIDI+L2Rldi9udWxsIHwgYXdrICcvXmlpLyB7YysrfSBFTkQge3ByaW50IGMrMH0nKQogIGlmIFsgIiRuIiAtbGUgMyBdOyB0aGVuIGxvZyAiJG4ga2VybmVsIHBhY2thZ2UocykgaW5zdGFsbGVkLCBub3RoaW5nIHRvIHJlbW92ZSI7IGV4aXQgMDsgZmkKICBsb2cgIiRuIGtlcm5lbCBwYWNrYWdlKHMpIGluc3RhbGxlZCwgcnVubmluZyBhdXRvcmVtb3ZlIHRvIHRoaW4gdGhlbSIKICBERUJJQU5fRlJPTlRFTkQ9bm9uaW50ZXJhY3RpdmUgYXB0LWdldCAteSAtLXB1cmdlIGF1dG9yZW1vdmUgPi9kZXYvbnVsbCAyPiYxCiAgYT0kKGRwa2cgLWwgJ2xpbnV4LWltYWdlLVswLTldKicgMj4vZGV2L251bGwgfCBhd2sgJy9eaWkvIHtjKyt9IEVORCB7cHJpbnQgYyswfScpCiAgbG9nICJLZXJuZWwgcGFja2FnZXMgd2VudCBmcm9tICRuIHRvICRhLCBydW5uaW5nIGtlcm5lbCBpcyAkcnVuIgogIGV4aXQgMApmaQppZiBjb21tYW5kIC12IGRuZiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQocnBtIC1xIGtlcm5lbCAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgLikKICBpZiBbICIkbiIgLWxlIDMgXTsgdGhlbiBsb2cgIiRuIGtlcm5lbChzKSBpbnN0YWxsZWQsIG5vdGhpbmcgdG8gcmVtb3ZlIjsgZXhpdCAwOyBmaQogIGxvZyAiJG4ga2VybmVsKHMpIGluc3RhbGxlZCwga2VlcGluZyB0aGUgbmV3ZXN0IDMiCiAgZG5mIC15IHJlbW92ZSAtLW9sZGluc3RhbGxvbmx5IC0tc2V0b3B0IGluc3RhbGxvbmx5X2xpbWl0PTMgPi9kZXYvbnVsbCAyPiYxCiAgYT0kKHJwbSAtcSBrZXJuZWwgMj4vZGV2L251bGwgfCBncmVwIC1jIC4pCiAgbG9nICJLZXJuZWxzIHdlbnQgZnJvbSAkbiB0byAkYSwgcnVubmluZyBrZXJuZWwgaXMgJHJ1biIKICBleGl0IDAKZmkKbG9nICJObyBzdXBwb3J0ZWQgcGFja2FnZSBtYW5hZ2VyIGZvciBrZXJuZWwgY2xlYW51cCIKZXhpdCAxMAo="
+}

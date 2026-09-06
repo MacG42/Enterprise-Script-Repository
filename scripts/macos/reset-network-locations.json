@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "52257065-f3b2-409f-a82b-42b1ebd3227b",
+  "slug": "reset-network-locations",
+  "type": "script",
+  "name": "Reset Network Locations To Automatic",
+  "description": "Switches back to the Automatic network location and removes the extra locations a user or an old support script created. Extra locations are a frequent cause of settings that apply and then mysteriously do not.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🗺️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "locations",
+    "cleanup",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlc2V0LW5ldHdvcmstbG9jYXRpb25zLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKY3VyPSQobmV0d29ya3NldHVwIC1nZXRjdXJyZW50bG9jYXRpb24gMj4vZGV2L251bGwpCmxvY3M9JChuZXR3b3Jrc2V0dXAgLWxpc3Rsb2NhdGlvbnMgMj4vZGV2L251bGwpCm49JChwcmludGYgJyVzXG4nICIkbG9jcyIgfCBncmVwIC1jIC4pCmlmIFsgIiRjdXIiID0gIkF1dG9tYXRpYyIgXSAmJiBbICIkbiIgLWxlIDEgXTsgdGhlbiBsb2cgIkFscmVhZHkgb24gYSBzaW5nbGUgQXV0b21hdGljIGxvY2F0aW9uLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxvZyAiQ3VycmVudCBsb2NhdGlvbiBpcyAkY3VyLCAkbiBsb2NhdGlvbihzKSBkZWZpbmVkIgppZiAhIHByaW50ZiAnJXNcbicgIiRsb2NzIiB8IGdyZXAgLXF4ICJBdXRvbWF0aWMiOyB0aGVuCiAgbmV0d29ya3NldHVwIC1jcmVhdGVsb2NhdGlvbiAiQXV0b21hdGljIiBwb3B1bGF0ZSA+L2Rldi9udWxsIDI+JjEKICBsb2cgIkNyZWF0ZWQgYW4gQXV0b21hdGljIGxvY2F0aW9uIgpmaQpuZXR3b3Jrc2V0dXAgLXN3aXRjaHRvbG9jYXRpb24gIkF1dG9tYXRpYyIgPi9kZXYvbnVsbCAyPiYxCnJlbW92ZWQ9MApvbGQ9JElGUwpJRlM9JwonCmZvciBsIGluICRsb2NzOyBkbwogIFsgLW4gIiRsIiBdIHx8IGNvbnRpbnVlCiAgWyAiJGwiID0gIkF1dG9tYXRpYyIgXSAmJiBjb250aW51ZQogIG5ldHdvcmtzZXR1cCAtZGVsZXRlbG9jYXRpb24gIiRsIiA+L2Rldi9udWxsIDI+JjEKICBsb2cgIlJlbW92ZWQgbG9jYXRpb24gJGwiCiAgcmVtb3ZlZD0kKChyZW1vdmVkKzEpKQpkb25lCklGUz0kb2xkCmE9JChuZXR3b3Jrc2V0dXAgLWdldGN1cnJlbnRsb2NhdGlvbiAyPi9kZXYvbnVsbCkKbG9nICJOb3cgb24gbG9jYXRpb24gJGEsIHJlbW92ZWQgJHJlbW92ZWQgZXh0cmEgbG9jYXRpb24ocykiCmlmIFsgIiRhIiA9ICJBdXRvbWF0aWMiIF07IHRoZW4gZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

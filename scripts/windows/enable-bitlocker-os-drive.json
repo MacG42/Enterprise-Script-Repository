@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "49a59fed-3d3c-4b8f-ba35-79b83139be62",
+  "slug": "enable-bitlocker-os-drive",
+  "type": "script",
+  "name": "Enable BitLocker On OS Drive",
+  "description": "Encrypts the OS volume with XTS-AES 256 using the TPM plus a recovery password, used-space-only. Exits 10 when the TPM is not ready rather than starting an encryption that will fail. Pilot this before fleet assignment - it is the most consequential script in the library.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "bitlocker",
+    "encryption",
+    "security",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "timeout": 600,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1iaXRsb2NrZXItb3MtZHJpdmUubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkdiA9IEdldC1CaXRMb2NrZXJWb2x1bWUgLU1vdW50UG9pbnQgJGVudjpTeXN0ZW1Ecml2ZQogICAgaWYgKCR2LlByb3RlY3Rpb25TdGF0dXMgLWVxICdPbicgLWFuZCBbaW50XSR2LkVuY3J5cHRpb25QZXJjZW50YWdlIC1lcSAxMDApIHsgV3JpdGUtTG9nICdBbHJlYWR5IGNvbXBsaWFudCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIGlmICgkdi5Wb2x1bWVTdGF0dXMgLWVxICdFbmNyeXB0aW9uSW5Qcm9ncmVzcycpIHsgV3JpdGUtTG9nICgnRW5jcnlwdGlvbiBhbHJlYWR5IGluIHByb2dyZXNzIGF0ICcgKyAkdi5FbmNyeXB0aW9uUGVyY2VudGFnZSArICclJyk7IGV4aXQgMCB9CiAgICAkdHBtID0gR2V0LVRwbSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgaWYgKCRudWxsIC1lcSAkdHBtIC1vciAtbm90ICgkdHBtLlRwbVByZXNlbnQgLWFuZCAkdHBtLlRwbUVuYWJsZWQgLWFuZCAkdHBtLlRwbVJlYWR5KSkgeyBXcml0ZS1Mb2cgJ1RQTSBub3QgcHJlc2VudCwgZW5hYmxlZCBhbmQgcmVhZHknOyBleGl0IDEwIH0KICAgIGlmIChAKCR2LktleVByb3RlY3RvciB8IFdoZXJlLU9iamVjdCB7ICRfLktleVByb3RlY3RvclR5cGUgLWVxICdSZWNvdmVyeVBhc3N3b3JkJyB9KS5Db3VudCAtZXEgMCkgewogICAgICAgIFdyaXRlLUxvZyAnQWRkaW5nIHJlY292ZXJ5IHBhc3N3b3JkIHByb3RlY3RvcicKICAgICAgICBBZGQtQml0TG9ja2VyS2V5UHJvdGVjdG9yIC1Nb3VudFBvaW50ICRlbnY6U3lzdGVtRHJpdmUgLVJlY292ZXJ5UGFzc3dvcmRQcm90ZWN0b3IgfCBPdXQtTnVsbAogICAgfQogICAgaWYgKEAoJHYuS2V5UHJvdGVjdG9yIHwgV2hlcmUtT2JqZWN0IHsgJF8uS2V5UHJvdGVjdG9yVHlwZSAtbGlrZSAnVHBtKicgfSkuQ291bnQgLWVxIDApIHsKICAgICAgICBXcml0ZS1Mb2cgJ0FkZGluZyBUUE0gcHJvdGVjdG9yJwogICAgICAgIEFkZC1CaXRMb2NrZXJLZXlQcm90ZWN0b3IgLU1vdW50UG9pbnQgJGVudjpTeXN0ZW1Ecml2ZSAtVHBtUHJvdGVjdG9yIHwgT3V0LU51bGwKICAgIH0KICAgIGlmICgkdi5Qcm90ZWN0aW9uU3RhdHVzIC1uZSAnT24nKSB7CiAgICAgICAgV3JpdGUtTG9nICdTdGFydGluZyBlbmNyeXB0aW9uIChYdHNBZXMyNTYsIHVzZWQgc3BhY2Ugb25seSknCiAgICAgICAgRW5hYmxlLUJpdExvY2tlciAtTW91bnRQb2ludCAkZW52OlN5c3RlbURyaXZlIC1FbmNyeXB0aW9uTWV0aG9kIFh0c0FlczI1NiAtVXNlZFNwYWNlT25seSAtU2tpcEhhcmR3YXJlVGVzdCAtVHBtUHJvdGVjdG9yIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgT3V0LU51bGwKICAgICAgICBSZXN1bWUtQml0TG9ja2VyIC1Nb3VudFBvaW50ICRlbnY6U3lzdGVtRHJpdmUgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBPdXQtTnVsbAogICAgfQogICAgJGEgPSBHZXQtQml0TG9ja2VyVm9sdW1lIC1Nb3VudFBvaW50ICRlbnY6U3lzdGVtRHJpdmUKICAgIFdyaXRlLUxvZyAoJ1N0YXR1cyBub3cgJyArICRhLlZvbHVtZVN0YXR1cyArICcgLyAnICsgJGEuUHJvdGVjdGlvblN0YXR1cyArICcgYXQgJyArICRhLkVuY3J5cHRpb25QZXJjZW50YWdlICsgJyUnKQogICAgaWYgKCRhLlByb3RlY3Rpb25TdGF0dXMgLWVxICdPbicgLW9yICRhLlZvbHVtZVN0YXR1cyAtZXEgJ0VuY3J5cHRpb25JblByb2dyZXNzJykgeyBleGl0IDAgfQogICAgZXhpdCAyMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

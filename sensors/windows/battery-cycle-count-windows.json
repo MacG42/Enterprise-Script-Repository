@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "510b1e9d-8c2a-49ab-9125-b81d24962198",
+  "slug": "battery-cycle-count-windows",
+  "type": "sensor",
+  "name": "Battery Cycle Count",
+  "description": "Console sensor name: battery_cycle_count. Charge cycles the battery reports. Many OEM batteries return 0 because the firmware does not expose the counter - treat 0 as unreported rather than as new, and use battery health for those.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "battery",
+    "hardware",
+    "lifecycle",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRjID0gR2V0LUNpbUluc3RhbmNlIC1OYW1lc3BhY2UgJ3Jvb3RcV01JJyAtQ2xhc3NOYW1lIEJhdHRlcnlDeWNsZUNvdW50IC1FcnJvckFjdGlvbiBTdG9wIHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgaWYgKCRudWxsIC1lcSAkYykgeyBXcml0ZS1PdXRwdXQgLTEgfSBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XSRjLkN5Y2xlQ291bnQpIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

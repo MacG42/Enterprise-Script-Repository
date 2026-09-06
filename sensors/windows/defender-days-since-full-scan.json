@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d3ff709e-e8e8-4db1-a72e-e752fe4ebd6f",
+  "slug": "defender-days-since-full-scan",
+  "type": "sensor",
+  "name": "Defender Days Since Full Scan",
+  "description": "Console sensor name: defender_days_since_full_scan. Days since the last completed full scan; -1 when Defender is unavailable or has never run one. Use it to find the devices a monthly full-scan policy never actually reaches.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔍",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "scanning",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LU1wQ29tcHV0ZXJTdGF0dXMKICAgICRhZ2UgPSBbaW50XSRzLkZ1bGxTY2FuQWdlCiAgICBpZiAoJGFnZSAtbHQgMCAtb3IgJGFnZSAtZ3QgMzY1MCkgeyAkYWdlID0gLTEgfQogICAgV3JpdGUtT3V0cHV0ICRhZ2UKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "acc5d5d1-4126-411e-9c08-395a2f88ab0e",
+  "slug": "auditd-running",
+  "type": "sensor",
+  "name": "Audit Daemon Running",
+  "description": "Console sensor name: auditd_running. True when auditd is active. Without it the kernel's audit events go nowhere, and an investigation into what happened on the device has almost nothing to read.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📋",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "auditd",
+    "logging",
+    "forensics",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgcGdyZXAgLXggYXVkaXRkID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gInRydWUiCmVsaWYgY29tbWFuZCAtdiBzeXN0ZW1jdGwgPi9kZXYvbnVsbCAyPiYxICYmIHN5c3RlbWN0bCBpcy1hY3RpdmUgYXVkaXRkID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gInRydWUiCmVsc2UKICBlY2hvICJmYWxzZSIKZmkK"
+}

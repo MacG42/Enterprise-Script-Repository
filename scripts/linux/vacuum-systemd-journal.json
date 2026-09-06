@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6b408549-53c1-4aa3-9122-6ecbcbcadf81",
+  "slug": "vacuum-systemd-journal",
+  "type": "script",
+  "name": "Vacuum The Systemd Journal",
+  "description": "Delivery: systemd timer. Trims the journal to 500 MB and 30 days, which is what stops an unbounded journal quietly filling the root volume on a long-lived host.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🗑️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "journald",
+    "logs",
+    "disk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC12YWN1dW0tc3lzdGVtZC1qb3VybmFsLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBjb21tYW5kIC12IGpvdXJuYWxjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiam91cm5hbGQgaXMgbm90IGluIHVzZSBoZXJlIjsgZXhpdCAxMDsgZmkKYmVmb3JlPSQoam91cm5hbGN0bCAtLWRpc2stdXNhZ2UgMj4vZGV2L251bGwpCmxvZyAiSm91cm5hbCB1c2FnZSBiZWZvcmU6ICRiZWZvcmUiCmpvdXJuYWxjdGwgLS12YWN1dW0tc2l6ZT01MDBNID4vZGV2L251bGwgMj4mMQpqb3VybmFsY3RsIC0tdmFjdXVtLXRpbWU9MzBkID4vZGV2L251bGwgMj4mMQphZnRlcj0kKGpvdXJuYWxjdGwgLS1kaXNrLXVzYWdlIDI+L2Rldi9udWxsKQpsb2cgIkpvdXJuYWwgdXNhZ2UgYWZ0ZXI6ICRhZnRlciIKZXhpdCAwCg=="
+}

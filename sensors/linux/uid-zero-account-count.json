@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "f6442d2d-261b-4268-aceb-162457ee814c",
+  "slug": "uid-zero-account-count",
+  "type": "sensor",
+  "name": "UID Zero Account Count",
+  "description": "Console sensor name: uid_zero_account_count. Number of accounts with UID 0. Anything above one is a second root by another name, and it is a classic persistence mechanism as well as a classic misconfiguration.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "👤",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "root",
+    "privilege",
+    "security"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0kKGF3ayAtRjogJygkMyA9PSAwKSB7YysrfSBFTkQge3ByaW50IGMrMH0nIC9ldGMvcGFzc3dkIDI+L2Rldi9udWxsKQpjYXNlICIkbiIgaW4gJyd8KlshMC05XSopIG49LTEgOzsgZXNhYwplY2hvICIkbiIK"
+}

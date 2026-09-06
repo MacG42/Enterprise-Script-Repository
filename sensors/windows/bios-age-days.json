@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c7bf264e-5f73-4b6f-b1c0-9a20611a3b5a",
+  "slug": "bios-age-days",
+  "type": "sensor",
+  "name": "BIOS Age (Days)",
+  "description": "Console sensor name: bios_age_days. Days since the installed firmware was released, from the BIOS release date. A clean way to find the devices a firmware update policy has never actually reached.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📅",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "firmware",
+    "bios",
+    "patching",
+    "lifecycle"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRkID0gKEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX0JJT1MgLUVycm9yQWN0aW9uIFN0b3ApLlJlbGVhc2VEYXRlCiAgICBpZiAoJG51bGwgLWVxICRkKSB7IFdyaXRlLU91dHB1dCAtMSB9CiAgICBlbHNlIHsgV3JpdGUtT3V0cHV0IChbaW50XVttYXRoXTo6Rmxvb3IoKChHZXQtRGF0ZSkgLSAkZCkuVG90YWxEYXlzKSkgfQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAtMQp9Cg=="
+}

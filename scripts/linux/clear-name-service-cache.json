@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "65a089cd-8f39-4fe7-94ca-1168e603fae5",
+  "slug": "clear-name-service-cache",
+  "type": "script",
+  "name": "Clear The Name Service Cache",
+  "description": "Delivery: ad hoc. Invalidates the nscd caches for passwd, group and hosts. On a host still running nscd this is why a new account or a changed group takes an hour to be visible.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "nscd",
+    "identity",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhci1uYW1lLXNlcnZpY2UtY2FjaGUubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgppZiAhIHBncmVwIC14IG5zY2QgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAibnNjZCBpcyBub3QgcnVubmluZyAtIG5vdGhpbmcgdG8gY2xlYXIiOyBleGl0IDA7IGZpCmZvciBtIGluIHBhc3N3ZCBncm91cCBob3N0cyBzZXJ2aWNlcyBuZXRncm91cDsgZG8KICBuc2NkIC1pICIkbSIgPi9kZXYvbnVsbCAyPiYxCmRvbmUKbG9nICJJbnZhbGlkYXRlZCB0aGUgbnNjZCBjYWNoZXMiCnN5c3RlbWN0bCByZXN0YXJ0IG5zY2QgPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDMKaWYgcGdyZXAgLXggbnNjZCA+L2Rldi9udWxsIDI+JjE7IHRoZW4gbG9nICJuc2NkIHJlc3RhcnRlZCI7IGV4aXQgMDsgZmkKbG9nICJuc2NkIGRpZCBub3QgY29tZSBiYWNrIgpleGl0IDMwCg=="
+}

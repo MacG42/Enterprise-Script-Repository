@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7d686a29-6180-4554-987b-304d20acf1dd",
+  "slug": "tpm-device-present",
+  "type": "sensor",
+  "name": "TPM Device Present",
+  "description": "Console sensor name: tpm_device_present. True when a TPM device node exists. Determines whether disk encryption can be sealed to the platform rather than depending on a passphrase somebody has to type or store.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "tpm",
+    "hardware",
+    "encryption",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgWyAtZSAvZGV2L3RwbTAgXSB8fCBbIC1lIC9kZXYvdHBtcm0wIF0gfHwgWyAtZCAvc3lzL2NsYXNzL3RwbS90cG0wIF07IHRoZW4KICBlY2hvICJ0cnVlIgplbHNlCiAgZWNobyAiZmFsc2UiCmZpCg=="
+}

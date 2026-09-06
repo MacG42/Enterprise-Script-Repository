@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "375cd2bc-b3fd-4fa1-a44f-fb1d2c9efbba",
+  "slug": "hub-service-running",
+  "type": "sensor",
+  "name": "Hub Service Running",
+  "description": "Console sensor name: hub_service_running. True when the Workspace ONE Intelligent Hub service is present and in the Running state. A stopped Hub is why a device stops taking scripts, sensors and profiles while still looking enrolled.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "hub",
+    "workspaceone",
+    "agent",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LVNlcnZpY2UgLU5hbWUgJ0FpcldhdGNoU2VydmljZScgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKCRudWxsIC1uZSAkcyAtYW5kICRzLlN0YXR1cyAtZXEgJ1J1bm5pbmcnKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

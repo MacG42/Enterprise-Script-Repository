@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "78939957-1f1a-422f-b4ca-47e17777f88d",
+  "slug": "machine-certificate-min-days",
+  "type": "sensor",
+  "name": "Machine Certificate Minimum Days",
+  "description": "Console sensor name: machine_certificate_min_days. Fewest days remaining on any currently valid machine certificate that has a private key. Returns -1 when the store holds none. This is the number that predicts a Wi-Fi or VPN outage a month out.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📜",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "certificates",
+    "pki",
+    "expiry",
+    "network"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRub3cgPSBHZXQtRGF0ZQogICAgJGMgPSBAKEdldC1DaGlsZEl0ZW0gLVBhdGggJ0NlcnQ6XExvY2FsTWFjaGluZVxNeScgLUVycm9yQWN0aW9uIFN0b3AgfAogICAgICAgIFdoZXJlLU9iamVjdCB7ICRfLkhhc1ByaXZhdGVLZXkgLWFuZCAkXy5Ob3RBZnRlciAtZ3QgJG5vdyB9KQogICAgaWYgKCRjLkNvdW50IC1lcSAwKSB7IFdyaXRlLU91dHB1dCAtMSB9CiAgICBlbHNlIHsKICAgICAgICAkbWluID0gKCRjIHwgU29ydC1PYmplY3QgTm90QWZ0ZXIgfCBTZWxlY3QtT2JqZWN0IC1GaXJzdCAxKS5Ob3RBZnRlcgogICAgICAgIFdyaXRlLU91dHB1dCAoW2ludF1bbWF0aF06OkZsb29yKCgkbWluIC0gJG5vdykuVG90YWxEYXlzKSkKICAgIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgLTEKfQo="
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8d9e46aa-726b-47f3-9b22-1a32030c44c1",
+  "slug": "time-sync-active",
+  "type": "sensor",
+  "name": "Time Synchronisation Active",
+  "description": "Console sensor name: time_sync_active. True when chrony, systemd-timesyncd or ntpd is running and synchronised. A drifted clock breaks Kerberos, TLS validation and log correlation at the same time.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "ntp",
+    "chrony",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgY29tbWFuZCAtdiB0aW1lZGF0ZWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB0aW1lZGF0ZWN0bCBzaG93IC1wIE5UUFN5bmNocm9uaXplZCAtLXZhbHVlIDI+L2Rldi9udWxsIHwgZ3JlcCAtcWkgInllcyIgJiYgeyBlY2hvICJ0cnVlIjsgZXhpdCAwOyB9CmZpCmlmIGNvbW1hbmQgLXYgY2hyb255YyA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBjaHJvbnljIHRyYWNraW5nIDI+L2Rldi9udWxsIHwgZ3JlcCAtcWkgIkxlYXAgc3RhdHVzLipOb3JtYWwiICYmIHsgZWNobyAidHJ1ZSI7IGV4aXQgMDsgfQpmaQpmb3IgcCBpbiBjaHJvbnlkIHN5c3RlbWQtdGltZXN5bmNkIG50cGQ7IGRvCiAgcGdyZXAgLXggIiRwIiA+L2Rldi9udWxsIDI+JjEgJiYgeyBlY2hvICJ0cnVlIjsgZXhpdCAwOyB9CmRvbmUKZWNobyAiZmFsc2UiCg=="
+}

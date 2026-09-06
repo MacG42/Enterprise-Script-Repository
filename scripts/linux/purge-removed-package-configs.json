@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "efe1a4bb-9ee6-4b23-8cb1-a23c9db59c4a",
+  "slug": "purge-removed-package-configs",
+  "type": "script",
+  "name": "Purge Configuration Of Removed Packages",
+  "description": "Delivery: systemd timer. Purges packages left in the removed-but-configured state on Debian family hosts, which is where old configuration files and their leftover users quietly persist.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "packages",
+    "cleanup",
+    "hygiene"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1wdXJnZS1yZW1vdmVkLXBhY2thZ2UtY29uZmlncy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmlmICEgY29tbWFuZCAtdiBkcGtnID4vZGV2L251bGwgMj4mMTsgdGhlbiBsb2cgIk5vdCBhIGRwa2ctYmFzZWQgc3lzdGVtLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmxpc3Q9JChkcGtnIC1sIDI+L2Rldi9udWxsIHwgYXdrICcvXnJjLyB7cHJpbnQgJDJ9JykKaWYgWyAteiAiJGxpc3QiIF07IHRoZW4gbG9nICJObyByZW1vdmVkLWJ1dC1jb25maWd1cmVkIHBhY2thZ2VzLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCm49JChwcmludGYgJyVzXG4nICIkbGlzdCIgfCBncmVwIC1jIC4pCmxvZyAiUHVyZ2luZyAkbiByZW1vdmVkLWJ1dC1jb25maWd1cmVkIHBhY2thZ2UocykiCkRFQklBTl9GUk9OVEVORD1ub25pbnRlcmFjdGl2ZSBkcGtnIC0tcHVyZ2UgJGxpc3QgPi9kZXYvbnVsbCAyPiYxCmE9JChkcGtnIC1sIDI+L2Rldi9udWxsIHwgYXdrICcvXnJjLyB7YysrfSBFTkQge3ByaW50IGMrMH0nKQpsb2cgIkNvdW50IHdlbnQgZnJvbSAkbiB0byAkYSIKaWYgWyAiJGEiIC1lcSAwIF07IHRoZW4gZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

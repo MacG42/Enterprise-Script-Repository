@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d5db9ff8-4e50-4071-906a-26d4e9cb9ba9",
+  "slug": "repair-user-home-permissions",
+  "type": "script",
+  "name": "Repair Home Folder Permissions",
+  "description": "Restores ownership and the standard permissions on the home folder of the user in esr_target_user. The fix after a migration or a restore that has left a user unable to write to their own Desktop.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "userprofile",
+    "permissions",
+    "migration",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 1800,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": [
+      {
+        "key": "esr_target_user",
+        "value": ""
+      }
+    ]
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLXJlcGFpci11c2VyLWhvbWUtcGVybWlzc2lvbnMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9Cgp1PSckZXNyX3RhcmdldF91c2VyJCcKY2FzZSAiJHUiIGluCiAgKmVzcl90YXJnZXRfdXNlcip8JycpIGxvZyAiTm8gdXNlciBzdXBwbGllZCI7IGV4aXQgMTAgOzsKICByb290KSBsb2cgIlJlZnVzaW5nIHRvIG9wZXJhdGUgb24gcm9vdCI7IGV4aXQgMTAgOzsKZXNhYwppZiAhIGlkICIkdSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAiTm8gc3VjaCB1c2VyOiAkdSI7IGV4aXQgMTA7IGZpCmg9JChkc2NsIC4gLXJlYWQgIi9Vc2Vycy8kdSIgTkZTSG9tZURpcmVjdG9yeSAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQyfScpCmNhc2UgIiRoIiBpbgogIC9Vc2Vycy8qKSA6IDs7CiAgKikgbG9nICJIb21lIGRpcmVjdG9yeSBpcyBub3QgdW5kZXIgL1VzZXJzLCByZWZ1c2luZzogJGgiOyBleGl0IDEwIDs7CmVzYWMKaWYgWyAhIC1kICIkaCIgXTsgdGhlbiBsb2cgIkhvbWUgZGlyZWN0b3J5IGRvZXMgbm90IGV4aXN0OiAkaCI7IGV4aXQgMTA7IGZpCnVpZD0kKGlkIC11ICIkdSIpCmxvZyAiUmVwYWlyaW5nIG93bmVyc2hpcCBhbmQgcGVybWlzc2lvbnMgb24gJGggZm9yIHVpZCAkdWlkIgpjaG93biAtUiAiJHVpZDpzdGFmZiIgIiRoIiAyPi9kZXYvbnVsbApjaG1vZCA3MDAgIiRoIiAyPi9kZXYvbnVsbApjaG1vZCAtUiB1K3J3WCAiJGgiIDI+L2Rldi9udWxsCm93bmVyPSQoc3RhdCAtZiVTdSAiJGgiIDI+L2Rldi9udWxsKQppZiBbICIkb3duZXIiID0gIiR1IiBdOyB0aGVuIGxvZyAiSG9tZSBmb2xkZXIgbm93IG93bmVkIGJ5ICR1IjsgZXhpdCAwOyBmaQpsb2cgIk93bmVyIGlzICRvd25lciBhZnRlciB0aGUgcmVwYWlyIgpleGl0IDMwCg=="
+}

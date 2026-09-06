@@ -122,8 +122,23 @@
     },
     {
       "if": { "properties": { "type": { "const": "script" }, "os": { "const": "Linux" } }, "required": ["type", "os"] },
-      "then": { "properties": { "os": { "not": { "const": "Linux" } } } },
-      "$comment": "Workspace ONE does not offer Linux scripts today — only Linux sensors."
+      "then": {
+        "properties": {
+          "workspaceOne": {
+            "required": ["language", "executionContext"],
+            "properties": {
+              "language": { "enum": ["BASH", "PYTHON"] },
+              "executionContext": { "enum": ["SYSTEM", "USER"] },
+              "executionArchitecture": false,
+              "timeout": false,
+              "responseDataType": false,
+              "appCatalog": false,
+              "variables": false
+            }
+          }
+        }
+      },
+      "$comment": "Workspace ONE has no Linux Scripts section, so a Linux script item is a remediation payload delivered by another vehicle (packaged post-install, systemd timer, ad hoc). It carries language and executionContext only \u2014 no console-only keys."
     },
     {
       "if": { "properties": { "type": { "const": "sensor" }, "os": { "const": "Windows" } }, "required": ["type", "os"] },

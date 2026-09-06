@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "9441e339-87fd-4d09-bd5a-9fe51f0c7bdc",
+  "slug": "system-drive-health-status",
+  "type": "sensor",
+  "name": "System Drive Health Status",
+  "description": "Console sensor name: system_drive_health_status. Closed set: Healthy, Warning, Unhealthy, Unknown. The storage stack's own view of the physical disk holding Windows - the earliest warning you get before a device stops booting.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🩺",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "hardware",
+    "health",
+    "failure"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRwYXJ0ID0gR2V0LVBhcnRpdGlvbiAtRHJpdmVMZXR0ZXIgKCRlbnY6U3lzdGVtRHJpdmUuU3Vic3RyaW5nKDAsIDEpKSAtRXJyb3JBY3Rpb24gU3RvcAogICAgJGRpc2sgPSBHZXQtUGh5c2ljYWxEaXNrIC1FcnJvckFjdGlvbiBTdG9wIHwgV2hlcmUtT2JqZWN0IHsgJF8uRGV2aWNlSWQgLWVxIFtzdHJpbmddJHBhcnQuRGlza051bWJlciB9IHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgaWYgKCRudWxsIC1lcSAkZGlzaykgeyBXcml0ZS1PdXRwdXQgJ1Vua25vd24nIH0KICAgIGVsc2UgewogICAgICAgIHN3aXRjaCAoW3N0cmluZ10kZGlzay5IZWFsdGhTdGF0dXMpIHsKICAgICAgICAgICAgJ0hlYWx0aHknIHsgV3JpdGUtT3V0cHV0ICdIZWFsdGh5JyB9CiAgICAgICAgICAgICdXYXJuaW5nJyB7IFdyaXRlLU91dHB1dCAnV2FybmluZycgfQogICAgICAgICAgICAnVW5oZWFsdGh5JyB7IFdyaXRlLU91dHB1dCAnVW5oZWFsdGh5JyB9CiAgICAgICAgICAgIGRlZmF1bHQgeyBXcml0ZS1PdXRwdXQgJ1Vua25vd24nIH0KICAgICAgICB9CiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0ICdVbmtub3duJwp9Cg=="
+}

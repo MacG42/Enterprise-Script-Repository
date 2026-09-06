@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "c0c9537e-9346-495b-bc59-2e20d787bc86",
+  "slug": "renew-dhcp-lease-linux",
+  "type": "script",
+  "name": "Renew The DHCP Lease",
+  "description": "Delivery: ad hoc. Renews the lease on the interface carrying the default route. Refuses to run over SSH on that same interface, because a release-and-renew there ends the session that started it.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📡",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "dhcp",
+    "network",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1yZW5ldy1kaGNwLWxlYXNlLWxpbnV4LmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaT0kKGlwIHJvdXRlIHNob3cgZGVmYXVsdCAyPi9kZXYvbnVsbCB8IGF3ayAne2ZvciAobj0xO248PU5GO24rKykgaWYgKCRuPT0iZGV2Iikge3ByaW50ICQobisxKTsgZXhpdH19JykKaWYgWyAteiAiJGkiIF07IHRoZW4gbG9nICJObyBkZWZhdWx0IHJvdXRlIGludGVyZmFjZSBmb3VuZCI7IGV4aXQgMTA7IGZpCmlmIFsgLW4gIiRTU0hfQ09OTkVDVElPTiIgXTsgdGhlbgogIGxvZyAiUnVubmluZyBpbnNpZGUgYW4gU1NIIHNlc3Npb24gLSByZWZ1c2luZyB0byByZW5ldyB0aGUgbGVhc2Ugb24gJGkiCiAgZXhpdCAxMApmaQpiZWZvcmU9JChpcCAtNCBhZGRyIHNob3cgIiRpIiAyPi9kZXYvbnVsbCB8IGF3ayAnL2luZXQgL3twcmludCAkMjsgZXhpdH0nKQpsb2cgIlJlbmV3aW5nIERIQ1Agb24gJGkgKGFkZHJlc3Mgd2FzICR7YmVmb3JlOi1ub25lfSkiCmlmIGNvbW1hbmQgLXYgbm1jbGkgPi9kZXYvbnVsbCAyPiYxICYmIHBncmVwIC14IE5ldHdvcmtNYW5hZ2VyID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGM9JChubWNsaSAtdCAtZiBOQU1FLERFVklDRSBjb25uZWN0aW9uIHNob3cgLS1hY3RpdmUgMj4vZGV2L251bGwgfCBhd2sgLUY6IC12IGQ9IiRpIiAnJDIgPT0gZCB7cHJpbnQgJDE7IGV4aXR9JykKICBbIC1uICIkYyIgXSAmJiBubWNsaSBjb25uZWN0aW9uIHVwICIkYyIgPi9kZXYvbnVsbCAyPiYxCmVsaWYgY29tbWFuZCAtdiBkaGNsaWVudCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBkaGNsaWVudCAtciAiJGkiID4vZGV2L251bGwgMj4mMQogIGRoY2xpZW50ICIkaSIgPi9kZXYvbnVsbCAyPiYxCmVsc2UKICBsb2cgIk5vIERIQ1AgY2xpZW50IHRvb2wgYXZhaWxhYmxlIgogIGV4aXQgMTAKZmkKc2xlZXAgOAphZnRlcj0kKGlwIC00IGFkZHIgc2hvdyAiJGkiIDI+L2Rldi9udWxsIHwgYXdrICcvaW5ldCAve3ByaW50ICQyOyBleGl0fScpCmlmIFsgLW4gIiRhZnRlciIgXTsgdGhlbiBsb2cgIkFkZHJlc3MgYWZ0ZXIgcmVuZXdhbDogJGFmdGVyIjsgZXhpdCAwOyBmaQpsb2cgIk5vIGFkZHJlc3Mgb24gJGkgYWZ0ZXIgdGhlIHJlbmV3YWwiCmV4aXQgMzAK"
+}

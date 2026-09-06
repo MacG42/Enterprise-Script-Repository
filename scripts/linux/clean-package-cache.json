@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3f2931de-0a44-43ee-b2f6-52e71e0c27a2",
+  "slug": "clean-package-cache",
+  "type": "script",
+  "name": "Clean The Package Cache",
+  "description": "Delivery: systemd timer. Empties the downloaded package cache, which on a long-lived host is regularly several gigabytes of files that will never be reinstalled from disk.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "systemd-timer",
+    "packages",
+    "cleanup",
+    "disk"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1jbGVhbi1wYWNrYWdlLWNhY2hlLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaz0wCmZvciBkIGluIC92YXIvY2FjaGUvYXB0L2FyY2hpdmVzIC92YXIvY2FjaGUvZG5mIC92YXIvY2FjaGUveXVtIC92YXIvY2FjaGUvenlwcDsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGM9JChkdSAtc2sgIiRkIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIGs9JCgoaytjKSkKZG9uZQppZiBbICIkayIgLWx0IDEwMjQwMCBdOyB0aGVuIGxvZyAiUGFja2FnZSBjYWNoZSBpcyB1bmRlciAxMDAgTUIsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJQYWNrYWdlIGNhY2hlIGlzIGFib3V0ICQoKCBrIC8gMTAyNCApKSBNQiwgY2xlYW5pbmciCmNvbW1hbmQgLXYgYXB0LWdldCA+L2Rldi9udWxsIDI+JjEgJiYgYXB0LWdldCBjbGVhbiA+L2Rldi9udWxsIDI+JjEKY29tbWFuZCAtdiBkbmYgPi9kZXYvbnVsbCAyPiYxICYmIGRuZiBjbGVhbiBwYWNrYWdlcyA+L2Rldi9udWxsIDI+JjEKY29tbWFuZCAtdiB5dW0gPi9kZXYvbnVsbCAyPiYxICYmIHl1bSBjbGVhbiBwYWNrYWdlcyA+L2Rldi9udWxsIDI+JjEKY29tbWFuZCAtdiB6eXBwZXIgPi9kZXYvbnVsbCAyPiYxICYmIHp5cHBlciBjbGVhbiAtLWFsbCA+L2Rldi9udWxsIDI+JjEKYT0wCmZvciBkIGluIC92YXIvY2FjaGUvYXB0L2FyY2hpdmVzIC92YXIvY2FjaGUvZG5mIC92YXIvY2FjaGUveXVtIC92YXIvY2FjaGUvenlwcDsgZG8KICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogIGM9JChkdSAtc2sgIiRkIiAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpCiAgY2FzZSAiJGMiIGluICcnfCpbITAtOV0qKSBjPTAgOzsgZXNhYwogIGE9JCgoYStjKSkKZG9uZQpsb2cgIkNhY2hlIHdlbnQgZnJvbSAkKCggayAvIDEwMjQgKSkgTUIgdG8gJCgoIGEgLyAxMDI0ICkpIE1CIgpleGl0IDAK"
+}

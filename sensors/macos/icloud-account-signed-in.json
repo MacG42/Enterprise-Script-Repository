@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ad99c52a-a626-4877-97d2-a6e1fe03b5e2",
+  "slug": "icloud-account-signed-in",
+  "type": "sensor",
+  "name": "Personal iCloud Account Signed In",
+  "description": "Console sensor name: icloud_account_signed_in. True when any local user has an iCloud account configured. On a corporate fleet this is the sensor that finds devices syncing company documents into personal storage.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "☁️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "icloud",
+    "dlp",
+    "accounts",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpmb3VuZD0iZmFsc2UiCmZvciBoIGluIC9Vc2Vycy8qOyBkbwogIFsgLWQgIiRoIiBdIHx8IGNvbnRpbnVlCiAgY2FzZSAiJGgiIGluICovU2hhcmVkfCovR3Vlc3QpIGNvbnRpbnVlIDs7IGVzYWMKICBwPSIkaC9MaWJyYXJ5L1ByZWZlcmVuY2VzL01vYmlsZU1lQWNjb3VudHMucGxpc3QiCiAgWyAtZiAiJHAiIF0gfHwgY29udGludWUKICBpZiBkZWZhdWx0cyByZWFkICIkcCIgQWNjb3VudHMgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBmb3VuZD0idHJ1ZSIKICBmaQpkb25lCmVjaG8gIiRmb3VuZCIK"
+}

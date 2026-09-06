@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5f358e73-a5a3-4043-b23b-c1c1bd943539",
+  "slug": "automatic-security-updates-enabled",
+  "type": "sensor",
+  "name": "Automatic Security Updates Enabled",
+  "description": "Console sensor name: automatic_security_updates_enabled. True when background installation of system data files and security responses is enabled. This is the setting that delivers XProtect and Rapid Security Response without a full OS update.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏬",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "softwareupdate",
+    "patching",
+    "security",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpkPSIvTGlicmFyeS9QcmVmZXJlbmNlcy9jb20uYXBwbGUuU29mdHdhcmVVcGRhdGUiCmE9JChkZWZhdWx0cyByZWFkICIkZCIgQ29uZmlnRGF0YUluc3RhbGwgMj4vZGV2L251bGwpCmI9JChkZWZhdWx0cyByZWFkICIkZCIgQ3JpdGljYWxVcGRhdGVJbnN0YWxsIDI+L2Rldi9udWxsKQppZiBbICIkYSIgPSAiMSIgXSAmJiBbICIkYiIgPSAiMSIgXTsgdGhlbiBlY2hvICJ0cnVlIjsgZWxzZSBlY2hvICJmYWxzZSI7IGZpCg=="
+}

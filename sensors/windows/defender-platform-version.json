@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "8e7892f0-435b-4858-b9fa-e7f74546b101",
+  "slug": "defender-platform-version",
+  "type": "sensor",
+  "name": "Defender Platform Version",
+  "description": "Console sensor name: defender_platform_version. The Defender anti-malware platform version string. Platform updates ship separately from definitions and a stuck platform is a common cause of features silently not applying.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "defender",
+    "antivirus",
+    "version",
+    "inventory"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "ONLY64BIT",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRzID0gR2V0LU1wQ29tcHV0ZXJTdGF0dXMKICAgICR2ID0gW3N0cmluZ10kcy5BTVByb2R1Y3RWZXJzaW9uCiAgICBpZiAoW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkdikpIHsgV3JpdGUtT3V0cHV0ICdVbmtub3duJyB9IGVsc2UgeyBXcml0ZS1PdXRwdXQgJHYuVHJpbSgpIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJ1Vua25vd24nCn0K"
+}

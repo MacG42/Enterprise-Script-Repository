@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "43799fc9-a065-4d58-8d79-74863778a5aa",
+  "slug": "harden-ssh-algorithms",
+  "type": "script",
+  "name": "Harden SSH Ciphers And MACs",
+  "description": "Delivery: packaged post-install. Restricts SSH to modern ciphers, MACs and key exchange algorithms through a drop-in. Validates the result before reloading, because a typo here locks everyone out at once.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "ssh",
+    "crypto",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1oYXJkZW4tc3NoLWFsZ29yaXRobXMubG9nIgpsb2coKSB7IHByaW50ZiAnJXMgJXNcbicgIiQoZGF0ZSAtdSArJVktJW0tJWRUJUg6JU06JVNaKSIgIiQxIiA+PiIkTE9HIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyB9CgpkPSIvZXRjL3NzaC9zc2hkX2NvbmZpZy5kIgpmPSIkZC82Mi1lc3ItYWxnb3JpdGhtcy5jb25mIgppZiBbICEgLWQgIiRkIiBdOyB0aGVuIGxvZyAiVGhpcyBzc2hkIGhhcyBubyBkcm9wLWluIGRpcmVjdG9yeSAtIGVkaXQgc3NoZF9jb25maWcgYnkgaGFuZCBpbnN0ZWFkIjsgZXhpdCAxMDsgZmkKaWYgWyAtZiAiJGYiIF07IHRoZW4gbG9nICJBbGdvcml0aG0gZHJvcC1pbiBhbHJlYWR5IHByZXNlbnQsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKewogIHByaW50ZiAnJXNcbicgIkNpcGhlcnMgY2hhY2hhMjAtcG9seTEzMDVAb3BlbnNzaC5jb20sYWVzMjU2LWdjbUBvcGVuc3NoLmNvbSxhZXMxMjgtZ2NtQG9wZW5zc2guY29tLGFlczI1Ni1jdHIsYWVzMTkyLWN0cixhZXMxMjgtY3RyIgogIHByaW50ZiAnJXNcbicgIk1BQ3MgaG1hYy1zaGEyLTUxMi1ldG1Ab3BlbnNzaC5jb20saG1hYy1zaGEyLTI1Ni1ldG1Ab3BlbnNzaC5jb20sdW1hYy0xMjgtZXRtQG9wZW5zc2guY29tIgogIHByaW50ZiAnJXNcbicgIktleEFsZ29yaXRobXMgY3VydmUyNTUxOS1zaGEyNTYsY3VydmUyNTUxOS1zaGEyNTZAbGlic3NoLm9yZyxkaWZmaWUtaGVsbG1hbi1ncm91cDE2LXNoYTUxMixkaWZmaWUtaGVsbG1hbi1ncm91cC1leGNoYW5nZS1zaGEyNTYiCn0gPiAiJGYiCmlmICEgc3NoZCAtdCAyPi9kZXYvbnVsbDsgdGhlbgogIGxvZyAic3NoZCByZWplY3RlZCB0aGUgYWxnb3JpdGhtIGxpc3QsIHJlbW92aW5nIHRoZSBkcm9wLWluIgogIHJtIC1mICIkZiIgMj4vZGV2L251bGwKICBleGl0IDIwCmZpCnN5c3RlbWN0bCByZWxvYWQgc3NoZCA+L2Rldi9udWxsIDI+JjEgfHwgc3lzdGVtY3RsIHJlbG9hZCBzc2ggPi9kZXYvbnVsbCAyPiYxCmxvZyAiUmVzdHJpY3RlZCBTU0ggY2lwaGVycywgTUFDcyBhbmQga2V5IGV4Y2hhbmdlIGFsZ29yaXRobXMgaW4gJGYiCmV4aXQgMAo="
+}

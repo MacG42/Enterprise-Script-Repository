@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6a9dd5fe-c68f-49b8-833e-7cfd44d90725",
+  "slug": "secure-token-holder-count",
+  "type": "sensor",
+  "name": "Secure Token Holder Count",
+  "description": "Console sensor name: secure_token_holder_count. Number of local accounts holding a secure token. Zero on an encrypted device means no account can enable FileVault for anyone else, which is the state that turns a simple password reset into a rebuild.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🎟️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "securetoken",
+    "filevault",
+    "accounts",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgpuPTAKZm9yIHUgaW4gJChkc2NsIC4gLWxpc3QgL1VzZXJzIFVuaXF1ZUlEIDI+L2Rldi9udWxsIHwgYXdrICckMiA+PSA1MDAge3ByaW50ICQxfScpOyBkbwogIGE9JChkc2NsIC4gLXJlYWQgIi9Vc2Vycy8kdSIgQXV0aGVudGljYXRpb25BdXRob3JpdHkgMj4vZGV2L251bGwpCiAgY2FzZSAiJGEiIGluCiAgICAqU2VjdXJlVG9rZW4qKSBuPSQoKG4rMSkpIDs7CiAgZXNhYwpkb25lCmVjaG8gIiRuIgo="
+}

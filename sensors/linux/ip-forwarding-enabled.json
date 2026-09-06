@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "e7f9d1ca-4146-471a-8c4b-692355b0d006",
+  "slug": "ip-forwarding-enabled",
+  "type": "sensor",
+  "name": "IP Forwarding Enabled",
+  "description": "Console sensor name: ip_forwarding_enabled. True when the kernel is routing packets between interfaces. Expected on a gateway or a container host and a finding anywhere else, because it turns an endpoint into a path between networks.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔀",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "network",
+    "routing",
+    "hardening",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0iIgpbIC1yIC9wcm9jL3N5cy9uZXQvaXB2NC9pcF9mb3J3YXJkIF0gJiYgdj0kKGNhdCAvcHJvYy9zeXMvbmV0L2lwdjQvaXBfZm9yd2FyZCAyPi9kZXYvbnVsbCkKaWYgWyAiJHYiID0gIjEiIF07IHRoZW4gZWNobyAidHJ1ZSI7IGVsc2UgZWNobyAiZmFsc2UiOyBmaQo="
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "d00139a8-74fe-40c1-bf92-f5544dbf182c",
+  "slug": "enable-network-time-sync",
+  "type": "script",
+  "name": "Enable Network Time Sync",
+  "description": "Turns on automatic time setting from a network time server. A drifted clock breaks Kerberos, certificate validation and MDM check-in at the same time, and looks like three separate faults.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "⏱️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "time",
+    "ntp",
+    "kerberos",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 120,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWVuYWJsZS1uZXR3b3JrLXRpbWUtc3luYy5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnY9JChzeXN0ZW1zZXR1cCAtZ2V0dXNpbmduZXR3b3JrdGltZSAyPi9kZXYvbnVsbCkKY2FzZSAiJHYiIGluCiAgKk9uKikgbG9nICJBbHJlYWR5IGVuYWJsZWQsIG5vIGFjdGlvbiI7IGV4aXQgMCA7Owplc2FjCmxvZyAiTmV0d29yayB0aW1lIHdhczogJHYiCnN5c3RlbXNldHVwIC1zZXR1c2luZ25ldHdvcmt0aW1lIG9uID4vZGV2L251bGwgMj4mMQphPSQoc3lzdGVtc2V0dXAgLWdldHVzaW5nbmV0d29ya3RpbWUgMj4vZGV2L251bGwpCmNhc2UgIiRhIiBpbgogICpPbiopIGxvZyAiTmV0d29yayB0aW1lIHN5bmMgZW5hYmxlZCI7IGV4aXQgMCA7Owplc2FjCmxvZyAiU3RpbGwgcmVwb3J0aW5nOiAkYSIKZXhpdCAzMAo="
+}

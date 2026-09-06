@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "3efcec55-174f-457e-96ca-abcf9aedc8e9",
+  "slug": "guest-account-enabled",
+  "type": "sensor",
+  "name": "Guest Account Enabled",
+  "description": "Console sensor name: guest_account_enabled. True when the RID 501 Guest account is enabled. Rare but it happens after an imaging or a third-party kiosk tool, and it is a standard audit failure.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "👥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "security",
+    "guest",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRhID0gR2V0LUxvY2FsVXNlciAtRXJyb3JBY3Rpb24gU3RvcCB8IFdoZXJlLU9iamVjdCB7ICRfLlNJRC5WYWx1ZSAtbGlrZSAnUy0xLTUtKi01MDEnIH0KICAgIFdyaXRlLU91dHB1dCAoW2Jvb2xdKCRudWxsIC1uZSAkYSAtYW5kICRhLkVuYWJsZWQpKQp9IGNhdGNoIHsKICAgIFdyaXRlLU91dHB1dCAkZmFsc2UKfQo="
+}

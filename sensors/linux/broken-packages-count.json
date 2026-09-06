@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "01652bdb-0247-4705-802f-66dc63bd4490",
+  "slug": "broken-packages-count",
+  "type": "sensor",
+  "name": "Broken Package Count",
+  "description": "Console sensor name: broken_packages_count. Number of packages in a half-configured or half-installed state. A non-zero count blocks every future install and is usually the reason a deployment silently stops working on one device.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔧",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packages",
+    "health",
+    "remediation",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0wCmlmIGNvbW1hbmQgLXYgZHBrZyA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQoZHBrZyAtbCAyPi9kZXYvbnVsbCB8IGF3ayAnL15bYS16XS8gJiYgJDEgIX4gL14oaWl8cmMpJC8ge2MrK30gRU5EIHtwcmludCBjKzB9JykKZWxpZiBjb21tYW5kIC12IHJwbSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQocnBtIC1WYSAtLW5vZmlsZXMgLS1ub2RpZ2VzdCAyPi9kZXYvbnVsbCB8IGdyZXAgLWMgIl5taXNzaW5nIikKZmkKY2FzZSAiJG4iIGluICcnfCpbITAtOV0qKSBuPS0xIDs7IGVzYWMKZWNobyAiJG4iCg=="
+}

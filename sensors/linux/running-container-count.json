@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "420334d0-b43f-44fb-859c-bdbad121456f",
+  "slug": "running-container-count",
+  "type": "sensor",
+  "name": "Running Container Count",
+  "description": "Console sensor name: running_container_count. Number of containers currently running. Returns -1 where no runtime is installed or the daemon cannot be queried without extra privilege.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📦",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "containers",
+    "docker",
+    "workload",
+    "monitoring"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKbj0tMQppZiBjb21tYW5kIC12IGRvY2tlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBuPSQoZG9ja2VyIHBzIC1xIDI+L2Rldi9udWxsIHwgZ3JlcCAtYyAuKQplbGlmIGNvbW1hbmQgLXYgcG9kbWFuID4vZGV2L251bGwgMj4mMTsgdGhlbgogIG49JChwb2RtYW4gcHMgLXEgMj4vZGV2L251bGwgfCBncmVwIC1jIC4pCmZpCmNhc2UgIiRuIiBpbiAnJ3wqWyEwLTldKikgbj0tMSA7OyBlc2FjCmVjaG8gIiRuIgo="
+}

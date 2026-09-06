@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "4e73546f-0437-40eb-9c2c-109e77be0b38",
+  "slug": "physical-memory-gb-linux",
+  "type": "sensor",
+  "name": "Physical Memory GB",
+  "description": "Console sensor name: physical_memory_gb. Installed memory in whole gigabytes. Basic inventory, and the denominator for every memory threshold worth setting.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💾",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "hardware",
+    "inventory",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKdj0kKGF3ayAnL15NZW1Ub3RhbDovIHtwcmludCBpbnQoJDIvMTA0ODU3Nil9JyAvcHJvYy9tZW1pbmZvIDI+L2Rldi9udWxsKQpjYXNlICIkdiIgaW4gJyd8KlshMC05XSopIHY9LTEgOzsgZXNhYwplY2hvICIkdiIK"
+}

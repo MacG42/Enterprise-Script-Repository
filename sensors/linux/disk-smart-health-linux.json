@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "64519d89-3f76-45ed-a226-76fcbb87e822",
+  "slug": "disk-smart-health-linux",
+  "type": "sensor",
+  "name": "Disk SMART Health",
+  "description": "Console sensor name: disk_smart_health. Reports PASSED, FAILED or Unavailable for the first physical disk. Unavailable is the honest answer on a virtual machine or where smartmontools is not installed.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💿",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "smart",
+    "storage",
+    "hardware",
+    "health"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "STRING"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgISBjb21tYW5kIC12IHNtYXJ0Y3RsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gIlVuYXZhaWxhYmxlIgplbHNlCiAgZD0kKGxzYmxrIC1kbm8gTkFNRSxUWVBFIDI+L2Rldi9udWxsIHwgYXdrICckMiA9PSAiZGlzayIge3ByaW50ICQxOyBleGl0fScpCiAgaWYgWyAteiAiJGQiIF07IHRoZW4KICAgIGVjaG8gIlVuYXZhaWxhYmxlIgogIGVsc2UKICAgIG91dD0kKHNtYXJ0Y3RsIC1IICIvZGV2LyRkIiAyPi9kZXYvbnVsbCkKICAgIGNhc2UgIiRvdXQiIGluCiAgICAgICpQQVNTRUQqKSBlY2hvICJQQVNTRUQiIDs7CiAgICAgICpGQUlMRUQqKSBlY2hvICJGQUlMRUQiIDs7CiAgICAgICopIGVjaG8gIlVuYXZhaWxhYmxlIiA7OwogICAgZXNhYwogIGZpCmZpCg=="
+}

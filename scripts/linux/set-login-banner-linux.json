@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "99b7a89d-bfca-4ada-982f-774aa06a9737",
+  "slug": "set-login-banner-linux",
+  "type": "script",
+  "name": "Set The Login Banner",
+  "description": "Delivery: packaged post-install. Writes an authorised-use notice to /etc/issue, /etc/issue.net and /etc/motd and points sshd at it, so the notice is shown on console and remote logins alike.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📜",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "banner",
+    "policy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zZXQtbG9naW4tYmFubmVyLWxpbnV4LmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKdGV4dD0iQXV0aG9yaXNlZCB1c2VycyBvbmx5LiBBbGwgYWN0aXZpdHkgbWF5IGJlIG1vbml0b3JlZCBhbmQgcmVjb3JkZWQuIgpjaGFuZ2VkPTAKZm9yIGYgaW4gL2V0Yy9pc3N1ZSAvZXRjL2lzc3VlLm5ldCAvZXRjL21vdGQ7IGRvCiAgY3VyPSQoaGVhZCAtMSAiJGYiIDI+L2Rldi9udWxsKQogIFsgIiRjdXIiID0gIiR0ZXh0IiBdICYmIGNvbnRpbnVlCiAgcHJpbnRmICclc1xuJyAiJHRleHQiID4gIiRmIgogIGxvZyAiV3JvdGUgdGhlIGJhbm5lciB0byAkZiIKICBjaGFuZ2VkPTEKZG9uZQpkPSIvZXRjL3NzaC9zc2hkX2NvbmZpZy5kIgppZiBbIC1kICIkZCIgXSAmJiBbICEgLWYgIiRkLzYzLWVzci1iYW5uZXIuY29uZiIgXTsgdGhlbgogIHByaW50ZiAnJXNcbicgIkJhbm5lciAvZXRjL2lzc3VlLm5ldCIgPiAiJGQvNjMtZXNyLWJhbm5lci5jb25mIgogIGlmIHNzaGQgLXQgMj4vZGV2L251bGw7IHRoZW4KICAgIHN5c3RlbWN0bCByZWxvYWQgc3NoZCA+L2Rldi9udWxsIDI+JjEgfHwgc3lzdGVtY3RsIHJlbG9hZCBzc2ggPi9kZXYvbnVsbCAyPiYxCiAgICBsb2cgIlBvaW50ZWQgc3NoZCBhdCAvZXRjL2lzc3VlLm5ldCIKICBlbHNlCiAgICBybSAtZiAiJGQvNjMtZXNyLWJhbm5lci5jb25mIiAyPi9kZXYvbnVsbAogICAgbG9nICJzc2hkIHJlamVjdGVkIHRoZSBiYW5uZXIgZHJvcC1pbiwgcmVtb3ZlZCBpdCIKICBmaQogIGNoYW5nZWQ9MQpmaQppZiBbICIkY2hhbmdlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIkJhbm5lciBhbHJlYWR5IGluIHBsYWNlLCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmV4aXQgMAo="
+}

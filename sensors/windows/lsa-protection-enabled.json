@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6ed210bd-277e-404e-bbcb-1a2ac09d4b0e",
+  "slug": "lsa-protection-enabled",
+  "type": "sensor",
+  "name": "LSA Protection Enabled",
+  "description": "Console sensor name: lsa_protection_enabled. True when LSASS runs as a protected process (RunAsPPL). The single cheapest credential-theft mitigation, and one that quietly reverts on some in-place upgrades.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🔒",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "security",
+    "lsa",
+    "credentials",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICdIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcQ29udHJvbFxMc2EnIC1OYW1lICdSdW5Bc1BQTCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlJ1bkFzUFBMCiAgICBXcml0ZS1PdXRwdXQgKFtib29sXSgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1nZSAxKSkKfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

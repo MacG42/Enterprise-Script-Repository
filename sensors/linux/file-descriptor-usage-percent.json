@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "ef86b2b1-a28a-4ddd-9d67-9bb53c3e9aed",
+  "slug": "file-descriptor-usage-percent",
+  "type": "sensor",
+  "name": "File Descriptor Usage Percent",
+  "description": "Console sensor name: file_descriptor_usage_percent. System-wide open file descriptors as a percentage of the kernel maximum. A host approaching the limit starts refusing connections in ways that look like a network fault.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "📁",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "filedescriptors",
+    "kernel",
+    "capacity",
+    "diagnostics"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTAoKaWYgWyAhIC1yIC9wcm9jL3N5cy9mcy9maWxlLW5yIF07IHRoZW4KICBlY2hvICItMSIKZWxzZQogIHJlYWQgLXIgdXNlZCBfIG1heCA8IC9wcm9jL3N5cy9mcy9maWxlLW5yIDI+L2Rldi9udWxsCiAgY2FzZSAiJHVzZWQiIGluICcnfCpbITAtOV0qKSB1c2VkPTAgOzsgZXNhYwogIGNhc2UgIiRtYXgiIGluICcnfCpbITAtOV0qKSBtYXg9MCA7OyBlc2FjCiAgaWYgWyAiJG1heCIgLWVxIDAgXTsgdGhlbiBlY2hvICItMSI7IGVsc2UgZWNobyAkKCggdXNlZCAqIDEwMCAvIG1heCApKTsgZmkKZmkK"
+}

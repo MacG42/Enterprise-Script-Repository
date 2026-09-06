@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "6b365dd8-b0fc-470b-b368-572842d37881",
+  "slug": "enable-systemd-oomd",
+  "type": "script",
+  "name": "Enable The Userspace OOM Daemon",
+  "description": "Delivery: packaged post-install. Enables systemd-oomd so memory pressure is handled by killing the offending cgroup rather than by the kernel killing whatever it happens to find. Skips kernels without pressure stall information.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "💀",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "systemd",
+    "memory",
+    "resilience"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1lbmFibGUtc3lzdGVtZC1vb21kLmxvZyIKbG9nKCkgeyBwcmludGYgJyVzICVzXG4nICIkKGRhdGUgLXUgKyVZLSVtLSVkVCVIOiVNOiVTWikiICIkMSIgPj4iJExPRyIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfQoKaWYgISBjb21tYW5kIC12IHN5c3RlbWN0bCA+L2Rldi9udWxsIDI+JjE7IHRoZW4gbG9nICJzeXN0ZW1kIGlzIG5vdCB0aGUgaW5pdCBzeXN0ZW0gaGVyZSI7IGV4aXQgMTA7IGZpCmlmIFsgISAtciAvcHJvYy9wcmVzc3VyZS9tZW1vcnkgXTsgdGhlbiBsb2cgIlRoaXMga2VybmVsIGhhcyBubyBwcmVzc3VyZSBzdGFsbCBpbmZvcm1hdGlvbiAtIG9vbWQgY2Fubm90IHdvcmsiOyBleGl0IDEwOyBmaQppZiAhIHN5c3RlbWN0bCBsaXN0LXVuaXQtZmlsZXMgMj4vZGV2L251bGwgfCBncmVwIC1xICJec3lzdGVtZC1vb21kLnNlcnZpY2UiOyB0aGVuIGxvZyAic3lzdGVtZC1vb21kIGlzIG5vdCBhdmFpbGFibGUgb24gdGhpcyByZWxlYXNlIjsgZXhpdCAxMDsgZmkKaWYgc3lzdGVtY3RsIGlzLWFjdGl2ZSBzeXN0ZW1kLW9vbWQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAic3lzdGVtZC1vb21kIGlzIGFscmVhZHkgcnVubmluZywgbm8gYWN0aW9uIjsgZXhpdCAwOyBmaQpsb2cgIkVuYWJsaW5nIHN5c3RlbWQtb29tZCIKc3lzdGVtY3RsIGVuYWJsZSAtLW5vdyBzeXN0ZW1kLW9vbWQgPi9kZXYvbnVsbCAyPiYxCnNsZWVwIDUKaWYgc3lzdGVtY3RsIGlzLWFjdGl2ZSBzeXN0ZW1kLW9vbWQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIGxvZyAic3lzdGVtZC1vb21kIGlzIHJ1bm5pbmciOyBleGl0IDA7IGZpCmxvZyAic3lzdGVtZC1vb21kIGRpZCBub3Qgc3RhcnQiCmV4aXQgMzAK"
+}

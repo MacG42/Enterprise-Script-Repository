@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "1830af7e-bf94-402e-86a8-b436541bdbb2",
+  "slug": "disable-guest-account",
+  "type": "script",
+  "name": "Disable Guest Account",
+  "description": "Disables the RID 501 Guest account. Trivially safe and idempotent, and it closes a finding that appears in almost every baseline audit.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "👥",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "security",
+    "guest",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 60,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGRpc2FibGUtZ3Vlc3QtYWNjb3VudC5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRhID0gR2V0LUxvY2FsVXNlciB8IFdoZXJlLU9iamVjdCB7ICRfLlNJRC5WYWx1ZSAtbGlrZSAnUy0xLTUtKi01MDEnIH0KICAgIGlmICgkbnVsbCAtZXEgJGEpIHsgV3JpdGUtTG9nICdHdWVzdCBhY2NvdW50IG5vdCBwcmVzZW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgaWYgKC1ub3QgJGEuRW5hYmxlZCkgeyBXcml0ZS1Mb2cgJ0FscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24nOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnRGlzYWJsaW5nICcgKyAkYS5OYW1lKQogICAgRGlzYWJsZS1Mb2NhbFVzZXIgLVNJRCAkYS5TSUQKICAgIGlmICgtbm90IChHZXQtTG9jYWxVc2VyIC1TSUQgJGEuU0lEKS5FbmFibGVkKSB7IFdyaXRlLUxvZyAnRGlzYWJsZWQnOyBleGl0IDAgfQogICAgZXhpdCAzMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

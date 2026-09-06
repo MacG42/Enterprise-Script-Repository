@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5bb0db3e-60de-44e5-9cc8-1966405c1419",
+  "slug": "clear-browser-caches",
+  "type": "script",
+  "name": "Clear Browser Caches",
+  "description": "Closes Edge and Chrome and clears their cache directories for the signed-in user. Cookies, passwords and profiles are left in place, so the user stays signed in - this only removes the cached content that causes a stale or broken page.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🌐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "browser",
+    "edge",
+    "chrome",
+    "cache"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "USER",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 300,
+    "appCatalog": {
+      "enabled": true,
+      "displayName": "Clear Browser Cache",
+      "displayDescription": "Clears cached web content in Edge and Chrome. Browsers will close.",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGNsZWFyLWJyb3dzZXItY2FjaGVzLmxvZyIKZnVuY3Rpb24gV3JpdGUtTG9nKFtzdHJpbmddJG0pIHsKICAgIHRyeSB7CiAgICAgICAgJGQgPSBTcGxpdC1QYXRoIC1QYXRoICRMb2dGaWxlIC1QYXJlbnQKICAgICAgICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkZCkpIHsgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtUGF0aCAkZCAtRm9yY2UgfCBPdXQtTnVsbCB9CiAgICAgICAgQWRkLUNvbnRlbnQgLUxpdGVyYWxQYXRoICRMb2dGaWxlIC1WYWx1ZSAoJ3swOnl5eXktTU0tZGQgSEg6bW06c3N9IHsxfScgLWYgKEdldC1EYXRlKSwgJG0pCiAgICB9IGNhdGNoIHsgfQp9CnRyeSB7CgogICAgJHByb2NzID0gQChHZXQtUHJvY2VzcyAtTmFtZSAnbXNlZGdlJywgJ2Nocm9tZScgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpCiAgICBmb3JlYWNoICgkcCBpbiAkcHJvY3MpIHsgU3RvcC1Qcm9jZXNzIC1JZCAkcC5JZCAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfQogICAgaWYgKCRwcm9jcy5Db3VudCAtZ3QgMCkgeyBTdGFydC1TbGVlcCAtU2Vjb25kcyA1OyBXcml0ZS1Mb2cgKCdDbG9zZWQgJyArICRwcm9jcy5Db3VudCArICcgYnJvd3NlciBwcm9jZXNzKGVzKScpIH0KICAgICRyb290cyA9IEAoCiAgICAgICAgKEpvaW4tUGF0aCAkZW52OkxPQ0FMQVBQREFUQSAnTWljcm9zb2Z0XEVkZ2VcVXNlciBEYXRhJyksCiAgICAgICAgKEpvaW4tUGF0aCAkZW52OkxPQ0FMQVBQREFUQSAnR29vZ2xlXENocm9tZVxVc2VyIERhdGEnKQogICAgKQogICAgJGZyZWVkID0gMAogICAgJGhpdCA9IDAKICAgIGZvcmVhY2ggKCRyIGluICRyb290cykgewogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRyKSkgeyBjb250aW51ZSB9CiAgICAgICAgJHByb2ZpbGVzID0gQChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkciAtRGlyZWN0b3J5IC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFdoZXJlLU9iamVjdCB7ICRfLk5hbWUgLWVxICdEZWZhdWx0JyAtb3IgJF8uTmFtZSAtbGlrZSAnUHJvZmlsZSAqJyB9KQogICAgICAgIGZvcmVhY2ggKCRwcm9mIGluICRwcm9maWxlcykgewogICAgICAgICAgICBmb3JlYWNoICgkc3ViIGluIEAoJ0NhY2hlJywgJ0NvZGUgQ2FjaGUnLCAnR1BVQ2FjaGUnLCAnU2VydmljZSBXb3JrZXJcQ2FjaGVTdG9yYWdlJykpIHsKICAgICAgICAgICAgICAgICR0ID0gSm9pbi1QYXRoICRwcm9mLkZ1bGxOYW1lICRzdWIKICAgICAgICAgICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICR0KSkgeyBjb250aW51ZSB9CiAgICAgICAgICAgICAgICAkc2l6ZSA9IChHZXQtQ2hpbGRJdGVtIC1MaXRlcmFsUGF0aCAkdCAtUmVjdXJzZSAtRmlsZSAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBNZWFzdXJlLU9iamVjdCAtUHJvcGVydHkgTGVuZ3RoIC1TdW0pLlN1bQogICAgICAgICAgICAgICAgaWYgKCRudWxsIC1lcSAkc2l6ZSkgeyAkc2l6ZSA9IDAgfQogICAgICAgICAgICAgICAgR2V0LUNoaWxkSXRlbSAtTGl0ZXJhbFBhdGggJHQgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgUmVtb3ZlLUl0ZW0gLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgICAgICAgICAkZnJlZWQgKz0gJHNpemUKICAgICAgICAgICAgICAgICRoaXQrKwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgaWYgKCRoaXQgLWVxIDApIHsgV3JpdGUtTG9nICdObyBicm93c2VyIGNhY2hlIGZvbGRlcnMgZm91bmQgZm9yIHRoaXMgdXNlcic7IGV4aXQgMCB9CiAgICBXcml0ZS1Mb2cgKCdDbGVhcmVkICcgKyAkaGl0ICsgJyBjYWNoZSBmb2xkZXIocyksIGFib3V0ICcgKyBbaW50XSgkZnJlZWQgLyAxTUIpICsgJyBNQicpCiAgICBleGl0IDAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

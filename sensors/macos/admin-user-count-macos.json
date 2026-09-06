@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b5d6be5e-0a46-4005-8626-d3f5a81e4f5d",
+  "slug": "admin-user-count-macos",
+  "type": "sensor",
+  "name": "Administrator Account Count",
+  "description": "Console sensor name: admin_user_count. Number of accounts in the local admin group, excluding the hidden management accounts a build normally creates. A number above the expected baseline is standing privilege nobody asked for.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🔑",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "accounts",
+    "privilege",
+    "admin",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCgptPSQoZHNjbCAuIC1yZWFkIC9Hcm91cHMvYWRtaW4gR3JvdXBNZW1iZXJzaGlwIDI+L2Rldi9udWxsIHwgY3V0IC1kOiAtZjIpCm49MApmb3IgdSBpbiAkbTsgZG8KICBbICIkdSIgPSAiR3JvdXBNZW1iZXJzaGlwIiBdICYmIGNvbnRpbnVlCiAgWyAiJHUiID0gInJvb3QiIF0gJiYgY29udGludWUKICBuPSQoKG4rMSkpCmRvbmUKZWNobyAiJG4iCg=="
+}

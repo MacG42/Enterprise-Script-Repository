@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b44ae7aa-4472-481f-a558-46e9780e1070",
+  "slug": "enable-critical-scheduled-tasks",
+  "type": "script",
+  "name": "Re-enable Critical Scheduled Tasks",
+  "description": "Re-enables the maintenance, defragmentation, restore point and telemetry-independent servicing tasks that optimiser tools disable. These are the tasks whose absence shows up months later as a device that never trims its SSD or cleans its component store.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "⏰",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "scheduledtasks",
+    "maintenance",
+    "servicing",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXGVuYWJsZS1jcml0aWNhbC1zY2hlZHVsZWQtdGFza3MubG9nIgpmdW5jdGlvbiBXcml0ZS1Mb2coW3N0cmluZ10kbSkgewogICAgdHJ5IHsKICAgICAgICAkZCA9IFNwbGl0LVBhdGggLVBhdGggJExvZ0ZpbGUgLVBhcmVudAogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRkKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRkIC1Gb3JjZSB8IE91dC1OdWxsIH0KICAgICAgICBBZGQtQ29udGVudCAtTGl0ZXJhbFBhdGggJExvZ0ZpbGUgLVZhbHVlICgnezA6eXl5eS1NTS1kZCBISDptbTpzc30gezF9JyAtZiAoR2V0LURhdGUpLCAkbSkKICAgIH0gY2F0Y2ggeyB9Cn0KdHJ5IHsKCiAgICAkd2FudCA9IEAoCiAgICAgICAgJ1xNaWNyb3NvZnRcV2luZG93c1xEZWZyYWdcU2NoZWR1bGVkRGVmcmFnJywKICAgICAgICAnXE1pY3Jvc29mdFxXaW5kb3dzXFNlcnZpY2luZ1xTdGFydENvbXBvbmVudENsZWFudXAnLAogICAgICAgICdcTWljcm9zb2Z0XFdpbmRvd3NcVGFza1NjaGVkdWxlclxNYWludGVuYW5jZSBDb25maWd1cmF0b3InLAogICAgICAgICdcTWljcm9zb2Z0XFdpbmRvd3NcU3lzdGVtUmVzdG9yZVxTUicsCiAgICAgICAgJ1xNaWNyb3NvZnRcV2luZG93c1xVcGRhdGVPcmNoZXN0cmF0b3JcU2NoZWR1bGUgU2NhbicsCiAgICAgICAgJ1xNaWNyb3NvZnRcV2luZG93c1xXaW5kb3dzIERlZmVuZGVyXFdpbmRvd3MgRGVmZW5kZXIgU2NoZWR1bGVkIFNjYW4nCiAgICApCiAgICAkZml4ZWQgPSAwCiAgICAkbWlzc2luZyA9IDAKICAgIGZvcmVhY2ggKCRmdWxsIGluICR3YW50KSB7CiAgICAgICAgJG5hbWUgPSBTcGxpdC1QYXRoIC1QYXRoICRmdWxsIC1MZWFmCiAgICAgICAgJHBhdGggPSAoU3BsaXQtUGF0aCAtUGF0aCAkZnVsbCAtUGFyZW50KSArICdcJwogICAgICAgICR0ID0gR2V0LVNjaGVkdWxlZFRhc2sgLVRhc2tQYXRoICRwYXRoIC1UYXNrTmFtZSAkbmFtZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgICAgIGlmICgkbnVsbCAtZXEgJHQpIHsgJG1pc3NpbmcrKzsgY29udGludWUgfQogICAgICAgIGlmICgkdC5TdGF0ZSAtbmUgJ0Rpc2FibGVkJykgeyBjb250aW51ZSB9CiAgICAgICAgRW5hYmxlLVNjaGVkdWxlZFRhc2sgLVRhc2tQYXRoICRwYXRoIC1UYXNrTmFtZSAkbmFtZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IE91dC1OdWxsCiAgICAgICAgV3JpdGUtTG9nICgnRW5hYmxlZCAnICsgJGZ1bGwpCiAgICAgICAgJGZpeGVkKysKICAgIH0KICAgIFdyaXRlLUxvZyAoJ0VuYWJsZWQgJyArICRmaXhlZCArICcgdGFzayhzKSwgJyArICRtaXNzaW5nICsgJyBub3QgcHJlc2VudCBvbiB0aGlzIGJ1aWxkJykKICAgIGlmICgkZml4ZWQgLWVxIDApIHsgV3JpdGUtTG9nICdOb3RoaW5nIHdhcyBkaXNhYmxlZCwgbm8gYWN0aW9uJzsgZXhpdCAwIH0KICAgIGV4aXQgMAp9IGNhdGNoIHsKICAgIFdyaXRlLUxvZyAoIlVuaGFuZGxlZCBlcnJvcjogIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgZXhpdCAyMAp9Cg=="
+}

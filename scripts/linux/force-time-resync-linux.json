@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "7fa45516-18dd-4008-ae02-1e2102998f09",
+  "slug": "force-time-resync-linux",
+  "type": "script",
+  "name": "Force A Time Resync",
+  "description": "Delivery: ad hoc. Forces an immediate clock correction with whichever daemon is present and reports the offset before and after. Run before chasing an authentication failure on a host that has been suspended.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔄",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "ad-hoc",
+    "time",
+    "ntp",
+    "remediation"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1mb3JjZS10aW1lLXJlc3luYy1saW51eC5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmJlZm9yZT0kKGRhdGUgLXUgIislWS0lbS0lZFQlSDolTTolU1oiKQpsb2cgIkNsb2NrIGJlZm9yZTogJGJlZm9yZSIKZG9uZV9hbnk9MAppZiBjb21tYW5kIC12IGNocm9ueWMgPi9kZXYvbnVsbCAyPiYxICYmIHBncmVwIC14IGNocm9ueWQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgY2hyb255YyBtYWtlc3RlcCA+L2Rldi9udWxsIDI+JjEKICBvPSQoY2hyb255YyB0cmFja2luZyAyPi9kZXYvbnVsbCB8IGF3ayAtRic6IConICcvU3lzdGVtIHRpbWUvIHtwcmludCAkMjsgZXhpdH0nKQogIGxvZyAiY2hyb255IHN0ZXBwZWQgdGhlIGNsb2NrLCBzeXN0ZW0gdGltZSBvZmZzZXQ6ICRvIgogIGRvbmVfYW55PTEKZmkKaWYgWyAiJGRvbmVfYW55IiAtZXEgMCBdICYmIGNvbW1hbmQgLXYgdGltZWRhdGVjdGwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdGltZWRhdGVjdGwgc2V0LW50cCBmYWxzZSA+L2Rldi9udWxsIDI+JjEKICBzbGVlcCAyCiAgdGltZWRhdGVjdGwgc2V0LW50cCB0cnVlID4vZGV2L251bGwgMj4mMQogIHNsZWVwIDgKICBsb2cgIkN5Y2xlZCBzeXN0ZW1kIHRpbWUgc3luY2hyb25pc2F0aW9uIgogIGRvbmVfYW55PTEKZmkKaWYgWyAiJGRvbmVfYW55IiAtZXEgMCBdOyB0aGVuIGxvZyAiTm8gdXNhYmxlIHRpbWUgZGFlbW9uIHRvIHJlc3luYyB3aXRoIjsgZXhpdCAxMDsgZmkKYWZ0ZXI9JChkYXRlIC11ICIrJVktJW0tJWRUJUg6JU06JVNaIikKbG9nICJDbG9jayBhZnRlcjogJGFmdGVyIgppZiBjb21tYW5kIC12IHRpbWVkYXRlY3RsID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHM9JCh0aW1lZGF0ZWN0bCBzaG93IC1wIE5UUFN5bmNocm9uaXplZCAtLXZhbHVlIDI+L2Rldi9udWxsKQogIGlmIFsgIiRzIiA9ICJ5ZXMiIF07IHRoZW4gbG9nICJDbG9jayBpcyBzeW5jaHJvbmlzZWQiOyBleGl0IDA7IGZpCiAgbG9nICJOVFBTeW5jaHJvbml6ZWQgcmVwb3J0cyAkcyIKICBleGl0IDMwCmZpCmV4aXQgMAo="
+}

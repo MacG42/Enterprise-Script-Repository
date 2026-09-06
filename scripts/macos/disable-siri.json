@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2",
+  "id": "bf1e93f2-25f7-4e01-bf86-e4c8def1c76f",
+  "slug": "disable-siri",
+  "type": "script",
+  "name": "Disable Siri",
+  "description": "Blocks Siri at machine scope and hides its menu bar item for each user. On fleets with a voice-assistant restriction this is what makes the restriction real on devices built before the policy.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "macOS",
+  "icon": "🎙️",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "siri",
+    "privacy",
+    "policy",
+    "compliance"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "ZSH",
+    "executionContext": "SYSTEM",
+    "timeout": 180,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "IyEvYmluL3pzaApQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbgpleHBvcnQgUEFUSApMQ19BTEw9QwpleHBvcnQgTENfQUxMCkxPRz0iL3Zhci9sb2cvbWFjZ3dvcmxkLWRpc2FibGUtc2lyaS5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCnA9Ii9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5hcHBsZS5hcHBsaWNhdGlvbmFjY2VzcyIKY3VyPSQoZGVmYXVsdHMgcmVhZCAiJHAiIGFsbG93QXNzaXN0YW50IDI+L2Rldi9udWxsKQppZiBbICIkY3VyIiA9ICIwIiBdOyB0aGVuIGxvZyAiQWxyZWFkeSBibG9ja2VkIGF0IG1hY2hpbmUgc2NvcGUsIG5vIGFjdGlvbiI7IGV4aXQgMDsgZmkKbG9nICJhbGxvd0Fzc2lzdGFudCB3YXMgJGN1ciwgYmxvY2tpbmciCmRlZmF1bHRzIHdyaXRlICIkcCIgYWxsb3dBc3Npc3RhbnQgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKZGVmYXVsdHMgd3JpdGUgL0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLmFwcGxlLmFzc2lzdGFudC5zdXBwb3J0LnBsaXN0ICJBc3Npc3RhbnQgRW5hYmxlZCIgLWJvb2wgZmFsc2UgMj4vZGV2L251bGwKZm9yIGggaW4gL1VzZXJzLyo7IGRvCiAgWyAtZCAiJGgiIF0gfHwgY29udGludWUKICBjYXNlICIkaCIgaW4gKi9TaGFyZWR8Ki9HdWVzdCkgY29udGludWUgOzsgZXNhYwogIHU9JChiYXNlbmFtZSAiJGgiKQogIGlkICIkdSIgPi9kZXYvbnVsbCAyPiYxIHx8IGNvbnRpbnVlCiAgc3VkbyAtdSAiJHUiIGRlZmF1bHRzIHdyaXRlIGNvbS5hcHBsZS5TaXJpIFN0YXR1c01lbnVWaXNpYmxlIC1ib29sIGZhbHNlIDI+L2Rldi9udWxsCiAgc3VkbyAtdSAiJHUiIGRlZmF1bHRzIHdyaXRlIGNvbS5hcHBsZS5hc3Npc3RhbnQuc3VwcG9ydCAiQXNzaXN0YW50IEVuYWJsZWQiIC1ib29sIGZhbHNlIDI+L2Rldi9udWxsCmRvbmUKYT0kKGRlZmF1bHRzIHJlYWQgIiRwIiBhbGxvd0Fzc2lzdGFudCAyPi9kZXYvbnVsbCkKaWYgWyAiJGEiID0gIjAiIF07IHRoZW4gbG9nICJTaXJpIGRpc2FibGVkIjsgZXhpdCAwOyBmaQpleGl0IDMwCg=="
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.2",
+  "id": "5ced099b-95e0-4028-bcc0-71109fc48905",
+  "slug": "set-default-umask",
+  "type": "script",
+  "name": "Set The Default Umask",
+  "description": "Delivery: packaged post-install. Sets a 027 umask in login.defs and a profile drop-in, so newly created files are not world readable. Existing files are untouched - this changes what happens from now on.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Linux",
+  "icon": "🔐",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "packaged",
+    "umask",
+    "permissions",
+    "hardening"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "BASH",
+    "executionContext": "SYSTEM"
+  },
+  "codeBase64": "IyEvYmluL2Jhc2gKUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4KZXhwb3J0IFBBVEgKTENfQUxMPUMKZXhwb3J0IExDX0FMTApMT0c9Ii92YXIvbG9nL21hY2d3b3JsZC1zZXQtZGVmYXVsdC11bWFzay5sb2ciCmxvZygpIHsgcHJpbnRmICclcyAlc1xuJyAiJChkYXRlIC11ICslWS0lbS0lZFQlSDolTTolU1opIiAiJDEiID4+IiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWU7IH0KCmY9Ii9ldGMvcHJvZmlsZS5kLzYwLWVzci11bWFzay5zaCIKY2hhbmdlZD0wCmlmIFsgISAtZiAiJGYiIF07IHRoZW4KICBta2RpciAtcCAvZXRjL3Byb2ZpbGUuZCAyPi9kZXYvbnVsbAogIHByaW50ZiAnJXNcbicgInVtYXNrIDAyNyIgPiAiJGYiCiAgY2htb2QgNjQ0ICIkZiIgMj4vZGV2L251bGwKICBsb2cgIldyb3RlICRmIgogIGNoYW5nZWQ9MQpmaQppZiBbIC1mIC9ldGMvbG9naW4uZGVmcyBdOyB0aGVuCiAgY3VyPSQoYXdrICcvXlVNQVNLLyB7cHJpbnQgJDI7IGV4aXR9JyAvZXRjL2xvZ2luLmRlZnMgMj4vZGV2L251bGwpCiAgaWYgWyAiJGN1ciIgIT0gIjAyNyIgXTsgdGhlbgogICAgc2VkIC1pIC1FICJzL14jP1VNQVNLLiovVU1BU0sgICAgICAgICAgIDAyNy8iIC9ldGMvbG9naW4uZGVmcwogICAgZ3JlcCAtcSAiXlVNQVNLIiAvZXRjL2xvZ2luLmRlZnMgfHwgcHJpbnRmICclc1xuJyAiVU1BU0sgICAgICAgICAgIDAyNyIgPj4gL2V0Yy9sb2dpbi5kZWZzCiAgICBsb2cgImxvZ2luLmRlZnMgVU1BU0sgd2FzICRjdXIsIHNldCB0byAwMjciCiAgICBjaGFuZ2VkPTEKICBmaQpmaQppZiBbICIkY2hhbmdlZCIgLWVxIDAgXTsgdGhlbiBsb2cgIkFscmVhZHkgY29tcGxpYW50LCBubyBhY3Rpb24iOyBleGl0IDA7IGZpCmV4aXQgMAo="
+}

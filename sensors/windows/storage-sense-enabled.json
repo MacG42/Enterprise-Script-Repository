@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b6a032c0-a856-40af-a264-09b2cc40291b",
+  "slug": "storage-sense-enabled",
+  "type": "sensor",
+  "name": "Storage Sense Enabled",
+  "description": "Console sensor name: storage_sense_enabled. True when Storage Sense is configured to run. Where it is on, low-disk tickets tend to be about something other than temp files - which changes what the fix should be.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "storagesense",
+    "configuration"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "BOOLEAN"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRrID0gJ0hLTE06XFNPRlRXQVJFXFBvbGljaWVzXE1pY3Jvc29mdFxXaW5kb3dzXFN0b3JhZ2VTZW5zZScKICAgICRwID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICRrIC1OYW1lICdBbGxvd1N0b3JhZ2VTZW5zZUdsb2JhbCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkFsbG93U3RvcmFnZVNlbnNlR2xvYmFsCiAgICBpZiAoJG51bGwgLW5lICRwKSB7IFdyaXRlLU91dHB1dCAoW2Jvb2xdKFtpbnRdJHAgLWVxIDEpKSB9CiAgICBlbHNlIHsKICAgICAgICAkdSA9ICdIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxTdG9yYWdlU2Vuc2VcUGFyYW1ldGVyc1xTdG9yYWdlUG9saWN5JwogICAgICAgICR2ID0gKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICR1IC1OYW1lICcwMScgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLicwMScKICAgICAgICBXcml0ZS1PdXRwdXQgKFtib29sXSgkbnVsbCAtbmUgJHYgLWFuZCBbaW50XSR2IC1lcSAxKSkKICAgIH0KfSBjYXRjaCB7CiAgICBXcml0ZS1PdXRwdXQgJGZhbHNlCn0K"
+}

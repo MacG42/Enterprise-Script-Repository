@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.2",
+  "id": "b12f91f0-e281-4045-a818-6a48e4b70d59",
+  "slug": "run-component-store-cleanup",
+  "type": "script",
+  "name": "Run Component Store Cleanup",
+  "description": "Runs DISM StartComponentCleanup with ResetBase, which removes every superseded component and permanently blocks uninstalling the updates already installed. Long-running - give it the full timeout and do not run it during a patch window.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "🧹",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "disk",
+    "cleanup",
+    "servicing",
+    "winsxs"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "timeout": 3000,
+    "appCatalog": {
+      "enabled": false,
+      "displayName": "",
+      "displayDescription": "",
+      "category": ""
+    },
+    "variables": []
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokTG9nRmlsZSA9ICIkZW52OlByb2dyYW1EYXRhXE1hY0dXb3JsZFxMb2dzXHJ1bi1jb21wb25lbnQtc3RvcmUtY2xlYW51cC5sb2ciCmZ1bmN0aW9uIFdyaXRlLUxvZyhbc3RyaW5nXSRtKSB7CiAgICB0cnkgewogICAgICAgICRkID0gU3BsaXQtUGF0aCAtUGF0aCAkTG9nRmlsZSAtUGFyZW50CiAgICAgICAgaWYgKC1ub3QgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGQpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJGQgLUZvcmNlIHwgT3V0LU51bGwgfQogICAgICAgIEFkZC1Db250ZW50IC1MaXRlcmFsUGF0aCAkTG9nRmlsZSAtVmFsdWUgKCd7MDp5eXl5LU1NLWRkIEhIOm1tOnNzfSB7MX0nIC1mIChHZXQtRGF0ZSksICRtKQogICAgfSBjYXRjaCB7IH0KfQp0cnkgewoKICAgICRiZWZvcmUgPSAoR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfTG9naWNhbERpc2sgLUZpbHRlciAiRGV2aWNlSUQ9JyRlbnY6U3lzdGVtRHJpdmUnIikuRnJlZVNwYWNlCiAgICBpZiAoJG51bGwgLWVxICRiZWZvcmUpIHsgV3JpdGUtTG9nICdDb3VsZCBub3QgcmVhZCBmcmVlIHNwYWNlJzsgZXhpdCAxMCB9CiAgICBpZiAoJGJlZm9yZSAtZ3QgNDBHQikgeyBXcml0ZS1Mb2cgKCdGcmVlIHNwYWNlIGlzICcgKyBbaW50XSgkYmVmb3JlIC8gMUdCKSArICcgR0IgLSBjbGVhbnVwIG5vdCB3YXJyYW50ZWQsIG5vIGFjdGlvbicpOyBleGl0IDAgfQogICAgV3JpdGUtTG9nICgnRnJlZSBzcGFjZSAnICsgW2ludF0oJGJlZm9yZSAvIDFHQikgKyAnIEdCLCBydW5uaW5nIFN0YXJ0Q29tcG9uZW50Q2xlYW51cCAvUmVzZXRCYXNlJykKICAgICRwID0gU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggIiRlbnY6U3lzdGVtUm9vdFxTeXN0ZW0zMlxEaXNtLmV4ZSIgLUFyZ3VtZW50TGlzdCAnL09ubGluZScsICcvQ2xlYW51cC1JbWFnZScsICcvU3RhcnRDb21wb25lbnRDbGVhbnVwJywgJy9SZXNldEJhc2UnLCAnL1F1aWV0JywgJy9Ob1Jlc3RhcnQnIC1XYWl0IC1QYXNzVGhydSAtV2luZG93U3R5bGUgSGlkZGVuCiAgICAkYWZ0ZXIgPSAoR2V0LUNpbUluc3RhbmNlIC1DbGFzc05hbWUgV2luMzJfTG9naWNhbERpc2sgLUZpbHRlciAiRGV2aWNlSUQ9JyRlbnY6U3lzdGVtRHJpdmUnIikuRnJlZVNwYWNlCiAgICBXcml0ZS1Mb2cgKCdESVNNIGV4aXQgJyArICRwLkV4aXRDb2RlICsgJzsgZnJlZSBzcGFjZSBub3cgJyArIFtpbnRdKCRhZnRlciAvIDFHQikgKyAnIEdCJykKICAgIGlmICgkcC5FeGl0Q29kZSAtZXEgMCAtb3IgJHAuRXhpdENvZGUgLWVxIDMwMTApIHsgZXhpdCAwIH0KICAgIGV4aXQgMjAKfSBjYXRjaCB7CiAgICBXcml0ZS1Mb2cgKCJVbmhhbmRsZWQgZXJyb3I6ICIgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkKICAgIGV4aXQgMjAKfQo="
+}

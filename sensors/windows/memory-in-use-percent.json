@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.2",
+  "id": "157a967a-0771-4221-81a1-3be0d56d976d",
+  "slug": "memory-in-use-percent",
+  "type": "sensor",
+  "name": "Memory In Use Percent",
+  "description": "Console sensor name: memory_in_use_percent. Percentage of physical memory committed at the moment the sensor sampled. One reading is noise; the distribution across a fleet, sampled repeatedly, is what identifies the under-specified models.",
+  "version": "1.0.0",
+  "release": "production",
+  "os": "Windows",
+  "icon": "📈",
+  "author": "macg@macgworld.com",
+  "tags": [
+    "memory",
+    "performance",
+    "capacity"
+  ],
+  "created": "2026-09-06T12:00:00Z",
+  "modified": "2026-09-06T12:00:00Z",
+  "workspaceOne": {
+    "language": "POWERSHELL",
+    "executionContext": "SYSTEM",
+    "executionArchitecture": "EITHER64OR32BIT",
+    "responseDataType": "INTEGER"
+  },
+  "codeBase64": "JEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwp0cnkgewoKICAgICRvcyA9IEdldC1DaW1JbnN0YW5jZSAtQ2xhc3NOYW1lIFdpbjMyX09wZXJhdGluZ1N5c3RlbSAtRXJyb3JBY3Rpb24gU3RvcAogICAgJHRvdGFsID0gW2RvdWJsZV0kb3MuVG90YWxWaXNpYmxlTWVtb3J5U2l6ZQogICAgaWYgKCR0b3RhbCAtbGUgMCkgeyBXcml0ZS1PdXRwdXQgLTEgfQogICAgZWxzZSB7IFdyaXRlLU91dHB1dCAoW2ludF1bbWF0aF06OlJvdW5kKCgoJHRvdGFsIC0gW2RvdWJsZV0kb3MuRnJlZVBoeXNpY2FsTWVtb3J5KSAvICR0b3RhbCkgKiAxMDApKSB9Cn0gY2F0Y2ggewogICAgV3JpdGUtT3V0cHV0IC0xCn0K"
+}
